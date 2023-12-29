@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /tags/
+Sitemap: https://bloock.com/sitemap.xml
+Sitemap: https://bloock.com/blog/sitemap.xml
+Sitemap: https://docs.bloock.com/sitemap.xml
