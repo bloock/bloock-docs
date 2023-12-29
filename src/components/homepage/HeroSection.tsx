@@ -1,53 +1,8 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
-import {
-  ChatMultipleRegular,
-  CloudBidirectionalRegular,
-  FingerprintRegular,
-  KeyRegular,
-  LiveRegular,
-  MicRegular,
-  ShieldRegular,
-  VideoRegular,
-} from '@fluentui/react-icons';
 import ThemedImage from '@theme/ThemedImage';
 import clsx from 'clsx';
-
-const PRODUCTS = [
-  {
-    title: 'Digital notarization',
-    link: '/guides/live-video/intro-video-conf',
-    icon: ShieldRegular,
-    lightImage: '/static/landing-page/hero/video-graphic.png',
-    darkImage: '/static/landing-page/hero/video-graphic-dark.png',
-    text: 'Obtain undeniable proof of your data integrity and existence, safeguarded in an unalterable, timeless record.',
-  },
-  {
-    title: 'Digital signature',
-    link: '/guides/voice-conf/intro-voice-conf',
-    icon: KeyRegular,
-    lightImage: '/static/landing-page/hero/voice-graphic.png',
-    darkImage: '/static/landing-page/hero/voice-graphic-dark.png',
-    text: 'Digitally sign smoothly from any device maintaining utmost security and control of your key materials.',
-  },
-  {
-    title: 'Resilient datastorage',
-    link: '/guides/livestream/livestream-overview',
-    icon: CloudBidirectionalRegular,
-    lightImage: '/static/landing-page/hero/livestream-graphic.png',
-    darkImage: '/static/landing-page/hero/livestream-graphic-dark.png',
-    text: 'Guarantee your information remains accesible to any authorized party under any circumstance.',
-  },
-  {
-    title: 'Digital identity',
-    beta: true,
-    link: '/guides/realtime-chat/intro-chat',
-    icon: FingerprintRegular,
-    lightImage: '/static/landing-page/hero/chat-graphic.png',
-    darkImage: '/static/landing-page/hero/chat-graphic-dark.png',
-    text: 'Provision privacy-first digital identities to enable secure and verifiable cross-platform authentications.',
-  },
-];
+import { PRODUCTS } from '@site/src/products';
 
 function HeroProduct({
   link,

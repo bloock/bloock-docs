@@ -36,8 +36,6 @@ export default function Homepage() {
 
       <SDKs />
 
-      <APIReferenceSection />
-
       <div className="z-0">
         <HelpSection className="-mb-48" />
       </div>

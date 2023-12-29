@@ -18,166 +18,48 @@ const meta = {
 
 /** @type {import('@docusaurus/plugin-content-docs').Options[]} */
 const docs = [
+  // SDKs
   {
-    id: 'cli',
-    path: 'docs/cli',
-    routeBasePath: '/cli',
+    id: 'sdk-javascript',
+    path: 'docs/sdks/javascript',
+    routeBasePath: '/javascript',
   },
   {
-    id: 'plugin-sdk',
-    path: 'docs/plugin-sdk',
-    routeBasePath: '/plugin-sdk',
-    versions: {
-      current: {
-        label: '1.x.x',
-      },
-    },
-  },
-
-  // Community packages
-  {
-    id: 'community-packages',
-    path: 'docs/community-packages',
-    routeBasePath: '/community-packages',
-  },
-
-  // Web UI Kits
-  {
-    id: 'ui-kit',
-    path: 'docs/ui-kit',
-    routeBasePath: '/ui-kit',
-    versions: {
-      current: {
-        label: '1.x.x',
-      },
-    },
+    id: 'sdk-java',
+    path: 'docs/sdks/java',
+    routeBasePath: '/java',
   },
   {
-    id: 'react-ui-kit',
-    path: 'docs/react-ui-kit',
-    routeBasePath: '/react-ui-kit',
-    versions: {
-      current: {
-        label: '1.x.x',
-      },
-    },
+    id: 'sdk-php',
+    path: 'docs/sdks/php',
+    routeBasePath: '/php',
   },
   {
-    id: 'angular-ui-kit',
-    path: 'docs/angular-ui-kit',
-    routeBasePath: '/angular-ui-kit',
-    versions: {
-      current: {
-        label: '1.x.x',
-      },
-    },
+    id: 'sdk-python',
+    path: 'docs/sdks/python',
+    routeBasePath: '/python',
+  },
+  {
+    id: 'sdk-golang',
+    path: 'docs/sdks/golang',
+    routeBasePath: '/golang',
   },
 
-  // Web Core
+  // Tools
   {
-    id: 'web-core',
-    path: 'docs/web-core',
-    routeBasePath: '/web-core',
-    versions: {
-      current: {
-        label: '1.x.x',
-      },
-    },
-  },
-  // React Web Core
-  {
-    id: 'react-web-core',
-    path: 'docs/react-web-core',
-    routeBasePath: '/react-web-core',
-    versions: {
-      current: {
-        label: '1.x.x',
-      },
-    },
-  },
-
-  // Mobile Core
-  {
-    id: 'android-core',
-    path: 'docs/android-core',
-    routeBasePath: '/android-core',
-    versions: {
-      current: {
-        label: '1.x.x',
-      },
-    },
+    id: 'tools-managed-api',
+    path: 'docs/tools/managed-api',
+    routeBasePath: '/managed-api',
   },
   {
-    id: 'flutter-core',
-    path: 'docs/flutter-core',
-    routeBasePath: '/flutter-core',
-    versions: {
-      current: {
-        label: '1.x.x',
-      },
-    },
+    id: 'tools-identity-server',
+    path: 'docs/tools/identity-server',
+    routeBasePath: '/identity-server',
   },
   {
-    id: 'ios-core',
-    path: 'docs/ios-core',
-    routeBasePath: '/ios-core',
-    versions: {
-      current: {
-        label: '1.x.x',
-      },
-    },
-  },
-  {
-    id: 'rn-core',
-    path: 'docs/rn-core',
-    routeBasePath: '/rn-core',
-    versions: {
-      current: {
-        label: '0.5.x',
-      },
-    },
-  },
-
-  // Mobile UI Kits
-  {
-    id: 'android',
-    path: 'docs/android',
-    routeBasePath: '/android',
-    versions: {
-      current: {
-        label: '0.14.x',
-      },
-    },
-  },
-  {
-    id: 'flutter',
-    path: 'docs/flutter',
-    routeBasePath: '/flutter',
-    versions: {
-      current: {
-        label: '0.7.x',
-      },
-    },
-  },
-  {
-    id: 'ios',
-    path: 'docs/ios',
-    routeBasePath: '/ios',
-    versions: {
-      current: {
-        label: '1.33.x',
-      },
-    },
-  },
-  {
-    id: 'react-native',
-    path: 'docs/rn-ui-kit',
-    routeBasePath: '/react-native',
-    versions: {
-      current: {
-        label: '1.4.x',
-      },
-    },
+    id: 'tools-validproof',
+    path: 'docs/tools/validproof',
+    routeBasePath: '/validproof',
   },
 ];
 
@@ -220,6 +102,7 @@ const plugins = [tailwindPlugin, ...docs_plugins, webpackPlugin];
 
 const fs = require('fs');
 const sdksHTML = fs.readFileSync('./src/snippets/sdks.html', 'utf-8');
+const toolsHTML = fs.readFileSync('./src/snippets/tools.html', 'utf-8');
 const resourcesHTML = fs.readFileSync('./src/snippets/resources.html', 'utf-8');
 
 /** @type {import('@docusaurus/types').Config} */
@@ -229,7 +112,6 @@ const config = {
 
   trailingSlash: false,
   themes: ['@docusaurus/theme-live-codeblock'],
-  clientModules: [require.resolve('./src/client/define-ui-kit.js')],
   scripts: [{ src: 'https://cdn.statuspage.io/se-v2.js' }],
 
   presets: [
@@ -301,8 +183,16 @@ const config = {
             ],
           },
           {
-            label: 'REST API',
-            to: '/api/',
+            label: 'Tools',
+            type: 'dropdown',
+            className: 'bloock-dropdown',
+            items: [
+              {
+                type: 'html',
+                value: toolsHTML,
+                className: 'bloock-dropdown',
+              },
+            ],
           },
           {
             label: 'Resources',

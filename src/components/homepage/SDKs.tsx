@@ -15,7 +15,7 @@ function SDK({ icon, to, name }: { icon: string; name: string; to?: string }) {
 
 export default function SDKs() {
   return (
-    <section className="mx-auto my-32 flex w-full max-w-5xl flex-col p-4 py-0">
+    <section className="mx-auto mt-32 flex w-full max-w-5xl flex-col p-4 py-0">
       <span className="mb-2 uppercase tracking-wider text-text-400">
         SDK Documentation
       </span>
@@ -36,27 +36,27 @@ export default function SDKs() {
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-4">
           <SDK
             name="JS"
-            to="/web-core"
+            to="/javascript"
             icon="/static/landing-page/sdk-icons/js.png"
           />
           <SDK
             name="Java"
-            to="/react-web-core"
+            to="/java"
             icon="/static/landing-page/sdk-icons/java.png"
           />
           <SDK
             name="PHP"
-            to="/flutter-core"
+            to="/php"
             icon="/static/landing-page/sdk-icons/php.svg"
           />
           <SDK
             name="Python"
-            to="/rn-core"
+            to="/python"
             icon="/static/landing-page/sdk-icons/python.png"
           />
           <SDK
             name="Golang"
-            to="/ios-core"
+            to="/golang"
             icon="/static/landing-page/sdk-icons/golang.svg"
           />
         </div>
@@ -73,18 +73,18 @@ export default function SDKs() {
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-4">
           <SDK
             name="Managed API"
-            to="/react-ui-kit"
-            icon="/static/landing-page/sdk-icons/react.png"
+            to="/managed-api"
+            icon="/static/landing-page/sdk-icons/js.png"
           />
           <SDK
             name="Identity Server"
-            to="/angular-ui-kit"
-            icon="/static/landing-page/sdk-icons/angular.png"
+            to="/identity-server"
+            icon="/static/landing-page/sdk-icons/js.png"
           />
           <SDK
             name="ValidProof"
-            to="/ui-kit"
-            icon="/static/landing-page/sdk-icons/react.png"
+            to="/validproof"
+            icon="/static/landing-page/sdk-icons/js.png"
           />
         </div>
       </div>

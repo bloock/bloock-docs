@@ -7,7 +7,7 @@ import { Minus, Plus, Search } from 'react-feather';
 import { paramCase } from 'param-case';
 import ReactMarkdown from 'react-markdown';
 
-import FAQs from '../faq';
+import FAQs from '../lib/load-faq.js';
 import { useEffect } from 'react';
 import HelpSection from '../components/homepage/HelpSection';
 
