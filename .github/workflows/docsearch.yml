@@ -3,14 +3,13 @@ name: Run algolia docsearch
 on:
   push:
     branches:
-    - 'ci/docsearch'
-    - main
+    - master
   schedule:
   - cron: '0 12 * * 1'
 jobs:
   docsearch:
     runs-on: ubuntu-latest
-    if: github.repository == 'bloock/docs'
+    if: github.repository == 'bloock/bloock-docs'
     steps:
     - uses: actions/checkout@v2
 
