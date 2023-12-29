@@ -5,7 +5,6 @@ import TabItem from '@theme/TabItem';
 import ColorCode from '../components/ColorCode';
 import ColorPalette from '../components/ColorPalette';
 import VideoPlayer from '../components/VideoPlayer';
-import PropsTable from '../components/PropsTable';
 import ComponentsGrid from '../components/ComponentsGrid';
 import { CardSection, Card } from '../components/CardComponents';
 import * as icons from '../icons';
@@ -17,11 +16,9 @@ export default {
 
   Tabs,
   TabItem,
-
   color: ColorCode,
   ColorPalette,
   VideoPlayer,
-  PropsTable,
   ComponentsGrid,
   CardSection,
   Card,

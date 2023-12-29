@@ -1,9 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Link from '@docusaurus/Link';
-import clsx from 'clsx';
 import { Linkedin, Youtube, Github } from '@styled-icons/boxicons-logos';
 import { XIcon } from '@site/src/icons';
-import BrowserOnly from '@docusaurus/BrowserOnly';
 
 const products = [
   {
@@ -36,10 +34,6 @@ const developers = [
   {
     name: 'Documentation',
     href: 'https://docs.bloock.com',
-  },
-  {
-    name: 'API Reference',
-    href: '/api',
   },
   {
     name: 'Guides',

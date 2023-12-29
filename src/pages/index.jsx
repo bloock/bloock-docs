@@ -2,7 +2,6 @@ import React from 'react';
 import Layout from '@theme/Layout';
 
 import HeroSection from '../components/homepage/HeroSection';
-import APIReferenceSection from '../components/homepage/APIReferenceSection';
 import CommunitySection from '../components/homepage/CommunitySection';
 import HomeFooter from '../components/homepage/HomeFooter';
 import HelpSection from '../components/homepage/HelpSection';
