@@ -145,7 +145,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: '/img/dyte-docs-card.png',
+      image: '/img/bloock-docs-card.png',
       colorMode: {
         defaultMode: 'light',
       },

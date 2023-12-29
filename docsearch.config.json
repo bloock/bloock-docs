@@ -1,83 +1,53 @@
 {
   "index_name": "docs",
-  "sitemap_urls": ["https://docs.dyte.io/sitemap.xml"],
+  "sitemap_urls": ["https://docs.bloock.com/sitemap.xml"],
   "start_urls": [
     {
-      "url": "https://docs.dyte.io/guides",
+      "url": "https://docs.bloock.com/guides",
       "tags": "guides",
       "selectors_key": "guides"
     },
     {
-      "url": "https://docs.dyte.io/cli",
-      "tags": "cli",
-      "selectors_key": "cli"
+      "url": "https://docs.bloock.com/javascript",
+      "tags": "javascript",
+      "selectors_key": "javascript"
     },
     {
-      "url": "https://docs.dyte.io/react-ui-kit",
-      "tags": "react-ui-kit",
-      "selectors_key": "react-ui-kit"
+      "url": "https://docs.bloock.com/java",
+      "tags": "java",
+      "selectors_key": "java"
     },
     {
-      "url": "https://docs.dyte.io/ui-kit",
-      "tags": "ui-kit",
-      "selectors_key": "ui-kit"
+      "url": "https://docs.bloock.com/php",
+      "tags": "php",
+      "selectors_key": "php"
     },
     {
-      "url": "https://docs.dyte.io/angular-ui-kit",
-      "tags": "angular-ui-kit",
-      "selectors_key": "angular-ui-kit"
+      "url": "https://docs.bloock.com/python",
+      "tags": "python",
+      "selectors_key": "python"
     },
     {
-      "url": "https://docs.dyte.io/vue-ui-kit",
-      "tags": "vue-ui-kit",
-      "selectors_key": "vue-ui-kit"
+      "url": "https://docs.bloock.com/golang",
+      "tags": "golang",
+      "selectors_key": "golang"
     },
     {
-      "url": "https://docs.dyte.io/web-core",
-      "tags": "web-core",
-      "selectors_key": "web-core"
+      "url": "https://docs.bloock.com/managed-api",
+      "tags": "managed-api",
+      "selectors_key": "managed-api"
     },
     {
-      "url": "https://docs.dyte.io/react-native",
-      "tags": "react-native",
-      "selectors_key": "react-native"
+      "url": "https://docs.bloock.com/identity-server",
+      "tags": "identity-server",
+      "selectors_key": "identity-server"
     },
     {
-      "url": "https://docs.dyte.io/android",
-      "tags": "android",
-      "selectors_key": "android"
+      "url": "https://docs.bloock.com/validproof",
+      "tags": "validproof",
+      "selectors_key": "validproof"
     },
-    {
-      "url": "https://docs.dyte.io/ios",
-      "tags": "ios",
-      "selectors_key": "ios"
-    },
-    {
-      "url": "https://docs.dyte.io/ios-core",
-      "tags": "ios-core",
-      "selectors_key": "ios-core"
-    },
-    {
-      "url": "https://docs.dyte.io/flutter",
-      "tags": "flutter",
-      "selectors_key": "flutter"
-    },
-    {
-      "url": "https://docs.dyte.io/flutter-core",
-      "tags": "flutter-core",
-      "selectors_key": "flutter-core"
-    },
-    {
-      "url": "https://docs.dyte.io/rn-core",
-      "tags": "rn-core",
-      "selectors_key": "rn-core"
-    },
-    {
-      "url": "https://docs.dyte.io/android-core",
-      "tags": "android-core",
-      "selectors_key": "android-core"
-    },
-    "https://docs.dyte.io/"
+    "https://docs.bloock.com/"
   ],
   "stop_urls": [],
 

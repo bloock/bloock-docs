@@ -108,7 +108,7 @@
   @apply mb-0;
 }
 
-.dyte-accordion img {
+.bloock-accordion img {
   @apply rounded-lg;
 }
 
@@ -121,7 +121,7 @@
     background-image: url('/static/landing-page/grid-dark.svg');
   }
 
-  .dyte-badge {
+  .bloock-badge {
     @apply mb-2 inline-block rounded-sm text-text-400;
     @apply tracking-wider;
   }
@@ -136,7 +136,7 @@ code {
 
 /* UI Kit tokens */
 body {
-  --dyte-colors-video-bg: 50 50 50;
+  --bloock-colors-video-bg: 50 50 50;
 }
 
 /* BLOOCK Docs Tokens */
@@ -575,13 +575,13 @@ html[data-theme='dark']
   justify-content: center;
 }
 
-.loading-container dyte-spinner {
+.loading-container bloock-spinner {
   width: 48px;
   height: 48px;
   color: theme('colors.primary.100');
 }
 
-.dyte-video-showcase {
+.bloock-video-showcase {
   margin: 3rem auto;
   display: block;
   width: 100%;
@@ -589,7 +589,7 @@ html[data-theme='dark']
   border-radius: 8px;
 }
 
-.dyte-video-showcase.mobile {
+.bloock-video-showcase.mobile {
   max-width: 240px;
   border-radius: 1.5rem;
 }

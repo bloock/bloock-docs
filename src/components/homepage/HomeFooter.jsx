@@ -88,7 +88,7 @@ export default function Footer() {
         <div className="mb-12 flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
           <img
             src="/logo/logo-blue.png"
-            alt="Dyte"
+            alt="BLOOCK"
             className="h-9 w-auto lg:h-12"
           />
         </div>
@@ -140,8 +140,8 @@ export default function Footer() {
               <XIcon className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>
             <Link
-              href="https://youtube.com/company/bloock"
-              aria-label="Dyte YouTube Channel"
+              href="https://www.youtube.com/@bloock8564"
+              aria-label="BLOOCK YouTube Channel"
             >
               <Youtube className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>

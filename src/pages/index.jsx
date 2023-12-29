@@ -24,7 +24,7 @@ export default function Homepage() {
         <div className="w-full bg-gradient-to-r from-blue-500 to-red-500 p-4 text-center font-medium text-white">
           Lorem ipsum dolor{' '}
           <Link
-            to="/guides/migration/twilio/concepts-twilio-vs-dyte"
+            to="/guides/integrity/overview"
             className="text-white underline"
           >
             sit amet.
