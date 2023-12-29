@@ -29,6 +29,9 @@ module.exports = {
           100: 'rgb(var(--docs-color-primary-100, 79 70 244) / <alpha-value>)',
           200: 'rgb(var(--docs-color-primary-200, 79 70 244) / <alpha-value>)',
         },
+        accent: {
+          DEFAULT: 'rgb(var(--docs-color-accent, 245 107 33) / <alpha-value>)',
+        },
         secondary: {
           DEFAULT:
             'rgb(var(--docs-color-secondary-1000, 0 0 0) / <alpha-value>)',

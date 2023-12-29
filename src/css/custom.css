@@ -57,6 +57,8 @@
     --docs-color-primary-100: 79 70 244;
     --docs-color-primary-200: 79 70 244;
 
+    --docs-color-accent: 245 107 33;
+
     --docs-color-secondary-700: 232 232 236;
     --docs-color-secondary-800: 245 245 247;
     --docs-color-secondary-900: 251 251 251;
@@ -108,7 +110,7 @@
   @apply mb-0;
 }
 
-.bloock-accordion img {
+.dyte-accordion img {
   @apply rounded-lg;
 }
 
@@ -121,7 +123,7 @@
     background-image: url('/static/landing-page/grid-dark.svg');
   }
 
-  .bloock-badge {
+  .dyte-badge {
     @apply mb-2 inline-block rounded-sm text-text-400;
     @apply tracking-wider;
   }
@@ -136,7 +138,7 @@ code {
 
 /* UI Kit tokens */
 body {
-  --bloock-colors-video-bg: 50 50 50;
+  --dyte-colors-video-bg: 50 50 50;
 }
 
 /* BLOOCK Docs Tokens */
@@ -575,13 +577,13 @@ html[data-theme='dark']
   justify-content: center;
 }
 
-.loading-container bloock-spinner {
+.loading-container dyte-spinner {
   width: 48px;
   height: 48px;
   color: theme('colors.primary.100');
 }
 
-.bloock-video-showcase {
+.dyte-video-showcase {
   margin: 3rem auto;
   display: block;
   width: 100%;
@@ -589,7 +591,7 @@ html[data-theme='dark']
   border-radius: 8px;
 }
 
-.bloock-video-showcase.mobile {
+.dyte-video-showcase.mobile {
   max-width: 240px;
   border-radius: 1.5rem;
 }

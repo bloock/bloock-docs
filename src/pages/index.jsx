@@ -20,7 +20,7 @@ export default function Homepage() {
         <link rel="prefetch" href="/assets/css/elements.min.css" />
       </Head>
       <div>
-        <div className="w-full bg-gradient-to-r from-blue-500 to-red-500 p-4 text-center font-medium text-white">
+        <div className="w-full bg-gradient-to-r from-primary-100 to-accent p-4 text-center font-medium text-white">
           Lorem ipsum dolor{' '}
           <Link
             to="/guides/integrity/overview"

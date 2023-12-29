@@ -254,8 +254,8 @@ const config = {
         ],
       },
       algolia: {
-        appId: 'HL0HSV62RK',
-        apiKey: '72ebf02146698733b7114c7b36da0945',
+        appId: 'VHCB9H9WU3',
+        apiKey: '2bc36d0173e0ddc24ed8095eb00504ad',
         indexName: 'docs',
         contextualSearch: true,
         searchParameters: {},
