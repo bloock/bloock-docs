@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Link from '@docusaurus/Link';
+import ThemedImage from '@theme/ThemedImage';
 import { Linkedin, Youtube, Github } from '@styled-icons/boxicons-logos';
 import { XIcon } from '@site/src/icons';
 import clsx from 'clsx';
@@ -82,7 +83,7 @@ function Status({ className }) {
     <Link
       href="https://bloock.statuspage.io/"
       className={clsx(
-        'flex items-center gap-2 rounded-lg border border-transparent p-1 px-2 font-jakarta font-semibold text-gray-500 transition-colors hover:border-gray-400 hover:bg-white hover:no-underline',
+        'flex items-center gap-2 rounded-lg border border-transparent p-1 px-2 font-jakarta font-semibold text-zinc-600 transition-colors hover:border-gray-400 hover:bg-white hover:no-underline dark:text-zinc-400',
         className
       )}
       target="_blank"
@@ -101,15 +102,13 @@ function Status({ className }) {
 function Links({ name, links }) {
   return (
     <div>
-      <h3 className="font-jakarta text-base font-semibold uppercase text-gray-400">
-        {name}
-      </h3>
+      <h3 className="font-jakarta text-base font-semibold uppercase">{name}</h3>
       <div className="flex flex-col gap-3">
         {links.map(({ name, href }) => (
           <Link
             key={name}
             href={href}
-            className="text-base text-gray-700 hover:text-primary hover:no-underline"
+            className="text-base text-zinc-600 hover:text-primary hover:no-underline dark:text-zinc-400"
           >
             {name}
           </Link>
@@ -121,12 +120,15 @@ function Links({ name, links }) {
 
 export default function Footer() {
   return (
-    <footer className="bg-[#F4F7FF]">
+    <footer>
       <div className="mx-auto flex w-full max-w-[1080px] flex-col px-6 py-12">
         <div className="mb-12 flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
-          <img
-            src="/logo/logo-blue.png"
-            alt="BLOOCK"
+          <ThemedImage
+            sources={{
+              light: '/logo/logo-blue.png',
+              dark: '/logo/logo-white.png',
+            }}
+            alt={'BLOOCK'}
             className="h-9 w-auto lg:h-12"
           />
           <BrowserOnly>
@@ -152,7 +154,7 @@ export default function Footer() {
             }}
           </BrowserOnly>
 
-          <div className="flex flex-wrap gap-2 text-sm text-gray-500">
+          <div className="flex flex-wrap gap-2 text-sm text-zinc-600 dark:text-zinc-400">
             <Link
               href="https://www.bloock.com/legal"
               className="text-inherit hover:text-black hover:underline"
@@ -177,26 +179,26 @@ export default function Footer() {
               href="https://github.com/bloock"
               aria-label="BLOOCK GitHub Organization"
             >
-              <Github className="h-7 w-7 text-zinc-400 hover:text-primary" />
+              <Github className="h-7 w-7 text-zinc-600 hover:text-primary dark:text-zinc-400" />
             </Link>
             <Link
               href="https://linkedin.com/company/bloock"
               aria-label="LinkedIn"
             >
-              <Linkedin className="h-7 w-7 text-zinc-400 hover:text-primary" />
+              <Linkedin className="h-7 w-7 text-zinc-600 hover:text-primary dark:text-zinc-400" />
             </Link>
             <Link
               href="https://twitter.com/bloocktech"
               aria-label="Twitter"
               className="h-7 w-7"
             >
-              <XIcon className="h-7 w-7 text-zinc-400 hover:text-primary" />
+              <XIcon className="h-7 w-7 text-zinc-600 hover:text-primary dark:text-zinc-400" />
             </Link>
             <Link
               href="https://www.youtube.com/@bloock8564"
               aria-label="BLOOCK YouTube Channel"
             >
-              <Youtube className="h-7 w-7 text-zinc-400 hover:text-primary" />
+              <Youtube className="h-7 w-7 text-zinc-600 hover:text-primary dark:text-zinc-400" />
             </Link>
           </div>
         </div>
