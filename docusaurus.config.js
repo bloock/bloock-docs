@@ -135,9 +135,6 @@ const config = {
         sitemap: {
           ignorePatterns: ['/tags/**'],
         },
-        googleTagManager: {
-          containerId: 'GTM-5FDFFSS',
-        },
       }),
     ],
   ],

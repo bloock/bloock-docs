@@ -2,15 +2,11 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Head from '@docusaurus/Head';
 import BrowserOnly from '@docusaurus/BrowserOnly';
-import { useHistory } from '@docusaurus/router';
 import clsx from 'clsx';
 import useBreakpoint from '../../lib/useBreakpoint';
-import RunInPostmanButton from '../../components/RunInPostmanButton';
 import { Monitor } from 'react-feather';
-import Link from '@docusaurus/Link';
 import { APIIcon } from '../../icons';
 import { API } from '@stoplight/elements';
-import '@stoplight/elements/styles.min.css';
 
 function APIElement({ layout = 'sidebar', url }) {
   return (
@@ -43,6 +39,12 @@ export default function Home() {
       noFooter
       wrapperClassName="api-reference"
     >
+      <Head>
+        <title></title>
+        <link rel="preload" href="/assets/css/elements.min.css" as="style" />
+        <link rel="stylesheet" href="/assets/css/elements.min.css" />
+      </Head>
+
       <div className="flex flex-col items-center justify-center gap-4 border-b py-12 text-sm lg:hidden">
         <Monitor className="h-12 w-12" />
         This page is best viewed in a desktop browser.
