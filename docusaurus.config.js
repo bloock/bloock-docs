@@ -182,9 +182,16 @@ const config = {
             ],
           },
           {
-            label: 'REST APIs',
-            to: 'api',
-            className: 'apis-top-header',
+            label: 'Tools',
+            type: 'dropdown',
+            className: 'bloock-dropdown',
+            items: [
+              {
+                type: 'html',
+                value: toolsHTML,
+                className: 'bloock-dropdown',
+              },
+            ],
           },
           {
             label: 'Resources',
