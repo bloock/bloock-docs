@@ -2418,56 +2418,6 @@
     util "^0.12.4"
     xml-formatter "^2.6.1"
 
-"@stoplight/elements-core@~8.0.1":
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/@stoplight/elements-core/-/elements-core-8.0.2.tgz#9fc06b05a3c9aa566777a5f1c5e6abef24ec8b48"
-  integrity sha512-g1jUxV57Qt86sBpLhfMY2DMotn+bK4DbS83SPHd9LNXFS/+EGxdHFjaYxyW35FeE27ZVRiYetbQbAjMmguPVRA==
-  dependencies:
-    "@stoplight/http-spec" "^7.0.1"
-    "@stoplight/json" "^3.18.1"
-    "@stoplight/json-schema-ref-parser" "^9.0.5"
-    "@stoplight/json-schema-sampler" "0.2.3"
-    "@stoplight/json-schema-tree" "^4.0.0"
-    "@stoplight/json-schema-viewer" "^4.14.2"
-    "@stoplight/markdown-viewer" "^5.6.0"
-    "@stoplight/mosaic" "^1.46.1"
-    "@stoplight/mosaic-code-editor" "^1.46.1"
-    "@stoplight/mosaic-code-viewer" "^1.46.1"
-    "@stoplight/path" "^1.3.2"
-    "@stoplight/react-error-boundary" "^3.0.0"
-    "@stoplight/types" "^14.1.1"
-    "@stoplight/yaml" "^4.2.3"
-    classnames "^2.2.6"
-    httpsnippet-lite "^3.0.5"
-    jotai "1.3.9"
-    json-schema "^0.4.0"
-    lodash "^4.17.19"
-    nanoid "^3.1.32"
-    prop-types "^15.7.2"
-    react-query "^3.34.19"
-    react-router-dom "^5.2.0"
-    react-router-hash-link "^2.1.0"
-    tslib "^2.1.0"
-    urijs "^1.19.11"
-    util "^0.12.4"
-    xml-formatter "^2.6.1"
-
-"@stoplight/elements-dev-portal@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@stoplight/elements-dev-portal/-/elements-dev-portal-2.0.1.tgz#e0733f55e7de82fb76384e5e542a4a55f43355cc"
-  integrity sha512-S2sfO9dprH+yDDs49TwxBDCnCrIrJNK3+N+t/DRxzjUlqPKlH2ImTd9lluM8R1FVefoPpmHSPiWjwJtVpWLHEQ==
-  dependencies:
-    "@stoplight/elements-core" "~8.0.1"
-    "@stoplight/markdown-viewer" "^5.5.0"
-    "@stoplight/mosaic" "^1.46.1"
-    "@stoplight/path" "^1.3.2"
-    "@stoplight/types" "^14.0.0"
-    classnames "^2.2.6"
-    lodash "^4.17.19"
-    react-query "^3.34.19"
-    react-router-dom "^5.2.0"
-    use-debounce "^6.0.1"
-
 "@stoplight/elements@^7.7.7":
   version "7.16.2"
   resolved "https://registry.yarnpkg.com/@stoplight/elements/-/elements-7.16.2.tgz#6e18f8a509637691e1f552242bea402c0c33e47f"
@@ -2493,26 +2443,6 @@
     "@stoplight/json" "^3.18.1"
     "@stoplight/json-schema-generator" "1.0.2"
     "@stoplight/types" "14.0.0"
-    "@types/json-schema" "7.0.11"
-    "@types/swagger-schema-official" "~2.0.22"
-    "@types/type-is" "^1.6.3"
-    fnv-plus "^1.3.1"
-    lodash.isequalwith "^4.4.0"
-    lodash.pick "^4.4.0"
-    lodash.pickby "^4.6.0"
-    openapi3-ts "^2.0.2"
-    postman-collection "^4.1.2"
-    tslib "^2.6.2"
-    type-is "^1.6.18"
-
-"@stoplight/http-spec@^7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@stoplight/http-spec/-/http-spec-7.0.1.tgz#6802f3e426940e02d88126fc486237e73541ee81"
-  integrity sha512-9O34o331tDMwHEHEc0N5Mh39cvVtioono46SyMy/BWQwAhuVyVfzHZxlBHepe0grIDcTrJxsb8iARGi86luwoQ==
-  dependencies:
-    "@stoplight/json" "^3.18.1"
-    "@stoplight/json-schema-generator" "1.0.2"
-    "@stoplight/types" "14.1.0"
     "@types/json-schema" "7.0.11"
     "@types/swagger-schema-official" "~2.0.22"
     "@types/type-is" "^1.6.3"
@@ -2577,17 +2507,6 @@
     "@types/json-schema" "^7.0.7"
     magic-error "0.0.1"
 
-"@stoplight/json-schema-tree@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@stoplight/json-schema-tree/-/json-schema-tree-4.0.0.tgz#402790a21e076d69c1b8f5dded0bbe158134ab77"
-  integrity sha512-SAGtof+ihIdPqETR+7XXOaqZJcrbSih/xEahaw5t1nXk5sVW6ss2l5A1WCIuvtvnQiUKnBfanmZU4eoM1ZvItg==
-  dependencies:
-    "@stoplight/json" "^3.12.0"
-    "@stoplight/json-schema-merge-allof" "^0.8.0"
-    "@stoplight/lifecycle" "^2.3.2"
-    "@types/json-schema" "^7.0.7"
-    magic-error "0.0.1"
-
 "@stoplight/json-schema-viewer@^4.14.1":
   version "4.14.1"
   resolved "https://registry.yarnpkg.com/@stoplight/json-schema-viewer/-/json-schema-viewer-4.14.1.tgz#39472c8a11d39654457bef98bf9e9d1b5daeb55f"
@@ -2595,20 +2514,6 @@
   dependencies:
     "@stoplight/json" "^3.20.1"
     "@stoplight/json-schema-tree" "^3.0.0"
-    "@stoplight/react-error-boundary" "^2.0.0"
-    "@types/json-schema" "^7.0.7"
-    classnames "^2.2.6"
-    fnv-plus "^1.3.1"
-    jotai "^1.4.5"
-    lodash "^4.17.19"
-
-"@stoplight/json-schema-viewer@^4.14.2":
-  version "4.15.1"
-  resolved "https://registry.yarnpkg.com/@stoplight/json-schema-viewer/-/json-schema-viewer-4.15.1.tgz#6ecfe2ce65cec7b1a2dac77de70c2029361f4637"
-  integrity sha512-xvu0ctzEce2FYSrgDNYYuENlWndiELJ4f7ng39xjyBw2hMl0QoBy8JlhCrAIiRM1tVs8cmBc/ENQk7GsdJ7Ejg==
-  dependencies:
-    "@stoplight/json" "^3.20.1"
-    "@stoplight/json-schema-tree" "^4.0.0"
     "@stoplight/react-error-boundary" "^2.0.0"
     "@types/json-schema" "^7.0.7"
     classnames "^2.2.6"
@@ -2636,7 +2541,7 @@
     tslib "^2.3.1"
     wolfy87-eventemitter "~5.2.8"
 
-"@stoplight/markdown-viewer@^5.5.0", "@stoplight/markdown-viewer@^5.6.0":
+"@stoplight/markdown-viewer@^5.6.0":
   version "5.6.0"
   resolved "https://registry.yarnpkg.com/@stoplight/markdown-viewer/-/markdown-viewer-5.6.0.tgz#92857360038e2c7204955936f6a7273e7300beaf"
   integrity sha512-vKHn1Bv9nafBYQWtNLlrRZ1aKqFRTOdfWUAhCSV1ZH4iqxGa+O1OWWTBbeOF5du8vcrWu1tTrXoCXkZjmq1NlA==
@@ -2798,14 +2703,6 @@
     "@types/json-schema" "^7.0.4"
     utility-types "^3.10.0"
 
-"@stoplight/types@14.1.0", "@stoplight/types@^14.0.0":
-  version "14.1.0"
-  resolved "https://registry.yarnpkg.com/@stoplight/types/-/types-14.1.0.tgz#36b04488acc1d8ab5bb712416f50d3bc99610b34"
-  integrity sha512-fL8Nzw03+diALw91xHEHA5Q0WCGeW9WpPgZQjodNUWogAgJ56aJs03P9YzsQ1J6fT7/XjDqHMgn7/RlsBzB/SQ==
-  dependencies:
-    "@types/json-schema" "^7.0.4"
-    utility-types "^3.10.0"
-
 "@stoplight/types@^12.3.0":
   version "12.5.0"
   resolved "https://registry.yarnpkg.com/@stoplight/types/-/types-12.5.0.tgz#ebbeeb8c874de30e4cd9a1a2a6c8d6062c155da0"
@@ -2822,10 +2719,10 @@
     "@types/json-schema" "^7.0.4"
     utility-types "^3.10.0"
 
-"@stoplight/types@^14.1.1":
-  version "14.1.1"
-  resolved "https://registry.yarnpkg.com/@stoplight/types/-/types-14.1.1.tgz#0dd5761aac25673a951955e984c724c138368b7a"
-  integrity sha512-/kjtr+0t0tjKr+heVfviO9FrU/uGLc+QNX3fHJc19xsCNYqU7lVhaXxDmEID9BZTjG+/r9pK9xP/xU02XGg65g==
+"@stoplight/types@^14.0.0":
+  version "14.1.0"
+  resolved "https://registry.yarnpkg.com/@stoplight/types/-/types-14.1.0.tgz#36b04488acc1d8ab5bb712416f50d3bc99610b34"
+  integrity sha512-fL8Nzw03+diALw91xHEHA5Q0WCGeW9WpPgZQjodNUWogAgJ56aJs03P9YzsQ1J6fT7/XjDqHMgn7/RlsBzB/SQ==
   dependencies:
     "@types/json-schema" "^7.0.4"
     utility-types "^3.10.0"
@@ -10975,11 +10872,6 @@ use-composed-ref@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/use-composed-ref/-/use-composed-ref-1.3.0.tgz#3d8104db34b7b264030a9d916c5e94fbe280dbda"
   integrity sha512-GLMG0Jc/jiKov/3Ulid1wbv3r54K9HlMW29IWcDFPEqFkSO2nS0MuefWgMJpeHQ9YJeXDL3ZUF+P3jdXlZX/cQ==
-
-use-debounce@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/use-debounce/-/use-debounce-6.0.1.tgz#ed1eb2b30189408fb9792ea2887f4c6c3cb401a3"
-  integrity sha512-kpvIxpa0vOLz/2I2sfNJ72mUeaT2CMNCu5BT1f2HkV9qZK27UVSOFf1sSSu+wjJE4TcR2VTXS2SM569+m3TN7Q==
 
 use-isomorphic-layout-effect@^1.1.1:
   version "1.1.2"

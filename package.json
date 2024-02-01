@@ -30,7 +30,6 @@
     "@headlessui/react": "^1.7.14",
     "@radix-ui/react-select": "^0.1.1",
     "@stoplight/elements": "^7.7.7",
-    "@stoplight/elements-dev-portal": "^2.0.1",
     "@styled-icons/boxicons-logos": "^10.47.0",
     "@styled-icons/fluentui-system-regular": "^10.47.0",
     "clsx": "^1.2.1",
