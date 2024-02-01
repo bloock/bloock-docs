@@ -1,5 +1,5 @@
-import React from 'react';
 import Link from '@docusaurus/Link';
+import React from 'react';
 
 function SDK({ icon, to, name }: { icon: string; name: string; to?: string }) {
   return (
@@ -74,17 +74,17 @@ export default function SDKs() {
           <SDK
             name="Managed API"
             to="/managed-api"
-            icon="/static/landing-page/sdk-icons/js.png"
+            icon="/static/landing-page/sdk-icons/server.svg"
           />
           <SDK
             name="Identity Server"
             to="/identity-server"
-            icon="/static/landing-page/sdk-icons/js.png"
+            icon="/static/landing-page/sdk-icons/server.svg"
           />
           <SDK
             name="ValidProof"
             to="/validproof"
-            icon="/static/landing-page/sdk-icons/js.png"
+            icon="/static/landing-page/sdk-icons/react.png"
           />
         </div>
       </div>

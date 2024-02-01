@@ -24,7 +24,6 @@ function APIElement({ layout = 'sidebar', url }) {
               basePath="/"
               router="hash"
               layout={layout}
-              hideSchemas
               hideInternal
             />
           </div>

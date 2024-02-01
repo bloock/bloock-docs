@@ -69,7 +69,7 @@ export function APIIcon(props: ComponentProps<'svg'>) {
       fill="none"
       {...props}
     >
-      <rect width={28} height={28} fill="#2160FD" rx={4} />
+      <rect width={28} height={28} fill="#4f46f4" rx={4} />
       <g stroke="#fff" clipPath="url(#api-svg-icon)">
         <path
           strokeLinecap="round"
