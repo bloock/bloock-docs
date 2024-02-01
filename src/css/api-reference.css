@@ -49,7 +49,7 @@ html[data-theme='dark']
 }
 
 /* Hides title in elements */
-.sl-elements-api > div:first-child > div:first-child > div:first-child {
+.sl-elements-api button[data-test='show-project-search-overlay'] {
   @apply hidden;
 }
 

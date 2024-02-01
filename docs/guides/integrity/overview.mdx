@@ -3,12 +3,22 @@ title: 'Overview'
 sidebar_position: 1
 ---
 
-Bloock's live video platform, built upon [WebRTC](https://bloock.com/blog/webrtc/), enables you to seamlessly incorporate real-time communication features into your web and mobile applications. Using Bloock's REST APIs and client-side SDKs, you can effortlessly acquire, transmit, and play media while efficiently managing network connections within your applications. All Bloock live video calls come with in-built noise cancellation (powered by Krisp).
+This section provides all the information needed to understand and integrate with BLOOCK's data certification service based on permissionless blockchains.
 
-## Supported platforms
+# Certification flow
 
-Bloock currently supports the following platforms:
+In order to certify some data with BLOOCK, there are some steps that are happening, some of them need to be implemented by you (using our SDKs) and others are done by BLOOCK itself.
 
-- **Mobile**: Flutter, Android (Java/Kotlin), iOS (Objective-C/Swift), React Native
-- **Web**: Javascript Core SDK + UI Kit for React JS, Angular, and Web Components for other frameworks
-- **Desktop**: Electron
+As a summary, you will need to implement only two parts:
+
+1. Prepare data
+2. Send data
+3. Synchronization
+
+If you want more detail about the process, here's a diagram of all the certification process:
+
+# Validation flow
+
+For the verification flow, there are also some steps that need to be followed to implement it. It's all described with examples in the verification section and if you want some ready-to-use tools, see the Validators section for some options.
+
+If you want more detail about the process, here's a diagram of all the verification process:
