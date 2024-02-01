@@ -102,6 +102,7 @@ const plugins = [tailwindPlugin, ...docs_plugins, webpackPlugin];
 
 const fs = require('fs');
 const sdksHTML = fs.readFileSync('./src/snippets/sdks.html', 'utf-8');
+const toolsHTML = fs.readFileSync('./src/snippets/tools.html', 'utf-8');
 const resourcesHTML = fs.readFileSync('./src/snippets/resources.html', 'utf-8');
 
 /** @type {import('@docusaurus/types').Config} */
