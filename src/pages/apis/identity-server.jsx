@@ -54,17 +54,6 @@ export default function Home() {
           <APIIcon className="hidden h-8 lg:block" />
           Identity Server API
         </h1>
-        <div className="aside">
-          {/* {
-            <Link
-              href="/release-notes/rest-api"
-              className="no-underline-links text-xs"
-            >
-              Release Notes
-            </Link>
-          } */}
-          {size === 'lg' && <RunInPostmanButton />}
-        </div>
       </div>
       <APIElement
         layout={size === 'sm' ? 'stacked' : 'sidebar'}
