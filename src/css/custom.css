@@ -65,6 +65,19 @@
     --docs-color-secondary-1000: 255 255 255;
 
     --docs-color-text-400: 71 71 71;
+
+    --border-color: rgba(39, 40, 44, 0.2);
+    --code-background: rgba(39, 40, 44, 0.05);
+
+    --dokka-comment: #8c8c8c;
+    --dokka-punctuation: #999;
+    --dokka-property: #905;
+    --dokka-string: #067d17;
+    --dokka-operator: #9a6e3a;
+    --dokka-keyword: #07a;
+    --dokka-function: #dd4a68;
+    --dokka-class-name: #000;
+    --dokka-variable: #871094;
   }
 
   html[data-theme='dark'] {
@@ -74,6 +87,19 @@
     --docs-color-secondary-800: 38 38 38;
     --docs-color-secondary-900: 25 25 25;
     --docs-color-secondary-1000: 0 0 0;
+
+    --border-color: hsla(0, 0%, 100%, 0.2);
+    --code-background: hsla(0, 0%, 100%, 0.05);
+
+    --dokka-comment: #808080;
+    --dokka-punctuation: #a9b7c6;
+    --dokka-property: #9876aa;
+    --dokka-string: #690;
+    --dokka-operator: #9a6e3a;
+    --dokka-keyword: #cc7832;
+    --dokka-function: #ffc66d;
+    --dokka-class-name: #a9b7c6;
+    --dokka-variable: #9876aa;
   }
 
   body {

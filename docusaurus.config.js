@@ -98,7 +98,24 @@ const { webpackPlugin } = require('./plugins/webpack-plugin.cjs');
 const tailwindPlugin = require('./plugins/tailwind-plugin.cjs');
 const docs_plugins = docs.map((doc) => create_doc_plugin(doc));
 
-const plugins = [tailwindPlugin, ...docs_plugins, webpackPlugin];
+const plugins = [
+  tailwindPlugin,
+  ...docs_plugins,
+  webpackPlugin,
+  () => ({
+    name: 'custom-webpack-loaders',
+    configureWebpack: () => ({
+      module: {
+        rules: [
+          {
+            test: /\.source$/,
+            type: 'asset/source',
+          },
+        ],
+      },
+    }),
+  }),
+];
 
 const fs = require('fs');
 const sdksHTML = fs.readFileSync('./src/snippets/sdks.html', 'utf-8');
