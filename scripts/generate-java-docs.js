@@ -1,6 +1,6 @@
-import fs from 'fs-extra';
-import jsdom from 'jsdom';
-import path from 'path';
+const fs = require('fs-extra');
+const jsdom = require('jsdom');
+const path = require('path');
 const { JSDOM } = jsdom;
 
 try {

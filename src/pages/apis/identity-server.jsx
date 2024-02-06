@@ -59,7 +59,7 @@ export default function Home() {
       </div>
       <APIElement
         layout={size === 'sm' ? 'stacked' : 'sidebar'}
-        url={`https://raw.githubusercontent.com/bloock/managed-apis-docs/master/reference/Identity%20Managed%20API.yaml`}
+        url={`https://raw.githubusercontent.com/bloock/managed-apis-docs/master/reference/Identity-Managed-API.yaml`}
       />
     </Layout>
   );
