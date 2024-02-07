@@ -8,6 +8,8 @@ jobs:
     runs-on: 'ubuntu-latest'
     steps:
       - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
       - name: Update Golang reference
         uses: ./.github/actions/update_reference
         with:
