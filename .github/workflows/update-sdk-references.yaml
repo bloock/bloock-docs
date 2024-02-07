@@ -45,3 +45,11 @@ jobs:
           dest: docs/sdks/python/reference
           artifact: bloock_lib_python-docs-${{ github.event.client_payload.version }}.zip
           post_script: scripts/generate-python-docs.js
+      - name: Commit and push
+        uses: EndBug/add-and-commit@v5
+        with:
+          author_name: 'BLOOCK'
+          message: 'Updated BLOOCK SDK references for version v${{ github.event.client_payload.version }}'
+          add: '. --no-ignore-removal'
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
