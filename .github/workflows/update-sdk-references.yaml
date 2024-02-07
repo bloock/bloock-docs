@@ -4,12 +4,10 @@ on:
     types: [update_sdk_references]
 
 jobs:
-  update_references_go:
+  update_references:
     runs-on: 'ubuntu-latest'
     steps:
       - uses: actions/checkout@v2
-        with:
-          path: bloock_docs
       - name: Update Golang reference
         uses: ./.github/actions/update_reference
         with:
