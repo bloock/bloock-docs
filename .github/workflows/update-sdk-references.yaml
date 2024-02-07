@@ -7,99 +7,41 @@ jobs:
   update_references_go:
     runs-on: 'ubuntu-latest'
     steps:
-      - name: Download Go Docs
-        uses: robinraju/release-downloader@v1.9
+      - uses: actions/checkout@v2
         with:
-          repository: 'bloock/bloock-sdk'
-          tag: v${{ github.event.client_payload.version }}
-          fileName: 'bloock_lib_go-docs-${{ github.event.client_payload.version }}.zip'
-          extract: false
-          out-file-path: /tmp
-      - name: Remove previous reference
-        run: rm -rf docs/sdks/golang/reference
-      - name: Update reference
-        run: |
-          unzip /tmp/bloock_lib_go-docs-${{ github.event.client_payload.version }}.zip -d /tmp
-          mkdir -p docs/sdks/golang/reference 
-          mv /tmp/bloock_lib_go/docs/* docs/sdks/golang/reference
-          node scripts/generate-golang-docs.js
-
-  update_references_java:
-    runs-on: 'ubuntu-latest'
-    steps:
-      - name: Download Java Docs
-        uses: robinraju/release-downloader@v1.9
+          path: bloock_docs
+      - name: Update Golang reference
+        uses: ./.github/actions/update_reference
         with:
-          repository: 'bloock/bloock-sdk'
-          tag: v${{ github.event.client_payload.version }}
-          fileName: 'bloock_lib_java-docs-${{ github.event.client_payload.version }}.zip'
-          extract: false
-          out-file-path: /tmp
-      - name: Remove previous reference
-        run: rm -rf docs/sdks/java/reference
-      - name: Update reference
-        run: |
-          unzip /tmp/bloock_lib_java-docs-${{ github.event.client_payload.version }}.zip -d /tmp
-          mkdir -p docs/sdks/java/reference 
-          mv /tmp/bloock_lib_java/docs/* docs/sdks/java/reference
-          node scripts/generate-java-docs.js
-
-  update_references_js:
-    runs-on: 'ubuntu-latest'
-    steps:
-      - name: Download JS Docs
-        uses: robinraju/release-downloader@v1.9
+          version: ${{ github.event.client_payload.version }}
+          dest: docs/sdks/golang/reference
+          artifact: bloock_lib_go-docs-${{ github.event.client_payload.version }}.zip
+          post_script: scripts/generate-golang-docs.js
+      - name: Update Java reference
+        uses: ./.github/actions/update_reference
         with:
-          repository: 'bloock/bloock-sdk'
-          tag: v${{ github.event.client_payload.version }}
-          fileName: 'bloock_lib_js-docs-${{ github.event.client_payload.version }}.zip'
-          extract: false
-          out-file-path: /tmp
-      - name: Remove previous reference
-        run: rm -rf docs/sdks/javascript/reference
-      - name: Update reference
-        run: |
-          unzip /tmp/bloock_lib_js-docs-${{ github.event.client_payload.version }}.zip -d /tmp
-          mkdir -p docs/sdks/javascript/reference 
-          mv /tmp/bloock_lib_js/docs/* docs/sdks/javascript/reference
-          node scripts/generate-js-docs.js
-
-  update_references_php:
-    runs-on: 'ubuntu-latest'
-    steps:
-      - name: Download PHP Docs
-        uses: robinraju/release-downloader@v1.9
+          version: ${{ github.event.client_payload.version }}
+          dest: docs/sdks/java/reference
+          artifact: bloock_lib_java-docs-${{ github.event.client_payload.version }}.zip
+          post_script: scripts/generate-java-docs.js
+      - name: Update Javascript reference
+        uses: ./.github/actions/update_reference
         with:
-          repository: 'bloock/bloock-sdk'
-          tag: v${{ github.event.client_payload.version }}
-          fileName: 'bloock_lib_php-docs-${{ github.event.client_payload.version }}.zip'
-          extract: false
-          out-file-path: /tmp
-      - name: Remove previous reference
-        run: rm -rf docs/sdks/php/reference
-      - name: Update reference
-        run: |
-          unzip /tmp/bloock_lib_php-docs-${{ github.event.client_payload.version }}.zip -d /tmp
-          mkdir -p docs/sdks/php/reference 
-          mv /tmp/bloock_lib_php/docs/* docs/sdks/php/reference
-          node scripts/generate-php-docs.js
-
-  update_references_python:
-    runs-on: 'ubuntu-latest'
-    steps:
-      - name: Download Python Docs
-        uses: robinraju/release-downloader@v1.9
+          version: ${{ github.event.client_payload.version }}
+          dest: docs/sdks/javascript/reference
+          artifact: bloock_lib_js-docs-${{ github.event.client_payload.version }}.zip
+          post_script: scripts/generate-js-docs.js
+      - name: Update PHP reference
+        uses: ./.github/actions/update_reference
         with:
-          repository: 'bloock/bloock-sdk'
-          tag: v${{ github.event.client_payload.version }}
-          fileName: 'bloock_lib_python-docs-${{ github.event.client_payload.version }}.zip'
-          extract: false
-          out-file-path: /tmp
-      - name: Remove previous reference
-        run: rm -rf docs/sdks/python/reference
-      - name: Update reference
-        run: |
-          unzip /tmp/bloock_lib_python-docs-${{ github.event.client_payload.version }}.zip -d /tmp
-          mkdir -p docs/sdks/python/reference 
-          mv /tmp/bloock_lib_python/docs/* docs/sdks/python/reference
-          node scripts/generate-python-docs.js
+          version: ${{ github.event.client_payload.version }}
+          dest: docs/sdks/php/reference
+          artifact: bloock_lib_php-docs-${{ github.event.client_payload.version }}.zip
+          post_script: scripts/generate-php-docs.js
+      - name: Update Python reference
+        uses: ./.github/actions/update_reference
+        with:
+          version: ${{ github.event.client_payload.version }}
+          dest: docs/sdks/python/reference
+          artifact: bloock_lib_python-docs-${{ github.event.client_payload.version }}.zip
+          post_script: scripts/generate-python-docs.js

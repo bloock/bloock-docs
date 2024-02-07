@@ -1,0 +1,36 @@
+name: 'Release Zip'
+description: 'Upload lib to release'
+inputs:
+  version:
+    required: true
+    description: 'BLOOCK SDK version'
+  dest:
+    required: true
+    description: 'Destination directory'
+  artifact:
+    required: true
+    description: 'Artifact name'
+  post_script:
+    required: true
+    description: 'Node post-script to run'
+runs:
+  using: 'composite'
+  steps:
+    - name: Download docs
+      uses: robinraju/release-downloader@v1.9
+      with:
+        repository: 'bloock/bloock-sdk'
+        tag: v${{ inputs.version }}
+        fileName: ${{ inputs.artifact }}
+        extract: false
+        out-file-path: /tmp
+    - name: Remove previous reference
+      shell: bash
+      run: rm -rf ${{ inputs.dest }}
+    - name: Update reference
+      shell: bash
+      run: |
+        unzip /tmp/${{ inputs.artifact }} -d /tmp
+        mkdir -p ${{ inputs.dest }}
+        mv /tmp/*/docs/* ${{ inputs.dest }}
+        node ${{ inputs.post_script }}
