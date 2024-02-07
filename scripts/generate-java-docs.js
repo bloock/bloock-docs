@@ -134,6 +134,16 @@ import sourceHTML from './${withoutEnding}.source'
       packageMap[generated.label] = generated;
     }
   }
+
+  const categoryPath = path.join(dest, folder, '_category_.json');
+
+  fs.outputFileSync(
+    categoryPath,
+    JSON.stringify({
+      label: 'Reference',
+      collapsible: true,
+    })
+  );
 } catch (error) {
   console.error(error.message);
 }
