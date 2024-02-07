@@ -4,9 +4,8 @@ const path = require('path');
 const { JSDOM } = jsdom;
 
 try {
-  const src =
-    '/Users/marcbaque/Bloock/bloock-sdk/languages/java/build/dokka/html/bloock-sdk';
-  const dest = '/Users/marcbaque/Bloock/bloock-docs/docs/sdks/java';
+  const src = process.argv[2];
+  const dest = './docs/sdks/java';
   const folder = 'reference';
 
   function transformFile(file) {

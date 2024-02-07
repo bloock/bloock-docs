@@ -18,7 +18,7 @@ jobs:
           artifact: bloock_lib_go-docs-${{ github.event.client_payload.version }}.zip
           post_script: scripts/generate-golang-docs.js
       - name: Update Java reference
-        uses: ./.github/actions/update_reference
+        uses: ./.github/actions/update_java_reference
         with:
           version: ${{ github.event.client_payload.version }}
           dest: docs/sdks/java/reference
