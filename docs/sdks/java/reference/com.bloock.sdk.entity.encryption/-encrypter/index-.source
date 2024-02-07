@@ -1,0 +1,90 @@
+
+  
+  <div class="cover ">
+    
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="index-">Encrypter</a></div><p class="paragraph">Represents an encryption configuration with various key types and access control.</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Functions">Functions</button></div>
+    <div class="tabs-section-body">
+      <h2 class="tabbedcontent">Constructors</h2>
+      <div class="table" data-togglable="Constructors"><a data-name="327493793%2FConstructors%2F769193423" anchor-label="Encrypter" id="327493793%2FConstructors%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue TabbedContent">
+            <div class=""><span class="inline-flex">
+                <div><a href="-encrypter-"><span><span>Encrypter</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="327493793%2FConstructors%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span>void&nbsp;<a href="-encrypter-"><span class="token function">Encrypter</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="../../com.bloock.sdk.entity.key/-local-key/index-">LocalKey</a>&nbsp;localKey</span></span><span class="token punctuation">)</span></div><div class="brief ">Creates a new Encrypter instance with a local encryption key.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1950793910%2FConstructors%2F769193423" anchor-label="Encrypter" id="1950793910%2FConstructors%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue TabbedContent">
+            <div class=""><span class="inline-flex">
+                <div><a href="-encrypter-"><span><span>Encrypter</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1950793910%2FConstructors%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span>void&nbsp;<a href="-encrypter-"><span class="token function">Encrypter</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="../../com.bloock.sdk.entity.key/-managed-key/index-">ManagedKey</a>&nbsp;managedKey<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="../../com.bloock.sdk.entity.key/-access-control/index-">AccessControl</a>&nbsp;accessControl</span></span><span class="token punctuation">)</span></div><div class="brief ">Creates a new Encrypter instance with a managed encryption key and access control.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1141236606%2FConstructors%2F769193423" anchor-label="Encrypter" id="1141236606%2FConstructors%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue TabbedContent">
+            <div class=""><span class="inline-flex">
+                <div><a href="-encrypter-"><span><span>Encrypter</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1141236606%2FConstructors%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span>void&nbsp;<a href="-encrypter-"><span class="token function">Encrypter</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="../../com.bloock.sdk.entity.key/-managed-certificate/index-">ManagedCertificate</a>&nbsp;managedCertificate<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="../../com.bloock.sdk.entity.key/-access-control/index-">AccessControl</a>&nbsp;accessControl</span></span><span class="token punctuation">)</span></div><div class="brief ">Creates a new Encrypter instance with a local certificate for encryption.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-158062743%2FConstructors%2F769193423" anchor-label="Encrypter" id="-158062743%2FConstructors%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue TabbedContent">
+            <div class=""><span class="inline-flex">
+                <div><a href="-encrypter-"><span><span>Encrypter</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-158062743%2FConstructors%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span>void&nbsp;<a href="-encrypter-"><span class="token function">Encrypter</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="../../com.bloock.sdk.entity.key/-local-certificate/index-">LocalCertificate</a>&nbsp;localCertificate</span></span><span class="token punctuation">)</span></div><div class="brief ">Creates a new Encrypter instance with a managed certificate for encryption and access control.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Functions</h2>
+      <div class="table" data-togglable="Functions"><a data-name="-2120041007%2FFunctions%2F769193423" anchor-label="toProto" id="-2120041007%2FFunctions%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="to-proto-"><span>to</span><wbr><span><span>Proto</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2120041007%2FFunctions%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><span data-unresolved-link="com.bloock.sdk.bridge.proto/EncryptionEntities.Encrypter///PointingToDeclaration/">EncryptionEntities.Encrypter</span>&nbsp;<a href="to-proto-"><span class="token function">toProto</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

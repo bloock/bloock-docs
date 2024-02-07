@@ -1,0 +1,537 @@
+
+  
+  <div class="cover ">
+    
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button></div>
+    <div class="tabs-section-body">
+      <h2 class="">Types</h2>
+      <div class="table" data-togglable="Types"><a data-name="1280783631%2FClasslikes%2F769193423" anchor-label="Attribute" id="1280783631%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-attribute/index-"><span><span>Attribute</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1280783631%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-attribute/index-">Attribute</a><span class="token operator">&lt;</span>T<span class="token operator">&gt;</span></div><div class="brief ">Represents an attribute with an identifier and a corresponding value.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1116842272%2FClasslikes%2F769193423" anchor-label="AttributeDescriptor" id="-1116842272%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-attribute-descriptor/index-"><span>Attribute</span><wbr><span><span>Descriptor</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1116842272%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-attribute-descriptor/index-">AttributeDescriptor</a></div><div class="brief ">Represents a descriptor for an attribute.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="429326104%2FClasslikes%2F769193423" anchor-label="BjjIdentityKey" id="429326104%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-bjj-identity-key/index-"><span>Bjj</span><wbr><span>Identity</span><wbr><span><span>Key</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="429326104%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-bjj-identity-key/index-">BjjIdentityKey</a><span class="token keyword"> implements </span><a href="-identity-key/index-">IdentityKey</a></div><div class="brief ">Represents an identity BJJ key used.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1434163107%2FClasslikes%2F769193423" anchor-label="Blockchain" id="1434163107%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-blockchain/index-"><span><span>Blockchain</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1434163107%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">enum </span><a href="-blockchain/index-">Blockchain</a></div><div class="brief ">Represents an enumeration of blockchains used in the DID.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1136034339%2FClasslikes%2F769193423" anchor-label="BooleanAttribute" id="1136034339%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-boolean-attribute/index-"><span>Boolean</span><wbr><span><span>Attribute</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1136034339%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-boolean-attribute/index-">BooleanAttribute</a><span class="token keyword"> extends </span><a href="-attribute/index-">Attribute</a><span class="token operator">&lt;</span><a href="-attribute/index-">T</a><span class="token operator">&gt;</span></div><div class="brief ">Represents an attribute with a boolean value.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1246799116%2FClasslikes%2F769193423" anchor-label="BooleanAttributeDescriptor" id="-1246799116%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-boolean-attribute-descriptor/index-"><span>Boolean</span><wbr><span>Attribute</span><wbr><span><span>Descriptor</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1246799116%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-boolean-attribute-descriptor/index-">BooleanAttributeDescriptor</a><span class="token keyword"> extends </span><a href="-attribute-descriptor/index-">AttributeDescriptor</a></div><div class="brief ">Represents a descriptor for a boolean attribute.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-86488320%2FClasslikes%2F769193423" anchor-label="Credential" id="-86488320%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-credential/index-"><span><span>Credential</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-86488320%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-credential/index-">Credential</a></div><div class="brief ">Represents a verifiable credential with its associated information.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1928950631%2FClasslikes%2F769193423" anchor-label="CredentialBuilder" id="1928950631%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-credential-builder/index-"><span>Credential</span><wbr><span><span>Builder</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1928950631%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-credential-builder/index-">CredentialBuilder</a></div><div class="brief ">Helps construct credentials by specifying various attributes.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1371079198%2FClasslikes%2F769193423" anchor-label="CredentialProof" id="1371079198%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-credential-proof/index-"><span>Credential</span><wbr><span><span>Proof</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1371079198%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-credential-proof/index-">CredentialProof</a></div><div class="brief ">Represents the proof associated with a credential, including signature and sparse merkle tree proof.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1334236310%2FClasslikes%2F769193423" anchor-label="CredentialReceipt" id="-1334236310%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-credential-receipt/index-"><span>Credential</span><wbr><span><span>Receipt</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1334236310%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-credential-receipt/index-">CredentialReceipt</a></div><div class="brief ">Represents a receipt for a credential, including the credential itself, its ID, and type.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-71049953%2FClasslikes%2F769193423" anchor-label="CredentialSchema" id="-71049953%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-credential-schema/index-"><span>Credential</span><wbr><span><span>Schema</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-71049953%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-credential-schema/index-">CredentialSchema</a></div><div class="brief ">Represents the schema information for a credential, including its ID and type.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-300167186%2FClasslikes%2F769193423" anchor-label="CredentialStatus" id="-300167186%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-credential-status/index-"><span>Credential</span><wbr><span><span>Status</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-300167186%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-credential-status/index-">CredentialStatus</a></div><div class="brief ">Represents the status information for a credential, including its ID, revocation nonce, and type.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="552511581%2FClasslikes%2F769193423" anchor-label="DateAttribute" id="552511581%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-date-attribute/index-"><span>Date</span><wbr><span><span>Attribute</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="552511581%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-date-attribute/index-">DateAttribute</a><span class="token keyword"> extends </span><a href="-attribute/index-">Attribute</a><span class="token operator">&lt;</span><a href="-attribute/index-">T</a><span class="token operator">&gt;</span></div><div class="brief ">Represents an attribute with a date value, including its key and formatted value.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="457212078%2FClasslikes%2F769193423" anchor-label="DateAttributeDescriptor" id="457212078%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-date-attribute-descriptor/index-"><span>Date</span><wbr><span>Attribute</span><wbr><span><span>Descriptor</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="457212078%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-date-attribute-descriptor/index-">DateAttributeDescriptor</a><span class="token keyword"> extends </span><a href="-attribute-descriptor/index-">AttributeDescriptor</a></div><div class="brief ">Represents a descriptor for a date attribute, including its display name, ID, description, and required status.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-639552534%2FClasslikes%2F769193423" anchor-label="DatetimeAttribute" id="-639552534%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-datetime-attribute/index-"><span>Datetime</span><wbr><span><span>Attribute</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-639552534%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-datetime-attribute/index-">DatetimeAttribute</a><span class="token keyword"> extends </span><a href="-attribute/index-">Attribute</a><span class="token operator">&lt;</span><a href="-attribute/index-">T</a><span class="token operator">&gt;</span></div><div class="brief ">Represents an attribute with a datetime value.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-55066629%2FClasslikes%2F769193423" anchor-label="DatetimeAttributeDescriptor" id="-55066629%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-datetime-attribute-descriptor/index-"><span>Datetime</span><wbr><span>Attribute</span><wbr><span><span>Descriptor</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-55066629%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-datetime-attribute-descriptor/index-">DatetimeAttributeDescriptor</a><span class="token keyword"> extends </span><a href="-attribute-descriptor/index-">AttributeDescriptor</a></div><div class="brief ">Represents a descriptor for an attribute with a datetime value.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="894770956%2FClasslikes%2F769193423" anchor-label="DecimalAttribute" id="894770956%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-decimal-attribute/index-"><span>Decimal</span><wbr><span><span>Attribute</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="894770956%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-decimal-attribute/index-">DecimalAttribute</a><span class="token keyword"> extends </span><a href="-attribute/index-">Attribute</a><span class="token operator">&lt;</span><a href="-attribute/index-">T</a><span class="token operator">&gt;</span></div><div class="brief ">Represents an attribute with a decimal value.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1696487267%2FClasslikes%2F769193423" anchor-label="DecimalAttributeDescriptor" id="-1696487267%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-decimal-attribute-descriptor/index-"><span>Decimal</span><wbr><span>Attribute</span><wbr><span><span>Descriptor</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1696487267%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-decimal-attribute-descriptor/index-">DecimalAttributeDescriptor</a><span class="token keyword"> extends </span><a href="-attribute-descriptor/index-">AttributeDescriptor</a></div><div class="brief ">Represents a descriptor for an attribute with a decimal value.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1183244478%2FClasslikes%2F769193423" anchor-label="DecimalEnumAttributeDescriptor" id="1183244478%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-decimal-enum-attribute-descriptor/index-"><span>Decimal</span><wbr><span>Enum</span><wbr><span>Attribute</span><wbr><span><span>Descriptor</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1183244478%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-decimal-enum-attribute-descriptor/index-">DecimalEnumAttributeDescriptor</a><span class="token keyword"> extends </span><a href="-attribute-descriptor/index-">AttributeDescriptor</a></div><div class="brief ">Represents a descriptor for an attribute with a decimal enum value.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1720564506%2FClasslikes%2F769193423" anchor-label="DidParams" id="-1720564506%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-did-params/index-"><span>Did</span><wbr><span><span>Params</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1720564506%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-did-params/index-">DidParams</a></div><div class="brief ">Represents parameters used for generating DIDs.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1318680586%2FClasslikes%2F769193423" anchor-label="IdentityKey" id="1318680586%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-identity-key/index-"><span>Identity</span><wbr><span><span>Key</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1318680586%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">interface </span><a href="-identity-key/index-">IdentityKey</a></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-626047699%2FClasslikes%2F769193423" anchor-label="IdentityKeyArgs" id="-626047699%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-identity-key-args/index-"><span>Identity</span><wbr><span>Key</span><wbr><span><span>Args</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-626047699%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-identity-key-args/index-">IdentityKeyArgs</a></div><div class="brief ">Represents arguments for configuring an issuer key.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1670655559%2FClasslikes%2F769193423" anchor-label="IntegerAttribute" id="-1670655559%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-integer-attribute/index-"><span>Integer</span><wbr><span><span>Attribute</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1670655559%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-integer-attribute/index-">IntegerAttribute</a><span class="token keyword"> extends </span><a href="-attribute/index-">Attribute</a><span class="token operator">&lt;</span><a href="-attribute/index-">T</a><span class="token operator">&gt;</span></div><div class="brief ">Represents an attribute with an integer value.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1095673610%2FClasslikes%2F769193423" anchor-label="IntegerAttributeDescriptor" id="1095673610%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-integer-attribute-descriptor/index-"><span>Integer</span><wbr><span>Attribute</span><wbr><span><span>Descriptor</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1095673610%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-integer-attribute-descriptor/index-">IntegerAttributeDescriptor</a><span class="token keyword"> extends </span><a href="-attribute-descriptor/index-">AttributeDescriptor</a></div><div class="brief ">Represents a descriptor for an attribute with an integer value.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-666574677%2FClasslikes%2F769193423" anchor-label="IntegerEnumAttributeDescriptor" id="-666574677%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-integer-enum-attribute-descriptor/index-"><span>Integer</span><wbr><span>Enum</span><wbr><span>Attribute</span><wbr><span><span>Descriptor</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-666574677%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-integer-enum-attribute-descriptor/index-">IntegerEnumAttributeDescriptor</a><span class="token keyword"> extends </span><a href="-attribute-descriptor/index-">AttributeDescriptor</a></div><div class="brief ">Represents a descriptor for an attribute with an integer enum value.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1684413367%2FClasslikes%2F769193423" anchor-label="IssuerStateReceipt" id="1684413367%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-issuer-state-receipt/index-"><span>Issuer</span><wbr><span>State</span><wbr><span><span>Receipt</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1684413367%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-issuer-state-receipt/index-">IssuerStateReceipt</a></div><div class="brief ">Represents a receipt for the issuer's state.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1194312886%2FClasslikes%2F769193423" anchor-label="Method" id="1194312886%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-method/index-"><span><span>Method</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1194312886%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">enum </span><a href="-method/index-">Method</a></div><div class="brief ">Represents an enumeration of methods used in the DID.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1586101187%2FClasslikes%2F769193423" anchor-label="Network" id="-1586101187%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-network/index-"><span><span>Network</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1586101187%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">enum </span><a href="-network/index-">Network</a></div><div class="brief ">Represents an enumeration of network identifiers.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="54996177%2FClasslikes%2F769193423" anchor-label="PublishIntervalParams" id="54996177%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-publish-interval-params/index-"><span>Publish</span><wbr><span>Interval</span><wbr><span><span>Params</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="54996177%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">enum </span><a href="-publish-interval-params/index-">PublishIntervalParams</a></div><div class="brief ">Represents different publish intervals.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1997850634%2FClasslikes%2F769193423" anchor-label="Schema" id="-1997850634%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-schema/index-"><span><span>Schema</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1997850634%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-schema/index-">Schema</a></div><div class="brief ">Represents a schema with its attributes.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1268374095%2FClasslikes%2F769193423" anchor-label="SchemaBuilder" id="-1268374095%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-schema-builder/index-"><span>Schema</span><wbr><span><span>Builder</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1268374095%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-schema-builder/index-">SchemaBuilder</a></div><div class="brief ">Is a builder pattern for constructing schema instances.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="14281088%2FClasslikes%2F769193423" anchor-label="StringAttribute" id="14281088%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-string-attribute/index-"><span>String</span><wbr><span><span>Attribute</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="14281088%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-string-attribute/index-">StringAttribute</a><span class="token keyword"> extends </span><a href="-attribute/index-">Attribute</a><span class="token operator">&lt;</span><a href="-attribute/index-">T</a><span class="token operator">&gt;</span></div><div class="brief ">Represents an attribute with a string value.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1106054639%2FClasslikes%2F769193423" anchor-label="StringAttributeDescriptor" id="-1106054639%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-string-attribute-descriptor/index-"><span>String</span><wbr><span>Attribute</span><wbr><span><span>Descriptor</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1106054639%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-string-attribute-descriptor/index-">StringAttributeDescriptor</a><span class="token keyword"> extends </span><a href="-attribute-descriptor/index-">AttributeDescriptor</a></div><div class="brief ">Represents a descriptor for an attribute with a string value.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1951289394%2FClasslikes%2F769193423" anchor-label="StringEnumAttributeDescriptor" id="1951289394%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-string-enum-attribute-descriptor/index-"><span>String</span><wbr><span>Enum</span><wbr><span>Attribute</span><wbr><span><span>Descriptor</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1951289394%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-string-enum-attribute-descriptor/index-">StringEnumAttributeDescriptor</a><span class="token keyword"> extends </span><a href="-attribute-descriptor/index-">AttributeDescriptor</a></div><div class="brief ">Represents a descriptor for an attribute with a string enum value.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="294711982%2FClasslikes%2F769193423" anchor-label="VerificationReceipt" id="294711982%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-verification-receipt/index-"><span>Verification</span><wbr><span><span>Receipt</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="294711982%2FClasslikes%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-verification-receipt/index-">VerificationReceipt</a></div><div class="brief ">Represents a receipt for a verification session.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

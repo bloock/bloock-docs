@@ -1,0 +1,6 @@
+
+  
+  <div class="cover ">
+    
+  </div>
+  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="../-proof-anchor/index-">ProofAnchor</a>&nbsp;<a href="get-anchor-"><span class="token function">getAnchor</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><p class="paragraph">Gets the anchor of the proof.</p><span class="kdoc-tag"><h4 class="">Return</h4></span></div></div>
