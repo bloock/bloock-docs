@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>Bloock</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>bloock-sdk</span>
+            </a>
+    </div>
+    <div>
+2.8.0-beta.3    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="bloock-sdk::com.bloock.sdk/Bloock///PointingToDeclaration//769193423">
+  <div class="breadcrumbs"><a href="../../../index.html">bloock-sdk</a><span class="delimiter">/</span><a href="../index.html">com.bloock.sdk</a><span class="delimiter">/</span><span class="current">Bloock</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Bloock</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="index.html">Bloock</a></div><p class="paragraph">Provides a centralized configuration for the Bloock SDK library. For information about Bloock SDK in Go, see https://bloock.com.</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
+    <div class="tabs-section-body">
+      <h2 class="">Functions</h2>
+      <div class="table" data-togglable="Functions"><a data-name="-656641791%2FFunctions%2F769193423" anchor-label="setContractAddress" id="-656641791%2FFunctions%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-contract-address.html"><span>set</span><wbr></wbr><span>Contract</span><wbr></wbr><span><span>Address</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-656641791%2FFunctions%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword">static </span>void <a href="set-contract-address.html"><span class="token function">setContractAddress</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="../../com.bloock.sdk.entity.integrity/-network/index.html">Network</a> network<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a> contractAddress</span></span><span class="token punctuation">)</span></div><div class="brief ">Sets the contract address for the specified network in the Bloock SDK configuration.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1329171456%2FFunctions%2F769193423" anchor-label="setProvider" id="1329171456%2FFunctions%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-provider.html"><span>set</span><wbr></wbr><span><span>Provider</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1329171456%2FFunctions%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword">static </span>void <a href="set-provider.html"><span class="token function">setProvider</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="../../com.bloock.sdk.entity.integrity/-network/index.html">Network</a> network<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a> provider</span></span><span class="token punctuation">)</span></div><div class="brief ">Sets the HTTP provider for the specified network in the Bloock SDK configuration.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Properties</h2>
+      <div class="table" data-togglable="Properties"><a data-name="-1775557068%2FProperties%2F769193423" anchor-label="apiHost" id="-1775557068%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#-1775557068%2FProperties%2F769193423"><span>api</span><wbr></wbr><span><span>Host</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1775557068%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="-1775557068%2FProperties%2F769193423" anchor-label="apiHost" id="-1775557068%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword">static </span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a> <a href="index.html#-1775557068%2FProperties%2F769193423">apiHost</a></div><div class="brief "><a data-name="-1775557068%2FProperties%2F769193423" anchor-label="apiHost" id="-1775557068%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>Is a string variable representing the host URL used for API communication with the Bloock SDK.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="2027680575%2FProperties%2F769193423" anchor-label="apiKey" id="2027680575%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#2027680575%2FProperties%2F769193423"><span>api</span><wbr></wbr><span><span>Key</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2027680575%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="2027680575%2FProperties%2F769193423" anchor-label="apiKey" id="2027680575%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword">static </span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a> <a href="index.html#2027680575%2FProperties%2F769193423">apiKey</a></div><div class="brief "><a data-name="2027680575%2FProperties%2F769193423" anchor-label="apiKey" id="2027680575%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>Is a string variable representing the API key used for authentication with the Bloock SDK, create <a href="https://dashboard.bloock.com/login">here</a>.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1920406790%2FProperties%2F769193423" anchor-label="disableAnalytics" id="1920406790%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#1920406790%2FProperties%2F769193423"><span>disable</span><wbr></wbr><span><span>Analytics</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1920406790%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="1920406790%2FProperties%2F769193423" anchor-label="disableAnalytics" id="1920406790%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword">static </span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html">Boolean</a> <a href="index.html#1920406790%2FProperties%2F769193423">disableAnalytics</a></div><div class="brief "><a data-name="1920406790%2FProperties%2F769193423" anchor-label="disableAnalytics" id="1920406790%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>Is a boolean variable that, when set to true, disables the analytics feature in the Bloock SDK.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="318221314%2FProperties%2F769193423" anchor-label="forceEnv" id="318221314%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#318221314%2FProperties%2F769193423"><span>force</span><wbr></wbr><span><span>Env</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="318221314%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="318221314%2FProperties%2F769193423" anchor-label="forceEnv" id="318221314%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword">static </span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a> <a href="index.html#318221314%2FProperties%2F769193423">forceEnv</a></div><div class="brief "><a data-name="318221314%2FProperties%2F769193423" anchor-label="forceEnv" id="318221314%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>Is a string variable used to force a specific environment configuration, it allows developers to set a predefined environment for the Bloock SDK.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1300298258%2FProperties%2F769193423" anchor-label="identityApiHost" id="1300298258%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#1300298258%2FProperties%2F769193423"><span>identity</span><wbr></wbr><span>Api</span><wbr></wbr><span><span>Host</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1300298258%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="1300298258%2FProperties%2F769193423" anchor-label="identityApiHost" id="1300298258%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword">static </span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a> <a href="index.html#1300298258%2FProperties%2F769193423">identityApiHost</a></div><div class="brief "><a data-name="1300298258%2FProperties%2F769193423" anchor-label="identityApiHost" id="1300298258%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>Is a string variable representing the host URL used for Identity Managed API, required to be set for identity-related features of the Bloock SDK.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1223428346%2FProperties%2F769193423" anchor-label="networkConfig" id="-1223428346%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#-1223428346%2FProperties%2F769193423"><span>network</span><wbr></wbr><span><span>Config</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1223428346%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="-1223428346%2FProperties%2F769193423" anchor-label="networkConfig" id="-1223428346%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword">static </span><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Map.html">Map</a><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html">Integer</a><span class="token punctuation">, </span><span data-unresolved-link="com.bloock.sdk.bridge.proto/Config.NetworkConfig///PointingToDeclaration/">Config.NetworkConfig</span><span class="token operator">&gt;</span> <a href="index.html#-1223428346%2FProperties%2F769193423">networkConfig</a></div><div class="brief "><a data-name="-1223428346%2FProperties%2F769193423" anchor-label="networkConfig" id="-1223428346%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>Is a map variable that holds network configurations associated with specific network IDs in the Bloock SDK.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>

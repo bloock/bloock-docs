@@ -39,7 +39,7 @@ Constructs AccessControl object from an AccessControlTotp or AccessControlSecret
 
 #### Defined in
 
-[entity/key/access_control.ts:16](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/key/access_control.ts#L16)
+[entity/key/access_control.ts:16](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/key/access_control.ts#L16)
 
 ## Properties
 
@@ -49,7 +49,7 @@ Constructs AccessControl object from an AccessControlTotp or AccessControlSecret
 
 #### Defined in
 
-[entity/key/access_control.ts:10](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/key/access_control.ts#L10)
+[entity/key/access_control.ts:10](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/key/access_control.ts#L10)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 #### Defined in
 
-[entity/key/access_control.ts:9](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/key/access_control.ts#L9)
+[entity/key/access_control.ts:9](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/key/access_control.ts#L9)
 
 ## Methods
 
@@ -73,4 +73,4 @@ ___
 
 #### Defined in
 
-[entity/key/access_control.ts:28](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/key/access_control.ts#L28)
+[entity/key/access_control.ts:28](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/key/access_control.ts#L28)

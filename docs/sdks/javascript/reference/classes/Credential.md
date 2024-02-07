@@ -53,7 +53,7 @@
 
 #### Defined in
 
-[entity/identity/credential.ts:23](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/credential.ts#L23)
+[entity/identity/credential.ts:23](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/credential.ts#L23)
 
 ## Properties
 
@@ -63,7 +63,7 @@
 
 #### Defined in
 
-[entity/identity/credential.ts:13](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/credential.ts#L13)
+[entity/identity/credential.ts:13](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/credential.ts#L13)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential.ts:20](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/credential.ts#L20)
+[entity/identity/credential.ts:20](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/credential.ts#L20)
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential.ts:18](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/credential.ts#L18)
+[entity/identity/credential.ts:18](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/credential.ts#L18)
 
 ___
 
@@ -93,7 +93,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential.ts:17](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/credential.ts#L17)
+[entity/identity/credential.ts:17](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/credential.ts#L17)
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential.ts:14](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/credential.ts#L14)
+[entity/identity/credential.ts:14](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/credential.ts#L14)
 
 ___
 
@@ -113,7 +113,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential.ts:16](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/credential.ts#L16)
+[entity/identity/credential.ts:16](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/credential.ts#L16)
 
 ___
 
@@ -123,7 +123,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential.ts:19](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/credential.ts#L19)
+[entity/identity/credential.ts:19](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/credential.ts#L19)
 
 ___
 
@@ -133,7 +133,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential.ts:21](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/credential.ts#L21)
+[entity/identity/credential.ts:21](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/credential.ts#L21)
 
 ___
 
@@ -143,7 +143,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential.ts:15](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/credential.ts#L15)
+[entity/identity/credential.ts:15](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/credential.ts#L15)
 
 ## Methods
 
@@ -157,7 +157,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential.ts:73](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/credential.ts#L73)
+[entity/identity/credential.ts:73](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/credential.ts#L73)
 
 ___
 
@@ -171,7 +171,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential.ts:45](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/credential.ts#L45)
+[entity/identity/credential.ts:45](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/credential.ts#L45)
 
 ___
 
@@ -191,7 +191,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential.ts:92](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/credential.ts#L92)
+[entity/identity/credential.ts:92](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/credential.ts#L92)
 
 ___
 
@@ -211,4 +211,4 @@ ___
 
 #### Defined in
 
-[entity/identity/credential.ts:59](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/credential.ts#L59)
+[entity/identity/credential.ts:59](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/credential.ts#L59)

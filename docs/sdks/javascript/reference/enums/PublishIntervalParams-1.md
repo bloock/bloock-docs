@@ -23,7 +23,7 @@ Represents a 1-minute publish interval.
 
 #### Defined in
 
-[entity/identity_v2/publish_interval_params.ts:10](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/publish_interval_params.ts#L10)
+[entity/identity_v2/publish_interval_params.ts:10](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/publish_interval_params.ts#L10)
 
 ___
 
@@ -35,7 +35,7 @@ Represents a 15-minute publish interval.
 
 #### Defined in
 
-[entity/identity_v2/publish_interval_params.ts:18](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/publish_interval_params.ts#L18)
+[entity/identity_v2/publish_interval_params.ts:18](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/publish_interval_params.ts#L18)
 
 ___
 
@@ -47,7 +47,7 @@ Represents a 5-minute publish interval.
 
 #### Defined in
 
-[entity/identity_v2/publish_interval_params.ts:14](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/publish_interval_params.ts#L14)
+[entity/identity_v2/publish_interval_params.ts:14](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/publish_interval_params.ts#L14)
 
 ___
 
@@ -59,4 +59,4 @@ Represents a 60-minute publish interval.
 
 #### Defined in
 
-[entity/identity_v2/publish_interval_params.ts:22](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/publish_interval_params.ts#L22)
+[entity/identity_v2/publish_interval_params.ts:22](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/publish_interval_params.ts#L22)

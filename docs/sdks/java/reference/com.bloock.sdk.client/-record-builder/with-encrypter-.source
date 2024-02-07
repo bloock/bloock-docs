@@ -1,6 +1,0 @@
-
-  
-  <div class="cover ">
-    
-  </div>
-  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="index-">RecordBuilder</a>&nbsp;<a href="with-encrypter-"><span class="token function">withEncrypter</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="../../com.bloock.sdk.entity.encryption/-encrypter/index-">Encrypter</a>&nbsp;encrypter</span></span><span class="token punctuation">)</span></div><p class="paragraph">Sets the encrypter for the RecordBuilder.</p><span class="kdoc-tag"><h4 class="">Return</h4></span><h4 class="">Parameters</h4><div data-togglable="Parameters"><div class="table" data-togglable="Parameters"><div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span><span>encrypter</span></span></u></div></span></div><div></div></div></div></div></div></div></div>

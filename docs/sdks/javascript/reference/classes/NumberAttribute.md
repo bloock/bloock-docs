@@ -47,7 +47,7 @@ Attribute\<number\>.constructor
 
 #### Defined in
 
-[entity/identity/attribute.ts:5](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/attribute.ts#L5)
+[entity/identity/attribute.ts:5](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/attribute.ts#L5)
 
 ## Properties
 
@@ -61,7 +61,7 @@ Attribute.id
 
 #### Defined in
 
-[entity/identity/attribute.ts:2](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/attribute.ts#L2)
+[entity/identity/attribute.ts:2](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/attribute.ts#L2)
 
 ___
 
@@ -75,7 +75,7 @@ Attribute.value
 
 #### Defined in
 
-[entity/identity/attribute.ts:3](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/attribute.ts#L3)
+[entity/identity/attribute.ts:3](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/attribute.ts#L3)
 
 ## Methods
 
@@ -89,7 +89,7 @@ Attribute.value
 
 #### Defined in
 
-[entity/identity/number_attribute.ts:5](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/number_attribute.ts#L5)
+[entity/identity/number_attribute.ts:5](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/number_attribute.ts#L5)
 
 ___
 
@@ -109,4 +109,4 @@ ___
 
 #### Defined in
 
-[entity/identity/number_attribute.ts:12](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/number_attribute.ts#L12)
+[entity/identity/number_attribute.ts:12](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/number_attribute.ts#L12)

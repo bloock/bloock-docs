@@ -51,7 +51,7 @@ Constructs a Attribute object with the specified parameters.
 
 #### Defined in
 
-[entity/identity_v2/attribute.ts:13](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/attribute.ts#L13)
+[entity/identity_v2/attribute.ts:13](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/attribute.ts#L13)
 
 ## Properties
 
@@ -65,7 +65,7 @@ Constructs a Attribute object with the specified parameters.
 
 #### Defined in
 
-[entity/identity_v2/attribute.ts:5](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/attribute.ts#L5)
+[entity/identity_v2/attribute.ts:5](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/attribute.ts#L5)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/attribute.ts:6](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/attribute.ts#L6)
+[entity/identity_v2/attribute.ts:6](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/attribute.ts#L6)
 
 ## Methods
 
@@ -93,7 +93,7 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/boolean_attribute.ts:8](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/boolean_attribute.ts#L8)
+[entity/identity_v2/boolean_attribute.ts:8](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/boolean_attribute.ts#L8)
 
 ___
 
@@ -113,4 +113,4 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/boolean_attribute.ts:15](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/boolean_attribute.ts#L15)
+[entity/identity_v2/boolean_attribute.ts:15](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/boolean_attribute.ts#L15)

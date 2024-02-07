@@ -1,6 +1,0 @@
-
-  
-  <div class="cover ">
-    
-  </div>
-  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="../-signature-alg/index-">SignatureAlg</a>&nbsp;<a href="get-alg-"><span class="token function">getAlg</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><p class="paragraph">Returns the SignatureAlg based on the algorithm specified in the Alg field.</p><span class="kdoc-tag"><h4 class="">Return</h4></span></div></div>

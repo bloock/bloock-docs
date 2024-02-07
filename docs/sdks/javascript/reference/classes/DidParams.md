@@ -42,7 +42,7 @@ Constructs a DidParams object with the specified parameters.
 
 #### Defined in
 
-[entity/identity_v2/did_params.ts:20](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/did_params.ts#L20)
+[entity/identity_v2/did_params.ts:20](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/did_params.ts#L20)
 
 ## Properties
 
@@ -52,7 +52,7 @@ Constructs a DidParams object with the specified parameters.
 
 #### Defined in
 
-[entity/identity_v2/did_params.ts:11](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/did_params.ts#L11)
+[entity/identity_v2/did_params.ts:11](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/did_params.ts#L11)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/did_params.ts:10](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/did_params.ts#L10)
+[entity/identity_v2/did_params.ts:10](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/did_params.ts#L10)
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/did_params.ts:12](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/did_params.ts#L12)
+[entity/identity_v2/did_params.ts:12](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/did_params.ts#L12)
 
 ## Methods
 
@@ -86,4 +86,4 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/did_params.ts:26](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/did_params.ts#L26)
+[entity/identity_v2/did_params.ts:26](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/did_params.ts#L26)

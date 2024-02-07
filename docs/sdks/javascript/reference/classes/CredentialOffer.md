@@ -43,7 +43,7 @@
 
 #### Defined in
 
-[entity/identity/credential_offer.ts:16](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/credential_offer.ts#L16)
+[entity/identity/credential_offer.ts:16](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/credential_offer.ts#L16)
 
 ## Properties
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-[entity/identity/credential_offer.ts:12](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/credential_offer.ts#L12)
+[entity/identity/credential_offer.ts:12](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/credential_offer.ts#L12)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_offer.ts:13](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/credential_offer.ts#L13)
+[entity/identity/credential_offer.ts:13](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/credential_offer.ts#L13)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_offer.ts:11](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/credential_offer.ts#L11)
+[entity/identity/credential_offer.ts:11](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/credential_offer.ts#L11)
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_offer.ts:14](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/credential_offer.ts#L14)
+[entity/identity/credential_offer.ts:14](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/credential_offer.ts#L14)
 
 ## Methods
 
@@ -97,7 +97,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_offer.ts:46](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/credential_offer.ts#L46)
+[entity/identity/credential_offer.ts:46](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/credential_offer.ts#L46)
 
 ___
 
@@ -111,7 +111,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_offer.ts:28](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/credential_offer.ts#L28)
+[entity/identity/credential_offer.ts:28](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/credential_offer.ts#L28)
 
 ___
 
@@ -131,7 +131,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_offer.ts:65](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/credential_offer.ts#L65)
+[entity/identity/credential_offer.ts:65](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/credential_offer.ts#L65)
 
 ___
 
@@ -151,4 +151,4 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_offer.ts:37](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/credential_offer.ts#L37)
+[entity/identity/credential_offer.ts:37](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/credential_offer.ts#L37)

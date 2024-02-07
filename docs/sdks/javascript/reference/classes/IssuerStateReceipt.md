@@ -39,7 +39,7 @@ Constructs an IssuerStateReceipt object with the specified parameters.
 
 #### Defined in
 
-[entity/identity_v2/issuer_state_receipt.ts:13](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/issuer_state_receipt.ts#L13)
+[entity/identity_v2/issuer_state_receipt.ts:13](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/issuer_state_receipt.ts#L13)
 
 ## Properties
 
@@ -49,7 +49,7 @@ Constructs an IssuerStateReceipt object with the specified parameters.
 
 #### Defined in
 
-[entity/identity_v2/issuer_state_receipt.ts:7](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/issuer_state_receipt.ts#L7)
+[entity/identity_v2/issuer_state_receipt.ts:7](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/issuer_state_receipt.ts#L7)
 
 ## Methods
 
@@ -63,7 +63,7 @@ Constructs an IssuerStateReceipt object with the specified parameters.
 
 #### Defined in
 
-[entity/identity_v2/issuer_state_receipt.ts:17](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/issuer_state_receipt.ts#L17)
+[entity/identity_v2/issuer_state_receipt.ts:17](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/issuer_state_receipt.ts#L17)
 
 ___
 
@@ -83,4 +83,4 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/issuer_state_receipt.ts:23](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/issuer_state_receipt.ts#L23)
+[entity/identity_v2/issuer_state_receipt.ts:23](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/issuer_state_receipt.ts#L23)

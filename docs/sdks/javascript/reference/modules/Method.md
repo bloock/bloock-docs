@@ -27,7 +27,7 @@
 
 #### Defined in
 
-[entity/identity_v2/method.ts:24](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/method.ts#L24)
+[entity/identity_v2/method.ts:24](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/method.ts#L24)
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/method.ts:13](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/method.ts#L13)
+[entity/identity_v2/method.ts:13](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/method.ts#L13)

@@ -45,7 +45,7 @@ Creates a Signer instance with a local key, managed key, local certificate or ma
 
 #### Defined in
 
-[entity/authenticity/signer.ts:30](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/authenticity/signer.ts#L30)
+[entity/authenticity/signer.ts:30](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/authenticity/signer.ts#L30)
 
 ## Properties
 
@@ -55,7 +55,7 @@ Creates a Signer instance with a local key, managed key, local certificate or ma
 
 #### Defined in
 
-[entity/authenticity/signer.ts:22](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/authenticity/signer.ts#L22)
+[entity/authenticity/signer.ts:22](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/authenticity/signer.ts#L22)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[entity/authenticity/signer.ts:21](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/authenticity/signer.ts#L21)
+[entity/authenticity/signer.ts:21](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/authenticity/signer.ts#L21)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[entity/authenticity/signer.ts:19](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/authenticity/signer.ts#L19)
+[entity/authenticity/signer.ts:19](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/authenticity/signer.ts#L19)
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 #### Defined in
 
-[entity/authenticity/signer.ts:16](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/authenticity/signer.ts#L16)
+[entity/authenticity/signer.ts:16](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/authenticity/signer.ts#L16)
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 #### Defined in
 
-[entity/authenticity/signer.ts:18](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/authenticity/signer.ts#L18)
+[entity/authenticity/signer.ts:18](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/authenticity/signer.ts#L18)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 #### Defined in
 
-[entity/authenticity/signer.ts:17](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/authenticity/signer.ts#L17)
+[entity/authenticity/signer.ts:17](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/authenticity/signer.ts#L17)
 
 ## Methods
 
@@ -119,4 +119,4 @@ ___
 
 #### Defined in
 
-[entity/authenticity/signer.ts:55](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/authenticity/signer.ts#L55)
+[entity/authenticity/signer.ts:55](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/authenticity/signer.ts#L55)
