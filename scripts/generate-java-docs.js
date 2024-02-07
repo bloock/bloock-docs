@@ -5,7 +5,7 @@ const { JSDOM } = jsdom;
 
 try {
   const src = process.argv[2];
-  const dest = '/Users/marcbaque/Bloock/bloock-docs/docs/sdks/java';
+  const dest = './docs/sdks/java';
   const folder = 'reference';
 
   function transformFile(file) {
