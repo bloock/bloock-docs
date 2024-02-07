@@ -23,7 +23,7 @@ Represents a network.
 
 #### Defined in
 
-[entity/integrity/network.ts:11](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/integrity/network.ts#L11)
+[entity/integrity/network.ts:11](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/integrity/network.ts#L11)
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/network.ts:9](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/integrity/network.ts#L9)
+[entity/integrity/network.ts:9](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/integrity/network.ts#L9)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/network.ts:8](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/integrity/network.ts#L8)
+[entity/integrity/network.ts:8](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/integrity/network.ts#L8)
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/network.ts:10](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/integrity/network.ts#L10)
+[entity/integrity/network.ts:10](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/integrity/network.ts#L10)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/network.ts:12](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/integrity/network.ts#L12)
+[entity/integrity/network.ts:12](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/integrity/network.ts#L12)
 
 ___
 
@@ -73,4 +73,4 @@ ___
 
 #### Defined in
 
-[entity/integrity/network.ts:7](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/integrity/network.ts#L7)
+[entity/integrity/network.ts:7](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/integrity/network.ts#L7)

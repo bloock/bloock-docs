@@ -39,7 +39,7 @@
 
 #### Defined in
 
-[entity/identity/credential_verification.ts:8](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity/credential_verification.ts#L8)
+[entity/identity/credential_verification.ts:8](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/credential_verification.ts#L8)
 
 ## Properties
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-[entity/identity/credential_verification.ts:5](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity/credential_verification.ts#L5)
+[entity/identity/credential_verification.ts:5](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/credential_verification.ts#L5)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_verification.ts:6](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity/credential_verification.ts#L6)
+[entity/identity/credential_verification.ts:6](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/credential_verification.ts#L6)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_verification.ts:4](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity/credential_verification.ts#L4)
+[entity/identity/credential_verification.ts:4](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/credential_verification.ts#L4)
 
 ## Methods
 
@@ -83,7 +83,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_verification.ts:14](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity/credential_verification.ts#L14)
+[entity/identity/credential_verification.ts:14](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/credential_verification.ts#L14)
 
 ___
 
@@ -103,4 +103,4 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_verification.ts:22](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity/credential_verification.ts#L22)
+[entity/identity/credential_verification.ts:22](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/credential_verification.ts#L22)

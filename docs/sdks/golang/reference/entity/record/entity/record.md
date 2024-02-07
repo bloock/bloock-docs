@@ -34,7 +34,7 @@ import "github.com/bloock/bloock-sdk-go/v2/entity/record"
 
 
 <a name="MapRecordsToProto"></a>
-## func [MapRecordsToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/record/record.go#L98)
+## func MapRecordsToProto
 
 ```go
 func MapRecordsToProto(records []Record) []*proto.Record
@@ -43,7 +43,7 @@ func MapRecordsToProto(records []Record) []*proto.Record
 
 
 <a name="AuthenticityDetails"></a>
-## type [AuthenticityDetails](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/record/record_details.go#L41-L43)
+## type AuthenticityDetails
 
 AuthenticityDetails represents details related to the authenticity of a record, including signatures.
 
@@ -54,7 +54,7 @@ type AuthenticityDetails struct {
 ```
 
 <a name="NewAuthenticityDetailsFromProto"></a>
-### func [NewAuthenticityDetailsFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/record/record_details.go#L45)
+### func NewAuthenticityDetailsFromProto
 
 ```go
 func NewAuthenticityDetailsFromProto(r *proto.AuthenticityDetails) *AuthenticityDetails
@@ -63,7 +63,7 @@ func NewAuthenticityDetailsFromProto(r *proto.AuthenticityDetails) *Authenticity
 
 
 <a name="AuthenticityDetails.ToProto"></a>
-### func \(\*AuthenticityDetails\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/record/record_details.go#L60)
+### func \(\*AuthenticityDetails\) ToProto
 
 ```go
 func (r *AuthenticityDetails) ToProto() *proto.AuthenticityDetails
@@ -72,7 +72,7 @@ func (r *AuthenticityDetails) ToProto() *proto.AuthenticityDetails
 
 
 <a name="AvailabilityDetails"></a>
-## type [AvailabilityDetails](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/record/record_details.go#L99-L102)
+## type AvailabilityDetails
 
 AvailabilityDetails represents details related to the availability of a record, including content type and size.
 
@@ -84,7 +84,7 @@ type AvailabilityDetails struct {
 ```
 
 <a name="NewAvailabilityDetailsFromProto"></a>
-### func [NewAvailabilityDetailsFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/record/record_details.go#L104)
+### func NewAvailabilityDetailsFromProto
 
 ```go
 func NewAvailabilityDetailsFromProto(r *proto.AvailabilityDetails) *AvailabilityDetails
@@ -93,7 +93,7 @@ func NewAvailabilityDetailsFromProto(r *proto.AvailabilityDetails) *Availability
 
 
 <a name="AvailabilityDetails.ToProto"></a>
-### func \(\*AvailabilityDetails\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/record/record_details.go#L115)
+### func \(\*AvailabilityDetails\) ToProto
 
 ```go
 func (r *AvailabilityDetails) ToProto() *proto.AvailabilityDetails
@@ -102,7 +102,7 @@ func (r *AvailabilityDetails) ToProto() *proto.AvailabilityDetails
 
 
 <a name="EncryptionDetails"></a>
-## type [EncryptionDetails](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/record/record_details.go#L72-L76)
+## type EncryptionDetails
 
 EncryptionDetails represents details related to the encryption of a record, including algorithm, key, and subject.
 
@@ -115,7 +115,7 @@ type EncryptionDetails struct {
 ```
 
 <a name="NewEncryptionDetailsFromProto"></a>
-### func [NewEncryptionDetailsFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/record/record_details.go#L78)
+### func NewEncryptionDetailsFromProto
 
 ```go
 func NewEncryptionDetailsFromProto(r *proto.EncryptionDetails) *EncryptionDetails
@@ -124,7 +124,7 @@ func NewEncryptionDetailsFromProto(r *proto.EncryptionDetails) *EncryptionDetail
 
 
 <a name="EncryptionDetails.ToProto"></a>
-### func \(\*EncryptionDetails\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/record/record_details.go#L90)
+### func \(\*EncryptionDetails\) ToProto
 
 ```go
 func (r *EncryptionDetails) ToProto() *proto.EncryptionDetails
@@ -133,7 +133,7 @@ func (r *EncryptionDetails) ToProto() *proto.EncryptionDetails
 
 
 <a name="IntegrityDetails"></a>
-## type [IntegrityDetails](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/record/record_details.go#L10-L13)
+## type IntegrityDetails
 
 IntegrityDetails represents details related to the integrity of a record, including hash and proof.
 
@@ -145,7 +145,7 @@ type IntegrityDetails struct {
 ```
 
 <a name="NewIntegrityDetailsFromProto"></a>
-### func [NewIntegrityDetailsFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/record/record_details.go#L15)
+### func NewIntegrityDetailsFromProto
 
 ```go
 func NewIntegrityDetailsFromProto(r *proto.IntegrityDetails) *IntegrityDetails
@@ -154,7 +154,7 @@ func NewIntegrityDetailsFromProto(r *proto.IntegrityDetails) *IntegrityDetails
 
 
 <a name="IntegrityDetails.ToProto"></a>
-### func \(\*IntegrityDetails\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/record/record_details.go#L33)
+### func \(\*IntegrityDetails\) ToProto
 
 ```go
 func (r *IntegrityDetails) ToProto() *proto.IntegrityDetails
@@ -163,7 +163,7 @@ func (r *IntegrityDetails) ToProto() *proto.IntegrityDetails
 
 
 <a name="Record"></a>
-## type [Record](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/record/record.go#L13-L17)
+## type Record
 
 Record represents a record with payload, hash, and configuration data.
 
@@ -175,7 +175,7 @@ type Record struct {
 ```
 
 <a name="NewRecordFromProto"></a>
-### func [NewRecordFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/record/record.go#L19)
+### func NewRecordFromProto
 
 ```go
 func NewRecordFromProto(r *proto.Record, configData *proto.ConfigData) Record
@@ -184,7 +184,7 @@ func NewRecordFromProto(r *proto.Record, configData *proto.ConfigData) Record
 
 
 <a name="Record.GetHash"></a>
-### func \(\*Record\) [GetHash](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/record/record.go#L40)
+### func \(\*Record\) GetHash
 
 ```go
 func (r *Record) GetHash() (string, error)
@@ -193,7 +193,7 @@ func (r *Record) GetHash() (string, error)
 GetHash retrieves the hash of the record.
 
 <a name="Record.GetPayload"></a>
-### func \(\*Record\) [GetPayload](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/record/record.go#L56)
+### func \(\*Record\) GetPayload
 
 ```go
 func (r *Record) GetPayload() ([]byte, error)
@@ -202,7 +202,7 @@ func (r *Record) GetPayload() ([]byte, error)
 GetPayload retrieves the payload of the record.
 
 <a name="Record.Retrieve"></a>
-### func \(\*Record\) [Retrieve](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/record/record.go#L72)
+### func \(\*Record\) Retrieve
 
 ```go
 func (r *Record) Retrieve() []byte
@@ -211,7 +211,7 @@ func (r *Record) Retrieve() []byte
 Retrieve returns the payload of the record.
 
 <a name="Record.SetProof"></a>
-### func \(\*Record\) [SetProof](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/record/record.go#L77)
+### func \(\*Record\) SetProof
 
 ```go
 func (r *Record) SetProof(proof integrity.Proof) error
@@ -220,7 +220,7 @@ func (r *Record) SetProof(proof integrity.Proof) error
 SetProof sets the proof for a record.
 
 <a name="Record.ToProto"></a>
-### func \(\*Record\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/record/record.go#L31)
+### func \(\*Record\) ToProto
 
 ```go
 func (r *Record) ToProto() *proto.Record
@@ -229,7 +229,7 @@ func (r *Record) ToProto() *proto.Record
 
 
 <a name="RecordDetails"></a>
-## type [RecordDetails](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/record/record_details.go#L123-L128)
+## type RecordDetails
 
 RecordDetails represents all details related to a record, including integrity, authenticity, encryption, and availability details.
 
@@ -243,7 +243,7 @@ type RecordDetails struct {
 ```
 
 <a name="NewRecordDetailsFromProto"></a>
-### func [NewRecordDetailsFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/record/record_details.go#L130)
+### func NewRecordDetailsFromProto
 
 ```go
 func NewRecordDetailsFromProto(r *proto.RecordDetails, configData *proto.ConfigData) RecordDetails
@@ -252,7 +252,7 @@ func NewRecordDetailsFromProto(r *proto.RecordDetails, configData *proto.ConfigD
 
 
 <a name="RecordDetails.ToProto"></a>
-### func \(\*RecordDetails\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/record/record_details.go#L143)
+### func \(\*RecordDetails\) ToProto
 
 ```go
 func (r *RecordDetails) ToProto() *proto.RecordDetails

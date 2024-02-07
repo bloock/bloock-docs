@@ -39,7 +39,7 @@ Creates a new WebhookClient with default configuration.
 
 #### Defined in
 
-[client/webhook.ts:17](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/client/webhook.ts#L17)
+[client/webhook.ts:17](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/client/webhook.ts#L17)
 
 ## Properties
 
@@ -49,7 +49,7 @@ Creates a new WebhookClient with default configuration.
 
 #### Defined in
 
-[client/webhook.ts:10](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/client/webhook.ts#L10)
+[client/webhook.ts:10](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/client/webhook.ts#L10)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 #### Defined in
 
-[client/webhook.ts:11](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/client/webhook.ts#L11)
+[client/webhook.ts:11](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/client/webhook.ts#L11)
 
 ## Methods
 
@@ -84,4 +84,4 @@ Verifies the signature of a webhook payload using the provided parameters.
 
 #### Defined in
 
-[client/webhook.ts:30](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/client/webhook.ts#L30)
+[client/webhook.ts:30](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/client/webhook.ts#L30)

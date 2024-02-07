@@ -16,6 +16,7 @@ For information about Bloock SDK in Go, see https://bloock.com.
 - [func SetContractAddess\(network integrity.Network, contractAddress string\)](#SetContractAddess)
 - [func SetProvider\(network integrity.Network, provider string\)](#SetProvider)
 
+
 ## Variables
 
 <a name="ApiHost"></a>ApiHost is a string variable representing the host URL used for API communication with the Bloock SDK.
@@ -55,8 +56,7 @@ var NetworkConfig map[int32]*proto.NetworkConfig = make(map[int32]*proto.Network
 ```
 
 <a name="SetContractAddess"></a>
-
-## func [SetContractAddess](https://github.com/bloock/bloock-sdk/blob/master/languages/go/bloock.go#L47)
+## func SetContractAddess
 
 ```go
 func SetContractAddess(network integrity.Network, contractAddress string)
@@ -65,8 +65,7 @@ func SetContractAddess(network integrity.Network, contractAddress string)
 SetContractAddess sets the contract address for the specified network in the Bloock SDK configuration.
 
 <a name="SetProvider"></a>
-
-## func [SetProvider](https://github.com/bloock/bloock-sdk/blob/master/languages/go/bloock.go#L36)
+## func SetProvider
 
 ```go
 func SetProvider(network integrity.Network, provider string)

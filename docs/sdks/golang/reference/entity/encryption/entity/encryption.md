@@ -41,7 +41,7 @@ var (
 ```
 
 <a name="Encrypter"></a>
-## type [Encrypter](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/encryption/encrypter.go#L9-L15)
+## type Encrypter
 
 Encrypter represents an encryption configuration with various key types and access control.
 
@@ -56,7 +56,7 @@ type Encrypter struct {
 ```
 
 <a name="NewEncrypterWithLocalCertificate"></a>
-### func [NewEncrypterWithLocalCertificate](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/encryption/encrypter.go#L33)
+### func NewEncrypterWithLocalCertificate
 
 ```go
 func NewEncrypterWithLocalCertificate(key key.LocalCertificate) Encrypter
@@ -65,7 +65,7 @@ func NewEncrypterWithLocalCertificate(key key.LocalCertificate) Encrypter
 NewEncrypterWithLocalCertificate creates a new Encrypter instance with a local certificate for encryption.
 
 <a name="NewEncrypterWithLocalKey"></a>
-### func [NewEncrypterWithLocalKey](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/encryption/encrypter.go#L18)
+### func NewEncrypterWithLocalKey
 
 ```go
 func NewEncrypterWithLocalKey(key key.LocalKey) Encrypter
@@ -74,7 +74,7 @@ func NewEncrypterWithLocalKey(key key.LocalKey) Encrypter
 NewEncrypterWithLocalKey creates a new Encrypter instance with a local encryption key.
 
 <a name="NewEncrypterWithManagedCertificate"></a>
-### func [NewEncrypterWithManagedCertificate](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/encryption/encrypter.go#L40)
+### func NewEncrypterWithManagedCertificate
 
 ```go
 func NewEncrypterWithManagedCertificate(key key.ManagedCertificate, accessControl *key.AccessControl) Encrypter
@@ -83,7 +83,7 @@ func NewEncrypterWithManagedCertificate(key key.ManagedCertificate, accessContro
 NewEncrypterWithManagedCertificate creates a new Encrypter instance with a managed certificate for encryption and access control.
 
 <a name="NewEncrypterWithManagedKey"></a>
-### func [NewEncrypterWithManagedKey](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/encryption/encrypter.go#L25)
+### func NewEncrypterWithManagedKey
 
 ```go
 func NewEncrypterWithManagedKey(key key.ManagedKey, accessControl *key.AccessControl) Encrypter
@@ -92,7 +92,7 @@ func NewEncrypterWithManagedKey(key key.ManagedKey, accessControl *key.AccessCon
 NewEncrypterWithManagedKey creates a new Encrypter instance with a managed encryption key and access control.
 
 <a name="Encrypter.ToProto"></a>
-### func \(Encrypter\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/encryption/encrypter.go#L47)
+### func \(Encrypter\) ToProto
 
 ```go
 func (s Encrypter) ToProto() *proto.Encrypter
@@ -101,7 +101,7 @@ func (s Encrypter) ToProto() *proto.Encrypter
 
 
 <a name="EncrypterArgs"></a>
-## type [EncrypterArgs](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/encryption/encrypter_args.go#L8-L13)
+## type EncrypterArgs
 
 EncrypterArgs represents the arguments for an encrypter.
 
@@ -115,7 +115,7 @@ type EncrypterArgs struct {
 ```
 
 <a name="EncryptionAlg"></a>
-## type [EncryptionAlg](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/encryption/encryption_alg.go#L6)
+## type EncryptionAlg
 
 EncryptionAlg represents encryption algorithm types.
 

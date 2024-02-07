@@ -1,4 +1,4 @@
-const fs = require('fs-extra');
+const fs = require('fs');
 const jsdom = require('jsdom');
 const path = require('path');
 const { JSDOM } = jsdom;
@@ -39,8 +39,8 @@ try {
       path.relative(src, path.dirname(file)),
       withoutEnding + '.mdx'
     );
-    fs.outputFileSync(newHtmlPath, newString);
-    fs.outputFileSync(
+    fs.writeFileSync(newHtmlPath, newString);
+    fs.writeFileSync(
       newMdxPath,
       `---
 title: ${name}
@@ -91,7 +91,7 @@ import sourceHTML from './${withoutEnding}.source'
       '_category_.json'
     );
 
-    fs.outputFileSync(
+    fs.writeFileSync(
       categoryPath,
       JSON.stringify({
         label: index.label,

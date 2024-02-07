@@ -126,7 +126,7 @@ const resourcesHTML = fs.readFileSync('./src/snippets/resources.html', 'utf-8');
 const config = {
   ...meta,
   plugins,
-
+  onBrokenLinks: 'warn',
   trailingSlash: false,
   themes: ['@docusaurus/theme-live-codeblock'],
   scripts: [{ src: 'https://cdn.statuspage.io/se-v2.js' }],
@@ -246,15 +246,7 @@ const config = {
       prism: {
         theme: code_themes.light,
         darkTheme: code_themes.dark,
-        additionalLanguages: [
-          'dart',
-          'ruby',
-          'groovy',
-          'kotlin',
-          'java',
-          'swift',
-          'objectivec',
-        ],
+        additionalLanguages: ['php', 'groovy', 'kotlin', 'java'],
         magicComments: [
           {
             className: 'theme-code-block-highlighted-line',

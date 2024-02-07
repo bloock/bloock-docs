@@ -35,7 +35,7 @@
 
 #### Defined in
 
-[entity/record/record.ts:123](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/record/record.ts#L123)
+[entity/record/record.ts:123](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/record/record.ts#L123)
 
 ## Properties
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-[entity/record/record.ts:122](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/record/record.ts#L122)
+[entity/record/record.ts:122](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/record/record.ts#L122)
 
 ## Methods
 
@@ -59,7 +59,7 @@
 
 #### Defined in
 
-[entity/record/record.ts:131](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/record/record.ts#L131)
+[entity/record/record.ts:131](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/record/record.ts#L131)
 
 ___
 
@@ -79,4 +79,4 @@ ___
 
 #### Defined in
 
-[entity/record/record.ts:127](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/record/record.ts#L127)
+[entity/record/record.ts:127](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/record/record.ts#L127)

@@ -59,7 +59,7 @@ Creates a new Credential instance with the provided details.
 
 #### Defined in
 
-[entity/identity_v2/credential.ts:40](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity_v2/credential.ts#L40)
+[entity/identity_v2/credential.ts:40](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/credential.ts#L40)
 
 ## Properties
 
@@ -69,7 +69,7 @@ Creates a new Credential instance with the provided details.
 
 #### Defined in
 
-[entity/identity_v2/credential.ts:16](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity_v2/credential.ts#L16)
+[entity/identity_v2/credential.ts:16](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/credential.ts#L16)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/credential.ts:24](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity_v2/credential.ts#L24)
+[entity/identity_v2/credential.ts:24](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/credential.ts#L24)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/credential.ts:22](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity_v2/credential.ts#L22)
+[entity/identity_v2/credential.ts:22](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/credential.ts#L22)
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/credential.ts:21](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity_v2/credential.ts#L21)
+[entity/identity_v2/credential.ts:21](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/credential.ts#L21)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/credential.ts:20](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity_v2/credential.ts#L20)
+[entity/identity_v2/credential.ts:20](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/credential.ts#L20)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/credential.ts:17](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity_v2/credential.ts#L17)
+[entity/identity_v2/credential.ts:17](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/credential.ts#L17)
 
 ___
 
@@ -129,7 +129,7 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/credential.ts:19](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity_v2/credential.ts#L19)
+[entity/identity_v2/credential.ts:19](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/credential.ts#L19)
 
 ___
 
@@ -139,7 +139,7 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/credential.ts:23](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity_v2/credential.ts#L23)
+[entity/identity_v2/credential.ts:23](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/credential.ts#L23)
 
 ___
 
@@ -149,7 +149,7 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/credential.ts:25](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity_v2/credential.ts#L25)
+[entity/identity_v2/credential.ts:25](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/credential.ts#L25)
 
 ___
 
@@ -159,7 +159,7 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/credential.ts:18](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity_v2/credential.ts#L18)
+[entity/identity_v2/credential.ts:18](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/credential.ts#L18)
 
 ## Methods
 
@@ -175,7 +175,7 @@ Converts the Credential instance to its JSON string representation.
 
 #### Defined in
 
-[entity/identity_v2/credential.ts:98](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity_v2/credential.ts#L98)
+[entity/identity_v2/credential.ts:98](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/credential.ts#L98)
 
 ___
 
@@ -189,7 +189,7 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/credential.ts:64](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity_v2/credential.ts#L64)
+[entity/identity_v2/credential.ts:64](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/credential.ts#L64)
 
 ___
 
@@ -211,7 +211,7 @@ Creates a Credential instance from a JSON string representation.
 
 #### Defined in
 
-[entity/identity_v2/credential.ts:122](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity_v2/credential.ts#L122)
+[entity/identity_v2/credential.ts:122](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/credential.ts#L122)
 
 ___
 
@@ -231,4 +231,4 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/credential.ts:79](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity_v2/credential.ts#L79)
+[entity/identity_v2/credential.ts:79](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/credential.ts#L79)

@@ -39,7 +39,7 @@
 
 #### Defined in
 
-[entity/identity/identity.ts:8](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity/identity.ts#L8)
+[entity/identity/identity.ts:8](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/identity.ts#L8)
 
 ## Properties
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-[entity/identity/identity.ts:5](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity/identity.ts#L5)
+[entity/identity/identity.ts:5](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/identity.ts#L5)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 #### Defined in
 
-[entity/identity/identity.ts:4](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity/identity.ts#L4)
+[entity/identity/identity.ts:4](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/identity.ts#L4)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-[entity/identity/identity.ts:6](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity/identity.ts#L6)
+[entity/identity/identity.ts:6](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/identity.ts#L6)
 
 ## Methods
 
@@ -83,7 +83,7 @@ ___
 
 #### Defined in
 
-[entity/identity/identity.ts:14](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity/identity.ts#L14)
+[entity/identity/identity.ts:14](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/identity.ts#L14)
 
 ___
 
@@ -103,4 +103,4 @@ ___
 
 #### Defined in
 
-[entity/identity/identity.ts:22](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity/identity.ts#L22)
+[entity/identity/identity.ts:22](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity/identity.ts#L22)

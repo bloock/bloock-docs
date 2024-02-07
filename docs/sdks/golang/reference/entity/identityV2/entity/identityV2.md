@@ -161,7 +161,7 @@ var (
 ```
 
 <a name="BlockchainToProto"></a>
-## func [BlockchainToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/issuer_params.go#L34)
+## func BlockchainToProto
 
 ```go
 func BlockchainToProto(blockchain Blockchain) *proto.Blockchain
@@ -170,7 +170,7 @@ func BlockchainToProto(blockchain Blockchain) *proto.Blockchain
 
 
 <a name="DidParamsToProto"></a>
-## func [DidParamsToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/issuer_params.go#L105)
+## func DidParamsToProto
 
 ```go
 func DidParamsToProto(didParams DidParams) *proto.DidParams
@@ -179,7 +179,7 @@ func DidParamsToProto(didParams DidParams) *proto.DidParams
 
 
 <a name="MethodToProto"></a>
-## func [MethodToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/issuer_params.go#L8)
+## func MethodToProto
 
 ```go
 func MethodToProto(method Method) *proto.Method
@@ -188,7 +188,7 @@ func MethodToProto(method Method) *proto.Method
 
 
 <a name="NetworkIdToProto"></a>
-## func [NetworkIdToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/issuer_params.go#L62)
+## func NetworkIdToProto
 
 ```go
 func NetworkIdToProto(networkId NetworkId) *proto.NetworkId
@@ -197,7 +197,7 @@ func NetworkIdToProto(networkId NetworkId) *proto.NetworkId
 
 
 <a name="Attribute"></a>
-## type [Attribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/attribute.go#L4-L7)
+## type Attribute
 
 Attribute represents an attribute with an identifier and a corresponding value.
 
@@ -209,7 +209,7 @@ type Attribute struct {
 ```
 
 <a name="AttributeDescriptor"></a>
-## type [AttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/attribute_descriptor.go#L4-L13)
+## type AttributeDescriptor
 
 AttributeDescriptor represents a descriptor for an attribute.
 
@@ -227,7 +227,7 @@ type AttributeDescriptor struct {
 ```
 
 <a name="BjjIdentityKey"></a>
-## type [BjjIdentityKey](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/bjj_issuer_key.go#L6-L8)
+## type BjjIdentityKey
 
 BjjIdentityKey represents an identity BJJ key used.
 
@@ -238,7 +238,7 @@ type BjjIdentityKey struct {
 ```
 
 <a name="NewBjjIdentityKey"></a>
-### func [NewBjjIdentityKey](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/bjj_issuer_key.go#L11)
+### func NewBjjIdentityKey
 
 ```go
 func NewBjjIdentityKey(args IssuerKeyArgs) BjjIdentityKey
@@ -247,7 +247,7 @@ func NewBjjIdentityKey(args IssuerKeyArgs) BjjIdentityKey
 NewBjjIdentityKey creates a new BjjIdentityKey instance with the provided issuer key arguments.
 
 <a name="BjjIdentityKey.ToProto"></a>
-### func \(BjjIdentityKey\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/bjj_issuer_key.go#L17)
+### func \(BjjIdentityKey\) ToProto
 
 ```go
 func (s BjjIdentityKey) ToProto() *proto.IdentityKey
@@ -256,7 +256,7 @@ func (s BjjIdentityKey) ToProto() *proto.IdentityKey
 
 
 <a name="Blockchain"></a>
-## type [Blockchain](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/issuer_params.go#L32)
+## type Blockchain
 
 Blockchain represents an enumeration of blockchains used in the DID.
 
@@ -265,7 +265,7 @@ type Blockchain = proto.Blockchain
 ```
 
 <a name="BooleanAttribute"></a>
-## type [BooleanAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/boolean_attribute.go#L6-L8)
+## type BooleanAttribute
 
 BooleanAttribute represents an attribute with a boolean value.
 
@@ -276,7 +276,7 @@ type BooleanAttribute struct {
 ```
 
 <a name="NewBooleanAttribute"></a>
-### func [NewBooleanAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/boolean_attribute.go#L11)
+### func NewBooleanAttribute
 
 ```go
 func NewBooleanAttribute(key string, value bool) BooleanAttribute
@@ -285,7 +285,7 @@ func NewBooleanAttribute(key string, value bool) BooleanAttribute
 NewBooleanAttribute creates a new BooleanAttribute instance with the provided key and value.
 
 <a name="NewBooleanAttributeFromProto"></a>
-### func [NewBooleanAttributeFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/boolean_attribute.go#L21)
+### func NewBooleanAttributeFromProto
 
 ```go
 func NewBooleanAttributeFromProto(s *proto.BooleanAttribute) BooleanAttribute
@@ -294,7 +294,7 @@ func NewBooleanAttributeFromProto(s *proto.BooleanAttribute) BooleanAttribute
 
 
 <a name="BooleanAttribute.ToProto"></a>
-### func \(BooleanAttribute\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/boolean_attribute.go#L34)
+### func \(BooleanAttribute\) ToProto
 
 ```go
 func (s BooleanAttribute) ToProto() *proto.BooleanAttributeV2
@@ -303,7 +303,7 @@ func (s BooleanAttribute) ToProto() *proto.BooleanAttributeV2
 
 
 <a name="BooleanAttributeDescriptor"></a>
-## type [BooleanAttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/boolean_attribute_descriptor.go#L6-L8)
+## type BooleanAttributeDescriptor
 
 BooleanAttributeDescriptor represents a descriptor for a boolean attribute.
 
@@ -314,7 +314,7 @@ type BooleanAttributeDescriptor struct {
 ```
 
 <a name="NewBooleanAttributeDescriptor"></a>
-### func [NewBooleanAttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/boolean_attribute_descriptor.go#L11)
+### func NewBooleanAttributeDescriptor
 
 ```go
 func NewBooleanAttributeDescriptor(name string, id string, description string, required bool) BooleanAttributeDescriptor
@@ -323,7 +323,7 @@ func NewBooleanAttributeDescriptor(name string, id string, description string, r
 NewBooleanAttributeDescriptor creates a new BooleanAttributeDescriptor instance with the provided details.
 
 <a name="NewBooleanAttributeDescriptorFromProto"></a>
-### func [NewBooleanAttributeDescriptorFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/boolean_attribute_descriptor.go#L23)
+### func NewBooleanAttributeDescriptorFromProto
 
 ```go
 func NewBooleanAttributeDescriptorFromProto(s *proto.BooleanAttributeDefinitionV2) BooleanAttributeDescriptor
@@ -332,7 +332,7 @@ func NewBooleanAttributeDescriptorFromProto(s *proto.BooleanAttributeDefinitionV
 
 
 <a name="BooleanAttributeDescriptor.ToProto"></a>
-### func \(BooleanAttributeDescriptor\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/boolean_attribute_descriptor.go#L38)
+### func \(BooleanAttributeDescriptor\) ToProto
 
 ```go
 func (s BooleanAttributeDescriptor) ToProto() *proto.BooleanAttributeDefinitionV2
@@ -341,7 +341,7 @@ func (s BooleanAttributeDescriptor) ToProto() *proto.BooleanAttributeDefinitionV
 
 
 <a name="Credential"></a>
-## type [Credential](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/credential.go#L15-L26)
+## type Credential
 
 Credential represents a verifiable credential with its associated information. [Verifiable Credentials Data Model v2.0](https://www.w3.org/TR/vc-data-model-2.0/).
 
@@ -361,7 +361,7 @@ type Credential struct {
 ```
 
 <a name="NewCredentialFromJson"></a>
-### func [NewCredentialFromJson](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/credential.go#L62)
+### func NewCredentialFromJson
 
 ```go
 func NewCredentialFromJson(json string) (Credential, error)
@@ -370,7 +370,7 @@ func NewCredentialFromJson(json string) (Credential, error)
 NewCredentialFromJson creates a Credential instance from a JSON string representation.
 
 <a name="NewCredentialFromProto"></a>
-### func [NewCredentialFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/credential.go#L28)
+### func NewCredentialFromProto
 
 ```go
 func NewCredentialFromProto(s *proto.CredentialV2) Credential
@@ -379,7 +379,7 @@ func NewCredentialFromProto(s *proto.CredentialV2) Credential
 
 
 <a name="Credential.ToJson"></a>
-### func \(Credential\) [ToJson](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/credential.go#L81)
+### func \(Credential\) ToJson
 
 ```go
 func (c Credential) ToJson() (string, error)
@@ -388,7 +388,7 @@ func (c Credential) ToJson() (string, error)
 ToJson converts the Credential instance to its JSON string representation.
 
 <a name="Credential.ToProto"></a>
-### func \(Credential\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/credential.go#L46)
+### func \(Credential\) ToProto
 
 ```go
 func (c Credential) ToProto() *proto.CredentialV2
@@ -397,7 +397,7 @@ func (c Credential) ToProto() *proto.CredentialV2
 
 
 <a name="CredentialBuilder"></a>
-## type [CredentialBuilder](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/credential_builder.go#L14-L29)
+## type CredentialBuilder
 
 CredentialBuilder helps construct credentials by specifying various attributes.
 
@@ -408,7 +408,7 @@ type CredentialBuilder struct {
 ```
 
 <a name="NewCredentialBuilder"></a>
-### func [NewCredentialBuilder](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/credential_builder.go#L32)
+### func NewCredentialBuilder
 
 ```go
 func NewCredentialBuilder(schemaId, issuerDid, holderDid string, expiration int64, version int32, configData *proto.ConfigData) CredentialBuilder
@@ -417,7 +417,7 @@ func NewCredentialBuilder(schemaId, issuerDid, holderDid string, expiration int6
 NewCredentialBuilder creates a new CredentialBuilder instance with the specified parameters.
 
 <a name="CredentialBuilder.Build"></a>
-### func \(CredentialBuilder\) [Build](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/credential_builder.go#L92)
+### func \(CredentialBuilder\) Build
 
 ```go
 func (c CredentialBuilder) Build() (CredentialReceipt, error)
@@ -426,7 +426,7 @@ func (c CredentialBuilder) Build() (CredentialReceipt, error)
 Build creates and returns a Credential using the specified attributes.
 
 <a name="CredentialBuilder.WithBooleanAttribute"></a>
-### func \(CredentialBuilder\) [WithBooleanAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/credential_builder.go#L68)
+### func \(CredentialBuilder\) WithBooleanAttribute
 
 ```go
 func (c CredentialBuilder) WithBooleanAttribute(key string, value bool) CredentialBuilder
@@ -435,7 +435,7 @@ func (c CredentialBuilder) WithBooleanAttribute(key string, value bool) Credenti
 WithBooleanAttribute adds a boolean attribute to the CredentialBuilder.
 
 <a name="CredentialBuilder.WithDateAttribute"></a>
-### func \(CredentialBuilder\) [WithDateAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/credential_builder.go#L74)
+### func \(CredentialBuilder\) WithDateAttribute
 
 ```go
 func (c CredentialBuilder) WithDateAttribute(key string, value time.Time) CredentialBuilder
@@ -444,7 +444,7 @@ func (c CredentialBuilder) WithDateAttribute(key string, value time.Time) Creden
 WithDateAttribute adds a date attribute to the CredentialBuilder.
 
 <a name="CredentialBuilder.WithDatetimeAttribute"></a>
-### func \(CredentialBuilder\) [WithDatetimeAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/credential_builder.go#L80)
+### func \(CredentialBuilder\) WithDatetimeAttribute
 
 ```go
 func (c CredentialBuilder) WithDatetimeAttribute(key string, value time.Time) CredentialBuilder
@@ -453,7 +453,7 @@ func (c CredentialBuilder) WithDatetimeAttribute(key string, value time.Time) Cr
 WithDatetimeAttribute adds a datetime attribute to the CredentialBuilder.
 
 <a name="CredentialBuilder.WithDecimalAttribute"></a>
-### func \(CredentialBuilder\) [WithDecimalAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/credential_builder.go#L62)
+### func \(CredentialBuilder\) WithDecimalAttribute
 
 ```go
 func (c CredentialBuilder) WithDecimalAttribute(key string, value float64) CredentialBuilder
@@ -462,7 +462,7 @@ func (c CredentialBuilder) WithDecimalAttribute(key string, value float64) Crede
 WithDecimalAttribute adds a decimal attribute to the CredentialBuilder.
 
 <a name="CredentialBuilder.WithIntegerAttribute"></a>
-### func \(CredentialBuilder\) [WithIntegerAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/credential_builder.go#L56)
+### func \(CredentialBuilder\) WithIntegerAttribute
 
 ```go
 func (c CredentialBuilder) WithIntegerAttribute(key string, value int64) CredentialBuilder
@@ -471,7 +471,7 @@ func (c CredentialBuilder) WithIntegerAttribute(key string, value int64) Credent
 WithIntegerAttribute adds an integer attribute to the CredentialBuilder.
 
 <a name="CredentialBuilder.WithSigner"></a>
-### func \(CredentialBuilder\) [WithSigner](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/credential_builder.go#L86)
+### func \(CredentialBuilder\) WithSigner
 
 ```go
 func (c CredentialBuilder) WithSigner(signer authenticity.Signer) CredentialBuilder
@@ -480,7 +480,7 @@ func (c CredentialBuilder) WithSigner(signer authenticity.Signer) CredentialBuil
 WithSigner sets the signer for the CredentialBuilder.
 
 <a name="CredentialBuilder.WithStringAttribute"></a>
-### func \(CredentialBuilder\) [WithStringAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/credential_builder.go#L50)
+### func \(CredentialBuilder\) WithStringAttribute
 
 ```go
 func (c CredentialBuilder) WithStringAttribute(key string, value string) CredentialBuilder
@@ -489,7 +489,7 @@ func (c CredentialBuilder) WithStringAttribute(key string, value string) Credent
 WithStringAttribute adds a string attribute to the CredentialBuilder.
 
 <a name="CredentialProof"></a>
-## type [CredentialProof](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/credential_proof.go#L6-L9)
+## type CredentialProof
 
 CredentialProof represents the proof associated with a credential, including signature and sparse merkle tree proof.
 
@@ -501,7 +501,7 @@ type CredentialProof struct {
 ```
 
 <a name="NewCredentialProofFromProto"></a>
-### func [NewCredentialProofFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/credential_proof.go#L11)
+### func NewCredentialProofFromProto
 
 ```go
 func NewCredentialProofFromProto(s *proto.CredentialProofV2) CredentialProof
@@ -510,7 +510,7 @@ func NewCredentialProofFromProto(s *proto.CredentialProofV2) CredentialProof
 
 
 <a name="CredentialProof.ToProto"></a>
-### func \(CredentialProof\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/credential_proof.go#L21)
+### func \(CredentialProof\) ToProto
 
 ```go
 func (c CredentialProof) ToProto() *proto.CredentialProofV2
@@ -519,7 +519,7 @@ func (c CredentialProof) ToProto() *proto.CredentialProofV2
 
 
 <a name="CredentialReceipt"></a>
-## type [CredentialReceipt](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/credential_receipt.go#L6-L10)
+## type CredentialReceipt
 
 CredentialReceipt represents a receipt for a credential, including the credential itself, its ID, and type.
 
@@ -532,7 +532,7 @@ type CredentialReceipt struct {
 ```
 
 <a name="NewCredentialReceiptFromProto"></a>
-### func [NewCredentialReceiptFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/credential_receipt.go#L12)
+### func NewCredentialReceiptFromProto
 
 ```go
 func NewCredentialReceiptFromProto(s *proto.CredentialReceiptV2) CredentialReceipt
@@ -541,7 +541,7 @@ func NewCredentialReceiptFromProto(s *proto.CredentialReceiptV2) CredentialRecei
 
 
 <a name="CredentialReceipt.ToProto"></a>
-### func \(CredentialReceipt\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/credential_receipt.go#L20)
+### func \(CredentialReceipt\) ToProto
 
 ```go
 func (c CredentialReceipt) ToProto() *proto.CredentialReceiptV2
@@ -550,7 +550,7 @@ func (c CredentialReceipt) ToProto() *proto.CredentialReceiptV2
 
 
 <a name="CredentialSchema"></a>
-## type [CredentialSchema](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/credential_schema.go#L6-L9)
+## type CredentialSchema
 
 CredentialSchema represents the schema information for a credential, including its ID and type.
 
@@ -562,7 +562,7 @@ type CredentialSchema struct {
 ```
 
 <a name="NewCredentialSchemaFromProto"></a>
-### func [NewCredentialSchemaFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/credential_schema.go#L11)
+### func NewCredentialSchemaFromProto
 
 ```go
 func NewCredentialSchemaFromProto(s *proto.CredentialSchemaV2) CredentialSchema
@@ -571,7 +571,7 @@ func NewCredentialSchemaFromProto(s *proto.CredentialSchemaV2) CredentialSchema
 
 
 <a name="CredentialSchema.ToProto"></a>
-### func \(CredentialSchema\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/credential_schema.go#L21)
+### func \(CredentialSchema\) ToProto
 
 ```go
 func (c CredentialSchema) ToProto() *proto.CredentialSchemaV2
@@ -580,7 +580,7 @@ func (c CredentialSchema) ToProto() *proto.CredentialSchemaV2
 
 
 <a name="CredentialStatus"></a>
-## type [CredentialStatus](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/credential_status.go#L6-L10)
+## type CredentialStatus
 
 CredentialStatus represents the status information for a credential, including its ID, revocation nonce, and type.
 
@@ -593,7 +593,7 @@ type CredentialStatus struct {
 ```
 
 <a name="NewCredentialStatusFromProto"></a>
-### func [NewCredentialStatusFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/credential_status.go#L12)
+### func NewCredentialStatusFromProto
 
 ```go
 func NewCredentialStatusFromProto(s *proto.CredentialStatusV2) CredentialStatus
@@ -602,7 +602,7 @@ func NewCredentialStatusFromProto(s *proto.CredentialStatusV2) CredentialStatus
 
 
 <a name="CredentialStatus.ToProto"></a>
-### func \(CredentialStatus\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/credential_status.go#L23)
+### func \(CredentialStatus\) ToProto
 
 ```go
 func (c CredentialStatus) ToProto() *proto.CredentialStatusV2
@@ -611,7 +611,7 @@ func (c CredentialStatus) ToProto() *proto.CredentialStatusV2
 
 
 <a name="DateAttribute"></a>
-## type [DateAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/date_attribute.go#L10-L12)
+## type DateAttribute
 
 DateAttribute represents an attribute with a date value, including its key and formatted value.
 
@@ -622,7 +622,7 @@ type DateAttribute struct {
 ```
 
 <a name="NewDateAttribute"></a>
-### func [NewDateAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/date_attribute.go#L15)
+### func NewDateAttribute
 
 ```go
 func NewDateAttribute(key string, value time.Time) DateAttribute
@@ -631,7 +631,7 @@ func NewDateAttribute(key string, value time.Time) DateAttribute
 NewDateAttribute creates a new DateAttribute instance with the provided key and time value.
 
 <a name="NewDateAttributeFromProto"></a>
-### func [NewDateAttributeFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/date_attribute.go#L25)
+### func NewDateAttributeFromProto
 
 ```go
 func NewDateAttributeFromProto(s *proto.DateAttributeV2) DateAttribute
@@ -640,7 +640,7 @@ func NewDateAttributeFromProto(s *proto.DateAttributeV2) DateAttribute
 
 
 <a name="DateAttribute.ToProto"></a>
-### func \(DateAttribute\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/date_attribute.go#L38)
+### func \(DateAttribute\) ToProto
 
 ```go
 func (s DateAttribute) ToProto() *proto.DateAttributeV2
@@ -649,7 +649,7 @@ func (s DateAttribute) ToProto() *proto.DateAttributeV2
 
 
 <a name="DateAttributeDescriptor"></a>
-## type [DateAttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/date_attribute_descriptor.go#L6-L8)
+## type DateAttributeDescriptor
 
 DateAttributeDescriptor represents a descriptor for a date attribute, including its display name, ID, description, and required status.
 
@@ -660,7 +660,7 @@ type DateAttributeDescriptor struct {
 ```
 
 <a name="NewDateAttributeDescriptor"></a>
-### func [NewDateAttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/date_attribute_descriptor.go#L11)
+### func NewDateAttributeDescriptor
 
 ```go
 func NewDateAttributeDescriptor(name string, id string, description string, required bool) DateAttributeDescriptor
@@ -669,7 +669,7 @@ func NewDateAttributeDescriptor(name string, id string, description string, requ
 NewDateAttributeDescriptor creates a new DateAttributeDescriptor instance with the provided details.
 
 <a name="NewDateAttributeDescriptorFromProto"></a>
-### func [NewDateAttributeDescriptorFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/date_attribute_descriptor.go#L23)
+### func NewDateAttributeDescriptorFromProto
 
 ```go
 func NewDateAttributeDescriptorFromProto(s *proto.DateAttributeDefinitionV2) DateAttributeDescriptor
@@ -678,7 +678,7 @@ func NewDateAttributeDescriptorFromProto(s *proto.DateAttributeDefinitionV2) Dat
 
 
 <a name="DateAttributeDescriptor.ToProto"></a>
-### func \(DateAttributeDescriptor\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/date_attribute_descriptor.go#L38)
+### func \(DateAttributeDescriptor\) ToProto
 
 ```go
 func (s DateAttributeDescriptor) ToProto() *proto.DateAttributeDefinitionV2
@@ -687,7 +687,7 @@ func (s DateAttributeDescriptor) ToProto() *proto.DateAttributeDefinitionV2
 
 
 <a name="DatetimeAttribute"></a>
-## type [DatetimeAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/datetime_attribute.go#L10-L12)
+## type DatetimeAttribute
 
 DatetimeAttribute represents an attribute with a datetime value.
 
@@ -698,7 +698,7 @@ type DatetimeAttribute struct {
 ```
 
 <a name="NewDatetimeAttribute"></a>
-### func [NewDatetimeAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/datetime_attribute.go#L15)
+### func NewDatetimeAttribute
 
 ```go
 func NewDatetimeAttribute(key string, value time.Time) DatetimeAttribute
@@ -707,7 +707,7 @@ func NewDatetimeAttribute(key string, value time.Time) DatetimeAttribute
 NewDatetimeAttribute creates a new DatetimeAttribute instance with the provided key and value.
 
 <a name="NewDatetimeAttributeFromProto"></a>
-### func [NewDatetimeAttributeFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/datetime_attribute.go#L25)
+### func NewDatetimeAttributeFromProto
 
 ```go
 func NewDatetimeAttributeFromProto(s *proto.DateTimeAttributeV2) DatetimeAttribute
@@ -716,7 +716,7 @@ func NewDatetimeAttributeFromProto(s *proto.DateTimeAttributeV2) DatetimeAttribu
 
 
 <a name="DatetimeAttribute.ToProto"></a>
-### func \(DatetimeAttribute\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/datetime_attribute.go#L38)
+### func \(DatetimeAttribute\) ToProto
 
 ```go
 func (s DatetimeAttribute) ToProto() *proto.DateTimeAttributeV2
@@ -725,7 +725,7 @@ func (s DatetimeAttribute) ToProto() *proto.DateTimeAttributeV2
 
 
 <a name="DatetimeAttributeDescriptor"></a>
-## type [DatetimeAttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/datetime_attribute_descriptor.go#L6-L8)
+## type DatetimeAttributeDescriptor
 
 DatetimeAttributeDescriptor represents a descriptor for an attribute with a datetime value.
 
@@ -736,7 +736,7 @@ type DatetimeAttributeDescriptor struct {
 ```
 
 <a name="NewDatetimeAttributeDescriptor"></a>
-### func [NewDatetimeAttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/datetime_attribute_descriptor.go#L11)
+### func NewDatetimeAttributeDescriptor
 
 ```go
 func NewDatetimeAttributeDescriptor(name string, id string, description string, required bool) DatetimeAttributeDescriptor
@@ -745,7 +745,7 @@ func NewDatetimeAttributeDescriptor(name string, id string, description string, 
 NewDatetimeAttributeDescriptor creates a new DatetimeAttributeDescriptor instance with the provided details.
 
 <a name="NewDatetimeAttributeDescriptorFromProto"></a>
-### func [NewDatetimeAttributeDescriptorFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/datetime_attribute_descriptor.go#L23)
+### func NewDatetimeAttributeDescriptorFromProto
 
 ```go
 func NewDatetimeAttributeDescriptorFromProto(s *proto.DateTimeAttributeDefinitionV2) DatetimeAttributeDescriptor
@@ -754,7 +754,7 @@ func NewDatetimeAttributeDescriptorFromProto(s *proto.DateTimeAttributeDefinitio
 
 
 <a name="DatetimeAttributeDescriptor.ToProto"></a>
-### func \(DatetimeAttributeDescriptor\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/datetime_attribute_descriptor.go#L38)
+### func \(DatetimeAttributeDescriptor\) ToProto
 
 ```go
 func (s DatetimeAttributeDescriptor) ToProto() *proto.DateTimeAttributeDefinitionV2
@@ -763,7 +763,7 @@ func (s DatetimeAttributeDescriptor) ToProto() *proto.DateTimeAttributeDefinitio
 
 
 <a name="DecimalAttribute"></a>
-## type [DecimalAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/decimal_attribute.go#L6-L8)
+## type DecimalAttribute
 
 DecimalAttribute represents an attribute with a decimal value.
 
@@ -774,7 +774,7 @@ type DecimalAttribute struct {
 ```
 
 <a name="NewDecimalAttribute"></a>
-### func [NewDecimalAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/decimal_attribute.go#L11)
+### func NewDecimalAttribute
 
 ```go
 func NewDecimalAttribute(key string, value float64) DecimalAttribute
@@ -783,7 +783,7 @@ func NewDecimalAttribute(key string, value float64) DecimalAttribute
 NewDecimalAttribute creates a new DecimalAttribute instance with the provided key and value.
 
 <a name="NewDecimalAttributeFromProto"></a>
-### func [NewDecimalAttributeFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/decimal_attribute.go#L21)
+### func NewDecimalAttributeFromProto
 
 ```go
 func NewDecimalAttributeFromProto(s *proto.DecimalAttributeV2) DecimalAttribute
@@ -792,7 +792,7 @@ func NewDecimalAttributeFromProto(s *proto.DecimalAttributeV2) DecimalAttribute
 
 
 <a name="DecimalAttribute.ToProto"></a>
-### func \(DecimalAttribute\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/decimal_attribute.go#L34)
+### func \(DecimalAttribute\) ToProto
 
 ```go
 func (s DecimalAttribute) ToProto() *proto.DecimalAttributeV2
@@ -801,7 +801,7 @@ func (s DecimalAttribute) ToProto() *proto.DecimalAttributeV2
 
 
 <a name="DecimalAttributeDescriptor"></a>
-## type [DecimalAttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/decimal_attribute_descriptor.go#L6-L8)
+## type DecimalAttributeDescriptor
 
 DecimalAttributeDescriptor represents a descriptor for an attribute with a decimal value.
 
@@ -812,7 +812,7 @@ type DecimalAttributeDescriptor struct {
 ```
 
 <a name="NewDecimalAttributeDescriptor"></a>
-### func [NewDecimalAttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/decimal_attribute_descriptor.go#L11)
+### func NewDecimalAttributeDescriptor
 
 ```go
 func NewDecimalAttributeDescriptor(name string, id string, description string, required bool) DecimalAttributeDescriptor
@@ -821,7 +821,7 @@ func NewDecimalAttributeDescriptor(name string, id string, description string, r
 NewDecimalAttributeDescriptor creates a new DecimalAttributeDescriptor instance with the provided details.
 
 <a name="NewDecimalAttributeDescriptorFromProto"></a>
-### func [NewDecimalAttributeDescriptorFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/decimal_attribute_descriptor.go#L23)
+### func NewDecimalAttributeDescriptorFromProto
 
 ```go
 func NewDecimalAttributeDescriptorFromProto(s *proto.DecimalAttributeDefinitionV2) DecimalAttributeDescriptor
@@ -830,7 +830,7 @@ func NewDecimalAttributeDescriptorFromProto(s *proto.DecimalAttributeDefinitionV
 
 
 <a name="DecimalAttributeDescriptor.ToProto"></a>
-### func \(DecimalAttributeDescriptor\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/decimal_attribute_descriptor.go#L38)
+### func \(DecimalAttributeDescriptor\) ToProto
 
 ```go
 func (s DecimalAttributeDescriptor) ToProto() *proto.DecimalAttributeDefinitionV2
@@ -839,7 +839,7 @@ func (s DecimalAttributeDescriptor) ToProto() *proto.DecimalAttributeDefinitionV
 
 
 <a name="DecimalEnumAttributeDescriptor"></a>
-## type [DecimalEnumAttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/decimal_enum_attribute_descriptor.go#L6-L9)
+## type DecimalEnumAttributeDescriptor
 
 DecimalEnumAttributeDescriptor represents a descriptor for an attribute with a decimal enum value.
 
@@ -851,7 +851,7 @@ type DecimalEnumAttributeDescriptor struct {
 ```
 
 <a name="NewDecimalEnumAttributeDescriptor"></a>
-### func [NewDecimalEnumAttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/decimal_enum_attribute_descriptor.go#L12)
+### func NewDecimalEnumAttributeDescriptor
 
 ```go
 func NewDecimalEnumAttributeDescriptor(name string, id string, description string, required bool, enum []float64) DecimalEnumAttributeDescriptor
@@ -860,7 +860,7 @@ func NewDecimalEnumAttributeDescriptor(name string, id string, description strin
 NewDecimalEnumAttributeDescriptor creates a new DecimalEnumAttributeDescriptor instance with the provided details.
 
 <a name="NewDecimalEnumAttributeDescriptorFromProto"></a>
-### func [NewDecimalEnumAttributeDescriptorFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/decimal_enum_attribute_descriptor.go#L25)
+### func NewDecimalEnumAttributeDescriptorFromProto
 
 ```go
 func NewDecimalEnumAttributeDescriptorFromProto(s *proto.DecimalEnumAttributeDefinitionV2) DecimalEnumAttributeDescriptor
@@ -869,7 +869,7 @@ func NewDecimalEnumAttributeDescriptorFromProto(s *proto.DecimalEnumAttributeDef
 
 
 <a name="DecimalEnumAttributeDescriptor.ToProto"></a>
-### func \(DecimalEnumAttributeDescriptor\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/decimal_enum_attribute_descriptor.go#L41)
+### func \(DecimalEnumAttributeDescriptor\) ToProto
 
 ```go
 func (s DecimalEnumAttributeDescriptor) ToProto() *proto.DecimalEnumAttributeDefinitionV2
@@ -878,7 +878,7 @@ func (s DecimalEnumAttributeDescriptor) ToProto() *proto.DecimalEnumAttributeDef
 
 
 <a name="DidParams"></a>
-## type [DidParams](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/issuer_params.go#L90-L94)
+## type DidParams
 
 DidParams represents parameters used for generating DIDs.
 
@@ -891,7 +891,7 @@ type DidParams struct {
 ```
 
 <a name="NewDidParams"></a>
-### func [NewDidParams](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/issuer_params.go#L97)
+### func NewDidParams
 
 ```go
 func NewDidParams() DidParams
@@ -900,7 +900,7 @@ func NewDidParams() DidParams
 NewDidParams returns a new instance of DidParams with default values.
 
 <a name="IdentityKey"></a>
-## type [IdentityKey](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/issuer_key.go#L5-L7)
+## type IdentityKey
 
 
 
@@ -911,7 +911,7 @@ type IdentityKey interface {
 ```
 
 <a name="IntegerAttribute"></a>
-## type [IntegerAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/integer_attribute.go#L6-L8)
+## type IntegerAttribute
 
 IntegerAttribute represents an attribute with an integer value.
 
@@ -922,7 +922,7 @@ type IntegerAttribute struct {
 ```
 
 <a name="NewIntegerAttribute"></a>
-### func [NewIntegerAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/integer_attribute.go#L11)
+### func NewIntegerAttribute
 
 ```go
 func NewIntegerAttribute(key string, value int64) IntegerAttribute
@@ -931,7 +931,7 @@ func NewIntegerAttribute(key string, value int64) IntegerAttribute
 NewIntegerAttribute creates a new IntegerAttribute instance with the provided key and value.
 
 <a name="NewIntegerAttributeFromProto"></a>
-### func [NewIntegerAttributeFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/integer_attribute.go#L21)
+### func NewIntegerAttributeFromProto
 
 ```go
 func NewIntegerAttributeFromProto(s *proto.IntegerAttributeV2) IntegerAttribute
@@ -940,7 +940,7 @@ func NewIntegerAttributeFromProto(s *proto.IntegerAttributeV2) IntegerAttribute
 
 
 <a name="IntegerAttribute.ToProto"></a>
-### func \(IntegerAttribute\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/integer_attribute.go#L34)
+### func \(IntegerAttribute\) ToProto
 
 ```go
 func (s IntegerAttribute) ToProto() *proto.IntegerAttributeV2
@@ -949,7 +949,7 @@ func (s IntegerAttribute) ToProto() *proto.IntegerAttributeV2
 
 
 <a name="IntegerAttributeDescriptor"></a>
-## type [IntegerAttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/integer_attribute_descriptor.go#L6-L8)
+## type IntegerAttributeDescriptor
 
 IntegerAttributeDescriptor represents a descriptor for an attribute with an integer value.
 
@@ -960,7 +960,7 @@ type IntegerAttributeDescriptor struct {
 ```
 
 <a name="NewIntegerAttributeDescriptor"></a>
-### func [NewIntegerAttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/integer_attribute_descriptor.go#L11)
+### func NewIntegerAttributeDescriptor
 
 ```go
 func NewIntegerAttributeDescriptor(name string, id string, description string, required bool) IntegerAttributeDescriptor
@@ -969,7 +969,7 @@ func NewIntegerAttributeDescriptor(name string, id string, description string, r
 NewIntegerAttributeDescriptor creates a new IntegerAttributeDescriptor instance with the provided details.
 
 <a name="NewNumberAttributeDescriptorFromProto"></a>
-### func [NewNumberAttributeDescriptorFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/integer_attribute_descriptor.go#L23)
+### func NewNumberAttributeDescriptorFromProto
 
 ```go
 func NewNumberAttributeDescriptorFromProto(s *proto.IntegerAttributeDefinitionV2) IntegerAttributeDescriptor
@@ -978,7 +978,7 @@ func NewNumberAttributeDescriptorFromProto(s *proto.IntegerAttributeDefinitionV2
 
 
 <a name="IntegerAttributeDescriptor.ToProto"></a>
-### func \(IntegerAttributeDescriptor\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/integer_attribute_descriptor.go#L38)
+### func \(IntegerAttributeDescriptor\) ToProto
 
 ```go
 func (s IntegerAttributeDescriptor) ToProto() *proto.IntegerAttributeDefinitionV2
@@ -987,7 +987,7 @@ func (s IntegerAttributeDescriptor) ToProto() *proto.IntegerAttributeDefinitionV
 
 
 <a name="IntegerEnumAttributeDescriptor"></a>
-## type [IntegerEnumAttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/integer_enum_attribute_descriptor.go#L6-L9)
+## type IntegerEnumAttributeDescriptor
 
 IntegerEnumAttributeDescriptor represents a descriptor for an attribute with an integer enum value.
 
@@ -999,7 +999,7 @@ type IntegerEnumAttributeDescriptor struct {
 ```
 
 <a name="NewIntegerEnumAttributeDescriptor"></a>
-### func [NewIntegerEnumAttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/integer_enum_attribute_descriptor.go#L12)
+### func NewIntegerEnumAttributeDescriptor
 
 ```go
 func NewIntegerEnumAttributeDescriptor(name string, id string, description string, required bool, enum []int64) IntegerEnumAttributeDescriptor
@@ -1008,7 +1008,7 @@ func NewIntegerEnumAttributeDescriptor(name string, id string, description strin
 NewIntegerEnumAttributeDescriptor creates a new IntegerEnumAttributeDescriptor instance with the provided details.
 
 <a name="NewIntegerEnumAttributeDescriptorFromProto"></a>
-### func [NewIntegerEnumAttributeDescriptorFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/integer_enum_attribute_descriptor.go#L25)
+### func NewIntegerEnumAttributeDescriptorFromProto
 
 ```go
 func NewIntegerEnumAttributeDescriptorFromProto(s *proto.IntegerEnumAttributeDefinitionV2) IntegerEnumAttributeDescriptor
@@ -1017,7 +1017,7 @@ func NewIntegerEnumAttributeDescriptorFromProto(s *proto.IntegerEnumAttributeDef
 
 
 <a name="IntegerEnumAttributeDescriptor.ToProto"></a>
-### func \(IntegerEnumAttributeDescriptor\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/integer_enum_attribute_descriptor.go#L41)
+### func \(IntegerEnumAttributeDescriptor\) ToProto
 
 ```go
 func (s IntegerEnumAttributeDescriptor) ToProto() *proto.IntegerEnumAttributeDefinitionV2
@@ -1026,7 +1026,7 @@ func (s IntegerEnumAttributeDescriptor) ToProto() *proto.IntegerEnumAttributeDef
 
 
 <a name="IssuerKeyArgs"></a>
-## type [IssuerKeyArgs](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/issuer_key_args.go#L6-L9)
+## type IssuerKeyArgs
 
 IssuerKeyArgs represents arguments for configuring an issuer key.
 
@@ -1038,7 +1038,7 @@ type IssuerKeyArgs struct {
 ```
 
 <a name="IssuerStateReceipt"></a>
-## type [IssuerStateReceipt](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/issuer_state_receipt.go#L6-L8)
+## type IssuerStateReceipt
 
 IssuerStateReceipt represents a receipt for the issuer's state.
 
@@ -1049,7 +1049,7 @@ type IssuerStateReceipt struct {
 ```
 
 <a name="NewIssuerStateReceiptFromProto"></a>
-### func [NewIssuerStateReceiptFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/issuer_state_receipt.go#L10)
+### func NewIssuerStateReceiptFromProto
 
 ```go
 func NewIssuerStateReceiptFromProto(s *proto.IssuerStateReceipt) IssuerStateReceipt
@@ -1058,7 +1058,7 @@ func NewIssuerStateReceiptFromProto(s *proto.IssuerStateReceipt) IssuerStateRece
 
 
 <a name="IssuerStateReceipt.ToProto"></a>
-### func \(IssuerStateReceipt\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/issuer_state_receipt.go#L19)
+### func \(IssuerStateReceipt\) ToProto
 
 ```go
 func (i IssuerStateReceipt) ToProto() *proto.IssuerStateReceipt
@@ -1067,7 +1067,7 @@ func (i IssuerStateReceipt) ToProto() *proto.IssuerStateReceipt
 
 
 <a name="Method"></a>
-## type [Method](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/issuer_params.go#L6)
+## type Method
 
 Method represents an enumeration of methods used in the DID.
 
@@ -1076,7 +1076,7 @@ type Method = proto.Method
 ```
 
 <a name="NetworkId"></a>
-## type [NetworkId](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/issuer_params.go#L60)
+## type NetworkId
 
 NetworkId represents an enumeration of network identifiers.
 
@@ -1085,7 +1085,7 @@ type NetworkId = proto.NetworkId
 ```
 
 <a name="PublishIntervalParams"></a>
-## type [PublishIntervalParams](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/publish_interval_params.go#L6)
+## type PublishIntervalParams
 
 PublishIntervalParams represents different publish intervals.
 
@@ -1109,7 +1109,7 @@ const (
 ```
 
 <a name="Schema"></a>
-## type [Schema](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/schema.go#L6-L11)
+## type Schema
 
 Schema represents a schema with its attributes.
 
@@ -1123,7 +1123,7 @@ type Schema struct {
 ```
 
 <a name="NewSchemaFromProto"></a>
-### func [NewSchemaFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/schema.go#L13)
+### func NewSchemaFromProto
 
 ```go
 func NewSchemaFromProto(s *proto.SchemaV2) Schema
@@ -1132,7 +1132,7 @@ func NewSchemaFromProto(s *proto.SchemaV2) Schema
 
 
 <a name="Schema.ToProto"></a>
-### func \(Schema\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/schema.go#L25)
+### func \(Schema\) ToProto
 
 ```go
 func (c Schema) ToProto() *proto.SchemaV2
@@ -1141,7 +1141,7 @@ func (c Schema) ToProto() *proto.SchemaV2
 
 
 <a name="SchemaBuilder"></a>
-## type [SchemaBuilder](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/schema_builder.go#L12-L28)
+## type SchemaBuilder
 
 SchemaBuilder is a builder pattern for constructing schema instances.
 
@@ -1152,7 +1152,7 @@ type SchemaBuilder struct {
 ```
 
 <a name="NewSchemaBuilder"></a>
-### func [NewSchemaBuilder](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/schema_builder.go#L31)
+### func NewSchemaBuilder
 
 ```go
 func NewSchemaBuilder(displayName string, schemaType, version, description string, configData *proto.ConfigData) SchemaBuilder
@@ -1161,7 +1161,7 @@ func NewSchemaBuilder(displayName string, schemaType, version, description strin
 NewSchemaBuilder creates a new instance of SchemaBuilder with initial values.
 
 <a name="SchemaBuilder.AddBooleanAttribute"></a>
-### func \(SchemaBuilder\) [AddBooleanAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/schema_builder.go#L69)
+### func \(SchemaBuilder\) AddBooleanAttribute
 
 ```go
 func (c SchemaBuilder) AddBooleanAttribute(name string, id string, description string, required bool) SchemaBuilder
@@ -1170,7 +1170,7 @@ func (c SchemaBuilder) AddBooleanAttribute(name string, id string, description s
 AddBooleanAttribute adds a boolean attribute descriptor to the schema builder.
 
 <a name="SchemaBuilder.AddDateAttribute"></a>
-### func \(SchemaBuilder\) [AddDateAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/schema_builder.go#L75)
+### func \(SchemaBuilder\) AddDateAttribute
 
 ```go
 func (c SchemaBuilder) AddDateAttribute(name string, id string, description string, required bool) SchemaBuilder
@@ -1179,7 +1179,7 @@ func (c SchemaBuilder) AddDateAttribute(name string, id string, description stri
 AddDateAttribute adds a date attribute descriptor to the schema builder.
 
 <a name="SchemaBuilder.AddDatetimeAttribute"></a>
-### func \(SchemaBuilder\) [AddDatetimeAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/schema_builder.go#L81)
+### func \(SchemaBuilder\) AddDatetimeAttribute
 
 ```go
 func (c SchemaBuilder) AddDatetimeAttribute(name string, id string, description string, required bool) SchemaBuilder
@@ -1188,7 +1188,7 @@ func (c SchemaBuilder) AddDatetimeAttribute(name string, id string, description 
 AddDatetimeAttribute adds a datetime attribute descriptor to the schema builder.
 
 <a name="SchemaBuilder.AddDecimalAttribute"></a>
-### func \(SchemaBuilder\) [AddDecimalAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/schema_builder.go#L63)
+### func \(SchemaBuilder\) AddDecimalAttribute
 
 ```go
 func (c SchemaBuilder) AddDecimalAttribute(name string, id string, description string, required bool) SchemaBuilder
@@ -1197,7 +1197,7 @@ func (c SchemaBuilder) AddDecimalAttribute(name string, id string, description s
 AddDecimalAttribute adds a decimal attribute descriptor to the schema builder.
 
 <a name="SchemaBuilder.AddDecimalEnumAttribute"></a>
-### func \(SchemaBuilder\) [AddDecimalEnumAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/schema_builder.go#L99)
+### func \(SchemaBuilder\) AddDecimalEnumAttribute
 
 ```go
 func (c SchemaBuilder) AddDecimalEnumAttribute(name string, id string, description string, required bool, enum []float64) SchemaBuilder
@@ -1206,7 +1206,7 @@ func (c SchemaBuilder) AddDecimalEnumAttribute(name string, id string, descripti
 AddDecimalEnumAttribute adds a decimal enum attribute descriptor to the schema builder.
 
 <a name="SchemaBuilder.AddIntegerAttribute"></a>
-### func \(SchemaBuilder\) [AddIntegerAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/schema_builder.go#L57)
+### func \(SchemaBuilder\) AddIntegerAttribute
 
 ```go
 func (c SchemaBuilder) AddIntegerAttribute(name string, id string, description string, required bool) SchemaBuilder
@@ -1215,7 +1215,7 @@ func (c SchemaBuilder) AddIntegerAttribute(name string, id string, description s
 AddIntegerAttribute adds an integer attribute descriptor to the schema builder.
 
 <a name="SchemaBuilder.AddIntegerEnumAttribute"></a>
-### func \(SchemaBuilder\) [AddIntegerEnumAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/schema_builder.go#L93)
+### func \(SchemaBuilder\) AddIntegerEnumAttribute
 
 ```go
 func (c SchemaBuilder) AddIntegerEnumAttribute(name string, id string, description string, required bool, enum []int64) SchemaBuilder
@@ -1224,7 +1224,7 @@ func (c SchemaBuilder) AddIntegerEnumAttribute(name string, id string, descripti
 AddIntegerEnumAttribute adds an integer enum attribute descriptor to the schema builder.
 
 <a name="SchemaBuilder.AddStringAttribute"></a>
-### func \(SchemaBuilder\) [AddStringAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/schema_builder.go#L51)
+### func \(SchemaBuilder\) AddStringAttribute
 
 ```go
 func (c SchemaBuilder) AddStringAttribute(name string, id string, description string, required bool) SchemaBuilder
@@ -1233,7 +1233,7 @@ func (c SchemaBuilder) AddStringAttribute(name string, id string, description st
 AddStringAttribute adds a string attribute descriptor to the schema builder.
 
 <a name="SchemaBuilder.AddStringEnumAttribute"></a>
-### func \(SchemaBuilder\) [AddStringEnumAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/schema_builder.go#L87)
+### func \(SchemaBuilder\) AddStringEnumAttribute
 
 ```go
 func (c SchemaBuilder) AddStringEnumAttribute(name string, id string, description string, required bool, enum []string) SchemaBuilder
@@ -1242,7 +1242,7 @@ func (c SchemaBuilder) AddStringEnumAttribute(name string, id string, descriptio
 AddStringEnumAttribute adds a string enum attribute descriptor to the schema builder.
 
 <a name="SchemaBuilder.Build"></a>
-### func \(SchemaBuilder\) [Build](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/schema_builder.go#L105)
+### func \(SchemaBuilder\) Build
 
 ```go
 func (c SchemaBuilder) Build() (Schema, error)
@@ -1251,7 +1251,7 @@ func (c SchemaBuilder) Build() (Schema, error)
 Build creates a schema using the configured attributes.
 
 <a name="StringAttribute"></a>
-## type [StringAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/string_attribute.go#L6-L8)
+## type StringAttribute
 
 StringAttribute represents an attribute with a string value.
 
@@ -1262,7 +1262,7 @@ type StringAttribute struct {
 ```
 
 <a name="NewStringAttribute"></a>
-### func [NewStringAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/string_attribute.go#L11)
+### func NewStringAttribute
 
 ```go
 func NewStringAttribute(key string, value string) StringAttribute
@@ -1271,7 +1271,7 @@ func NewStringAttribute(key string, value string) StringAttribute
 NewStringAttribute creates a new StringAttribute instance with the provided key and value.
 
 <a name="NewStringAttributeFromProto"></a>
-### func [NewStringAttributeFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/string_attribute.go#L21)
+### func NewStringAttributeFromProto
 
 ```go
 func NewStringAttributeFromProto(s *proto.StringAttribute) StringAttribute
@@ -1280,7 +1280,7 @@ func NewStringAttributeFromProto(s *proto.StringAttribute) StringAttribute
 
 
 <a name="StringAttribute.ToProto"></a>
-### func \(StringAttribute\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/string_attribute.go#L34)
+### func \(StringAttribute\) ToProto
 
 ```go
 func (s StringAttribute) ToProto() *proto.StringAttributeV2
@@ -1289,7 +1289,7 @@ func (s StringAttribute) ToProto() *proto.StringAttributeV2
 
 
 <a name="StringAttributeDescriptor"></a>
-## type [StringAttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/string_attribute_descriptor.go#L6-L8)
+## type StringAttributeDescriptor
 
 StringAttributeDescriptor represents a descriptor for an attribute with a string value.
 
@@ -1300,7 +1300,7 @@ type StringAttributeDescriptor struct {
 ```
 
 <a name="NewStringAttributeDescriptor"></a>
-### func [NewStringAttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/string_attribute_descriptor.go#L11)
+### func NewStringAttributeDescriptor
 
 ```go
 func NewStringAttributeDescriptor(name string, id string, description string, required bool) StringAttributeDescriptor
@@ -1309,7 +1309,7 @@ func NewStringAttributeDescriptor(name string, id string, description string, re
 NewStringAttributeDescriptor creates a new StringAttributeDescriptor instance with the provided details.
 
 <a name="NewStringAttributeDescriptorFromProto"></a>
-### func [NewStringAttributeDescriptorFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/string_attribute_descriptor.go#L23)
+### func NewStringAttributeDescriptorFromProto
 
 ```go
 func NewStringAttributeDescriptorFromProto(s *proto.StringAttributeDefinitionV2) StringAttributeDescriptor
@@ -1318,7 +1318,7 @@ func NewStringAttributeDescriptorFromProto(s *proto.StringAttributeDefinitionV2)
 
 
 <a name="StringAttributeDescriptor.ToProto"></a>
-### func \(StringAttributeDescriptor\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/string_attribute_descriptor.go#L38)
+### func \(StringAttributeDescriptor\) ToProto
 
 ```go
 func (s StringAttributeDescriptor) ToProto() *proto.StringAttributeDefinitionV2
@@ -1327,7 +1327,7 @@ func (s StringAttributeDescriptor) ToProto() *proto.StringAttributeDefinitionV2
 
 
 <a name="StringEnumAttributeDescriptor"></a>
-## type [StringEnumAttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/string_enum_attribute_descriptor.go#L6-L9)
+## type StringEnumAttributeDescriptor
 
 StringEnumAttributeDescriptor represents a descriptor for an attribute with a string enum value.
 
@@ -1339,7 +1339,7 @@ type StringEnumAttributeDescriptor struct {
 ```
 
 <a name="NewStringEnumAttributeDescriptor"></a>
-### func [NewStringEnumAttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/string_enum_attribute_descriptor.go#L12)
+### func NewStringEnumAttributeDescriptor
 
 ```go
 func NewStringEnumAttributeDescriptor(name string, id string, description string, required bool, enum []string) StringEnumAttributeDescriptor
@@ -1348,7 +1348,7 @@ func NewStringEnumAttributeDescriptor(name string, id string, description string
 NewStringEnumAttributeDescriptor creates a new StringEnumAttributeDescriptor instance with the provided details.
 
 <a name="NewStringEnumAttributeDescriptorFromProto"></a>
-### func [NewStringEnumAttributeDescriptorFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/string_enum_attribute_descriptor.go#L25)
+### func NewStringEnumAttributeDescriptorFromProto
 
 ```go
 func NewStringEnumAttributeDescriptorFromProto(s *proto.StringEnumAttributeDefinitionV2) StringEnumAttributeDescriptor
@@ -1357,7 +1357,7 @@ func NewStringEnumAttributeDescriptorFromProto(s *proto.StringEnumAttributeDefin
 
 
 <a name="StringEnumAttributeDescriptor.ToProto"></a>
-### func \(StringEnumAttributeDescriptor\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/string_enum_attribute_descriptor.go#L41)
+### func \(StringEnumAttributeDescriptor\) ToProto
 
 ```go
 func (s StringEnumAttributeDescriptor) ToProto() *proto.StringEnumAttributeDefinitionV2
@@ -1366,7 +1366,7 @@ func (s StringEnumAttributeDescriptor) ToProto() *proto.StringEnumAttributeDefin
 
 
 <a name="VerificationParams"></a>
-## type [VerificationParams](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/verification_params.go#L4-L6)
+## type VerificationParams
 
 VerificationParams represents parameters for verification.
 
@@ -1377,7 +1377,7 @@ type VerificationParams struct {
 ```
 
 <a name="NewVerificationParams"></a>
-### func [NewVerificationParams](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/verification_params.go#L9)
+### func NewVerificationParams
 
 ```go
 func NewVerificationParams() VerificationParams
@@ -1386,7 +1386,7 @@ func NewVerificationParams() VerificationParams
 NewVerificationParams creates a new VerificationParams instance with default values.
 
 <a name="VerificationReceipt"></a>
-## type [VerificationReceipt](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/verification_receipt.go#L6-L9)
+## type VerificationReceipt
 
 VerificationReceipt represents a receipt for a verification session.
 
@@ -1398,7 +1398,7 @@ type VerificationReceipt struct {
 ```
 
 <a name="NewVerificationReceiptFromProto"></a>
-### func [NewVerificationReceiptFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/verification_receipt.go#L11)
+### func NewVerificationReceiptFromProto
 
 ```go
 func NewVerificationReceiptFromProto(s *proto.VerificationReceipt) VerificationReceipt
@@ -1407,7 +1407,7 @@ func NewVerificationReceiptFromProto(s *proto.VerificationReceipt) VerificationR
 
 
 <a name="VerificationReceipt.ToProto"></a>
-### func \(VerificationReceipt\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identityV2/verification_receipt.go#L21)
+### func \(VerificationReceipt\) ToProto
 
 ```go
 func (i VerificationReceipt) ToProto() *proto.VerificationReceipt

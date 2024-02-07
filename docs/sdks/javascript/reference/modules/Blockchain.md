@@ -29,7 +29,7 @@ Represents an enumeration of blockchains used in the DID.
 
 #### Defined in
 
-[entity/identity_v2/blockchain.ts:30](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity_v2/blockchain.ts#L30)
+[entity/identity_v2/blockchain.ts:30](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/blockchain.ts#L30)
 
 ___
 
@@ -49,4 +49,4 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/blockchain.ts:15](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity_v2/blockchain.ts#L15)
+[entity/identity_v2/blockchain.ts:15](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/blockchain.ts#L15)

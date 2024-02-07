@@ -113,7 +113,7 @@ var (
 ```
 
 <a name="AccessControl"></a>
-## type [AccessControl](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/access_control.go#L6-L9)
+## type AccessControl
 
 AccessControl represents access control information, including Time\-based One\-Time Password \(TOTP\) and secret\-based access.
 
@@ -125,7 +125,7 @@ type AccessControl struct {
 ```
 
 <a name="AccessControl.ToProto"></a>
-### func \(AccessControl\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/access_control.go#L11)
+### func \(AccessControl\) ToProto
 
 ```go
 func (a AccessControl) ToProto() *proto.AccessControl
@@ -134,7 +134,7 @@ func (a AccessControl) ToProto() *proto.AccessControl
 
 
 <a name="AccessControlSecret"></a>
-## type [AccessControlSecret](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/access_control_secret.go#L6-L8)
+## type AccessControlSecret
 
 AccessControlSecret represents a secret used for secret\-based access control.
 
@@ -145,7 +145,7 @@ type AccessControlSecret struct {
 ```
 
 <a name="NewAccessControlSecret"></a>
-### func [NewAccessControlSecret](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/access_control_secret.go#L11)
+### func NewAccessControlSecret
 
 ```go
 func NewAccessControlSecret(secret string) *AccessControlSecret
@@ -154,7 +154,7 @@ func NewAccessControlSecret(secret string) *AccessControlSecret
 NewAccessControlSecret creates a new AccessControlSecret instance with the provided secret.
 
 <a name="AccessControlSecret.ToProto"></a>
-### func \(AccessControlSecret\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/access_control_secret.go#L17)
+### func \(AccessControlSecret\) ToProto
 
 ```go
 func (a AccessControlSecret) ToProto() *proto.AccessControlSecret
@@ -163,7 +163,7 @@ func (a AccessControlSecret) ToProto() *proto.AccessControlSecret
 
 
 <a name="AccessControlTotp"></a>
-## type [AccessControlTotp](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/access_control_totp.go#L8-L10)
+## type AccessControlTotp
 
 AccessControlTotp represents a Time\-based One\-Time Password \([TOTP](https://datatracker.ietf.org/doc/html/rfc6238)\) code used for access control.
 
@@ -174,7 +174,7 @@ type AccessControlTotp struct {
 ```
 
 <a name="NewAccessControlTotp"></a>
-### func [NewAccessControlTotp](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/access_control_totp.go#L13)
+### func NewAccessControlTotp
 
 ```go
 func NewAccessControlTotp(code string) *AccessControlTotp
@@ -183,7 +183,7 @@ func NewAccessControlTotp(code string) *AccessControlTotp
 NewAccessControlTotp creates a new AccessControlTotp instance with the provided TOTP code.
 
 <a name="AccessControlTotp.ToProto"></a>
-### func \(AccessControlTotp\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/access_control_totp.go#L19)
+### func \(AccessControlTotp\) ToProto
 
 ```go
 func (a AccessControlTotp) ToProto() *proto.AccessControlTotp
@@ -192,7 +192,7 @@ func (a AccessControlTotp) ToProto() *proto.AccessControlTotp
 
 
 <a name="CertificateType"></a>
-## type [CertificateType](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/certificate_type.go#L6)
+## type CertificateType
 
 CertificateType represents the type of certificate.
 
@@ -212,7 +212,7 @@ const (
 ```
 
 <a name="ImportCertificateParams"></a>
-## type [ImportCertificateParams](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/managed_certificate_params.go#L49-L51)
+## type ImportCertificateParams
 
 ImportCertificateParams represents parameters for importing a certificate.
 
@@ -223,7 +223,7 @@ type ImportCertificateParams struct {
 ```
 
 <a name="NewImportCertificateParams"></a>
-### func [NewImportCertificateParams](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/managed_certificate_params.go#L54)
+### func NewImportCertificateParams
 
 ```go
 func NewImportCertificateParams() ImportCertificateParams
@@ -232,7 +232,7 @@ func NewImportCertificateParams() ImportCertificateParams
 NewImportCertificateParams creates an ImportCertificateParams instance with default values.
 
 <a name="KeyPair"></a>
-## type [KeyPair](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/key_pair.go#L4-L7)
+## type KeyPair
 
 KeyPair represents a pair of public and private keys.
 
@@ -244,7 +244,7 @@ type KeyPair struct {
 ```
 
 <a name="NewEcdsaKeysFromProto"></a>
-### func [NewEcdsaKeysFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/ecdsa_key_pair.go#L5)
+### func NewEcdsaKeysFromProto
 
 ```go
 func NewEcdsaKeysFromProto(k *proto.GenerateLocalKeyResponse) KeyPair
@@ -253,7 +253,7 @@ func NewEcdsaKeysFromProto(k *proto.GenerateLocalKeyResponse) KeyPair
 
 
 <a name="NewRsaKeyPairFromProto"></a>
-### func [NewRsaKeyPairFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/rsa_key_pair.go#L5)
+### func NewRsaKeyPairFromProto
 
 ```go
 func NewRsaKeyPairFromProto(k *proto.GenerateLocalKeyResponse) KeyPair
@@ -262,7 +262,7 @@ func NewRsaKeyPairFromProto(k *proto.GenerateLocalKeyResponse) KeyPair
 
 
 <a name="KeyProtectionLevel"></a>
-## type [KeyProtectionLevel](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/key_protection.go#L6)
+## type KeyProtectionLevel
 
 KeyProtectionLevel represents the protection level of a cryptographic key.
 
@@ -282,7 +282,7 @@ const (
 ```
 
 <a name="KeyType"></a>
-## type [KeyType](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/key_type.go#L6)
+## type KeyType
 
 KeyType represents the type of cryptographic key.
 
@@ -312,7 +312,7 @@ const (
 ```
 
 <a name="LocalCertificate"></a>
-## type [LocalCertificate](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/local_certificate.go#L6-L9)
+## type LocalCertificate
 
 LocalCertificate represents a local certificate along with its password.
 
@@ -324,7 +324,7 @@ type LocalCertificate struct {
 ```
 
 <a name="NewLocalCertificateFromProto"></a>
-### func [NewLocalCertificateFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/local_certificate.go#L11)
+### func NewLocalCertificateFromProto
 
 ```go
 func NewLocalCertificateFromProto(s *proto.LocalCertificate) LocalCertificate
@@ -333,7 +333,7 @@ func NewLocalCertificateFromProto(s *proto.LocalCertificate) LocalCertificate
 
 
 <a name="LocalCertificate.ToProto"></a>
-### func \(LocalCertificate\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/local_certificate.go#L21)
+### func \(LocalCertificate\) ToProto
 
 ```go
 func (s LocalCertificate) ToProto() *proto.LocalCertificate
@@ -342,7 +342,7 @@ func (s LocalCertificate) ToProto() *proto.LocalCertificate
 
 
 <a name="LocalCertificateParams"></a>
-## type [LocalCertificateParams](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/local_certificate_params.go#L6-L11)
+## type LocalCertificateParams
 
 LocalCertificateParams represents the parameters for generating a local certificate.
 
@@ -356,7 +356,7 @@ type LocalCertificateParams struct {
 ```
 
 <a name="NewLocalCertificateParamsFromProto"></a>
-### func [NewLocalCertificateParamsFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/local_certificate_params.go#L13)
+### func NewLocalCertificateParamsFromProto
 
 ```go
 func NewLocalCertificateParamsFromProto(s *proto.LocalCertificateParams) LocalCertificateParams
@@ -365,7 +365,7 @@ func NewLocalCertificateParamsFromProto(s *proto.LocalCertificateParams) LocalCe
 
 
 <a name="LocalCertificateParams.ToProto"></a>
-### func \(LocalCertificateParams\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/local_certificate_params.go#L31)
+### func \(LocalCertificateParams\) ToProto
 
 ```go
 func (s LocalCertificateParams) ToProto() *proto.LocalCertificateParams
@@ -374,7 +374,7 @@ func (s LocalCertificateParams) ToProto() *proto.LocalCertificateParams
 
 
 <a name="LocalKey"></a>
-## type [LocalKey](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/local_key.go#L6-L13)
+## type LocalKey
 
 LocalKey represents a local key with its public and private components.
 
@@ -390,7 +390,7 @@ type LocalKey struct {
 ```
 
 <a name="NewLocalKeyFromProto"></a>
-### func [NewLocalKeyFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/local_key.go#L15)
+### func NewLocalKeyFromProto
 
 ```go
 func NewLocalKeyFromProto(s *proto.LocalKey) LocalKey
@@ -399,7 +399,7 @@ func NewLocalKeyFromProto(s *proto.LocalKey) LocalKey
 
 
 <a name="LocalKey.ToProto"></a>
-### func \(LocalKey\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/local_key.go#L26)
+### func \(LocalKey\) ToProto
 
 ```go
 func (s LocalKey) ToProto() *proto.LocalKey
@@ -408,7 +408,7 @@ func (s LocalKey) ToProto() *proto.LocalKey
 
 
 <a name="Managed"></a>
-## type [Managed](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/managed.go#L4-L7)
+## type Managed
 
 Managed represents a managed entity that can be either a ManagedKey or a ManagedCertificate.
 
@@ -420,7 +420,7 @@ type Managed struct {
 ```
 
 <a name="ManagedCertificate"></a>
-## type [ManagedCertificate](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/managed_certificate.go#L6-L17)
+## type ManagedCertificate
 
 ManagedCertificate represents a managed certificate with its details.
 
@@ -440,7 +440,7 @@ type ManagedCertificate struct {
 ```
 
 <a name="NewManagedCertificateFromProto"></a>
-### func [NewManagedCertificateFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/managed_certificate.go#L19)
+### func NewManagedCertificateFromProto
 
 ```go
 func NewManagedCertificateFromProto(s *proto.ManagedCertificate) ManagedCertificate
@@ -449,7 +449,7 @@ func NewManagedCertificateFromProto(s *proto.ManagedCertificate) ManagedCertific
 
 
 <a name="ManagedCertificate.ToProto"></a>
-### func \(ManagedCertificate\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/managed_certificate.go#L32)
+### func \(ManagedCertificate\) ToProto
 
 ```go
 func (s ManagedCertificate) ToProto() *proto.ManagedCertificate
@@ -458,7 +458,7 @@ func (s ManagedCertificate) ToProto() *proto.ManagedCertificate
 
 
 <a name="ManagedCertificateParams"></a>
-## type [ManagedCertificateParams](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/managed_certificate_params.go#L6-L13)
+## type ManagedCertificateParams
 
 ManagedCertificateParams represents parameters for creating a managed certificate.
 
@@ -474,7 +474,7 @@ type ManagedCertificateParams struct {
 ```
 
 <a name="NewManagedCertificateParamsFromProto"></a>
-### func [NewManagedCertificateParamsFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/managed_certificate_params.go#L15)
+### func NewManagedCertificateParamsFromProto
 
 ```go
 func NewManagedCertificateParamsFromProto(s *proto.ManagedCertificateParams) ManagedCertificateParams
@@ -483,7 +483,7 @@ func NewManagedCertificateParamsFromProto(s *proto.ManagedCertificateParams) Man
 
 
 <a name="ManagedCertificateParams.ToProto"></a>
-### func \(ManagedCertificateParams\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/managed_certificate_params.go#L33)
+### func \(ManagedCertificateParams\) ToProto
 
 ```go
 func (s ManagedCertificateParams) ToProto() *proto.ManagedCertificateParams
@@ -492,7 +492,7 @@ func (s ManagedCertificateParams) ToProto() *proto.ManagedCertificateParams
 
 
 <a name="ManagedKey"></a>
-## type [ManagedKey](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/managed_key.go#L6-L19)
+## type ManagedKey
 
 ManagedKey represents a managed key.
 
@@ -514,7 +514,7 @@ type ManagedKey struct {
 ```
 
 <a name="NewManagedKeyFromProto"></a>
-### func [NewManagedKeyFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/managed_key.go#L21)
+### func NewManagedKeyFromProto
 
 ```go
 func NewManagedKeyFromProto(s *proto.ManagedKey) ManagedKey
@@ -523,7 +523,7 @@ func NewManagedKeyFromProto(s *proto.ManagedKey) ManagedKey
 
 
 <a name="ManagedKey.ToProto"></a>
-### func \(ManagedKey\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/managed_key.go#L35)
+### func \(ManagedKey\) ToProto
 
 ```go
 func (s ManagedKey) ToProto() *proto.ManagedKey
@@ -532,7 +532,7 @@ func (s ManagedKey) ToProto() *proto.ManagedKey
 
 
 <a name="ManagedKeyParams"></a>
-## type [ManagedKeyParams](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/managed_key_params.go#L6-L15)
+## type ManagedKeyParams
 
 ManagedKeyParams represents the parameters for creating a managed key.
 
@@ -550,7 +550,7 @@ type ManagedKeyParams struct {
 ```
 
 <a name="NewManagedKeyParamsFromProto"></a>
-### func [NewManagedKeyParamsFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/managed_key_params.go#L17)
+### func NewManagedKeyParamsFromProto
 
 ```go
 func NewManagedKeyParamsFromProto(s *proto.ManagedKeyParams) ManagedKeyParams
@@ -559,7 +559,7 @@ func NewManagedKeyParamsFromProto(s *proto.ManagedKeyParams) ManagedKeyParams
 
 
 <a name="ManagedKeyParams.ToProto"></a>
-### func \(ManagedKeyParams\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/managed_key_params.go#L29)
+### func \(ManagedKeyParams\) ToProto
 
 ```go
 func (s ManagedKeyParams) ToProto() *proto.ManagedKeyParams
@@ -568,7 +568,7 @@ func (s ManagedKeyParams) ToProto() *proto.ManagedKeyParams
 
 
 <a name="SubjectCertificateParams"></a>
-## type [SubjectCertificateParams](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/certificate_subject.go#L4-L17)
+## type SubjectCertificateParams
 
 SubjectCertificateParams represents parameters for generating a subject certificate.
 
@@ -590,7 +590,7 @@ type SubjectCertificateParams struct {
 ```
 
 <a name="TotpAccessControlReceipt"></a>
-## type [TotpAccessControlReceipt](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/totp_access_control_receipt.go#L4-L8)
+## type TotpAccessControlReceipt
 
 TotpAccessControlReceipt represents a receipt for a Time\-based One\-Time Password \(TOTP\) access control.
 
@@ -603,7 +603,7 @@ type TotpAccessControlReceipt struct {
 ```
 
 <a name="New"></a>
-### func [New](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/key/totp_access_control_receipt.go#L11)
+### func New
 
 ```go
 func New(secret, secretQr string, recoveryCodes []string) TotpAccessControlReceipt

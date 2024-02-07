@@ -106,7 +106,7 @@ import "github.com/bloock/bloock-sdk-go/v2/entity/identity"
 
 
 <a name="Attribute"></a>
-## type [Attribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/attribute.go#L3-L6)
+## type Attribute
 
 
 
@@ -118,7 +118,7 @@ type Attribute struct {
 ```
 
 <a name="AttributeDescriptor"></a>
-## type [AttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/attribute_descriptor.go#L3-L7)
+## type AttributeDescriptor
 
 
 
@@ -131,7 +131,7 @@ type AttributeDescriptor struct {
 ```
 
 <a name="BooleanAttribute"></a>
-## type [BooleanAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/boolean_attribute.go#L5-L7)
+## type BooleanAttribute
 
 
 
@@ -142,7 +142,7 @@ type BooleanAttribute struct {
 ```
 
 <a name="NewBooleanAttribute"></a>
-### func [NewBooleanAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/boolean_attribute.go#L9)
+### func NewBooleanAttribute
 
 ```go
 func NewBooleanAttribute(key string, value bool) BooleanAttribute
@@ -151,7 +151,7 @@ func NewBooleanAttribute(key string, value bool) BooleanAttribute
 
 
 <a name="NewBooleanAttributeFromProto"></a>
-### func [NewBooleanAttributeFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/boolean_attribute.go#L19)
+### func NewBooleanAttributeFromProto
 
 ```go
 func NewBooleanAttributeFromProto(s *proto.BooleanAttribute) BooleanAttribute
@@ -160,7 +160,7 @@ func NewBooleanAttributeFromProto(s *proto.BooleanAttribute) BooleanAttribute
 
 
 <a name="BooleanAttribute.ToProto"></a>
-### func \(BooleanAttribute\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/boolean_attribute.go#L32)
+### func \(BooleanAttribute\) ToProto
 
 ```go
 func (s BooleanAttribute) ToProto() *proto.BooleanAttribute
@@ -169,7 +169,7 @@ func (s BooleanAttribute) ToProto() *proto.BooleanAttribute
 
 
 <a name="BooleanAttributeDescriptor"></a>
-## type [BooleanAttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/boolean_attribute_descriptor.go#L5-L7)
+## type BooleanAttributeDescriptor
 
 
 
@@ -180,7 +180,7 @@ type BooleanAttributeDescriptor struct {
 ```
 
 <a name="NewBooleanAttributeDescriptor"></a>
-### func [NewBooleanAttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/boolean_attribute_descriptor.go#L9)
+### func NewBooleanAttributeDescriptor
 
 ```go
 func NewBooleanAttributeDescriptor(name string, technicalName string, description string) BooleanAttributeDescriptor
@@ -189,7 +189,7 @@ func NewBooleanAttributeDescriptor(name string, technicalName string, descriptio
 
 
 <a name="NewBooleanAttributeDescriptorFromProto"></a>
-### func [NewBooleanAttributeDescriptorFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/boolean_attribute_descriptor.go#L20)
+### func NewBooleanAttributeDescriptorFromProto
 
 ```go
 func NewBooleanAttributeDescriptorFromProto(s *proto.BooleanAttributeDefinition) BooleanAttributeDescriptor
@@ -198,7 +198,7 @@ func NewBooleanAttributeDescriptorFromProto(s *proto.BooleanAttributeDefinition)
 
 
 <a name="BooleanAttributeDescriptor.ToProto"></a>
-### func \(BooleanAttributeDescriptor\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/boolean_attribute_descriptor.go#L34)
+### func \(BooleanAttributeDescriptor\) ToProto
 
 ```go
 func (s BooleanAttributeDescriptor) ToProto() *proto.BooleanAttributeDefinition
@@ -207,7 +207,7 @@ func (s BooleanAttributeDescriptor) ToProto() *proto.BooleanAttributeDefinition
 
 
 <a name="Credential"></a>
-## type [Credential](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential.go#L12-L22)
+## type Credential
 
 
 
@@ -226,7 +226,7 @@ type Credential struct {
 ```
 
 <a name="NewCredentialFromJson"></a>
-### func [NewCredentialFromJson](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential.go#L55)
+### func NewCredentialFromJson
 
 ```go
 func NewCredentialFromJson(json string) (Credential, error)
@@ -235,7 +235,7 @@ func NewCredentialFromJson(json string) (Credential, error)
 
 
 <a name="NewCredentialFromProto"></a>
-### func [NewCredentialFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential.go#L24)
+### func NewCredentialFromProto
 
 ```go
 func NewCredentialFromProto(s *proto.Credential) Credential
@@ -244,7 +244,7 @@ func NewCredentialFromProto(s *proto.Credential) Credential
 
 
 <a name="Credential.ToJson"></a>
-### func \(Credential\) [ToJson](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential.go#L73)
+### func \(Credential\) ToJson
 
 ```go
 func (c Credential) ToJson() (string, error)
@@ -253,7 +253,7 @@ func (c Credential) ToJson() (string, error)
 
 
 <a name="Credential.ToProto"></a>
-### func \(Credential\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential.go#L41)
+### func \(Credential\) ToProto
 
 ```go
 func (c Credential) ToProto() *proto.Credential
@@ -262,7 +262,7 @@ func (c Credential) ToProto() *proto.Credential
 
 
 <a name="CredentialBuilder"></a>
-## type [CredentialBuilder](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_builder.go#L11-L21)
+## type CredentialBuilder
 
 
 
@@ -273,7 +273,7 @@ type CredentialBuilder struct {
 ```
 
 <a name="NewCredentialBuilder"></a>
-### func [NewCredentialBuilder](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_builder.go#L23)
+### func NewCredentialBuilder
 
 ```go
 func NewCredentialBuilder(schemaId string, holderKey string, configData *proto.ConfigData) CredentialBuilder
@@ -282,7 +282,7 @@ func NewCredentialBuilder(schemaId string, holderKey string, configData *proto.C
 
 
 <a name="CredentialBuilder.Build"></a>
-### func \(CredentialBuilder\) [Build](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_builder.go#L61)
+### func \(CredentialBuilder\) Build
 
 ```go
 func (c CredentialBuilder) Build() (CredentialReceipt, error)
@@ -291,7 +291,7 @@ func (c CredentialBuilder) Build() (CredentialReceipt, error)
 
 
 <a name="CredentialBuilder.WithBooleanAttribute"></a>
-### func \(CredentialBuilder\) [WithBooleanAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_builder.go#L36)
+### func \(CredentialBuilder\) WithBooleanAttribute
 
 ```go
 func (c CredentialBuilder) WithBooleanAttribute(key string, value bool) CredentialBuilder
@@ -300,7 +300,7 @@ func (c CredentialBuilder) WithBooleanAttribute(key string, value bool) Credenti
 
 
 <a name="CredentialBuilder.WithDateAttribute"></a>
-### func \(CredentialBuilder\) [WithDateAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_builder.go#L41)
+### func \(CredentialBuilder\) WithDateAttribute
 
 ```go
 func (c CredentialBuilder) WithDateAttribute(key string, value int64) CredentialBuilder
@@ -309,7 +309,7 @@ func (c CredentialBuilder) WithDateAttribute(key string, value int64) Credential
 
 
 <a name="CredentialBuilder.WithDatetimeAttribute"></a>
-### func \(CredentialBuilder\) [WithDatetimeAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_builder.go#L46)
+### func \(CredentialBuilder\) WithDatetimeAttribute
 
 ```go
 func (c CredentialBuilder) WithDatetimeAttribute(key string, value int64) CredentialBuilder
@@ -318,7 +318,7 @@ func (c CredentialBuilder) WithDatetimeAttribute(key string, value int64) Creden
 
 
 <a name="CredentialBuilder.WithNumberAttribute"></a>
-### func \(CredentialBuilder\) [WithNumberAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_builder.go#L56)
+### func \(CredentialBuilder\) WithNumberAttribute
 
 ```go
 func (c CredentialBuilder) WithNumberAttribute(key string, value int64) CredentialBuilder
@@ -327,7 +327,7 @@ func (c CredentialBuilder) WithNumberAttribute(key string, value int64) Credenti
 
 
 <a name="CredentialBuilder.WithStringAttribute"></a>
-### func \(CredentialBuilder\) [WithStringAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_builder.go#L51)
+### func \(CredentialBuilder\) WithStringAttribute
 
 ```go
 func (c CredentialBuilder) WithStringAttribute(key string, value string) CredentialBuilder
@@ -336,7 +336,7 @@ func (c CredentialBuilder) WithStringAttribute(key string, value string) Credent
 
 
 <a name="CredentialOffer"></a>
-## type [CredentialOffer](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_offer.go#L12-L17)
+## type CredentialOffer
 
 
 
@@ -350,7 +350,7 @@ type CredentialOffer struct {
 ```
 
 <a name="NewCredentialOfferFromJson"></a>
-### func [NewCredentialOfferFromJson](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_offer.go#L40)
+### func NewCredentialOfferFromJson
 
 ```go
 func NewCredentialOfferFromJson(json string) (CredentialOffer, error)
@@ -359,7 +359,7 @@ func NewCredentialOfferFromJson(json string) (CredentialOffer, error)
 
 
 <a name="NewCredentialOfferFromProto"></a>
-### func [NewCredentialOfferFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_offer.go#L19)
+### func NewCredentialOfferFromProto
 
 ```go
 func NewCredentialOfferFromProto(s *proto.CredentialOffer) CredentialOffer
@@ -368,7 +368,7 @@ func NewCredentialOfferFromProto(s *proto.CredentialOffer) CredentialOffer
 
 
 <a name="CredentialOffer.ToJson"></a>
-### func \(CredentialOffer\) [ToJson](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_offer.go#L58)
+### func \(CredentialOffer\) ToJson
 
 ```go
 func (c CredentialOffer) ToJson() (string, error)
@@ -377,7 +377,7 @@ func (c CredentialOffer) ToJson() (string, error)
 
 
 <a name="CredentialOffer.ToProto"></a>
-### func \(CredentialOffer\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_offer.go#L31)
+### func \(CredentialOffer\) ToProto
 
 ```go
 func (c CredentialOffer) ToProto() *proto.CredentialOffer
@@ -386,7 +386,7 @@ func (c CredentialOffer) ToProto() *proto.CredentialOffer
 
 
 <a name="CredentialOfferBody"></a>
-## type [CredentialOfferBody](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_offer_body.go#L5-L8)
+## type CredentialOfferBody
 
 
 
@@ -398,7 +398,7 @@ type CredentialOfferBody struct {
 ```
 
 <a name="NewCredentialOfferBodyFromProto"></a>
-### func [NewCredentialOfferBodyFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_offer_body.go#L10)
+### func NewCredentialOfferBodyFromProto
 
 ```go
 func NewCredentialOfferBodyFromProto(s *proto.CredentialOfferBody) CredentialOfferBody
@@ -407,7 +407,7 @@ func NewCredentialOfferBodyFromProto(s *proto.CredentialOfferBody) CredentialOff
 
 
 <a name="CredentialOfferBody.ToProto"></a>
-### func \(CredentialOfferBody\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_offer_body.go#L26)
+### func \(CredentialOfferBody\) ToProto
 
 ```go
 func (c CredentialOfferBody) ToProto() *proto.CredentialOfferBody
@@ -416,7 +416,7 @@ func (c CredentialOfferBody) ToProto() *proto.CredentialOfferBody
 
 
 <a name="CredentialOfferCredential"></a>
-## type [CredentialOfferCredential](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_offer_credentials.go#L5-L8)
+## type CredentialOfferCredential
 
 
 
@@ -428,7 +428,7 @@ type CredentialOfferCredential struct {
 ```
 
 <a name="NewCredentialOfferCredentialsFromProto"></a>
-### func [NewCredentialOfferCredentialsFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_offer_credentials.go#L10)
+### func NewCredentialOfferCredentialsFromProto
 
 ```go
 func NewCredentialOfferCredentialsFromProto(s *proto.CredentialOfferBodyCredentials) CredentialOfferCredential
@@ -437,7 +437,7 @@ func NewCredentialOfferCredentialsFromProto(s *proto.CredentialOfferBodyCredenti
 
 
 <a name="CredentialOfferCredential.ToProto"></a>
-### func \(CredentialOfferCredential\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_offer_credentials.go#L20)
+### func \(CredentialOfferCredential\) ToProto
 
 ```go
 func (c CredentialOfferCredential) ToProto() *proto.CredentialOfferBodyCredentials
@@ -446,7 +446,7 @@ func (c CredentialOfferCredential) ToProto() *proto.CredentialOfferBodyCredentia
 
 
 <a name="CredentialProof"></a>
-## type [CredentialProof](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_proof.go#L9-L12)
+## type CredentialProof
 
 
 
@@ -458,7 +458,7 @@ type CredentialProof struct {
 ```
 
 <a name="NewCredentialProofFromProto"></a>
-### func [NewCredentialProofFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_proof.go#L14)
+### func NewCredentialProofFromProto
 
 ```go
 func NewCredentialProofFromProto(s *proto.CredentialProof) CredentialProof
@@ -467,7 +467,7 @@ func NewCredentialProofFromProto(s *proto.CredentialProof) CredentialProof
 
 
 <a name="CredentialProof.ToProto"></a>
-### func \(CredentialProof\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_proof.go#L24)
+### func \(CredentialProof\) ToProto
 
 ```go
 func (c CredentialProof) ToProto() *proto.CredentialProof
@@ -476,7 +476,7 @@ func (c CredentialProof) ToProto() *proto.CredentialProof
 
 
 <a name="CredentialReceipt"></a>
-## type [CredentialReceipt](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_receipt.go#L5-L8)
+## type CredentialReceipt
 
 
 
@@ -488,7 +488,7 @@ type CredentialReceipt struct {
 ```
 
 <a name="NewCredentialReceiptFromProto"></a>
-### func [NewCredentialReceiptFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_receipt.go#L10)
+### func NewCredentialReceiptFromProto
 
 ```go
 func NewCredentialReceiptFromProto(s *proto.CredentialReceipt) CredentialReceipt
@@ -497,7 +497,7 @@ func NewCredentialReceiptFromProto(s *proto.CredentialReceipt) CredentialReceipt
 
 
 <a name="CredentialReceipt.ToProto"></a>
-### func \(CredentialReceipt\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_receipt.go#L20)
+### func \(CredentialReceipt\) ToProto
 
 ```go
 func (c CredentialReceipt) ToProto() *proto.CredentialReceipt
@@ -506,7 +506,7 @@ func (c CredentialReceipt) ToProto() *proto.CredentialReceipt
 
 
 <a name="CredentialSchema"></a>
-## type [CredentialSchema](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_schema.go#L5-L8)
+## type CredentialSchema
 
 
 
@@ -518,7 +518,7 @@ type CredentialSchema struct {
 ```
 
 <a name="NewCredentialSchemaFromProto"></a>
-### func [NewCredentialSchemaFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_schema.go#L10)
+### func NewCredentialSchemaFromProto
 
 ```go
 func NewCredentialSchemaFromProto(s *proto.CredentialSchema) CredentialSchema
@@ -527,7 +527,7 @@ func NewCredentialSchemaFromProto(s *proto.CredentialSchema) CredentialSchema
 
 
 <a name="CredentialSchema.ToProto"></a>
-### func \(CredentialSchema\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_schema.go#L20)
+### func \(CredentialSchema\) ToProto
 
 ```go
 func (c CredentialSchema) ToProto() *proto.CredentialSchema
@@ -536,7 +536,7 @@ func (c CredentialSchema) ToProto() *proto.CredentialSchema
 
 
 <a name="CredentialStatus"></a>
-## type [CredentialStatus](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_status.go#L5-L9)
+## type CredentialStatus
 
 
 
@@ -549,7 +549,7 @@ type CredentialStatus struct {
 ```
 
 <a name="NewCredentialStatusFromProto"></a>
-### func [NewCredentialStatusFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_status.go#L11)
+### func NewCredentialStatusFromProto
 
 ```go
 func NewCredentialStatusFromProto(s *proto.CredentialStatus) CredentialStatus
@@ -558,7 +558,7 @@ func NewCredentialStatusFromProto(s *proto.CredentialStatus) CredentialStatus
 
 
 <a name="CredentialStatus.ToProto"></a>
-### func \(CredentialStatus\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_status.go#L22)
+### func \(CredentialStatus\) ToProto
 
 ```go
 func (c CredentialStatus) ToProto() *proto.CredentialStatus
@@ -567,7 +567,7 @@ func (c CredentialStatus) ToProto() *proto.CredentialStatus
 
 
 <a name="CredentialVerification"></a>
-## type [CredentialVerification](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_verification.go#L5-L9)
+## type CredentialVerification
 
 
 
@@ -580,7 +580,7 @@ type CredentialVerification struct {
 ```
 
 <a name="NewCredentialVerificationFromProto"></a>
-### func [NewCredentialVerificationFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_verification.go#L11)
+### func NewCredentialVerificationFromProto
 
 ```go
 func NewCredentialVerificationFromProto(s *proto.CredentialVerification) CredentialVerification
@@ -589,7 +589,7 @@ func NewCredentialVerificationFromProto(s *proto.CredentialVerification) Credent
 
 
 <a name="CredentialVerification.ToProto"></a>
-### func \(CredentialVerification\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/credential_verification.go#L22)
+### func \(CredentialVerification\) ToProto
 
 ```go
 func (c CredentialVerification) ToProto() *proto.CredentialVerification
@@ -598,7 +598,7 @@ func (c CredentialVerification) ToProto() *proto.CredentialVerification
 
 
 <a name="DateAttribute"></a>
-## type [DateAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/date_attribute.go#L5-L7)
+## type DateAttribute
 
 
 
@@ -609,7 +609,7 @@ type DateAttribute struct {
 ```
 
 <a name="NewDateAttribute"></a>
-### func [NewDateAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/date_attribute.go#L9)
+### func NewDateAttribute
 
 ```go
 func NewDateAttribute(key string, value int64) DateAttribute
@@ -618,7 +618,7 @@ func NewDateAttribute(key string, value int64) DateAttribute
 
 
 <a name="NewDateAttributeFromProto"></a>
-### func [NewDateAttributeFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/date_attribute.go#L19)
+### func NewDateAttributeFromProto
 
 ```go
 func NewDateAttributeFromProto(s *proto.DateAttribute) DateAttribute
@@ -627,7 +627,7 @@ func NewDateAttributeFromProto(s *proto.DateAttribute) DateAttribute
 
 
 <a name="DateAttribute.ToProto"></a>
-### func \(DateAttribute\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/date_attribute.go#L32)
+### func \(DateAttribute\) ToProto
 
 ```go
 func (s DateAttribute) ToProto() *proto.DateAttribute
@@ -636,7 +636,7 @@ func (s DateAttribute) ToProto() *proto.DateAttribute
 
 
 <a name="DateAttributeDescriptor"></a>
-## type [DateAttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/date_attribute_descriptor.go#L5-L7)
+## type DateAttributeDescriptor
 
 
 
@@ -647,7 +647,7 @@ type DateAttributeDescriptor struct {
 ```
 
 <a name="NewDateAttributeDescriptor"></a>
-### func [NewDateAttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/date_attribute_descriptor.go#L9)
+### func NewDateAttributeDescriptor
 
 ```go
 func NewDateAttributeDescriptor(name string, technicalName string, description string) DateAttributeDescriptor
@@ -656,7 +656,7 @@ func NewDateAttributeDescriptor(name string, technicalName string, description s
 
 
 <a name="NewDateAttributeDescriptorFromProto"></a>
-### func [NewDateAttributeDescriptorFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/date_attribute_descriptor.go#L20)
+### func NewDateAttributeDescriptorFromProto
 
 ```go
 func NewDateAttributeDescriptorFromProto(s *proto.DateAttributeDefinition) DateAttributeDescriptor
@@ -665,7 +665,7 @@ func NewDateAttributeDescriptorFromProto(s *proto.DateAttributeDefinition) DateA
 
 
 <a name="DateAttributeDescriptor.ToProto"></a>
-### func \(DateAttributeDescriptor\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/date_attribute_descriptor.go#L34)
+### func \(DateAttributeDescriptor\) ToProto
 
 ```go
 func (s DateAttributeDescriptor) ToProto() *proto.DateAttributeDefinition
@@ -674,7 +674,7 @@ func (s DateAttributeDescriptor) ToProto() *proto.DateAttributeDefinition
 
 
 <a name="DatetimeAttribute"></a>
-## type [DatetimeAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/datetime_attribute.go#L5-L7)
+## type DatetimeAttribute
 
 
 
@@ -685,7 +685,7 @@ type DatetimeAttribute struct {
 ```
 
 <a name="NewDatetimeAttribute"></a>
-### func [NewDatetimeAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/datetime_attribute.go#L9)
+### func NewDatetimeAttribute
 
 ```go
 func NewDatetimeAttribute(key string, value int64) DatetimeAttribute
@@ -694,7 +694,7 @@ func NewDatetimeAttribute(key string, value int64) DatetimeAttribute
 
 
 <a name="NewDatetimeAttributeFromProto"></a>
-### func [NewDatetimeAttributeFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/datetime_attribute.go#L19)
+### func NewDatetimeAttributeFromProto
 
 ```go
 func NewDatetimeAttributeFromProto(s *proto.DateTimeAttribute) DatetimeAttribute
@@ -703,7 +703,7 @@ func NewDatetimeAttributeFromProto(s *proto.DateTimeAttribute) DatetimeAttribute
 
 
 <a name="DatetimeAttribute.ToProto"></a>
-### func \(DatetimeAttribute\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/datetime_attribute.go#L32)
+### func \(DatetimeAttribute\) ToProto
 
 ```go
 func (s DatetimeAttribute) ToProto() *proto.DateTimeAttribute
@@ -712,7 +712,7 @@ func (s DatetimeAttribute) ToProto() *proto.DateTimeAttribute
 
 
 <a name="DatetimeAttributeDescriptor"></a>
-## type [DatetimeAttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/datetime_attribute_descriptor.go#L5-L7)
+## type DatetimeAttributeDescriptor
 
 
 
@@ -723,7 +723,7 @@ type DatetimeAttributeDescriptor struct {
 ```
 
 <a name="NewDatetimeAttributeDescriptor"></a>
-### func [NewDatetimeAttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/datetime_attribute_descriptor.go#L9)
+### func NewDatetimeAttributeDescriptor
 
 ```go
 func NewDatetimeAttributeDescriptor(name string, technicalName string, description string) DatetimeAttributeDescriptor
@@ -732,7 +732,7 @@ func NewDatetimeAttributeDescriptor(name string, technicalName string, descripti
 
 
 <a name="NewDatetimeAttributeDescriptorFromProto"></a>
-### func [NewDatetimeAttributeDescriptorFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/datetime_attribute_descriptor.go#L20)
+### func NewDatetimeAttributeDescriptorFromProto
 
 ```go
 func NewDatetimeAttributeDescriptorFromProto(s *proto.DateTimeAttributeDefinition) DatetimeAttributeDescriptor
@@ -741,7 +741,7 @@ func NewDatetimeAttributeDescriptorFromProto(s *proto.DateTimeAttributeDefinitio
 
 
 <a name="DatetimeAttributeDescriptor.ToProto"></a>
-### func \(DatetimeAttributeDescriptor\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/datetime_attribute_descriptor.go#L34)
+### func \(DatetimeAttributeDescriptor\) ToProto
 
 ```go
 func (s DatetimeAttributeDescriptor) ToProto() *proto.DateTimeAttributeDefinition
@@ -750,7 +750,7 @@ func (s DatetimeAttributeDescriptor) ToProto() *proto.DateTimeAttributeDefinitio
 
 
 <a name="Identity"></a>
-## type [Identity](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/identity.go#L5-L9)
+## type Identity
 
 
 
@@ -763,7 +763,7 @@ type Identity struct {
 ```
 
 <a name="NewIdentityFromProto"></a>
-### func [NewIdentityFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/identity.go#L11)
+### func NewIdentityFromProto
 
 ```go
 func NewIdentityFromProto(s *proto.Identity) Identity
@@ -772,7 +772,7 @@ func NewIdentityFromProto(s *proto.Identity) Identity
 
 
 <a name="Identity.ToProto"></a>
-### func \(Identity\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/identity.go#L22)
+### func \(Identity\) ToProto
 
 ```go
 func (c Identity) ToProto() *proto.Identity
@@ -781,7 +781,7 @@ func (c Identity) ToProto() *proto.Identity
 
 
 <a name="NumberAttribute"></a>
-## type [NumberAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/number_attribute.go#L5-L7)
+## type NumberAttribute
 
 
 
@@ -792,7 +792,7 @@ type NumberAttribute struct {
 ```
 
 <a name="NewNumberAttribute"></a>
-### func [NewNumberAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/number_attribute.go#L9)
+### func NewNumberAttribute
 
 ```go
 func NewNumberAttribute(key string, value int64) NumberAttribute
@@ -801,7 +801,7 @@ func NewNumberAttribute(key string, value int64) NumberAttribute
 
 
 <a name="NewNumberAttributeFromProto"></a>
-### func [NewNumberAttributeFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/number_attribute.go#L19)
+### func NewNumberAttributeFromProto
 
 ```go
 func NewNumberAttributeFromProto(s *proto.NumberAttribute) NumberAttribute
@@ -810,7 +810,7 @@ func NewNumberAttributeFromProto(s *proto.NumberAttribute) NumberAttribute
 
 
 <a name="NumberAttribute.ToProto"></a>
-### func \(NumberAttribute\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/number_attribute.go#L32)
+### func \(NumberAttribute\) ToProto
 
 ```go
 func (s NumberAttribute) ToProto() *proto.NumberAttribute
@@ -819,7 +819,7 @@ func (s NumberAttribute) ToProto() *proto.NumberAttribute
 
 
 <a name="NumberAttributeDescriptor"></a>
-## type [NumberAttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/number_attribute_descriptor.go#L5-L7)
+## type NumberAttributeDescriptor
 
 
 
@@ -830,7 +830,7 @@ type NumberAttributeDescriptor struct {
 ```
 
 <a name="NewNumberAttributeDescriptor"></a>
-### func [NewNumberAttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/number_attribute_descriptor.go#L9)
+### func NewNumberAttributeDescriptor
 
 ```go
 func NewNumberAttributeDescriptor(name string, technicalName string, description string) NumberAttributeDescriptor
@@ -839,7 +839,7 @@ func NewNumberAttributeDescriptor(name string, technicalName string, description
 
 
 <a name="NewNumberAttributeDescriptorFromProto"></a>
-### func [NewNumberAttributeDescriptorFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/number_attribute_descriptor.go#L20)
+### func NewNumberAttributeDescriptorFromProto
 
 ```go
 func NewNumberAttributeDescriptorFromProto(s *proto.NumberAttributeDefinition) NumberAttributeDescriptor
@@ -848,7 +848,7 @@ func NewNumberAttributeDescriptorFromProto(s *proto.NumberAttributeDefinition) N
 
 
 <a name="NumberAttributeDescriptor.ToProto"></a>
-### func \(NumberAttributeDescriptor\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/number_attribute_descriptor.go#L34)
+### func \(NumberAttributeDescriptor\) ToProto
 
 ```go
 func (s NumberAttributeDescriptor) ToProto() *proto.NumberAttributeDefinition
@@ -857,7 +857,7 @@ func (s NumberAttributeDescriptor) ToProto() *proto.NumberAttributeDefinition
 
 
 <a name="Schema"></a>
-## type [Schema](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/schema.go#L5-L8)
+## type Schema
 
 
 
@@ -869,7 +869,7 @@ type Schema struct {
 ```
 
 <a name="NewSchemaFromProto"></a>
-### func [NewSchemaFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/schema.go#L10)
+### func NewSchemaFromProto
 
 ```go
 func NewSchemaFromProto(s *proto.Schema) Schema
@@ -878,7 +878,7 @@ func NewSchemaFromProto(s *proto.Schema) Schema
 
 
 <a name="Schema.ToProto"></a>
-### func \(Schema\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/schema.go#L20)
+### func \(Schema\) ToProto
 
 ```go
 func (c Schema) ToProto() *proto.Schema
@@ -887,7 +887,7 @@ func (c Schema) ToProto() *proto.Schema
 
 
 <a name="SchemaBuilder"></a>
-## type [SchemaBuilder](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/schema_builder.go#L11-L21)
+## type SchemaBuilder
 
 
 
@@ -898,7 +898,7 @@ type SchemaBuilder struct {
 ```
 
 <a name="NewSchemaBuilder"></a>
-### func [NewSchemaBuilder](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/schema_builder.go#L23)
+### func NewSchemaBuilder
 
 ```go
 func NewSchemaBuilder(displayName string, technicalName string, configData *proto.ConfigData) SchemaBuilder
@@ -907,7 +907,7 @@ func NewSchemaBuilder(displayName string, technicalName string, configData *prot
 
 
 <a name="SchemaBuilder.AddBooleanAttribute"></a>
-### func \(SchemaBuilder\) [AddBooleanAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/schema_builder.go#L36)
+### func \(SchemaBuilder\) AddBooleanAttribute
 
 ```go
 func (c SchemaBuilder) AddBooleanAttribute(name string, technicalName string, description string) SchemaBuilder
@@ -916,7 +916,7 @@ func (c SchemaBuilder) AddBooleanAttribute(name string, technicalName string, de
 
 
 <a name="SchemaBuilder.AddDateAttribute"></a>
-### func \(SchemaBuilder\) [AddDateAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/schema_builder.go#L41)
+### func \(SchemaBuilder\) AddDateAttribute
 
 ```go
 func (c SchemaBuilder) AddDateAttribute(name string, technicalName string, description string) SchemaBuilder
@@ -925,7 +925,7 @@ func (c SchemaBuilder) AddDateAttribute(name string, technicalName string, descr
 
 
 <a name="SchemaBuilder.AddDatetimeAttribute"></a>
-### func \(SchemaBuilder\) [AddDatetimeAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/schema_builder.go#L46)
+### func \(SchemaBuilder\) AddDatetimeAttribute
 
 ```go
 func (c SchemaBuilder) AddDatetimeAttribute(name string, technicalName string, description string) SchemaBuilder
@@ -934,7 +934,7 @@ func (c SchemaBuilder) AddDatetimeAttribute(name string, technicalName string, d
 
 
 <a name="SchemaBuilder.AddNumberAttribute"></a>
-### func \(SchemaBuilder\) [AddNumberAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/schema_builder.go#L56)
+### func \(SchemaBuilder\) AddNumberAttribute
 
 ```go
 func (c SchemaBuilder) AddNumberAttribute(name string, technicalName string, description string) SchemaBuilder
@@ -943,7 +943,7 @@ func (c SchemaBuilder) AddNumberAttribute(name string, technicalName string, des
 
 
 <a name="SchemaBuilder.AddStringAttribute"></a>
-### func \(SchemaBuilder\) [AddStringAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/schema_builder.go#L51)
+### func \(SchemaBuilder\) AddStringAttribute
 
 ```go
 func (c SchemaBuilder) AddStringAttribute(name string, technicalName string, description string) SchemaBuilder
@@ -952,7 +952,7 @@ func (c SchemaBuilder) AddStringAttribute(name string, technicalName string, des
 
 
 <a name="SchemaBuilder.Build"></a>
-### func \(SchemaBuilder\) [Build](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/schema_builder.go#L61)
+### func \(SchemaBuilder\) Build
 
 ```go
 func (c SchemaBuilder) Build() (Schema, error)
@@ -961,7 +961,7 @@ func (c SchemaBuilder) Build() (Schema, error)
 
 
 <a name="StringAttribute"></a>
-## type [StringAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/string_attribute.go#L5-L7)
+## type StringAttribute
 
 
 
@@ -972,7 +972,7 @@ type StringAttribute struct {
 ```
 
 <a name="NewStringAttribute"></a>
-### func [NewStringAttribute](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/string_attribute.go#L9)
+### func NewStringAttribute
 
 ```go
 func NewStringAttribute(key string, value string) StringAttribute
@@ -981,7 +981,7 @@ func NewStringAttribute(key string, value string) StringAttribute
 
 
 <a name="NewStringAttributeFromProto"></a>
-### func [NewStringAttributeFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/string_attribute.go#L19)
+### func NewStringAttributeFromProto
 
 ```go
 func NewStringAttributeFromProto(s *proto.StringAttribute) StringAttribute
@@ -990,7 +990,7 @@ func NewStringAttributeFromProto(s *proto.StringAttribute) StringAttribute
 
 
 <a name="StringAttribute.ToProto"></a>
-### func \(StringAttribute\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/string_attribute.go#L32)
+### func \(StringAttribute\) ToProto
 
 ```go
 func (s StringAttribute) ToProto() *proto.StringAttribute
@@ -999,7 +999,7 @@ func (s StringAttribute) ToProto() *proto.StringAttribute
 
 
 <a name="StringAttributeDescriptor"></a>
-## type [StringAttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/string_attribute_descriptor.go#L5-L7)
+## type StringAttributeDescriptor
 
 
 
@@ -1010,7 +1010,7 @@ type StringAttributeDescriptor struct {
 ```
 
 <a name="NewStringAttributeDescriptor"></a>
-### func [NewStringAttributeDescriptor](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/string_attribute_descriptor.go#L9)
+### func NewStringAttributeDescriptor
 
 ```go
 func NewStringAttributeDescriptor(name string, technicalName string, description string) StringAttributeDescriptor
@@ -1019,7 +1019,7 @@ func NewStringAttributeDescriptor(name string, technicalName string, description
 
 
 <a name="NewStringAttributeDescriptorFromProto"></a>
-### func [NewStringAttributeDescriptorFromProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/string_attribute_descriptor.go#L20)
+### func NewStringAttributeDescriptorFromProto
 
 ```go
 func NewStringAttributeDescriptorFromProto(s *proto.StringAttributeDefinition) StringAttributeDescriptor
@@ -1028,7 +1028,7 @@ func NewStringAttributeDescriptorFromProto(s *proto.StringAttributeDefinition) S
 
 
 <a name="StringAttributeDescriptor.ToProto"></a>
-### func \(StringAttributeDescriptor\) [ToProto](https://github.com/bloock/bloock-sdk/blob/master/languages/go/entity/identity/string_attribute_descriptor.go#L34)
+### func \(StringAttributeDescriptor\) ToProto
 
 ```go
 func (s StringAttributeDescriptor) ToProto() *proto.StringAttributeDefinition

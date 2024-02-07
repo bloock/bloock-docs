@@ -48,7 +48,7 @@ Will be deleted in future versions. Use IdentityV2Client function instead.
 
 #### Defined in
 
-[client/identity.ts:28](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/client/identity.ts#L28)
+[client/identity.ts:28](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/client/identity.ts#L28)
 
 ## Properties
 
@@ -58,7 +58,7 @@ Will be deleted in future versions. Use IdentityV2Client function instead.
 
 #### Defined in
 
-[client/identity.ts:22](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/client/identity.ts#L22)
+[client/identity.ts:22](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/client/identity.ts#L22)
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 #### Defined in
 
-[client/identity.ts:23](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/client/identity.ts#L23)
+[client/identity.ts:23](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/client/identity.ts#L23)
 
 ## Methods
 
@@ -93,7 +93,7 @@ Will be deleted in future versions. Use IdentityV2Client function instead.
 
 #### Defined in
 
-[client/identity.ts:105](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/client/identity.ts#L105)
+[client/identity.ts:105](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/client/identity.ts#L105)
 
 ___
 
@@ -118,7 +118,7 @@ Will be deleted in future versions. Use IdentityV2Client function instead.
 
 #### Defined in
 
-[client/identity.ts:75](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/client/identity.ts#L75)
+[client/identity.ts:75](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/client/identity.ts#L75)
 
 ___
 
@@ -136,7 +136,7 @@ Will be deleted in future versions. Use IdentityV2Client function instead.
 
 #### Defined in
 
-[client/identity.ts:36](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/client/identity.ts#L36)
+[client/identity.ts:36](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/client/identity.ts#L36)
 
 ___
 
@@ -160,7 +160,7 @@ Will be deleted in future versions. Use IdentityV2Client function instead.
 
 #### Defined in
 
-[client/identity.ts:115](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/client/identity.ts#L115)
+[client/identity.ts:115](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/client/identity.ts#L115)
 
 ___
 
@@ -184,7 +184,7 @@ Will be deleted in future versions. Use IdentityV2Client function instead.
 
 #### Defined in
 
-[client/identity.ts:85](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/client/identity.ts#L85)
+[client/identity.ts:85](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/client/identity.ts#L85)
 
 ___
 
@@ -208,7 +208,7 @@ Will be deleted in future versions. Use IdentityV2Client function instead.
 
 #### Defined in
 
-[client/identity.ts:55](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/client/identity.ts#L55)
+[client/identity.ts:55](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/client/identity.ts#L55)
 
 ___
 
@@ -233,7 +233,7 @@ Will be deleted in future versions. Use IdentityV2Client function instead.
 
 #### Defined in
 
-[client/identity.ts:155](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/client/identity.ts#L155)
+[client/identity.ts:155](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/client/identity.ts#L155)
 
 ___
 
@@ -257,7 +257,7 @@ Will be deleted in future versions. Use IdentityV2Client function instead.
 
 #### Defined in
 
-[client/identity.ts:201](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/client/identity.ts#L201)
+[client/identity.ts:201](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/client/identity.ts#L201)
 
 ___
 
@@ -281,7 +281,7 @@ Will be deleted in future versions. Use IdentityV2Client function instead.
 
 #### Defined in
 
-[client/identity.ts:179](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/client/identity.ts#L179)
+[client/identity.ts:179](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/client/identity.ts#L179)
 
 ___
 
@@ -305,4 +305,4 @@ Will be deleted in future versions. Use IdentityV2Client function instead.
 
 #### Defined in
 
-[client/identity.ts:135](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/client/identity.ts#L135)
+[client/identity.ts:135](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/client/identity.ts#L135)

@@ -42,7 +42,7 @@ Creates a new BjjIdentityKey instance with the provided issuer key arguments.
 
 #### Defined in
 
-[entity/identity_v2/bjj_identity_key.ts:16](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity_v2/bjj_identity_key.ts#L16)
+[entity/identity_v2/bjj_identity_key.ts:16](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/bjj_identity_key.ts#L16)
 
 ## Properties
 
@@ -52,7 +52,7 @@ Creates a new BjjIdentityKey instance with the provided issuer key arguments.
 
 #### Defined in
 
-[entity/identity_v2/bjj_identity_key.ts:10](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity_v2/bjj_identity_key.ts#L10)
+[entity/identity_v2/bjj_identity_key.ts:10](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/bjj_identity_key.ts#L10)
 
 ## Methods
 
@@ -70,4 +70,4 @@ Creates a new BjjIdentityKey instance with the provided issuer key arguments.
 
 #### Defined in
 
-[entity/identity_v2/bjj_identity_key.ts:20](https://github.com/bloock/bloock-sdk/blob/edef30d6/languages/js/src/entity/identity_v2/bjj_identity_key.ts#L20)
+[entity/identity_v2/bjj_identity_key.ts:20](https://github.com/bloock/bloock-sdk/blob/587f793/languages/js/src/entity/identity_v2/bjj_identity_key.ts#L20)
