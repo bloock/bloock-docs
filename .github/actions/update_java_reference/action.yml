@@ -31,5 +31,4 @@ runs:
       shell: bash
       run: |
         unzip /tmp/${{ inputs.artifact }} -d /tmp
-        mkdir -p ${{ inputs.dest }}
         node ${{ inputs.post_script }} /tmp/bloock_lib_java/docs/bloock-sdk

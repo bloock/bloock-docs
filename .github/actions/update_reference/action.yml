@@ -31,6 +31,5 @@ runs:
       shell: bash
       run: |
         unzip /tmp/${{ inputs.artifact }} -d /tmp
-        mkdir -p ${{ inputs.dest }}
         mv /tmp/*/docs/* ${{ inputs.dest }}
         node ${{ inputs.post_script }}

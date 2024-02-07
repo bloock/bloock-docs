@@ -1,11 +1,11 @@
-const fs = require('fs');
+const fs = require('fs-extra');
 const jsdom = require('jsdom');
 const path = require('path');
 const { JSDOM } = jsdom;
 
 try {
   const src = process.argv[2];
-  const dest = './docs/sdks/java';
+  const dest = '/Users/marcbaque/Bloock/bloock-docs/docs/sdks/java';
   const folder = 'reference';
 
   function transformFile(file) {
@@ -38,8 +38,8 @@ try {
       path.relative(src, path.dirname(file)),
       withoutEnding + '.mdx'
     );
-    fs.writeFileSync(newHtmlPath, newString);
-    fs.writeFileSync(
+    fs.outputFileSync(newHtmlPath, newString);
+    fs.outputFileSync(
       newMdxPath,
       `---
 title: ${name}
@@ -90,7 +90,7 @@ import sourceHTML from './${withoutEnding}.source'
       '_category_.json'
     );
 
-    fs.writeFileSync(
+    fs.outputFileSync(
       categoryPath,
       JSON.stringify({
         label: index.label,
