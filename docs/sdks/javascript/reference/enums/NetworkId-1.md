@@ -23,7 +23,7 @@ Represents an enumeration of network identifiers.
 
 #### Defined in
 
-[entity/identity_v2/network.ts:10](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/network.ts#L10)
+[entity/identity_v2/network.ts:10](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/network.ts#L10)
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/network.ts:8](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/network.ts#L8)
+[entity/identity_v2/network.ts:8](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/network.ts#L8)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/network.ts:9](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/network.ts#L9)
+[entity/identity_v2/network.ts:9](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/network.ts#L9)
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/network.ts:12](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/network.ts#L12)
+[entity/identity_v2/network.ts:12](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/network.ts#L12)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/network.ts:11](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/network.ts#L11)
+[entity/identity_v2/network.ts:11](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/network.ts#L11)
 
 ___
 
@@ -73,4 +73,4 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/network.ts:7](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/network.ts#L7)
+[entity/identity_v2/network.ts:7](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/network.ts#L7)

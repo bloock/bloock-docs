@@ -49,7 +49,7 @@ AttributeDescriptor.constructor
 
 #### Defined in
 
-[entity/identity/attribute_descriptor.ts:6](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/attribute_descriptor.ts#L6)
+[entity/identity/attribute_descriptor.ts:6](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity/attribute_descriptor.ts#L6)
 
 ## Properties
 
@@ -63,7 +63,7 @@ AttributeDescriptor.description
 
 #### Defined in
 
-[entity/identity/attribute_descriptor.ts:4](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/attribute_descriptor.ts#L4)
+[entity/identity/attribute_descriptor.ts:4](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity/attribute_descriptor.ts#L4)
 
 ___
 
@@ -77,7 +77,7 @@ AttributeDescriptor.displayName
 
 #### Defined in
 
-[entity/identity/attribute_descriptor.ts:2](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/attribute_descriptor.ts#L2)
+[entity/identity/attribute_descriptor.ts:2](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity/attribute_descriptor.ts#L2)
 
 ___
 
@@ -91,7 +91,7 @@ AttributeDescriptor.technicalName
 
 #### Defined in
 
-[entity/identity/attribute_descriptor.ts:3](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/attribute_descriptor.ts#L3)
+[entity/identity/attribute_descriptor.ts:3](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity/attribute_descriptor.ts#L3)
 
 ## Methods
 
@@ -105,7 +105,7 @@ AttributeDescriptor.technicalName
 
 #### Defined in
 
-[entity/identity/number_attribute_descriptor.ts:5](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/number_attribute_descriptor.ts#L5)
+[entity/identity/number_attribute_descriptor.ts:5](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity/number_attribute_descriptor.ts#L5)
 
 ___
 
@@ -125,4 +125,4 @@ ___
 
 #### Defined in
 
-[entity/identity/number_attribute_descriptor.ts:13](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity/number_attribute_descriptor.ts#L13)
+[entity/identity/number_attribute_descriptor.ts:13](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity/number_attribute_descriptor.ts#L13)

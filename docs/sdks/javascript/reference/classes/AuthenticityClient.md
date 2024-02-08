@@ -42,7 +42,7 @@ Creates a new instance of the AuthenticityClient with default configuration.
 
 #### Defined in
 
-[client/authenticity.ts:27](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/client/authenticity.ts#L27)
+[client/authenticity.ts:27](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/client/authenticity.ts#L27)
 
 ## Properties
 
@@ -52,7 +52,7 @@ Creates a new instance of the AuthenticityClient with default configuration.
 
 #### Defined in
 
-[client/authenticity.ts:20](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/client/authenticity.ts#L20)
+[client/authenticity.ts:20](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/client/authenticity.ts#L20)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 #### Defined in
 
-[client/authenticity.ts:21](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/client/authenticity.ts#L21)
+[client/authenticity.ts:21](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/client/authenticity.ts#L21)
 
 ## Methods
 
@@ -84,7 +84,7 @@ Will be deleted in future versions. Use KeyClient.newLocalKey function instead.
 
 #### Defined in
 
-[client/authenticity.ts:37](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/client/authenticity.ts#L37)
+[client/authenticity.ts:37](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/client/authenticity.ts#L37)
 
 ___
 
@@ -106,7 +106,7 @@ Gets the signatures associated with a Bloock record.
 
 #### Defined in
 
-[client/authenticity.ts:105](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/client/authenticity.ts#L105)
+[client/authenticity.ts:105](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/client/authenticity.ts#L105)
 
 ___
 
@@ -129,7 +129,7 @@ Signs a Bloock record using the specified signer.
 
 #### Defined in
 
-[client/authenticity.ts:60](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/client/authenticity.ts#L60)
+[client/authenticity.ts:60](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/client/authenticity.ts#L60)
 
 ___
 
@@ -151,4 +151,4 @@ Verifies the authenticity of a Bloock record.
 
 #### Defined in
 
-[client/authenticity.ts:83](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/client/authenticity.ts#L83)
+[client/authenticity.ts:83](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/client/authenticity.ts#L83)

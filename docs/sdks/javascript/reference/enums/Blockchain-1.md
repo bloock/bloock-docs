@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[entity/identity_v2/blockchain.ts:5](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/blockchain.ts#L5)
+[entity/identity_v2/blockchain.ts:5](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/blockchain.ts#L5)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/blockchain.ts:7](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/blockchain.ts#L7)
+[entity/identity_v2/blockchain.ts:7](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/blockchain.ts#L7)
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/blockchain.ts:6](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/blockchain.ts#L6)
+[entity/identity_v2/blockchain.ts:6](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/blockchain.ts#L6)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/blockchain.ts:8](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/blockchain.ts#L8)
+[entity/identity_v2/blockchain.ts:8](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/blockchain.ts#L8)
 
 ___
 
@@ -60,4 +60,4 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/blockchain.ts:4](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/blockchain.ts#L4)
+[entity/identity_v2/blockchain.ts:4](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/blockchain.ts#L4)

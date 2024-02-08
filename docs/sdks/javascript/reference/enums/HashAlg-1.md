@@ -24,7 +24,7 @@ Represents the Keccak-256 hash algorithm.
 
 #### Defined in
 
-[entity/authenticity/hash_alg.ts:18](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/authenticity/hash_alg.ts#L18)
+[entity/authenticity/hash_alg.ts:18](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/authenticity/hash_alg.ts#L18)
 
 ___
 
@@ -36,7 +36,7 @@ Represents no hash algorithm.
 
 #### Defined in
 
-[entity/authenticity/hash_alg.ts:26](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/authenticity/hash_alg.ts#L26)
+[entity/authenticity/hash_alg.ts:26](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/authenticity/hash_alg.ts#L26)
 
 ___
 
@@ -48,7 +48,7 @@ Represents the Poseidon hash algorithm.
 
 #### Defined in
 
-[entity/authenticity/hash_alg.ts:22](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/authenticity/hash_alg.ts#L22)
+[entity/authenticity/hash_alg.ts:22](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/authenticity/hash_alg.ts#L22)
 
 ___
 
@@ -60,7 +60,7 @@ Represents the SHA-256 hash algorithm.
 
 #### Defined in
 
-[entity/authenticity/hash_alg.ts:14](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/authenticity/hash_alg.ts#L14)
+[entity/authenticity/hash_alg.ts:14](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/authenticity/hash_alg.ts#L14)
 
 ___
 
@@ -72,4 +72,4 @@ Represents an unrecognized hash algorithm.
 
 #### Defined in
 
-[entity/authenticity/hash_alg.ts:10](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/authenticity/hash_alg.ts#L10)
+[entity/authenticity/hash_alg.ts:10](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/authenticity/hash_alg.ts#L10)

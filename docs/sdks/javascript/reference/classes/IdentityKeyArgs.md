@@ -35,7 +35,7 @@ Constructs an IdentityKeyArgs object with a local or managed key.
 
 #### Defined in
 
-[entity/identity_v2/identity_key_args.ts:14](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/identity_key_args.ts#L14)
+[entity/identity_v2/identity_key_args.ts:14](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/identity_key_args.ts#L14)
 
 ## Properties
 
@@ -45,7 +45,7 @@ Constructs an IdentityKeyArgs object with a local or managed key.
 
 #### Defined in
 
-[entity/identity_v2/identity_key_args.ts:7](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/identity_key_args.ts#L7)
+[entity/identity_v2/identity_key_args.ts:7](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/identity_key_args.ts#L7)
 
 ___
 
@@ -55,4 +55,4 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/identity_key_args.ts:8](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/identity_key_args.ts#L8)
+[entity/identity_v2/identity_key_args.ts:8](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/identity_key_args.ts#L8)

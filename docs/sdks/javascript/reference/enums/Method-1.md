@@ -20,7 +20,7 @@ Represents an enumeration of methods used in the DID.
 
 #### Defined in
 
-[entity/identity_v2/method.ts:9](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/method.ts#L9)
+[entity/identity_v2/method.ts:9](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/method.ts#L9)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/method.ts:8](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/method.ts#L8)
+[entity/identity_v2/method.ts:8](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/method.ts#L8)
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/method.ts:7](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/method.ts#L7)
+[entity/identity_v2/method.ts:7](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/method.ts#L7)

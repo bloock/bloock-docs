@@ -46,7 +46,7 @@ Constructs a SignatureJws object with the specified parameters.
 
 #### Defined in
 
-[entity/authenticity/signature_jws.ts:21](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/authenticity/signature_jws.ts#L21)
+[entity/authenticity/signature_jws.ts:21](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/authenticity/signature_jws.ts#L21)
 
 ## Properties
 
@@ -56,7 +56,7 @@ Constructs a SignatureJws object with the specified parameters.
 
 #### Defined in
 
-[entity/authenticity/signature_jws.ts:11](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/authenticity/signature_jws.ts#L11)
+[entity/authenticity/signature_jws.ts:11](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/authenticity/signature_jws.ts#L11)
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 #### Defined in
 
-[entity/authenticity/signature_jws.ts:12](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/authenticity/signature_jws.ts#L12)
+[entity/authenticity/signature_jws.ts:12](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/authenticity/signature_jws.ts#L12)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[entity/authenticity/signature_jws.ts:10](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/authenticity/signature_jws.ts#L10)
+[entity/authenticity/signature_jws.ts:10](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/authenticity/signature_jws.ts#L10)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 #### Defined in
 
-[entity/authenticity/signature_jws.ts:9](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/authenticity/signature_jws.ts#L9)
+[entity/authenticity/signature_jws.ts:9](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/authenticity/signature_jws.ts#L9)
 
 ## Methods
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-[entity/authenticity/signature_jws.ts:51](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/authenticity/signature_jws.ts#L51)
+[entity/authenticity/signature_jws.ts:51](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/authenticity/signature_jws.ts#L51)
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 #### Defined in
 
-[entity/authenticity/signature_jws.ts:42](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/authenticity/signature_jws.ts#L42)
+[entity/authenticity/signature_jws.ts:42](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/authenticity/signature_jws.ts#L42)
 
 ___
 
@@ -134,4 +134,4 @@ ___
 
 #### Defined in
 
-[entity/authenticity/signature_jws.ts:33](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/authenticity/signature_jws.ts#L33)
+[entity/authenticity/signature_jws.ts:33](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/authenticity/signature_jws.ts#L33)

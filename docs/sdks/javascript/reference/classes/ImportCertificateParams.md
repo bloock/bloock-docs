@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[entity/key/managed_certificate_params.ts:50](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/key/managed_certificate_params.ts#L50)
+[entity/key/managed_certificate_params.ts:50](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/key/managed_certificate_params.ts#L50)
 
 ## Properties
 
@@ -40,4 +40,4 @@
 
 #### Defined in
 
-[entity/key/managed_certificate_params.ts:48](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/key/managed_certificate_params.ts#L48)
+[entity/key/managed_certificate_params.ts:48](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/key/managed_certificate_params.ts#L48)

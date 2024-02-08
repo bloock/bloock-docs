@@ -24,4 +24,4 @@
 
 #### Defined in
 
-[entity/identity_v2/identity_key.ts:4](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/identity_v2/identity_key.ts#L4)
+[entity/identity_v2/identity_key.ts:4](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/identity_key.ts#L4)

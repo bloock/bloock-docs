@@ -38,7 +38,7 @@ Creates a new AccessControlSecret instance with the provided secret.
 
 #### Defined in
 
-[entity/key/access_control_secret.ts:13](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/key/access_control_secret.ts#L13)
+[entity/key/access_control_secret.ts:13](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/key/access_control_secret.ts#L13)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Creates a new AccessControlSecret instance with the provided secret.
 
 #### Defined in
 
-[entity/key/access_control_secret.ts:7](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/key/access_control_secret.ts#L7)
+[entity/key/access_control_secret.ts:7](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/key/access_control_secret.ts#L7)
 
 ## Methods
 
@@ -62,4 +62,4 @@ Creates a new AccessControlSecret instance with the provided secret.
 
 #### Defined in
 
-[entity/key/access_control_secret.ts:19](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/key/access_control_secret.ts#L19)
+[entity/key/access_control_secret.ts:19](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/key/access_control_secret.ts#L19)

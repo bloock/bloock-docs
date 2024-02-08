@@ -50,7 +50,7 @@ Creates a new instance of the IdentityClient with default configuration.
 
 #### Defined in
 
-[client/identity_v2.ts:41](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/client/identity_v2.ts#L41)
+[client/identity_v2.ts:41](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/client/identity_v2.ts#L41)
 
 ## Properties
 
@@ -60,7 +60,7 @@ Creates a new instance of the IdentityClient with default configuration.
 
 #### Defined in
 
-[client/identity_v2.ts:34](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/client/identity_v2.ts#L34)
+[client/identity_v2.ts:34](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/client/identity_v2.ts#L34)
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 #### Defined in
 
-[client/identity_v2.ts:35](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/client/identity_v2.ts#L35)
+[client/identity_v2.ts:35](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/client/identity_v2.ts#L35)
 
 ## Methods
 
@@ -96,7 +96,7 @@ Creates a new credential builder for defining a credential on the Bloock Identit
 
 #### Defined in
 
-[client/identity_v2.ts:193](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/client/identity_v2.ts#L193)
+[client/identity_v2.ts:193](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/client/identity_v2.ts#L193)
 
 ___
 
@@ -121,7 +121,7 @@ Creates a new schema builder for defining a schema on the Bloock Identity servic
 
 #### Defined in
 
-[client/identity_v2.ts:147](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/client/identity_v2.ts#L147)
+[client/identity_v2.ts:147](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/client/identity_v2.ts#L147)
 
 ___
 
@@ -144,7 +144,7 @@ Creates a new identity.
 
 #### Defined in
 
-[client/identity_v2.ts:52](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/client/identity_v2.ts#L52)
+[client/identity_v2.ts:52](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/client/identity_v2.ts#L52)
 
 ___
 
@@ -171,7 +171,7 @@ Creates a new issuer on the Bloock Identity service.
 
 #### Defined in
 
-[client/identity_v2.ts:83](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/client/identity_v2.ts#L83)
+[client/identity_v2.ts:83](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/client/identity_v2.ts#L83)
 
 ___
 
@@ -193,7 +193,7 @@ Creates a new verification session on the identity managed API provided.
 
 #### Defined in
 
-[client/identity_v2.ts:296](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/client/identity_v2.ts#L296)
+[client/identity_v2.ts:296](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/client/identity_v2.ts#L296)
 
 ___
 
@@ -216,7 +216,7 @@ Gets the proof of a credential on the Bloock Identity service.
 
 #### Defined in
 
-[client/identity_v2.ts:243](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/client/identity_v2.ts#L243)
+[client/identity_v2.ts:243](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/client/identity_v2.ts#L243)
 
 ___
 
@@ -239,7 +239,7 @@ Gets the DID of an issuer based on the issuer key.
 
 #### Defined in
 
-[client/identity_v2.ts:118](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/client/identity_v2.ts#L118)
+[client/identity_v2.ts:118](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/client/identity_v2.ts#L118)
 
 ___
 
@@ -261,7 +261,7 @@ Gets a schema from the Bloock Identity service based on the schema ID (ex: Qma1t
 
 #### Defined in
 
-[client/identity_v2.ts:167](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/client/identity_v2.ts#L167)
+[client/identity_v2.ts:167](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/client/identity_v2.ts#L167)
 
 ___
 
@@ -283,7 +283,7 @@ Gets the status of a verification session on the identity managed API provided.
 
 #### Defined in
 
-[client/identity_v2.ts:347](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/client/identity_v2.ts#L347)
+[client/identity_v2.ts:347](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/client/identity_v2.ts#L347)
 
 ___
 
@@ -306,7 +306,7 @@ Publishes the state of an issuer on the Bloock Identity service.
 
 #### Defined in
 
-[client/identity_v2.ts:216](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/client/identity_v2.ts#L216)
+[client/identity_v2.ts:216](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/client/identity_v2.ts#L216)
 
 ___
 
@@ -329,7 +329,7 @@ Revokes a credential on the Bloock Identity service.
 
 #### Defined in
 
-[client/identity_v2.ts:270](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/client/identity_v2.ts#L270)
+[client/identity_v2.ts:270](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/client/identity_v2.ts#L270)
 
 ___
 
@@ -352,4 +352,4 @@ Waits for the completion of a verification session on the identity managed API p
 
 #### Defined in
 
-[client/identity_v2.ts:321](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/client/identity_v2.ts#L321)
+[client/identity_v2.ts:321](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/client/identity_v2.ts#L321)

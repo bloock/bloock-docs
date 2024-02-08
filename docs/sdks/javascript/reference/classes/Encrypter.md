@@ -43,7 +43,7 @@ Creates a new Encrypter instance with a local encryption key.
 
 #### Defined in
 
-[entity/encryption/encrypter.ts:25](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/encryption/encrypter.ts#L25)
+[entity/encryption/encrypter.ts:25](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/encryption/encrypter.ts#L25)
 
 ## Properties
 
@@ -53,7 +53,7 @@ Creates a new Encrypter instance with a local encryption key.
 
 #### Defined in
 
-[entity/encryption/encrypter.ts:18](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/encryption/encrypter.ts#L18)
+[entity/encryption/encrypter.ts:18](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/encryption/encrypter.ts#L18)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-[entity/encryption/encrypter.ts:17](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/encryption/encrypter.ts#L17)
+[entity/encryption/encrypter.ts:17](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/encryption/encrypter.ts#L17)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 #### Defined in
 
-[entity/encryption/encrypter.ts:14](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/encryption/encrypter.ts#L14)
+[entity/encryption/encrypter.ts:14](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/encryption/encrypter.ts#L14)
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 #### Defined in
 
-[entity/encryption/encrypter.ts:16](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/encryption/encrypter.ts#L16)
+[entity/encryption/encrypter.ts:16](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/encryption/encrypter.ts#L16)
 
 ___
 
@@ -93,7 +93,7 @@ ___
 
 #### Defined in
 
-[entity/encryption/encrypter.ts:15](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/encryption/encrypter.ts#L15)
+[entity/encryption/encrypter.ts:15](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/encryption/encrypter.ts#L15)
 
 ## Methods
 
@@ -107,4 +107,4 @@ ___
 
 #### Defined in
 
-[entity/encryption/encrypter.ts:46](https://github.com/bloock/bloock-sdk/blob/d82279b/languages/js/src/entity/encryption/encrypter.ts#L46)
+[entity/encryption/encrypter.ts:46](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/encryption/encrypter.ts#L46)
