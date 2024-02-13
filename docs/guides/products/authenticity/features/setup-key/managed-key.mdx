@@ -1,0 +1,47 @@
+---
+sidebar_position: 4
+---
+
+import SdkCodeBlock from '/docs/partials/_sdk-code-block.mdx';
+
+# Managed keys
+
+Managed keys outsources the creation, storage, and management of cryptographic keys to a trusted third-party service provider. This approach is also known as key management as a service (KMaaS).
+
+Managed keys are commonly used in situations where an organization requires a high level of security for their cryptographic keys, but does not have the expertise, resources, or infrastructure to manage the keys internally. In this case, the service provider is responsible for generating, storing, and managing the cryptographic keys on behalf of the organization. The keys are stored in a secure data center or cloud environment that is designed to meet strict security requirements and industry standards.
+
+All the operations involved with this keys such as encrypt/decrypt or sign/verify are executed directly on the provider to ensure that the keys are not exposed at any moment.
+
+Overall, managed key management can provide a secure and convenient way for organizations to manage their cryptographic keys, while offloading the burden of key management to a trusted third-party service provider.
+
+## Generating a managed key
+
+import NewManagedKeyJs from '!!raw-loader!@site/examples/key/new_managed_key/new_managed_key.ts';
+import NewManagedKeyPy from '!!raw-loader!@site/examples/key/new_managed_key/new_managed_key.py';
+import NewManagedKeyJava from '!!raw-loader!@site/examples/key/new_managed_key/new_managed_key.java';
+import NewManagedKeyPhp from '!!raw-loader!@site/examples/key/new_managed_key/new_managed_key.php';
+import NewManagedKeyGo from '!!raw-loader!@site/examples/key/new_managed_key/new_managed_key.go';
+
+<SdkCodeBlock
+  js={NewManagedKeyJs}
+  py={NewManagedKeyPy}
+  java={NewManagedKeyJava}
+  php={NewManagedKeyPhp}
+  go={NewManagedKeyGo}
+/>
+
+## Loading an existing managed key
+
+import LoadManagedKeyJs from '!!raw-loader!@site/examples/key/load_managed_key/load_managed_key.ts';
+import LoadManagedKeyPy from '!!raw-loader!@site/examples/key/load_managed_key/load_managed_key.py';
+import LoadManagedKeyJava from '!!raw-loader!@site/examples/key/load_managed_key/load_managed_key.java';
+import LoadManagedKeyPhp from '!!raw-loader!@site/examples/key/load_managed_key/load_managed_key.php';
+import LoadManagedKeyGo from '!!raw-loader!@site/examples/key/load_managed_key/load_managed_key.go';
+
+<SdkCodeBlock
+  js={LoadManagedKeyJs}
+  py={LoadManagedKeyPy}
+  java={LoadManagedKeyJava}
+  php={LoadManagedKeyPhp}
+  go={LoadManagedKeyGo}
+/>

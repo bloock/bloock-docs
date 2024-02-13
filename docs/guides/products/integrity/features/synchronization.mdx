@@ -1,0 +1,67 @@
+---
+title: 'Synchronization'
+sidebar_position: 3
+---
+
+# Synchronization
+
+Once a data is sent for certification to BLOOCK, there's a time interval until it gets processed and transacted to the different blockchain networks. This time interval can be variable and, in some networks, pretty long,
+
+We provide two ways of managing this time interval:
+
+## Asynchronous
+
+This allows to get notified via Webhook every time an anchor is transacted to an specific network.
+
+:::tip
+A webhook is an HTTP request, triggered by an event in the source system and then, sent to the destination system. Webhooks are automatically sent out when their event is fired in the source system.
+:::
+
+To start using this method, you will need to [Configure a Webhook](../../webhooks/overview/configure-webhooks.md) on our managment website and selecting one or more networks to wait for.
+
+Once a webhook is configured and a new anchor is processed for one of the selected networks, you will receive a POST request to the URL you configured with the following payload:
+
+```json
+{
+  "created_at": <unix timestamp in seconds when the anchor was processed>,
+  "finalized": <if the anchor has finished processing, it will always be set to true>,
+  "id": <anchor identifier>,
+  "message_count": <number of records processed in this anchor>,
+  "network": {
+    "anchor_id": <anchor identifier>,
+    "created_at": <unix timestamp in seconds when the transaction was triggered>,,
+    "name": <name of the network>,
+    "status": <status of the transaction>,
+    "test": <if the transaction is for the test environment or not>,
+    "tx_hash": <blockchain transaction hash>
+  },
+  "root": <anchor root>,
+  "test": <if the transaction is for the test environment or not>
+}
+```
+
+## Synchronous
+
+:::tip
+`It's recommended to only use this method for networks with low internal times (<3 minutes)`
+:::
+
+It's also possible to wait for the interval in a synchronous manner by using our SDKs directly. This allows to keep a single code snippet that handles all the certification flow.&#x20;
+
+To do so, we provide a specific method that polls our APIs every second until the next anchor is processed. Here are some code examples to implement it:
+
+import SdkCodeBlock from '/docs/partials/_sdk-code-block.mdx';
+
+import WaitAnchorJs from '!!raw-loader!@site/examples/integrity/wait_anchor/wait_anchor.ts';
+import WaitAnchorPy from '!!raw-loader!@site/examples/integrity/wait_anchor/wait_anchor.py';
+import WaitAnchorJava from '!!raw-loader!@site/examples/integrity/wait_anchor/wait_anchor.java';
+import WaitAnchorPhp from '!!raw-loader!@site/examples/integrity/wait_anchor/wait_anchor.php';
+import WaitAnchorGo from '!!raw-loader!@site/examples/integrity/wait_anchor/wait_anchor.go';
+
+<SdkCodeBlock
+  js={WaitAnchorJs}
+  py={WaitAnchorPy}
+  java={WaitAnchorJava}
+  php={WaitAnchorPhp}
+  go={WaitAnchorGo}
+/>

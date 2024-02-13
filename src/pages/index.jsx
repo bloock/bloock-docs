@@ -21,12 +21,12 @@ export default function Homepage() {
       </Head>
       <div>
         <div className="w-full bg-gradient-to-r from-primary-100 to-accent p-4 text-center font-medium text-white">
-          Lorem ipsum dolor{' '}
+          🚀 New version of the Certifier tool available!{' '}
           <Link
-            to="/guides/integrity/overview"
+            to="https://www.youtube.com/watch?v=vLzZnNDOCXk"
             className="text-white underline"
           >
-            sit amet.
+            See demo.
           </Link>
         </div>
       </div>

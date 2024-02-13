@@ -246,7 +246,7 @@ const config = {
       prism: {
         theme: code_themes.light,
         darkTheme: code_themes.dark,
-        additionalLanguages: ['php', 'groovy', 'kotlin', 'java'],
+        additionalLanguages: ['php', 'groovy', 'kotlin', 'java', 'bash'],
         magicComments: [
           {
             className: 'theme-code-block-highlighted-line',

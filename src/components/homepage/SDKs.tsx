@@ -66,8 +66,8 @@ export default function SDKs() {
         <h4 className="mb-2 text-2xl">Tools</h4>
 
         <p className="mb-6 text-text-400">
-          Build even faster with our prebuilt and self-hosted components{' '}
-          <span className="font-semibold">all</span> frameworks.
+          Build <span className="font-semibold">even faster</span> with our
+          prebuilt and self-hosted components.
         </p>
 
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-4">

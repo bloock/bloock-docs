@@ -1,0 +1,58 @@
+---
+title: 'Networks supported'
+sidebar_position: 3
+---
+
+# Networks supported
+
+BLOOCK's protocol allows for interoperability between different blockchain networks, meaning that anchors processed by our system gets transacted in multiple chains so you are able to verify your data in any of them.
+
+This allows for different benefits for our customers such as:
+
+- Resilience in front of changes in the blockchain ecosystem
+- Ability to select which network you want to verify from
+- Interoperability with your stakeholders working with different networks
+- Adaptability for different certification processing intervals
+
+We transact to each network in different intervals. This is because of two reasons: the chain's block interval and the transaction cost.
+
+## Live environment
+
+Here is a list of blockchain we integrate with and the the approximate transaction intervals:
+
+<table>
+  <thead>
+    <tr>
+      <th>Network</th>
+      <th width="275.3333333333333">Contract Address</th>
+      <th>Interval</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ethereum</td>
+      <td>522b2040CdfD247ED60921623044dF1c929524B7</td>
+      <td>~24 hours</td>
+    </tr>
+    <tr>
+      <td>Gnosis Chain</td>
+      <td>Ec6Ab24a61162C22eD1663F384c94032774ACCb2</td>
+      <td>~2 minute</td>
+    </tr>
+    <tr>
+      <td>Polygon PoS</td>
+      <td>1dfc7ab4db66f4eA53dADE6AD22C061c61dc441c</td>
+      <td>~5 minute</td>
+    </tr>
+  </tbody>
+</table>
+
+## Test environment
+
+Our test environment is designed for development-only purposes, providing low transaction intervals to facilitate the development and integration with our SDKs.
+
+To do so, anchors processed in that environment are only transacted into a private EVM-compatible blockchain managed by BLOOCK called BloockChain:
+
+| Network     | Contract address                         | Interval   |
+| ----------- | ---------------------------------------- | ---------- |
+| BloockChain | d2d1BBcbee7741f8C846826F55b7c17fc5cf969a | \~1 minute |

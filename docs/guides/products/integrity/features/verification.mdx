@@ -1,0 +1,122 @@
+---
+title: 'Verification'
+sidebar_position: 4
+---
+
+import SdkCodeBlock from '/docs/partials/_sdk-code-block.mdx';
+
+# Verification
+
+The verification process is done in the following three steps:
+
+1. Retrieve an integrity proof
+2. Verify the integrity proof
+3. Validate in blockchain
+
+Those steps can be implemented, using our SDKs, both individually or together.
+
+The verification process takes as input a set of Records that you are willing to validate and an optional blockchain network where the validation will be made. If the blockchain network is not set, the SDKs will select Ethereum by default if available.
+
+The output of the process will be a timestamp which is the earliest transaction in the selected blockchain network where all the records are included.
+
+## One-step verification
+
+In order to verify one or more records in one step, our SDKs provide the function _verifyRecords_. This function will take care of managing the 3 steps by itself.
+
+Here are code example of how to implement this function:
+
+import VerifyRecordsJs from '!!raw-loader!@site/examples/integrity/verify_records/verify_records.ts';
+import VerifyRecordsPy from '!!raw-loader!@site/examples/integrity/verify_records/verify_records.py';
+import VerifyRecordsJava from '!!raw-loader!@site/examples/integrity/verify_records/verify_records.java';
+import VerifyRecordsPhp from '!!raw-loader!@site/examples/integrity/verify_records/verify_records.php';
+import VerifyRecordsGo from '!!raw-loader!@site/examples/integrity/verify_records/verify_records.go';
+
+<SdkCodeBlock
+  js={VerifyRecordsJs}
+  py={VerifyRecordsPy}
+  java={VerifyRecordsJava}
+  php={VerifyRecordsPhp}
+  go={VerifyRecordsGo}
+/>
+
+## Detailed verification
+
+### Retrieve an integrity proof
+
+An integrity proof is a set of data computed by BLOOCK based on one (or more) Records that can later be verified independently to mathematically assure that those Records were included in an anchor in the past.
+
+Once an Integrity proof is computed it's valid over time. You can store it internally and use it for later verification to ensure full independence from our service from this point.
+
+:::tip
+You will not be able to verify a Record that is not fully processed and transacted to Blockchain. See [Syncronization](synchronization.md) for information about how to manage it.
+:::
+
+Our SDKs allow to easily retrieve this integrity proof. Here are some code examples of how to implement it:
+
+import GetProofJs from '!!raw-loader!@site/examples/integrity/get_proof/get_proof.ts';
+import GetProofPy from '!!raw-loader!@site/examples/integrity/get_proof/get_proof.py';
+import GetProofJava from '!!raw-loader!@site/examples/integrity/get_proof/get_proof.java';
+import GetProofPhp from '!!raw-loader!@site/examples/integrity/get_proof/get_proof.php';
+import GetProofGo from '!!raw-loader!@site/examples/integrity/get_proof/get_proof.go';
+
+<SdkCodeBlock
+  js={GetProofJs}
+  py={GetProofPy}
+  java={GetProofJava}
+  php={GetProofPhp}
+  go={GetProofGo}
+/>
+
+### Verify the integrity proof
+
+The next step in the verification process is to verify the integrity proof retrieved in the previous step. This is made by locally computing the result of the proof, which is the value (root) that, at some point of time, got transacted into blockchain.
+
+:::tip
+For more detail about this process, you can see the [Protocol](broken-reference) section.
+:::
+
+All this process is managed by our SDKs and can be implemented as follows:
+
+import VerifyProofJs from '!!raw-loader!@site/examples/integrity/verify_proof/verify_proof.ts';
+import VerifyProofPy from '!!raw-loader!@site/examples/integrity/verify_proof/verify_proof.py';
+import VerifyProofJava from '!!raw-loader!@site/examples/integrity/verify_proof/verify_proof.java';
+import VerifyProofPhp from '!!raw-loader!@site/examples/integrity/verify_proof/verify_proof.php';
+import VerifyProofGo from '!!raw-loader!@site/examples/integrity/verify_proof/verify_proof.go';
+
+<SdkCodeBlock
+  js={VerifyProofJs}
+  py={VerifyProofPy}
+  java={VerifyProofJava}
+  php={VerifyProofPhp}
+  go={VerifyProofGo}
+/>
+
+### Validate digital signatures
+
+:::tip
+This step is only needed if a digital signature is detected in the Record's metadata. See the [Digital signature](broken-reference) section for more detail.
+:::
+
+This step is used to verify the authenticity of the Records (---)
+
+### Validate in blockchain
+
+The last step of the verification process is to check if the output of the [Verify integrity proof](verification.md#verify-the-integrity-proof) step is actually in the selected blockchain network.
+
+This is made by querying the obtained root on the BLOOCK's Smart Contract deployed on each network available. The result of this query is a timestamp (specifically the block time) when this root was transacted into the network.
+
+Here's some code examples of how to implement this using our SDKs:
+
+import VerifyRootJs from '!!raw-loader!@site/examples/integrity/verify_root/verify_root.ts';
+import VerifyRootPy from '!!raw-loader!@site/examples/integrity/verify_root/verify_root.py';
+import VerifyRootJava from '!!raw-loader!@site/examples/integrity/verify_root/verify_root.java';
+import VerifyRootPhp from '!!raw-loader!@site/examples/integrity/verify_root/verify_root.php';
+import VerifyRootGo from '!!raw-loader!@site/examples/integrity/verify_root/verify_root.go';
+
+<SdkCodeBlock
+  js={VerifyRootJs}
+  py={VerifyRootPy}
+  java={VerifyRootJava}
+  php={VerifyRootPhp}
+  go={VerifyRootGo}
+/>

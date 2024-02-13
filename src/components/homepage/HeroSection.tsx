@@ -1,8 +1,8 @@
-import React from 'react';
 import Link from '@docusaurus/Link';
+import { PRODUCTS } from '@site/src/products';
 import ThemedImage from '@theme/ThemedImage';
 import clsx from 'clsx';
-import { PRODUCTS } from '@site/src/products';
+import React from 'react';
 
 function HeroProduct({
   link,

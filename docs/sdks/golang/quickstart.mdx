@@ -1,24 +1,39 @@
 ---
 title: Quickstart
-description: Quickstart guide for android mobile core.
+description: Quickstart guide for BLOOCK Golang SDK.
 sidebar_position: 1
 tags: [golang, quickstart]
 slug: /
 ---
 
-import { MavenLatestInstallation } from '@site/src/components/LatestInstallation';
+import CodeBlock from '@theme/CodeBlock';
 
-# Golang SDK Quickstart
+# Golang SDK
 
-This quickstart shows how to use BLOOCK's Golang SDK to add live video and
-audio to your Android applications.
+This page has all the information needed to install and setup the BLOOCK's SDK for Golang. If you are looking for documentation related to an specific functionality, please refer to it's specific section.
 
-## Objective
+## Requirements
 
-You’ll learn how to:
+To run the SDK for Golang you will need:
 
-- Install the Bloock SDK
-- Initialize the SDK
-- Configure a Bloock meeting
-- Initialize the Bloock meeting
-- And go live with your Bloock meeting
+- Go version >= 1.18
+
+:::tip
+Please refer also to [OS support](../overview/os-support.md) for current operating system requirements
+:::
+
+## Installation
+
+The Go SDK is available through the go get command, to install it, you can run the following command:
+
+<CodeBlock language="bash">go get github.com/bloock/bloock-sdk-go/v2</CodeBlock>
+
+## Set up
+
+To start working with most of the functionalities of our SDKs, you will need an API Key. Please, follow the instructions of [Create an API Key](../authentication/create-an-api-key.md) to get one.
+
+Here's the code needed to properly configure the SDK Client with the API Key:
+
+import SetupGo from '!!raw-loader!@site/examples/setup/setup/setup.go';
+
+<CodeBlock language="go">{SetupGo}</CodeBlock>

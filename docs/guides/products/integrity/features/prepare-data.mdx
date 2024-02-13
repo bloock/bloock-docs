@@ -1,0 +1,93 @@
+---
+title: 'Prepare data'
+sidebar_position: 1
+---
+
+# Prepare data
+
+The first step of the certification process is to prepare the data that you want to certify through BLOOCK.
+
+This basically translates to load this data to the SDK, standardize it and compute a hash using the algorithm that BLOOCK uses internally (Keccak256). Luckily, all this process is done by the SDK internally so all you need to do is&#x20;
+
+## The Record entity
+
+The principal element of the BLOOCK SDKs is the Record as it's used on most of the functionalities. It's responsible for different interactions such as:
+
+- Encapsulate your data
+- Hashing
+- Add [digital signatures](broken-reference)
+- Add [encryption](broken-reference)
+- Add self-contained metadata
+
+### Record builders
+
+In order to generate a Record, our SDKs provide different builders to do so. Those builders enable to set as input different data types, formats or encodings based on your needs.
+
+#### Available builders
+
+Currently, the following builders are available:
+
+<table>
+  <thead>
+    <tr>
+      <th width="256">Name</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>fromString</td>
+      <td>It takes a UTF-8 string as input</td>
+    </tr>
+    <tr>
+      <td>fromBytes</td>
+      <td>It takes an array of bytes as input</td>
+    </tr>
+    <tr>
+      <td>fromHex</td>
+      <td>
+        It takes a hash string (hex encoded 64-chars long string) as input
+      </td>
+    </tr>
+    <tr>
+      <td>fromJson</td>
+      <td>It takes a JSON as input</td>
+    </tr>
+    <tr>
+      <td>fromRecord</td>
+      <td>It takes a record as input</td>
+    </tr>
+    <tr>
+      <td>fromFile</td>
+      <td>It takes a file (as a byte array) as input</td>
+    </tr>
+    <tr>
+      <td>fromLoader</td>
+      <td>
+        It takes a Loader as input (for more information check{' '}
+        <a data-mention href="broken-reference">
+          Broken link
+        </a>
+        )
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+## Examples
+
+import SdkCodeBlock from '/docs/partials/_sdk-code-block.mdx';
+
+import PrepareRecordJs from '!!raw-loader!@site/examples/record/prepare/prepare.ts';
+import PrepareRecordPy from '!!raw-loader!@site/examples/record/prepare/prepare.py';
+import PrepareRecordJava from '!!raw-loader!@site/examples/record/prepare/prepare.java';
+import PrepareRecordPhp from '!!raw-loader!@site/examples/record/prepare/prepare.php';
+import PrepareRecordGo from '!!raw-loader!@site/examples/record/prepare/prepare.go';
+
+<SdkCodeBlock
+  js={PrepareRecordJs}
+  py={PrepareRecordPy}
+  java={PrepareRecordJava}
+  php={PrepareRecordPhp}
+  go={PrepareRecordGo}
+/>

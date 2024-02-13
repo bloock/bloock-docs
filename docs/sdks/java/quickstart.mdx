@@ -1,24 +1,70 @@
 ---
 title: Quickstart
-description: Quickstart guide for android mobile core.
+description: Quickstart guide for BLOOCK Java SDK.
 sidebar_position: 1
 tags: [java, quickstart]
 slug: /
 ---
 
-import { MavenLatestInstallation } from '@site/src/components/LatestInstallation';
+import CodeBlock from '@theme/CodeBlock';
 
-# Java SDK Quickstart
+# Java SDK
 
-This quickstart shows how to use BLOOCK's Java SDK to add live video and
-audio to your Android applications.
+This page has all the information needed to install and setup the BLOOCK's SDK for Java. If you are looking for documentation related to an specific functionality, please refer to it's specific section.
 
-## Objective
+## Requirements
 
-You’ll learn how to:
+To run the SDK for Java you will need:
 
-- Install the Bloock SDK
-- Initialize the SDK
-- Configure a Bloock meeting
-- Initialize the Bloock meeting
-- And go live with your Bloock meeting
+- Java version >= 8
+- Gradle or Maven for installing the package
+
+:::tip
+Please refer also to [OS support](../overview/os-support.md) for current operating system requirements
+:::
+
+## Installation
+
+The Java SDK is available through Gradle or Maven. To install it, you can add the following to the config of your prefered build tool:
+
+<Tabs>
+  <TabItem value="gradle" label="Gradle">
+    <CodeBlock language="groovy">
+      implementation 'com.bloock.sdk:bloock-sdk:SDK_VERSION'
+    </CodeBlock>
+  </TabItem>
+  <TabItem value="maven" label="Maven">
+    <CodeBlock language="xml">
+      {`<dependency>
+  <groupId>com.bloock.sdk</groupId>
+  <artifactId>bloock-sdk</artifactId>
+  <version>SDK_VERSION</version>
+</dependency>`}
+    </CodeBlock>
+  </TabItem>
+</Tabs>
+
+:::tip
+To find the latest version available, you can visit the [Maven Central page](https://search.maven.org/artifact/com.bloock.sdk/bloock-sdk) for this library.
+:::
+
+## Installation (Android)
+
+For Android projects, the installation is a bit different for restrictions in the JNA library for Java, that has an specific version (aar) to work on Android devices.
+
+<CodeBlock language="groovy">
+  {`implementation 'net.java.dev.jna:jna:5.12.1@aar'
+implementation('com.bloock.sdk:bloock-sdk:SDK_VERSION') { 
+  exclude group: "net.java.dev.jna", module: "jna" 
+}`}
+</CodeBlock>
+
+## Set up
+
+To start working with most of the functionalities of our SDKs, you will need an API Key. Please, follow the instructions of [Create an API Key](../authentication/create-an-api-key.md) to get one.
+
+Here's the code needed to properly configure the SDK Client with the API Key:
+
+import SetupJava from '!!raw-loader!@site/examples/setup/setup/setup.java';
+
+<CodeBlock language="java">{SetupJava}</CodeBlock>

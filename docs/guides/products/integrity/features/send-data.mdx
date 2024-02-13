@@ -1,0 +1,34 @@
+---
+title: 'Send data'
+sidebar_position: 2
+---
+
+# Send data
+
+Once you have your [data prepared](prepare-data.md), you can send it to BLOOCK so it can be certified using our protocol.
+
+When you send a new record to BLOOCK, it's queued internally and assigned to an Anchor. Once this Anchor is processed and transacted into the blockchain, the record gets certified and you will be able to verify it.
+
+:::tip
+The certification of a record may take some time to be confirmed. In order to manage this time interval, see [Synchronization](synchronization.mdx).
+:::
+
+## Examples
+
+Here's a code example on how to send a set of Records to BLOOCK:
+
+import SdkCodeBlock from '/docs/partials/_sdk-code-block.mdx';
+
+import SendDataJs from '!!raw-loader!@site/examples/integrity/send/send.ts';
+import SendDataPy from '!!raw-loader!@site/examples/integrity/send/send.py';
+import SendDataJava from '!!raw-loader!@site/examples/integrity/send/send.java';
+import SendDataPhp from '!!raw-loader!@site/examples/integrity/send/send.php';
+import SendDataGo from '!!raw-loader!@site/examples/integrity/send/send.go';
+
+<SdkCodeBlock
+  js={SendDataJs}
+  py={SendDataPy}
+  java={SendDataJava}
+  php={SendDataPhp}
+  go={SendDataGo}
+/>

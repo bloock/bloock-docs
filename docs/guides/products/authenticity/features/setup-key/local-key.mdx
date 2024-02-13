@@ -1,0 +1,49 @@
+---
+sidebar_position: 3
+---
+
+import SdkCodeBlock from '/docs/partials/_sdk-code-block.mdx';
+
+# Local key
+
+With a local key approach, our customers generate, store and use cryptographic keys within a single device or system. In other words, the keys are managed locally on the device or system rather than being managed by a cloud solution nor BLOOCK.
+
+It is commonly used in situations where the device or system needs to operate independently or offline, without relying on external resources to manage its keys.
+
+In local key management, keys are typically generated on the device or system and stored in a secure location, such as a secure element or a trusted platform module (TPM). The keys are used within the device or system, and should never be shared with external entities.
+
+This approach requires careful consideration of security measures to prevent unauthorized access to the keys. It is important to use strong cryptographic algorithms and key lengths, protect the keys from physical tampering or theft, and implement secure storage and backup mechanisms.
+
+Overall, local key management can provide a secure and reliable way to manage cryptographic keys for devices and systems that operate independently or offline. However, it requires careful planning and implementation to ensure that the keys remain secure and protected.
+
+## Generating a local key
+
+import NewLocalKeyJs from '!!raw-loader!@site/examples/key/new_local_key/new_local_key.ts';
+import NewLocalKeyPy from '!!raw-loader!@site/examples/key/new_local_key/new_local_key.py';
+import NewLocalKeyJava from '!!raw-loader!@site/examples/key/new_local_key/new_local_key.java';
+import NewLocalKeyPhp from '!!raw-loader!@site/examples/key/new_local_key/new_local_key.php';
+import NewLocalKeyGo from '!!raw-loader!@site/examples/key/new_local_key/new_local_key.go';
+
+<SdkCodeBlock
+  js={NewLocalKeyJs}
+  py={NewLocalKeyPy}
+  java={NewLocalKeyJava}
+  php={NewLocalKeyPhp}
+  go={NewLocalKeyGo}
+/>
+
+## Loading an existing local key
+
+import LoadLocalKeyJs from '!!raw-loader!@site/examples/key/load_local_key/load_local_key.ts';
+import LoadLocalKeyPy from '!!raw-loader!@site/examples/key/load_local_key/load_local_key.py';
+import LoadLocalKeyJava from '!!raw-loader!@site/examples/key/load_local_key/load_local_key.java';
+import LoadLocalKeyPhp from '!!raw-loader!@site/examples/key/load_local_key/load_local_key.php';
+import LoadLocalKeyGo from '!!raw-loader!@site/examples/key/load_local_key/load_local_key.go';
+
+<SdkCodeBlock
+  js={LoadLocalKeyJs}
+  py={LoadLocalKeyPy}
+  java={LoadLocalKeyJava}
+  php={LoadLocalKeyPhp}
+  go={LoadLocalKeyGo}
+/>

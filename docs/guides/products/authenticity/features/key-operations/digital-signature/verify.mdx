@@ -1,0 +1,26 @@
+---
+title: 'Verify'
+sidebar_position: 4
+---
+
+import SdkCodeBlock from '/docs/partials/_sdk-code-block.mdx';
+
+# Verify digital signature
+
+## Signature verification
+
+Once you have some data/document signed, you can verify the digital signature in it by following the integrity verification process that automatically verifies the signatures (if any) or you can do it by your own:
+
+import VerifyJs from '!!raw-loader!@site/examples/key/verify/verify.ts';
+import VerifyPy from '!!raw-loader!@site/examples/key/verify/verify.py';
+import VerifyJava from '!!raw-loader!@site/examples/key/verify/verify.java';
+import VerifyPhp from '!!raw-loader!@site/examples/key/verify/verify.php';
+import VerifyGo from '!!raw-loader!@site/examples/key/verify/verify.go';
+
+<SdkCodeBlock
+  js={VerifyJs}
+  py={VerifyPy}
+  java={VerifyJava}
+  php={VerifyPhp}
+  go={VerifyGo}
+/>
