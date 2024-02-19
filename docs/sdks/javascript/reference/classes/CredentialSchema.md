@@ -41,7 +41,7 @@ Constructs an CredentialSchema object with the specified parameters.
 
 #### Defined in
 
-[entity/identity_v2/credential_schema.ts:15](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/credential_schema.ts#L15)
+[entity/identity/credential_schema.ts:15](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential_schema.ts#L15)
 
 ## Properties
 
@@ -51,7 +51,7 @@ Constructs an CredentialSchema object with the specified parameters.
 
 #### Defined in
 
-[entity/identity_v2/credential_schema.ts:7](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/credential_schema.ts#L7)
+[entity/identity/credential_schema.ts:7](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential_schema.ts#L7)
 
 ___
 
@@ -61,21 +61,21 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/credential_schema.ts:8](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/credential_schema.ts#L8)
+[entity/identity/credential_schema.ts:8](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential_schema.ts#L8)
 
 ## Methods
 
 ### toProto
 
-▸ **toProto**(): `CredentialSchemaV2`
+▸ **toProto**(): `CredentialSchema`
 
 #### Returns
 
-`CredentialSchemaV2`
+`CredentialSchema`
 
 #### Defined in
 
-[entity/identity_v2/credential_schema.ts:20](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/credential_schema.ts#L20)
+[entity/identity/credential_schema.ts:20](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential_schema.ts#L20)
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `r` | `CredentialSchemaV2` |
+| `r` | `CredentialSchema` |
 
 #### Returns
 
@@ -95,4 +95,4 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/credential_schema.ts:27](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/credential_schema.ts#L27)
+[entity/identity/credential_schema.ts:27](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential_schema.ts#L27)

@@ -42,7 +42,7 @@ Constructs a ManagedCertificateParams object with the specified parameters.
 
 #### Defined in
 
-[entity/key/managed_certificate_params.ts:28](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/key/managed_certificate_params.ts#L28)
+[entity/key/managed_certificate_params.ts:28](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/key/managed_certificate_params.ts#L28)
 
 ## Properties
 
@@ -54,7 +54,7 @@ Is the number of months until the certificate expiration.
 
 #### Defined in
 
-[entity/key/managed_certificate_params.ts:20](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/key/managed_certificate_params.ts#L20)
+[entity/key/managed_certificate_params.ts:20](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/key/managed_certificate_params.ts#L20)
 
 ___
 
@@ -66,7 +66,7 @@ Is the type of the key.
 
 #### Defined in
 
-[entity/key/managed_certificate_params.ts:12](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/key/managed_certificate_params.ts#L12)
+[entity/key/managed_certificate_params.ts:12](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/key/managed_certificate_params.ts#L12)
 
 ___
 
@@ -78,7 +78,7 @@ Represents the subject details of the certificate.
 
 #### Defined in
 
-[entity/key/managed_certificate_params.ts:16](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/key/managed_certificate_params.ts#L16)
+[entity/key/managed_certificate_params.ts:16](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/key/managed_certificate_params.ts#L16)
 
 ## Methods
 
@@ -92,4 +92,4 @@ Represents the subject details of the certificate.
 
 #### Defined in
 
-[entity/key/managed_certificate_params.ts:38](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/key/managed_certificate_params.ts#L38)
+[entity/key/managed_certificate_params.ts:38](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/key/managed_certificate_params.ts#L38)

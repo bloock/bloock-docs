@@ -50,7 +50,7 @@ Creates a new instance of Bloock instance.
 
 #### Defined in
 
-[bloock.ts:23](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/bloock.ts#L23)
+[bloock.ts:23](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/bloock.ts#L23)
 
 ## Properties
 
@@ -60,7 +60,7 @@ Creates a new instance of Bloock instance.
 
 #### Defined in
 
-[bloock.ts:14](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/bloock.ts#L14)
+[bloock.ts:14](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/bloock.ts#L14)
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 #### Defined in
 
-[bloock.ts:11](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/bloock.ts#L11)
+[bloock.ts:11](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/bloock.ts#L11)
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 #### Defined in
 
-[bloock.ts:15](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/bloock.ts#L15)
+[bloock.ts:15](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/bloock.ts#L15)
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 #### Defined in
 
-[bloock.ts:12](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/bloock.ts#L12)
+[bloock.ts:12](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/bloock.ts#L12)
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-[bloock.ts:13](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/bloock.ts#L13)
+[bloock.ts:13](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/bloock.ts#L13)
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 #### Defined in
 
-[bloock.ts:16](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/bloock.ts#L16)
+[bloock.ts:16](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/bloock.ts#L16)
 
 ___
 
@@ -124,7 +124,7 @@ ___
 
 #### Defined in
 
-[bloock.ts:10](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/bloock.ts#L10)
+[bloock.ts:10](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/bloock.ts#L10)
 
 ## Methods
 
@@ -140,7 +140,7 @@ Is a string variable representing the host URL used for API communication with t
 
 #### Defined in
 
-[bloock.ts:99](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/bloock.ts#L99)
+[bloock.ts:99](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/bloock.ts#L99)
 
 ___
 
@@ -156,7 +156,7 @@ Is a string variable representing the API key used for authentication with the B
 
 #### Defined in
 
-[bloock.ts:33](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/bloock.ts#L33)
+[bloock.ts:33](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/bloock.ts#L33)
 
 ___
 
@@ -172,7 +172,7 @@ Is a boolean variable that, when set to true, disables the analytics feature in 
 
 #### Defined in
 
-[bloock.ts:121](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/bloock.ts#L121)
+[bloock.ts:121](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/bloock.ts#L121)
 
 ___
 
@@ -188,7 +188,7 @@ Is a string variable used to force a specific environment configuration, it allo
 
 #### Defined in
 
-[bloock.ts:55](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/bloock.ts#L55)
+[bloock.ts:55](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/bloock.ts#L55)
 
 ___
 
@@ -204,7 +204,7 @@ Is a string variable representing the host URL used for Identity Managed API, re
 
 #### Defined in
 
-[bloock.ts:77](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/bloock.ts#L77)
+[bloock.ts:77](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/bloock.ts#L77)
 
 ___
 
@@ -220,7 +220,7 @@ Is a variable that holds network configurations associated with specific network
 
 #### Defined in
 
-[bloock.ts:143](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/bloock.ts#L143)
+[bloock.ts:143](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/bloock.ts#L143)
 
 ___
 
@@ -242,7 +242,7 @@ Sets the host used for API communication with the Bloock SDK.
 
 #### Defined in
 
-[bloock.ts:110](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/bloock.ts#L110)
+[bloock.ts:110](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/bloock.ts#L110)
 
 ___
 
@@ -264,7 +264,7 @@ Sets the API key used for authentication with the Bloock SDK.
 
 #### Defined in
 
-[bloock.ts:44](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/bloock.ts#L44)
+[bloock.ts:44](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/bloock.ts#L44)
 
 ___
 
@@ -287,7 +287,7 @@ Sets the contract address for the specified network in the Bloock SDK configurat
 
 #### Defined in
 
-[bloock.ts:180](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/bloock.ts#L180)
+[bloock.ts:180](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/bloock.ts#L180)
 
 ___
 
@@ -309,7 +309,7 @@ Sets the boolean variable that disables the analytics feature in the Bloock SDK.
 
 #### Defined in
 
-[bloock.ts:132](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/bloock.ts#L132)
+[bloock.ts:132](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/bloock.ts#L132)
 
 ___
 
@@ -331,7 +331,7 @@ Sets the environment used for the Bloock SDK.
 
 #### Defined in
 
-[bloock.ts:66](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/bloock.ts#L66)
+[bloock.ts:66](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/bloock.ts#L66)
 
 ___
 
@@ -353,7 +353,7 @@ Sets the host URL used for Identity Managed API.
 
 #### Defined in
 
-[bloock.ts:88](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/bloock.ts#L88)
+[bloock.ts:88](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/bloock.ts#L88)
 
 ___
 
@@ -376,4 +376,4 @@ Sets the HTTP provider for the specified network in the Bloock SDK configuration
 
 #### Defined in
 
-[bloock.ts:157](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/bloock.ts#L157)
+[bloock.ts:157](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/bloock.ts#L157)

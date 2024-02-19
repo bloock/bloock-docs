@@ -45,7 +45,7 @@ Constructs a Schema object with the specified parameters.
 
 #### Defined in
 
-[entity/identity_v2/schema.ts:19](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/schema.ts#L19)
+[entity/identity/schema.ts:19](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/schema.ts#L19)
 
 ## Properties
 
@@ -55,7 +55,7 @@ Constructs a Schema object with the specified parameters.
 
 #### Defined in
 
-[entity/identity_v2/schema.ts:7](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/schema.ts#L7)
+[entity/identity/schema.ts:7](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/schema.ts#L7)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/schema.ts:8](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/schema.ts#L8)
+[entity/identity/schema.ts:8](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/schema.ts#L8)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/schema.ts:10](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/schema.ts#L10)
+[entity/identity/schema.ts:10](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/schema.ts#L10)
 
 ___
 
@@ -85,21 +85,21 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/schema.ts:9](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/schema.ts#L9)
+[entity/identity/schema.ts:9](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/schema.ts#L9)
 
 ## Methods
 
 ### toProto
 
-▸ **toProto**(): `SchemaV2`
+▸ **toProto**(): `Schema`
 
 #### Returns
 
-`SchemaV2`
+`Schema`
 
 #### Defined in
 
-[entity/identity_v2/schema.ts:31](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/schema.ts#L31)
+[entity/identity/schema.ts:31](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/schema.ts#L31)
 
 ___
 
@@ -111,7 +111,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `r` | `SchemaV2` |
+| `r` | `Schema` |
 
 #### Returns
 
@@ -119,4 +119,4 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/schema.ts:40](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/schema.ts#L40)
+[entity/identity/schema.ts:40](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/schema.ts#L40)

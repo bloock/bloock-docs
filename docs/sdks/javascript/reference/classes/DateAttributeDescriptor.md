@@ -55,7 +55,7 @@ Constructs an AttributeDescriptor object with the specified parameters.
 
 #### Defined in
 
-[entity/identity_v2/attribute_descriptor.ts:29](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/attribute_descriptor.ts#L29)
+[entity/identity/attribute_descriptor.ts:29](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/attribute_descriptor.ts#L29)
 
 ## Properties
 
@@ -71,7 +71,7 @@ Is a description providing additional information about the attribute.
 
 #### Defined in
 
-[entity/identity_v2/attribute_descriptor.ts:16](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/attribute_descriptor.ts#L16)
+[entity/identity/attribute_descriptor.ts:16](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/attribute_descriptor.ts#L16)
 
 ___
 
@@ -87,7 +87,7 @@ Is the human-readable display name of the attribute.
 
 #### Defined in
 
-[entity/identity_v2/attribute_descriptor.ts:8](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/attribute_descriptor.ts#L8)
+[entity/identity/attribute_descriptor.ts:8](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/attribute_descriptor.ts#L8)
 
 ___
 
@@ -103,7 +103,7 @@ Specifies whether the attribute is required.
 
 #### Defined in
 
-[entity/identity_v2/attribute_descriptor.ts:20](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/attribute_descriptor.ts#L20)
+[entity/identity/attribute_descriptor.ts:20](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/attribute_descriptor.ts#L20)
 
 ___
 
@@ -119,21 +119,21 @@ Is the identifier for the attribute.
 
 #### Defined in
 
-[entity/identity_v2/attribute_descriptor.ts:12](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/attribute_descriptor.ts#L12)
+[entity/identity/attribute_descriptor.ts:12](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/attribute_descriptor.ts#L12)
 
 ## Methods
 
 ### toProto
 
-▸ **toProto**(): `DateAttributeDefinitionV2`
+▸ **toProto**(): `DateAttributeDefinition`
 
 #### Returns
 
-`DateAttributeDefinitionV2`
+`DateAttributeDefinition`
 
 #### Defined in
 
-[entity/identity_v2/date_attribute_descriptor.ts:8](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/date_attribute_descriptor.ts#L8)
+[entity/identity/date_attribute_descriptor.ts:8](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/date_attribute_descriptor.ts#L8)
 
 ___
 
@@ -145,7 +145,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `r` | `DateAttributeDefinitionV2` |
+| `r` | `DateAttributeDefinition` |
 
 #### Returns
 
@@ -153,4 +153,4 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/date_attribute_descriptor.ts:17](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/date_attribute_descriptor.ts#L17)
+[entity/identity/date_attribute_descriptor.ts:17](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/date_attribute_descriptor.ts#L17)

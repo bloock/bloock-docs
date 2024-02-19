@@ -21,8 +21,8 @@ Helps construct credentials by specifying various attributes.
 - [holderDid](CredentialBuilder.md#holderdid)
 - [integerAttributes](CredentialBuilder.md#integerattributes)
 - [issuerDid](CredentialBuilder.md#issuerdid)
+- [key](CredentialBuilder.md#key)
 - [schemaId](CredentialBuilder.md#schemaid)
-- [signer](CredentialBuilder.md#signer)
 - [stringAttributes](CredentialBuilder.md#stringattributes)
 - [version](CredentialBuilder.md#version)
 
@@ -34,14 +34,13 @@ Helps construct credentials by specifying various attributes.
 - [withDateTimeAttribute](CredentialBuilder.md#withdatetimeattribute)
 - [withDecimalAttribute](CredentialBuilder.md#withdecimalattribute)
 - [withIntegerAttribute](CredentialBuilder.md#withintegerattribute)
-- [withSigner](CredentialBuilder.md#withsigner)
 - [withStringAttribute](CredentialBuilder.md#withstringattribute)
 
 ## Constructors
 
 ### constructor
 
-• **new CredentialBuilder**(`schemaId`, `issuerDid`, `holderDid`, `expiration`, `version`, `configData`): [`CredentialBuilder`](CredentialBuilder.md)
+• **new CredentialBuilder**(`issuer`, `schemaId`, `holderDid`, `expiration`, `version`, `configData`): [`CredentialBuilder`](CredentialBuilder.md)
 
 Creates a new CredentialBuilder instance with the specified parameters.
 
@@ -49,8 +48,8 @@ Creates a new CredentialBuilder instance with the specified parameters.
 
 | Name | Type |
 | :------ | :------ |
+| `issuer` | [`Issuer`](Issuer.md) |
 | `schemaId` | `string` |
-| `issuerDid` | `string` |
 | `holderDid` | `string` |
 | `expiration` | `number` |
 | `version` | `number` |
@@ -62,17 +61,17 @@ Creates a new CredentialBuilder instance with the specified parameters.
 
 #### Defined in
 
-[entity/identity_v2/credential_builder.ts:50](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/credential_builder.ts#L50)
+[entity/identity/credential_builder.ts:50](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential_builder.ts#L50)
 
 ## Properties
 
 ### booleanAttributes
 
-• **booleanAttributes**: `BooleanAttributeV2`[]
+• **booleanAttributes**: `BooleanAttribute`[]
 
 #### Defined in
 
-[entity/identity_v2/credential_builder.ts:37](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/credential_builder.ts#L37)
+[entity/identity/credential_builder.ts:37](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential_builder.ts#L37)
 
 ___
 
@@ -82,37 +81,37 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/credential_builder.ts:32](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/credential_builder.ts#L32)
+[entity/identity/credential_builder.ts:32](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential_builder.ts#L32)
 
 ___
 
 ### dateAttributes
 
-• **dateAttributes**: `DateAttributeV2`[]
+• **dateAttributes**: `DateAttribute`[]
 
 #### Defined in
 
-[entity/identity_v2/credential_builder.ts:38](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/credential_builder.ts#L38)
+[entity/identity/credential_builder.ts:38](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential_builder.ts#L38)
 
 ___
 
 ### dateTimeAttributes
 
-• **dateTimeAttributes**: `DateTimeAttributeV2`[]
+• **dateTimeAttributes**: `DateTimeAttribute`[]
 
 #### Defined in
 
-[entity/identity_v2/credential_builder.ts:39](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/credential_builder.ts#L39)
+[entity/identity/credential_builder.ts:39](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential_builder.ts#L39)
 
 ___
 
 ### decimalAttributes
 
-• **decimalAttributes**: `DecimalAttributeV2`[]
+• **decimalAttributes**: `DecimalAttribute`[]
 
 #### Defined in
 
-[entity/identity_v2/credential_builder.ts:36](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/credential_builder.ts#L36)
+[entity/identity/credential_builder.ts:36](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential_builder.ts#L36)
 
 ___
 
@@ -122,7 +121,7 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/credential_builder.ts:29](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/credential_builder.ts#L29)
+[entity/identity/credential_builder.ts:29](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential_builder.ts#L29)
 
 ___
 
@@ -132,17 +131,17 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/credential_builder.ts:28](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/credential_builder.ts#L28)
+[entity/identity/credential_builder.ts:28](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential_builder.ts#L28)
 
 ___
 
 ### integerAttributes
 
-• **integerAttributes**: `IntegerAttributeV2`[]
+• **integerAttributes**: `IntegerAttribute`[]
 
 #### Defined in
 
-[entity/identity_v2/credential_builder.ts:35](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/credential_builder.ts#L35)
+[entity/identity/credential_builder.ts:35](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential_builder.ts#L35)
 
 ___
 
@@ -152,7 +151,17 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/credential_builder.ts:27](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/credential_builder.ts#L27)
+[entity/identity/credential_builder.ts:27](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential_builder.ts#L27)
+
+___
+
+### key
+
+• `Optional` **key**: `Key`
+
+#### Defined in
+
+[entity/identity/credential_builder.ts:31](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential_builder.ts#L31)
 
 ___
 
@@ -162,27 +171,17 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/credential_builder.ts:26](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/credential_builder.ts#L26)
-
-___
-
-### signer
-
-• `Optional` **signer**: `Signer`
-
-#### Defined in
-
-[entity/identity_v2/credential_builder.ts:31](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/credential_builder.ts#L31)
+[entity/identity/credential_builder.ts:26](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential_builder.ts#L26)
 
 ___
 
 ### stringAttributes
 
-• **stringAttributes**: `StringAttributeV2`[]
+• **stringAttributes**: `StringAttribute`[]
 
 #### Defined in
 
-[entity/identity_v2/credential_builder.ts:34](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/credential_builder.ts#L34)
+[entity/identity/credential_builder.ts:34](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential_builder.ts#L34)
 
 ___
 
@@ -192,7 +191,7 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/credential_builder.ts:30](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/credential_builder.ts#L30)
+[entity/identity/credential_builder.ts:30](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential_builder.ts#L30)
 
 ## Methods
 
@@ -208,7 +207,7 @@ Creates and returns a Credential using the specified attributes.
 
 #### Defined in
 
-[entity/identity_v2/credential_builder.ts:154](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/credential_builder.ts#L154)
+[entity/identity/credential_builder.ts:144](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential_builder.ts#L144)
 
 ___
 
@@ -231,7 +230,7 @@ Adds a boolean attribute to the CredentialBuilder.
 
 #### Defined in
 
-[entity/identity_v2/credential_builder.ts:113](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/credential_builder.ts#L113)
+[entity/identity/credential_builder.ts:113](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential_builder.ts#L113)
 
 ___
 
@@ -254,7 +253,7 @@ Adds a date attribute to the CredentialBuilder.
 
 #### Defined in
 
-[entity/identity_v2/credential_builder.ts:124](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/credential_builder.ts#L124)
+[entity/identity/credential_builder.ts:124](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential_builder.ts#L124)
 
 ___
 
@@ -277,7 +276,7 @@ Adds a datetime attribute to the CredentialBuilder.
 
 #### Defined in
 
-[entity/identity_v2/credential_builder.ts:135](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/credential_builder.ts#L135)
+[entity/identity/credential_builder.ts:135](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential_builder.ts#L135)
 
 ___
 
@@ -300,7 +299,7 @@ Adds a decimal attribute to the CredentialBuilder.
 
 #### Defined in
 
-[entity/identity_v2/credential_builder.ts:102](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/credential_builder.ts#L102)
+[entity/identity/credential_builder.ts:102](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential_builder.ts#L102)
 
 ___
 
@@ -323,29 +322,7 @@ Adds an integer attribute to the CredentialBuilder.
 
 #### Defined in
 
-[entity/identity_v2/credential_builder.ts:91](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/credential_builder.ts#L91)
-
-___
-
-### withSigner
-
-▸ **withSigner**(`signer`): [`CredentialBuilder`](CredentialBuilder.md)
-
-Sets the signer for the CredentialBuilder.
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `signer` | [`Signer`](Signer.md) |
-
-#### Returns
-
-[`CredentialBuilder`](CredentialBuilder.md)
-
-#### Defined in
-
-[entity/identity_v2/credential_builder.ts:145](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/credential_builder.ts#L145)
+[entity/identity/credential_builder.ts:91](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential_builder.ts#L91)
 
 ___
 
@@ -368,4 +345,4 @@ Adds a string attribute to the CredentialBuilder.
 
 #### Defined in
 
-[entity/identity_v2/credential_builder.ts:80](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/credential_builder.ts#L80)
+[entity/identity/credential_builder.ts:80](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential_builder.ts#L80)

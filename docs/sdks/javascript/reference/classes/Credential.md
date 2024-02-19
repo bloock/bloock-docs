@@ -2,6 +2,8 @@
 
 # Class: Credential
 
+Represents a verifiable credential with its associated information. [Verifiable Credentials Data Model v2.0](https://www.w3.org/TR/vc-data-model-2.0/).
+
 ## Table of contents
 
 ### Constructors
@@ -14,6 +16,7 @@
 - [credentialSchema](Credential.md#credentialschema)
 - [credentialStatus](Credential.md#credentialstatus)
 - [credentialSubject](Credential.md#credentialsubject)
+- [expiration](Credential.md#expiration)
 - [id](Credential.md#id)
 - [issuanceDate](Credential.md#issuancedate)
 - [issuer](Credential.md#issuer)
@@ -31,7 +34,9 @@
 
 ### constructor
 
-• **new Credential**(`context`, `id`, `type`, `issuanceDate`, `credentialSubject`, `credentialStatus`, `issuer`, `credentialSchema`, `proof`): [`Credential`](Credential.md)
+• **new Credential**(`context`, `id`, `type`, `issuanceDate`, `expiration`, `credentialSubject`, `credentialStatus`, `issuer`, `credentialSchema`, `proof`): [`Credential`](Credential.md)
+
+Creates a new Credential instance with the provided details.
 
 #### Parameters
 
@@ -41,11 +46,12 @@
 | `id` | `string` |
 | `type` | `string`[] |
 | `issuanceDate` | `string` |
+| `expiration` | `string` |
 | `credentialSubject` | `any` |
-| `credentialStatus` | `CredentialStatus` |
+| `credentialStatus` | [`CredentialStatus`](CredentialStatus.md) |
 | `issuer` | `string` |
-| `credentialSchema` | `CredentialSchema` |
-| `proof` | `CredentialProof` |
+| `credentialSchema` | [`CredentialSchema`](CredentialSchema.md) |
+| `proof` | [`CredentialProof`](CredentialProof.md) |
 
 #### Returns
 
@@ -53,7 +59,7 @@
 
 #### Defined in
 
-[entity/identity/credential.ts:23](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity/credential.ts#L23)
+[entity/identity/credential.ts:40](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential.ts#L40)
 
 ## Properties
 
@@ -63,27 +69,27 @@
 
 #### Defined in
 
-[entity/identity/credential.ts:13](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity/credential.ts#L13)
+[entity/identity/credential.ts:16](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential.ts#L16)
 
 ___
 
 ### credentialSchema
 
-• **credentialSchema**: `CredentialSchema`
+• **credentialSchema**: [`CredentialSchema`](CredentialSchema.md)
 
 #### Defined in
 
-[entity/identity/credential.ts:20](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity/credential.ts#L20)
+[entity/identity/credential.ts:24](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential.ts#L24)
 
 ___
 
 ### credentialStatus
 
-• **credentialStatus**: `CredentialStatus`
+• **credentialStatus**: [`CredentialStatus`](CredentialStatus.md)
 
 #### Defined in
 
-[entity/identity/credential.ts:18](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity/credential.ts#L18)
+[entity/identity/credential.ts:22](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential.ts#L22)
 
 ___
 
@@ -93,7 +99,17 @@ ___
 
 #### Defined in
 
-[entity/identity/credential.ts:17](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity/credential.ts#L17)
+[entity/identity/credential.ts:21](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential.ts#L21)
+
+___
+
+### expiration
+
+• **expiration**: `string`
+
+#### Defined in
+
+[entity/identity/credential.ts:20](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential.ts#L20)
 
 ___
 
@@ -103,7 +119,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential.ts:14](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity/credential.ts#L14)
+[entity/identity/credential.ts:17](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential.ts#L17)
 
 ___
 
@@ -113,7 +129,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential.ts:16](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity/credential.ts#L16)
+[entity/identity/credential.ts:19](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential.ts#L19)
 
 ___
 
@@ -123,17 +139,17 @@ ___
 
 #### Defined in
 
-[entity/identity/credential.ts:19](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity/credential.ts#L19)
+[entity/identity/credential.ts:23](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential.ts#L23)
 
 ___
 
 ### proof
 
-• **proof**: `CredentialProof`
+• **proof**: [`CredentialProof`](CredentialProof.md)
 
 #### Defined in
 
-[entity/identity/credential.ts:21](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity/credential.ts#L21)
+[entity/identity/credential.ts:25](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential.ts#L25)
 
 ___
 
@@ -143,7 +159,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential.ts:15](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity/credential.ts#L15)
+[entity/identity/credential.ts:18](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential.ts#L18)
 
 ## Methods
 
@@ -151,13 +167,15 @@ ___
 
 ▸ **toJson**(): `Promise`\<`string`\>
 
+Converts the Credential instance to its JSON string representation.
+
 #### Returns
 
 `Promise`\<`string`\>
 
 #### Defined in
 
-[entity/identity/credential.ts:73](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity/credential.ts#L73)
+[entity/identity/credential.ts:98](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential.ts#L98)
 
 ___
 
@@ -171,13 +189,15 @@ ___
 
 #### Defined in
 
-[entity/identity/credential.ts:45](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity/credential.ts#L45)
+[entity/identity/credential.ts:64](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential.ts#L64)
 
 ___
 
 ### fromJson
 
 ▸ **fromJson**(`json`): `Promise`\<[`Credential`](Credential.md)\>
+
+Creates a Credential instance from a JSON string representation.
 
 #### Parameters
 
@@ -191,7 +211,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential.ts:92](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity/credential.ts#L92)
+[entity/identity/credential.ts:122](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential.ts#L122)
 
 ___
 
@@ -211,4 +231,4 @@ ___
 
 #### Defined in
 
-[entity/identity/credential.ts:59](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity/credential.ts#L59)
+[entity/identity/credential.ts:79](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/credential.ts#L79)

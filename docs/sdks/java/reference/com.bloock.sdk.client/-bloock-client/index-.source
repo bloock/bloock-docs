@@ -70,17 +70,17 @@
             </div>
           </div>
         </div>
-<a data-name="1894349702%2FFunctions%2F769193423" anchor-label="getIdentityLegacyClient" id="1894349702%2FFunctions%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+<a data-name="-945410000%2FFunctions%2F769193423" anchor-label="getIdentityCoreClient" id="-945410000%2FFunctions%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
         <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
           <div class="main-subrow keyValue ">
             <div class=""><span class="inline-flex">
-                <div><a href="get-identity-legacy-client-"><span>get</span><wbr><span>Identity</span><wbr><span>Legacy</span><wbr><span><span>Client</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1894349702%2FFunctions%2F769193423"></span>
+                <div><a href="get-identity-core-client-"><span>get</span><wbr><span>Identity</span><wbr><span>Core</span><wbr><span><span>Client</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-945410000%2FFunctions%2F769193423"></span>
                   <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                 </span></span></div>
             <div>
               <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="../-identity-legacy-client/index-">IdentityLegacyClient</a>&nbsp;<a href="get-identity-legacy-client-"><span class="token function">getIdentityLegacyClient</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">Gets identity legacy client instance</div></div></div>
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="../-identity-core-client/index-">IdentityCoreClient</a>&nbsp;<a href="get-identity-core-client-"><span class="token function">getIdentityCoreClient</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">Gets identity core client instance</div></div></div>
               </div>
             </div>
           </div>
@@ -177,17 +177,17 @@
             </div>
           </div>
         </div>
-<a data-name="594198714%2FProperties%2F769193423" anchor-label="identityLegacyClient" id="594198714%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+<a data-name="-1000394140%2FProperties%2F769193423" anchor-label="identityCoreClient" id="-1000394140%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
         <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
           <div class="main-subrow keyValue ">
             <div class=""><span class="inline-flex">
-                <div><a href="index-#594198714%2FProperties%2F769193423"><span>identity</span><wbr><span>Legacy</span><wbr><span><span>Client</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="594198714%2FProperties%2F769193423"></span>
+                <div><a href="index-#-1000394140%2FProperties%2F769193423"><span>identity</span><wbr><span>Core</span><wbr><span><span>Client</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1000394140%2FProperties%2F769193423"></span>
                   <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                 </span></span></div>
             <div>
               <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="594198714%2FProperties%2F769193423" anchor-label="identityLegacyClient" id="594198714%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword">final </span><span class="token keyword"></span><a href="../-identity-legacy-client/index-">IdentityLegacyClient</a>&nbsp;<a href="index-#594198714%2FProperties%2F769193423">identityLegacyClient</a></div></div></div>
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="-1000394140%2FProperties%2F769193423" anchor-label="identityCoreClient" id="-1000394140%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword">final </span><span class="token keyword"></span><a href="../-identity-core-client/index-">IdentityCoreClient</a>&nbsp;<a href="index-#-1000394140%2FProperties%2F769193423">identityCoreClient</a></div></div></div>
               </div>
             </div>
           </div>
