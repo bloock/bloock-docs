@@ -1,0 +1,53 @@
+---
+title: 'Developers'
+sidebar_position: 4
+---
+
+In this section, you can find all the resources necessary for integrating BLOOCK's products.
+
+## API Keys
+
+In this section, users can view the generated API Keys along with relevant information such as the name, creation date, expiration date, and their associated scopes.
+
+![API Keys](https://cdn.bloock.com/hosting/v1/hosted/51f1b228-7822-4230-ad54-25c24a8bbc4b)
+
+To create an API Key, users must fill out a form with the following information: Key name, expiration date, and the key's scopes. The scopes are divided into sections based on the products that will be used and their specific requirements.
+
+- **Integrity:** In this section, the scopes for Decentralized Timestamping are defined. To register data (send data to the blockchain), the Write checkbox is selected, and for verification, the Read checkbox should be selected.
+
+- **Data availability:** This section defines the scopes for Decentralized Storage. Enables uploading data into a hosted or decentralized storage system.
+- **Blockchain nodes:** Enables the verification process using Bloock nodes.
+- **Key Management:** Manage cryptographic keys: encrypting/decrypting and signing/verifying data.
+- **Identity:** In this section, the scopes for Digital Identity are defined. Create an issuer identity to start issuing VCs, delete issuers and schemas, write schemas, and issue verifiable credentials, read all identity information.
+
+![Create API Key](https://cdn.bloock.com/hosting/v1/hosted/d6c021e3-2c2e-42b0-87b5-73befd69796e)
+![Identity Scopes](https://cdn.bloock.com/hosting/v1/hosted/8bbeddf6-8324-4506-84b7-f74dc66a90c3)
+
+#### _6.2. Logs_
+
+In the logs section, you can view the results of each request made to the Decentralized Timestamping service. Upon selecting a request, you can see the type of request, the result, the request ID, the date and time of the request, the IP address from which it was made, the request body, and the response body.
+
+![Developers Logs](https://cdn.bloock.com/hosting/v1/hosted/328e1519-c3ec-494c-a917-be54adc8deff)
+
+#### _6.3. Webhooks_
+
+On the main page of webhooks, you can create webhooks to receive real-time updates.
+
+The following information must be provided:
+
+- **URL**: [https://your.apidomain.com/](https://your.apidomain.com/endpoint)[bloock_ethereum_mainnet](https://your.apidomain.com/bloock_ethereum_mainnet)
+
+- **Event Listening**: - _Anchor:_ Events to notify anchor confirmations based on network. - _Record:_ Events to notify record confirmations based on network. - _Identity:_ Events to notify credentials confirmation based on proof type.
+
+![Add Webhook](https://cdn.bloock.com/hosting/v1/hosted/d16412c5-0ef2-4cc6-983c-c2c05cd8473f)
+Once all the information required is filed in, click on **Create** button.
+
+Users can view all created webhooks, the events they are listening to, their status, and further details of each one.
+
+![Webhooks Main](https://cdn.bloock.com/hosting/v1/hosted/e8781111-c217-46ac-840c-f4789daa1305)
+
+On the webhook details page, you can view the webhook's name, its signing secret, and its status. Additionally, in this section, you can see the webhook attempts and details of each one.
+
+![Webhook Details](https://cdn.bloock.com/hosting/v1/hosted/712ffa09-ec1c-4871-a11c-06814bc8c24e)
+
+By selecting each webhook attempt, you can view the Request ID, the Status, the date and time, the Result, the endpoint, the request body, and the response body.

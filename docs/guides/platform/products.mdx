@@ -1,0 +1,144 @@
+---
+title: 'Products'
+sidebar_position: 3
+---
+
+### **5.** **BLOOCK Products**
+
+In this section, users can find product dashboards for every product. In these specific sections, users can visualize detailed information about each product's usage, control integration, and access functionalities that visually enable the creation of tools for managing each of them.
+
+#### _5.1. Decentralized Timesptamping_
+
+The Decentralized Timestamping product ensures data integrity through a tamper-proof system to securely seal information fingerprints. This process verifies data existence by leveraging permissionless distributed ledgers. To delve deeper into this product, you can review the Decentralized Timestamping section.
+
+In this section of BLOOCK's management, you can access general metrics regarding the usage of this product, such as the number of records generated or data transacted during this payment period, the number of validation requests (validating transacted data), and the upcoming anchor time to be transacted.
+
+![Decentralized Timestamping Overview](https://cdn.bloock.com/hosting/v1/hosted/c5e7a903-43f6-46f0-b033-ccbf9a002745)
+
+**Records**
+
+At the bottom of this section, user can find each of the transacted records for the user, along with reference information: the data hash, the anchor ID on which it was transacted, the date of data reception, and its status. At this point, you can view more details about that specific record.
+
+On the record detail page, you can see general information about it as well as the networks on which it has been transacted (Your data fingerprints will be sent to Polygon, Gnosis, and Ethereum simultaneously).
+
+![Record Details info](https://cdn.bloock.com/hosting/v1/hosted/17b35f15-3b5b-4eef-8228-6dfd6b2f44ac)
+
+**Anchor**
+
+In the following tab, we can find information about the anchors that are being transacted. It is important to note that users can specifically view the anchors in which they have transacted information. In this section, we can find the Anchor ID, the moment the transaction took place, and its status.
+
+![Anchor Overview](https://cdn.bloock.com/hosting/v1/hosted/22637731-ed43-4b12-a72a-50bf45bd8c3a)
+
+Also, users can find detailed information about each of these anchors, such as general information, networks on which it has been transacted, the time and status of the transaction, as well as the Transaction hash on this specific network and a link to the specific explorer of each network. At the bottom of the anchor detail page, we can see the records in which the user has participated within that anchor.
+
+![Anchor details](https://cdn.bloock.com/hosting/v1/hosted/96fe07da-18dc-47e0-881d-9faee1fc7a89)
+
+#### _5.2. Digital Identity_
+
+Self-sovereign identity (SSI) capabilities enable secure, non-repudiable, and privacy-preserving authentications that can be reused across multiple platforms. For more information about this product and its integration, you can review the Digital Identity section.
+
+In this section of BLOOCK's management, users can access general metrics regarding the usage of this product, such as the number of credentials issued during this billing period and the number of credential revocations.
+
+**Issuers**
+
+At the bottom of the Digital Identity homepage, we can find the Issuers tab where we can review the different issuers generated and information pertaining to them, including the issuer's avatar, name, DID (Unique identifier of this issuer), and creation date.
+
+![enter image description here](https://cdn.bloock.com/hosting/v1/hosted/f3daa2d9-418f-4b8d-94f7-7c6e228620ad)
+
+In this section, there is a button to Create new issuers. To create the issuer, users must add a Name, may include a description, specify the type of DID, and set the interval for credential issuance. Finally, an avatar for the issuer in question can be added.
+
+![Create Issuer Form](https://cdn.bloock.com/hosting/v1/hosted/f43a3ac5-c455-4cf0-9778-f26d8d095bb4)
+
+In the Issuers tab of the Digital Identity homepage, users can access more details about each of the created issuers. In this section, users can view general information about the issuer such as the DID, the ID of the associated key, and its description.
+
+![Issuer Details page](https://cdn.bloock.com/hosting/v1/hosted/56602754-a8d1-4976-b911-62259a6c201a)
+
+**Creadential Schemas**
+
+The next tab displays the Credential Schemas created by the user. These schemas serve as templates for the credentials that issuers will issue. In this section, we can see the schema name, its URL, and the creation date. Additionally, we have the option to archive these schemas once they are no longer in use.
+
+![Digital Identity Overview](https://cdn.bloock.com/hosting/v1/hosted/e2a182ee-9341-49df-8115-f028711640bb)
+
+At this point, we find a button to Create New Schemas. In this dynamic form, the schema name, its description, and the attributes it will contain must be added. Each of these attributes can be customized to have required or optional values, including a name, attribute type (String, Boolean, Integer, Decimal, and Date), and a brief description. Upon publishing the schema, it will be uploaded as a JSON file on IPFS.
+
+![Create Schema](https://cdn.bloock.com/hosting/v1/hosted/6dbf1a2b-26cd-4baa-bdf0-b809c0106bbd)
+
+On the details page of each of these schemas, we can find general information about the schema, the CID of the JSON file located on IPFS, the link to the file, and the creation date.
+
+![Schema details page](https://cdn.bloock.com/hosting/v1/hosted/c22f568b-1b0d-4876-850c-2f9c1349cdd0)
+
+It is important to note that at this point, there is a button that allows testing of this schema, generating a credential with this structure and each desired attribute value.
+
+![Test schema](https://cdn.bloock.com/hosting/v1/hosted/8f1a9b0e-5062-4a92-ab09-9cd240ab299c)
+
+Once this credential is generated, a QR code can be scanned using the user's Wallet.
+
+**Validation Query**
+
+The last tab of the Digital Identity product displays Validation Queries. Verification queries establish a set of rules that credential attributes must adhere to in order to fulfill the verifier's requirements. In this tab, we can see the name of each query, the schema, and the creation date. Additionally, a QR code can be generated for validation purposes, which can be scanned through the Wallet.
+
+![Validation Query Tab](https://cdn.bloock.com/hosting/v1/hosted/0c1a45b5-9d72-4cef-a2cc-2d14a630daf2)
+
+In this tab, we find the button to create a query. The query creation form allows users to generate the validation of a credential attribute. Users can add a name, description, referenced schema, the attribute of the schema to be validated, query type, operator for comparison, attribute value, type of test to be performed, and whether it should be linked to a specific DID.
+
+![Create Query Form](https://cdn.bloock.com/hosting/v1/hosted/9d73380e-5fc5-4a18-98b8-07ce0bd7f46d)
+
+#### _5.3. Decentralized Storage_
+
+Resilient data storage ensures continuous access for authorized entities. Decentralized storage service enhances robustness against disruptions and ensures availability even in challenging conditions. To delve deeper into this product, you can review the Decentralized Storage section.
+
+In this section of BLOOCK's management, users can access general metrics regarding the usage of this product, such as the amount of GB used during this billing period and the volume of downloads in GB during the current billing period.
+
+At the bottom of the Decentralized Storage homepage, we can find the IPFS tab where users can review the different files or folders uploaded to IPFS and information about them, such as the file name, the file ID in IPFS, the file type (mime), the file link in IPFS, and the file size. Additionally, users can download or delete the uploaded files.
+
+**IPFS**
+
+![Decentralized Storage IPFS](https://cdn.bloock.com/hosting/v1/hosted/b1c2bfce-3420-4341-9f7c-2cef4a90e42b)
+
+Another functionality available in this section is the ability to upload files or directories to IPFS. Through the form, users can browse their files or drag and drop files.
+
+![Upload File Form](https://cdn.bloock.com/hosting/v1/hosted/3be03c15-ad37-4ec5-b51a-d60bf6069952)
+
+**Centralized Hosting**
+
+The next tab displays files uploaded to BLOOCK's centralized hosting, where users can view information such as the file name, the file ID, the file type (mime), the file link, and the file size. Finally, users can download or delete the uploaded files.
+
+![Decentralized Storage Hosted](https://cdn.bloock.com/hosting/v1/hosted/2aa5ca35-0c81-43cd-88ad-b0ef27d1e06e)
+
+#### _5.4. Managed Keys_
+
+The Key Management Product ensures the security of private keys and certificates, safeguarding authentication credential safety. It enables precise access control and maintains a comprehensive audit trail for enhanced security. For a deeper understanding of this product, you can explore the Key Management section.
+
+In this section of BLOOCK's management, users have access to general metrics regarding the usage of this product, such as the number of keys and certificates stored during this billing period, the number of signature operations performed, and the number of encryption operations carried out during this billing period. Additionally, users can find various functionalities, including:
+
+- **Key Creation:** In this form, users can create keys managed directly within the BLOOCK management system. Here, they should input the name, key type, and expiration date.
+- **Certificate Creation:** In this form, users can select the type of certificate to create and specify its expiration date. Additionally, they can add the certificate's subject, including the Common Name, Organization, Organization Unit, City, State, and Country.
+- **Certificate Import:** In this form, users can browse their files or drag and drop an existing certificate. These certificates should be in .pem, .p12, or .pfx format.
+
+![Create Managed Keys](https://cdn.bloock.com/hosting/v1/hosted/f6761ee7-627c-400e-8a1f-ee9a66caa8ed)
+
+**Keys**
+
+At the bottom of Key Management section, users can access the tab containing the keys, where they can view the name of the key, its type, the key ID, the creation date, and access detailed information about the keys and delete them.
+
+![Managed Keys Keys](https://cdn.bloock.com/hosting/v1/hosted/4590c4b9-6353-4e7e-8912-70f5538966b5)
+
+On the key details screen, users can view generic information about the keys, such as the ID, expiration date, type, and creation date. At the bottom, all operations performed with this key, such as Signing, Encryption, and Decryption, can be viewed.
+
+![enter image description here](https://cdn.bloock.com/hosting/v1/hosted/13260f89-0eec-4e07-a391-e734e4f741c5)
+
+**Certificates**
+
+In the next tab, users can see the generated certificates and their general information, such as the certificate name, type, ID, creation date, and they can access detailed information about the certificates and delete them.
+
+![Managed Certificates](https://cdn.bloock.com/hosting/v1/hosted/a08253a3-0e69-4a3b-bd72-7d57a26402b1)
+
+On the certificate details screen, users can view generic information about the certificates, such as the ID, expiration date, type, creation date, and the certificate's subject (Common Name, Organization, Organization Unit, City, State, and Country). At the bottom, all operations performed with this certificate, such as Signing, Encryption, and Decryption, can be viewed.
+
+![enter image description here](https://cdn.bloock.com/hosting/v1/hosted/db5d9229-057a-49e8-aeba-004ad284144f)
+
+**Operations**
+
+In the last tab of the Managed Keys section, we find the different signature operations carried out by the user in a general manner, along with information regarding them: The type of action (Signature, Verification, Encryption, and Decryption), the transaction ID, the name of the key or certificate used, the date of the operation, and the IP address where this operation took place.
+
+![Managed Operations](https://cdn.bloock.com/hosting/v1/hosted/2a209ef9-4db5-4352-9cf4-6777490cc24f)

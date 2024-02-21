@@ -127,7 +127,7 @@ const config = {
   ...meta,
   plugins,
   onBrokenLinks: 'warn',
-  trailingSlash: false,
+  trailingSlash: true,
   themes: ['@docusaurus/theme-live-codeblock'],
   scripts: [{ src: 'https://cdn.statuspage.io/se-v2.js' }],
 
