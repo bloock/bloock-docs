@@ -14,7 +14,7 @@ Represents a DID.
 #### \_\_init\_\_
 
 ```python
-def __init__(did: str, did_type: DidType) -> None
+def __init__(did: str, did_method: DidMethod) -> None
 ```
 
 Returns a new instance of Did for the given parameters.

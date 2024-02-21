@@ -19,7 +19,7 @@ represents a Issuer identity.
 
 ### constructor
 
-• **new Issuer**(`did`, `key`, `didType?`): [`Issuer`](Issuer.md)
+• **new Issuer**(`did`, `key`, `didMethod`): [`Issuer`](Issuer.md)
 
 Constructs a Issuer object with the specified parameters.
 
@@ -29,7 +29,7 @@ Constructs a Issuer object with the specified parameters.
 | :------ | :------ |
 | `did` | `string` |
 | `key` | [`Key`](Key.md) |
-| `didType?` | [`DidType`](DidType.md) |
+| `didMethod` | [`DidMethod`](../enums/DidMethod-1.md) |
 
 #### Returns
 
@@ -37,7 +37,7 @@ Constructs a Issuer object with the specified parameters.
 
 #### Defined in
 
-[entity/identity/issuer.ts:17](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/issuer.ts#L17)
+[entity/identity/issuer.ts:17](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/identity/issuer.ts#L17)
 
 ## Properties
 
@@ -47,7 +47,7 @@ Constructs a Issuer object with the specified parameters.
 
 #### Defined in
 
-[entity/identity/issuer.ts:9](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/issuer.ts#L9)
+[entity/identity/issuer.ts:9](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/identity/issuer.ts#L9)
 
 ___
 
@@ -57,4 +57,4 @@ ___
 
 #### Defined in
 
-[entity/identity/issuer.ts:10](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/issuer.ts#L10)
+[entity/identity/issuer.ts:10](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/identity/issuer.ts#L10)

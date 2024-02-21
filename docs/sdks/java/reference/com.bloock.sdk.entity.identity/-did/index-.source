@@ -8,17 +8,17 @@
     <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
     <div class="tabs-section-body">
       <h2 class="tabbedcontent">Constructors</h2>
-      <div class="table" data-togglable="Constructors"><a data-name="2010354044%2FConstructors%2F769193423" anchor-label="Did" id="2010354044%2FConstructors%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+      <div class="table" data-togglable="Constructors"><a data-name="-1326678347%2FConstructors%2F769193423" anchor-label="Did" id="-1326678347%2FConstructors%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
         <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
           <div class="main-subrow keyValue TabbedContent">
             <div class=""><span class="inline-flex">
                 <div><a href="-did-"><span><span>Did</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2010354044%2FConstructors%2F769193423"></span>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1326678347%2FConstructors%2F769193423"></span>
                   <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                 </span></span></div>
             <div>
               <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span>void&nbsp;<a href="-did-"><span class="token function">Did</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a>&nbsp;did<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="../-did-type/index-">DidType</a>&nbsp;didType</span></span><span class="token punctuation">)</span></div><div class="brief ">Returns a new instance of Did for the given parameters.</div></div></div>
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span>void&nbsp;<a href="-did-"><span class="token function">Did</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a>&nbsp;did<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="../-did-method/index-">DidMethod</a>&nbsp;didMethod</span></span><span class="token punctuation">)</span></div><div class="brief ">Returns a new instance of Did for the given parameters.</div></div></div>
               </div>
             </div>
           </div>
@@ -40,17 +40,17 @@
             </div>
           </div>
         </div>
-<a data-name="1158840609%2FFunctions%2F769193423" anchor-label="getDidType" id="1158840609%2FFunctions%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+<a data-name="-860669478%2FFunctions%2F769193423" anchor-label="getDidMethod" id="-860669478%2FFunctions%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
         <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
           <div class="main-subrow keyValue ">
             <div class=""><span class="inline-flex">
-                <div><a href="get-did-type-"><span>get</span><wbr><span>Did</span><wbr><span><span>Type</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1158840609%2FFunctions%2F769193423"></span>
+                <div><a href="get-did-method-"><span>get</span><wbr><span>Did</span><wbr><span><span>Method</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-860669478%2FFunctions%2F769193423"></span>
                   <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                 </span></span></div>
             <div>
               <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="../-did-type/index-">DidType</a>&nbsp;<a href="get-did-type-"><span class="token function">getDidType</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">Gets the did type.</div></div></div>
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="../-did-method/index-">DidMethod</a>&nbsp;<a href="get-did-method-"><span class="token function">getDidMethod</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">Gets the did type.</div></div></div>
               </div>
             </div>
           </div>
@@ -72,17 +72,17 @@
             </div>
           </div>
         </div>
-<a data-name="-1684949315%2FProperties%2F769193423" anchor-label="didType" id="-1684949315%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+<a data-name="-2143586186%2FProperties%2F769193423" anchor-label="didMethod" id="-2143586186%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
         <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
           <div class="main-subrow keyValue ">
             <div class=""><span class="inline-flex">
-                <div><a href="index-#-1684949315%2FProperties%2F769193423"><span>did</span><wbr><span><span>Type</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1684949315%2FProperties%2F769193423"></span>
+                <div><a href="index-#-2143586186%2FProperties%2F769193423"><span>did</span><wbr><span><span>Method</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2143586186%2FProperties%2F769193423"></span>
                   <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                 </span></span></div>
             <div>
               <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="-1684949315%2FProperties%2F769193423" anchor-label="didType" id="-1684949315%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword">final </span><span class="token keyword"></span><a href="../-did-type/index-">DidType</a>&nbsp;<a href="index-#-1684949315%2FProperties%2F769193423">didType</a></div></div></div>
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="-2143586186%2FProperties%2F769193423" anchor-label="didMethod" id="-2143586186%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword">final </span><span class="token keyword"></span><a href="../-did-method/index-">DidMethod</a>&nbsp;<a href="index-#-2143586186%2FProperties%2F769193423">didMethod</a></div></div></div>
               </div>
             </div>
           </div>

@@ -38,7 +38,7 @@ Constructs an AccessControlTotp object with the specified parameters.
 
 #### Defined in
 
-[entity/key/access_control_totp.ts:13](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/key/access_control_totp.ts#L13)
+[entity/key/access_control_totp.ts:13](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/key/access_control_totp.ts#L13)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Constructs an AccessControlTotp object with the specified parameters.
 
 #### Defined in
 
-[entity/key/access_control_totp.ts:7](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/key/access_control_totp.ts#L7)
+[entity/key/access_control_totp.ts:7](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/key/access_control_totp.ts#L7)
 
 ## Methods
 
@@ -62,4 +62,4 @@ Constructs an AccessControlTotp object with the specified parameters.
 
 #### Defined in
 
-[entity/key/access_control_totp.ts:19](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/key/access_control_totp.ts#L19)
+[entity/key/access_control_totp.ts:19](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/key/access_control_totp.ts#L19)

@@ -23,6 +23,8 @@ Represents a client for interacting with the [Bloock Identity service](https://d
 - [createIssuer](IdentityClient.md#createissuer)
 - [createVerification](IdentityClient.md#createverification)
 - [forcePublishIssuerState](IdentityClient.md#forcepublishissuerstate)
+- [getCredential](IdentityClient.md#getcredential)
+- [getCredentialOffer](IdentityClient.md#getcredentialoffer)
 - [getCredentialProof](IdentityClient.md#getcredentialproof)
 - [getSchema](IdentityClient.md#getschema)
 - [getVerificationStatus](IdentityClient.md#getverificationstatus)
@@ -50,7 +52,7 @@ Creates a new instance of the IdentityClient with default configuration.
 
 #### Defined in
 
-[client/identity.ts:42](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/client/identity.ts#L42)
+[client/identity.ts:44](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/identity.ts#L44)
 
 ## Properties
 
@@ -60,7 +62,7 @@ Creates a new instance of the IdentityClient with default configuration.
 
 #### Defined in
 
-[client/identity.ts:35](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/client/identity.ts#L35)
+[client/identity.ts:37](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/identity.ts#L37)
 
 ___
 
@@ -70,7 +72,7 @@ ___
 
 #### Defined in
 
-[client/identity.ts:36](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/client/identity.ts#L36)
+[client/identity.ts:38](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/identity.ts#L38)
 
 ## Methods
 
@@ -96,7 +98,7 @@ Creates a new credential builder for defining a credential on the Bloock Identit
 
 #### Defined in
 
-[client/identity.ts:194](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/client/identity.ts#L194)
+[client/identity.ts:196](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/identity.ts#L196)
 
 ___
 
@@ -121,13 +123,13 @@ Creates a new schema builder for defining a schema on the Bloock Identity servic
 
 #### Defined in
 
-[client/identity.ts:148](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/client/identity.ts#L148)
+[client/identity.ts:150](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/identity.ts#L150)
 
 ___
 
 ### createHolder
 
-▸ **createHolder**(`holderKey`, `didType?`): `Promise`\<[`Holder`](Holder.md)\>
+▸ **createHolder**(`holderKey`, `didMethod`): `Promise`\<[`Holder`](Holder.md)\>
 
 Creates a new holder identity.
 
@@ -136,7 +138,7 @@ Creates a new holder identity.
 | Name | Type |
 | :------ | :------ |
 | `holderKey` | [`Key`](Key.md) |
-| `didType?` | [`DidType`](DidType.md) |
+| `didMethod` | [`DidMethod`](../enums/DidMethod-1.md) |
 
 #### Returns
 
@@ -144,13 +146,13 @@ Creates a new holder identity.
 
 #### Defined in
 
-[client/identity.ts:53](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/client/identity.ts#L53)
+[client/identity.ts:55](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/identity.ts#L55)
 
 ___
 
 ### createIssuer
 
-▸ **createIssuer**(`issuerKey`, `publishInterval`, `didType?`, `name?`, `description?`, `image?`): `Promise`\<[`Issuer`](Issuer.md)\>
+▸ **createIssuer**(`issuerKey`, `publishInterval`, `didMethod`, `name?`, `description?`, `image?`): `Promise`\<[`Issuer`](Issuer.md)\>
 
 Creates a new issuer on the Bloock Identity service.
 
@@ -160,7 +162,7 @@ Creates a new issuer on the Bloock Identity service.
 | :------ | :------ |
 | `issuerKey` | [`Key`](Key.md) |
 | `publishInterval` | [`PublishIntervalParams`](../enums/PublishIntervalParams-1.md) |
-| `didType?` | [`DidType`](DidType.md) |
+| `didMethod` | [`DidMethod`](../enums/DidMethod-1.md) |
 | `name?` | `string` |
 | `description?` | `string` |
 | `image?` | `string` |
@@ -171,7 +173,7 @@ Creates a new issuer on the Bloock Identity service.
 
 #### Defined in
 
-[client/identity.ts:84](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/client/identity.ts#L84)
+[client/identity.ts:86](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/identity.ts#L86)
 
 ___
 
@@ -193,7 +195,7 @@ Creates a new verification session on the identity managed API provided.
 
 #### Defined in
 
-[client/identity.ts:296](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/client/identity.ts#L296)
+[client/identity.ts:344](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/identity.ts#L344)
 
 ___
 
@@ -215,7 +217,52 @@ Publishes the state of an issuer on the Bloock Identity service.
 
 #### Defined in
 
-[client/identity.ts:217](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/client/identity.ts#L217)
+[client/identity.ts:265](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/identity.ts#L265)
+
+___
+
+### getCredential
+
+▸ **getCredential**(`credentialId`): `Promise`\<[`Credential`](Credential.md)\>
+
+Retrieves the Verifiable Credential entity based on the credential ID (UUID). (ex: 1bf0c79e-55e6-4f14-aa9d-fb55619ba0cf)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `credentialId` | `string` |
+
+#### Returns
+
+`Promise`\<[`Credential`](Credential.md)\>
+
+#### Defined in
+
+[client/identity.ts:218](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/identity.ts#L218)
+
+___
+
+### getCredentialOffer
+
+▸ **getCredentialOffer**(`issuer`, `credentialId`): `Promise`\<`string`\>
+
+Retrieves the json raw offer based on the credential ID (UUID). (ex: 1bf0c79e-55e6-4f14-aa9d-fb55619ba0cf)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `issuer` | [`Issuer`](Issuer.md) |
+| `credentialId` | `string` |
+
+#### Returns
+
+`Promise`\<`string`\>
+
+#### Defined in
+
+[client/identity.ts:241](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/identity.ts#L241)
 
 ___
 
@@ -238,7 +285,7 @@ Gets the proof of a credential on the Bloock Identity service.
 
 #### Defined in
 
-[client/identity.ts:243](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/client/identity.ts#L243)
+[client/identity.ts:291](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/identity.ts#L291)
 
 ___
 
@@ -260,7 +307,7 @@ Gets a schema from the Bloock Identity service based on the schema ID (ex: Qma1t
 
 #### Defined in
 
-[client/identity.ts:168](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/client/identity.ts#L168)
+[client/identity.ts:170](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/identity.ts#L170)
 
 ___
 
@@ -282,22 +329,22 @@ Gets the status of a verification session on the identity managed API provided.
 
 #### Defined in
 
-[client/identity.ts:347](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/client/identity.ts#L347)
+[client/identity.ts:395](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/identity.ts#L395)
 
 ___
 
 ### importIssuer
 
-▸ **importIssuer**(`issuerKey`, `didType?`): `Promise`\<[`Issuer`](Issuer.md)\>
+▸ **importIssuer**(`issuerKey`, `didMethod`): `Promise`\<[`Issuer`](Issuer.md)\>
 
-Gets the issuer based on the issuer key and DID type.
+Gets the issuer based on the issuer key and DID method.
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `issuerKey` | [`Key`](Key.md) |
-| `didType?` | [`DidType`](DidType.md) |
+| `didMethod` | [`DidMethod`](../enums/DidMethod-1.md) |
 
 #### Returns
 
@@ -305,7 +352,7 @@ Gets the issuer based on the issuer key and DID type.
 
 #### Defined in
 
-[client/identity.ts:119](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/client/identity.ts#L119)
+[client/identity.ts:121](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/identity.ts#L121)
 
 ___
 
@@ -328,7 +375,7 @@ Revokes a credential on the Bloock Identity service.
 
 #### Defined in
 
-[client/identity.ts:270](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/client/identity.ts#L270)
+[client/identity.ts:318](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/identity.ts#L318)
 
 ___
 
@@ -351,4 +398,4 @@ Waits for the completion of a verification session on the identity managed API p
 
 #### Defined in
 
-[client/identity.ts:321](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/client/identity.ts#L321)
+[client/identity.ts:369](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/identity.ts#L369)

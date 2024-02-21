@@ -41,7 +41,7 @@ Constructs a LocalCertificate object with the specified parameters.
 
 #### Defined in
 
-[entity/key/local_certificate.ts:15](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/key/local_certificate.ts#L15)
+[entity/key/local_certificate.ts:15](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/key/local_certificate.ts#L15)
 
 ## Properties
 
@@ -51,7 +51,7 @@ Constructs a LocalCertificate object with the specified parameters.
 
 #### Defined in
 
-[entity/key/local_certificate.ts:8](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/key/local_certificate.ts#L8)
+[entity/key/local_certificate.ts:8](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/key/local_certificate.ts#L8)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-[entity/key/local_certificate.ts:7](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/key/local_certificate.ts#L7)
+[entity/key/local_certificate.ts:7](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/key/local_certificate.ts#L7)
 
 ## Methods
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[entity/key/local_certificate.ts:20](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/key/local_certificate.ts#L20)
+[entity/key/local_certificate.ts:20](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/key/local_certificate.ts#L20)
 
 ___
 
@@ -95,4 +95,4 @@ ___
 
 #### Defined in
 
-[entity/key/local_certificate.ts:27](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/key/local_certificate.ts#L27)
+[entity/key/local_certificate.ts:27](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/key/local_certificate.ts#L27)
