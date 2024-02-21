@@ -1,19 +1,28 @@
-keyClient := NewKeyClient()
+package main
 
-// Load a EcP256k key
-localKey, err := keyClient.LoadLocalKey(key.EcP256k, "public key", "private key")
+import (
+	"github.com/bloock/bloock-sdk-go/v2/client"
+	"github.com/bloock/bloock-sdk-go/v2/entity/key"
+)
 
-// Load a Rsa2048 key
-localKey, err := keyClient.LoadLocalKey(key.Rsa2048, "public key", "private key")
+func main() {
+	keyClient := client.NewKeyClient()
 
-// Load a Rsa3072 key
-localKey, err := keyClient.LoadLocalKey(key.Rsa3072, "public key", "private key")
+	// Load a EcP256k key
+	_, _ = keyClient.LoadLocalKey(key.EcP256k, "private key")
 
-// Load a Rsa4096 key
-localKey, err := keyClient.LoadLocalKey(key.Rsa4096, "public key", "private key")
+	// Load a Rsa2048 key
+	_, _ = keyClient.LoadLocalKey(key.Rsa2048, "private key")
 
-// Load a Aes128 key
-localKey, err := keyClient.LoadLocalKey(key.Aes128, "public key", nil)
+	// Load a Rsa3072 key
+	_, _ = keyClient.LoadLocalKey(key.Rsa3072, "private key")
 
-// Load a Aes256 key
-localKey, err := keyClient.LoadLocalKey(key.Aes256, "public key", nil)
+	// Load a Rsa4096 key
+	_, _ = keyClient.LoadLocalKey(key.Rsa4096, "private key")
+
+	// Load a Aes128 key
+	_, _ = keyClient.LoadLocalKey(key.Aes128, "password")
+
+	// Load a Aes256 key
+	_, _ = keyClient.LoadLocalKey(key.Aes256, "password")
+}

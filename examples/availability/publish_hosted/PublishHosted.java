@@ -1,11 +1,11 @@
 import com.bloock.sdk.Bloock;
 import com.bloock.sdk.client.AvailabilityClient;
 import com.bloock.sdk.client.RecordClient;
-import com.bloock.sdk.entity.HostedPublisher;
-import com.bloock.sdk.entity.Record;
+import com.bloock.sdk.entity.availability.HostedPublisher;
+import com.bloock.sdk.entity.record.Record;
 
-class Test {
-  public static void main(String[] args) {
+public class PublishHosted {
+  public static void main(String[] args) throws Exception {
     try {
       Bloock.apiKey = System.getenv("API_KEY");
 

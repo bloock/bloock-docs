@@ -1,1 +1,1 @@
-\Bloock\Bloock::$apiKey = getenv("API_KEY");
+\Bloock\Bloock::$apiKey = getenv("API_KEY") ?: "";

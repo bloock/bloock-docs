@@ -1,12 +1,13 @@
+import com.bloock.sdk.client.KeyClient;
+import com.bloock.sdk.client.RecordClient;
+import com.bloock.sdk.entity.key.ManagedKey;
+import com.bloock.sdk.entity.record.Record;
+
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-import com.bloock.sdk.Bloock;
-import com.bloock.sdk.client.RecordClient;
-import com.bloock.sdk.entity.Record;
-
-class Test {
-  public static void main(String[] args) {
+public class PrepareRecord {
+  public static void main(String[] args) throws Exception {
     try {
       RecordClient recordClient = new RecordClient();
 

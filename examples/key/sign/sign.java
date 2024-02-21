@@ -1,10 +1,12 @@
 import com.bloock.sdk.client.AuthenticityClient;
+import com.bloock.sdk.client.KeyClient;
 import com.bloock.sdk.client.RecordClient;
-import com.bloock.sdk.entity.EcdsaSigner;
-import com.bloock.sdk.entity.EcdsaKeyPair;
-import com.bloock.sdk.entity.Record;
+import com.bloock.sdk.entity.authenticity.Signer;
+import com.bloock.sdk.entity.key.KeyType;
+import com.bloock.sdk.entity.key.LocalKey;
+import com.bloock.sdk.entity.record.Record;
 
-public class App {
+public class Sign {
   public static void main(String[] args) throws Exception {
     RecordClient recordClient = new RecordClient();
     AuthenticityClient authenticityClient = new AuthenticityClient();
@@ -14,7 +16,7 @@ public class App {
 
     Record signedRecord = recordClient
         .fromString("Hello world")
-        .withSigner(new SignerArgs(localKey))
+        .withSigner(new Signer(localKey))
         .build();
 
     System.out.println("Record was signed successfully");
@@ -24,7 +26,7 @@ public class App {
     localKey = keyClient.newLocalKey(KeyType.EcP256k);
 
     signedRecord = recordClient.fromRecord(signedRecord)
-        .withSigner(new EcdsaSigner(new SignerArgs(localKey)))
+        .withSigner(new Signer(localKey))
         .build();
 
     System.out.println("Record was signed successfully");
@@ -38,5 +40,4 @@ public class App {
           System.out.println("Signature " + signature.getSignature());
         });
   }
-
 }

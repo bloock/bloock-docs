@@ -6,11 +6,10 @@ use Bloock\Bloock;
 use Bloock\Client\EncryptionClient;
 use Bloock\Client\KeyClient;
 use Bloock\Client\RecordClient;
-use Bloock\Entity\Encryption\EncrypterArgs;
-use Bloock\Entity\Encryption\RsaEncrypter;
+use Bloock\Entity\Encryption\Encrypter;
 use Bloock\Entity\Key\KeyType;
 
-Bloock::$apiKey = getenv("API_KEY");
+Bloock::$apiKey = getenv("API_KEY") ?: "";
 
 $keyClient = new KeyClient();
 
@@ -20,13 +19,13 @@ $key = $keyClient->newLocalKey(KeyType::Rsa2048);
 $recordClient = new RecordClient();
 
 $encryptedRecord = $recordClient->fromString($payload)
-  ->withEncrypter(new RsaEncrypter(new EncrypterArgs($key)))
+  ->withEncrypter(new Encrypter($key))
   ->build();
 
 $encryptionClient = new EncryptionClient();
 $record = $recordClient->fromString($payload)->build();
 
-$encryptedRecord = $encryptionClient->encrypt($record, new RsaEncrypter(new EncrypterArgs($key)));
+$encryptedRecord = $encryptionClient->encrypt($record, new Encrypter($key));
 
 print "Encryption successful\n";
 

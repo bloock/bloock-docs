@@ -1,10 +1,15 @@
 import com.bloock.sdk.Bloock;
 import com.bloock.sdk.client.IntegrityClient;
 import com.bloock.sdk.client.RecordClient;
-import com.bloock.sdk.entity.Record;
-import com.bloock.sdk.entity.RecordReceipt;
+import com.bloock.sdk.entity.integrity.Anchor;
+import com.bloock.sdk.entity.integrity.Network;
+import com.bloock.sdk.entity.integrity.RecordReceipt;
+import com.bloock.sdk.entity.record.Record;
 
-class Test {
+import java.util.ArrayList;
+import java.util.List;
+
+public class VerifyRecords {
   public static void main(String[] args) throws Exception {
     try {
       // we set the API key and create a client
@@ -12,16 +17,15 @@ class Test {
       RecordClient recordClient = new RecordClient();
       IntegrityClient integrityClient = new IntegrityClient();
 
-      ArrayList<String> records = new ArrayList<>();
+      ArrayList<Record> records = new ArrayList<>();
       Record record = recordClient.fromString("Hello world").build();
-      records.add(record.getHash());
+      records.add(record);
       List<RecordReceipt> receipts = integrityClient.sendRecords(records);
-
-      // Once we sent a record, we can wait for it's anochor
-      System.out.println("Waiting for anchor...");
-      // we can optionally specify a timeout (if not set, default is 120000)
       Anchor anchor = integrityClient.waitAnchor(receipts.get(0).getAnchor(), 120000);
-      System.out.println("Done!");
+
+      // we can optionally specify a network (if not set, default is Ethereum Mainnet)
+      long timestamp = integrityClient.verifyRecords(records, Network.ETHEREUM_MAINNET);
+      System.out.println(timestamp);
     } catch (Exception e) {
       System.out.println(e);
     }

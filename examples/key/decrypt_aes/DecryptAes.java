@@ -1,15 +1,19 @@
 import com.bloock.sdk.client.EncryptionClient;
+import com.bloock.sdk.client.KeyClient;
 import com.bloock.sdk.client.RecordClient;
-import com.bloock.sdk.entity.AesDecrypter;
-import com.bloock.sdk.entity.AesEncrypter;
-import com.bloock.sdk.entity.Record;
+import com.bloock.sdk.entity.encryption.Encrypter;
+import com.bloock.sdk.entity.key.KeyType;
+import com.bloock.sdk.entity.key.LocalKey;
+import com.bloock.sdk.entity.record.Record;
+
 import java.nio.charset.StandardCharsets;
 
-public class App {
+public class DecryptAes {
   public static void main(String[] args) throws Exception {
     String payload = "This will be encrypted";
 
     // encryption ...
+    Record encryptedRecord = null;
 
     System.out.println("Trying to decrypt with the valid password");
     RecordClient recordClient = new RecordClient();
@@ -20,12 +24,12 @@ public class App {
     // To decrypt a record during the building process
     // we build a record from the encrypted record and add a decrypter
     Record decryptedRecord = recordClient.fromRecord(encryptedRecord)
-        .withDecrypter(new AesDecrypter(localKey))
+        .withDecrypter(new Encrypter(localKey))
         .build();
 
     // To decrypt an already encrypted record independently
     EncryptionClient encryptionClient = new EncryptionClient();
-    decryptedRecord = encryptionClient.decrypt(encryptedRecord, new AesDecrypter(localKey));
+    Record decryptedRecord1 = encryptionClient.decrypt(encryptedRecord, new Encrypter(localKey));
 
     System.out.println(
         "Decrypted payload: " + new String(decryptedRecord.retrieve(), StandardCharsets.UTF_8));

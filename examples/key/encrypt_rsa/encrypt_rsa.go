@@ -5,7 +5,8 @@ import (
 	"log"
 
 	"github.com/bloock/bloock-sdk-go/v2/client"
-	"github.com/bloock/bloock-sdk-go/v2/entity"
+	"github.com/bloock/bloock-sdk-go/v2/entity/encryption"
+	"github.com/bloock/bloock-sdk-go/v2/entity/key"
 )
 
 func main() {
@@ -23,9 +24,7 @@ func main() {
 
 	// To encrypt a record during the building process
 	encryptedRecord, err := recordClient.FromString(payload).
-		WithEncrypter(entity.NewRsaEncrypter(encryption.EncrypterArgs{
-			LocalKey: &key,
-		})).
+		WithEncrypter(encryption.NewEncrypterWithLocalKey(key)).
 		Build()
 	if err != nil {
 		log.Println(err)
@@ -36,9 +35,7 @@ func main() {
 	if err != nil {
 		log.Println(err)
 	}
-	encryptedRecord, err := encryptionClient.Encrypt(record, entity.NewRsaEncrypter(encryption.EncrypterArgs{
-		LocalKey: &key,
-	}))
+	encryptedRecord, err = encryptionClient.Encrypt(record, encryption.NewEncrypterWithLocalKey(key))
 	if err != nil {
 		log.Println(err)
 	}

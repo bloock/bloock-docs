@@ -1,9 +1,12 @@
+package main
+
 import (
 	"fmt"
 	"log"
 
 	"github.com/bloock/bloock-sdk-go/v2/client"
-	"github.com/bloock/bloock-sdk-go/v2/entity"
+	"github.com/bloock/bloock-sdk-go/v2/entity/authenticity"
+	"github.com/bloock/bloock-sdk-go/v2/entity/key"
 )
 
 func main() {
@@ -16,23 +19,19 @@ func main() {
 		log.Println(err)
 	}
 
-	name := "a name"
 	signedRecord, err := recordClient.FromString("Hello world").
-		WithSigner(entity.NewEcdsaSigner(entity.SignerArgs{
-			LocalKey:   &key,
-			CommonName: &name,
-		})).
+		WithSigner(authenticity.NewSignerWithLocalKey(key, nil)).
 		Build()
 	if err != nil {
 		log.Println(err)
 	}
 
-	valid, err := authenticityClient.Verify(record)
+	valid, err := authenticityClient.Verify(signedRecord)
 	if err != nil {
 		log.Println(err)
 	}
 
-	if valid == true {
+	if valid {
 		fmt.Println("Signature was verified successfully")
 	}
 }

@@ -1,25 +1,23 @@
-const {
+import {
   AuthenticityClient,
-  EcdsaSigner,
   KeyClient,
-  RecordClient,
   KeyType,
-} = require('@bloock/sdk');
+  RecordClient,
+  Signer,
+} from '@bloock/sdk';
 
-(async () => {
-  let keyClient = new KeyClient();
-  let authenticityClient = new AuthenticityClient();
-  let recordClient = new RecordClient();
+const keyClient = new KeyClient();
+const authenticityClient = new AuthenticityClient();
+const recordClient = new RecordClient();
 
-  let key = await keyClient.newLocalKey(KeyType.EcP256k);
+const key = await keyClient.newLocalKey(KeyType.EcP256k);
 
-  let signedRecord = await recordClient
-    .fromString('Hello world')
-    .withSigner(new EcdsaSigner(key, { commonName: 'some name' }))
-    .build();
+const signedRecord = await recordClient
+  .fromString('Hello world')
+  .withSigner(new Signer(key))
+  .build();
 
-  let valid = await authenticityClient.verify(signedRecord);
-  if (valid) {
-    console.log('Signature was verified successfully');
-  }
-})();
+const valid = await authenticityClient.verify(signedRecord);
+if (valid) {
+  console.log('Signature was verified successfully');
+}

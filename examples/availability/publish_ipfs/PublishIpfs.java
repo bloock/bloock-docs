@@ -1,10 +1,10 @@
 import com.bloock.sdk.Bloock;
 import com.bloock.sdk.client.AvailabilityClient;
 import com.bloock.sdk.client.RecordClient;
-import com.bloock.sdk.entity.IpfsPublisher;
-import com.bloock.sdk.entity.Record;
+import com.bloock.sdk.entity.availability.IpfsPublisher;
+import com.bloock.sdk.entity.record.Record;
 
-public class App {
+public class PublishIpfs {
   public static void main(String[] args) throws Exception {
     Bloock.apiKey = System.getenv("API_KEY");
 

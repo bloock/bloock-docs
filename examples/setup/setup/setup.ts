@@ -1,3 +1,3 @@
-const { Bloock } = require('@bloock/sdk');
+import { Bloock } from '@bloock/sdk';
 
-Bloock.setApiKey(process.env['API_KEY']);
+Bloock.setApiKey(process.env['API_KEY']!);

@@ -1,6 +1,11 @@
+package main
+
 import (
 	"os"
-	"github.com/bloock/bloock-sdk-go/v2"
+
+	bloock "github.com/bloock/bloock-sdk-go/v2"
 )
 
-bloock.ApiKey = os.Getenv("API_KEY")
+func main() {
+	bloock.ApiKey = os.Getenv("API_KEY")
+}

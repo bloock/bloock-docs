@@ -7,7 +7,7 @@ use Bloock\Client\AvailabilityClient;
 use Bloock\Client\RecordClient;
 use Bloock\Entity\Availability\HostedLoader;
 
-Bloock::$apiKey = getenv("API_KEY");
+Bloock::$apiKey = getenv("API_KEY") ?: "";
 
 $recordClient = new RecordClient();
 $availabilityClient = new AvailabilityClient();

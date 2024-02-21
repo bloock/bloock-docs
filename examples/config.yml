@@ -1,0 +1,63 @@
+---
+snippets:
+  mount: /mnt
+  path: ./**/*.{ts,go,java,php}
+
+runners:
+  default: typescript
+
+  typescript:
+    service: doc-runner-typescript
+    path: /var/snippets/typescript
+    maxThreads: 5
+    lint:
+      global: true
+      before: timeout 600 ash -c 'until stat /tmp/runner_ready_to_lint; do sleep 1; done'
+      cmd: yarn eslint -c /var/runners/typescript/.eslintrc {{ snippet.dir }}/**/*.{ts,tsx}
+    run:
+      before: timeout 600 ash -c 'until stat /tmp/runner_is_ready; do sleep 1; done'
+      cmd: yarn tsc {{ snippet.dir }}/{{ snippet.source }} --noEmit --module es2022 --target es2022 --moduleResolution Node --esModuleInterop
+
+  golang:
+    service: doc-runner-golang
+    path: /var/snippets/golang
+    maxThreads: 5
+    lint:
+      global: true
+      cmd: golint -set_exit_status {{ snippet.dir }}
+      before: timeout 600 ash -c 'until stat /tmp/runner_ready_to_lint; do sleep 1; done'; /var/runners/golang/formatAllSnippets.sh
+    run:
+      cmd: go mod tidy && CGO_ENABLED=1 go vet {{ snippet.source }}
+      before: timeout 600 ash -c 'until stat /tmp/runner_is_ready; do sleep 1; done'
+
+  java:
+    service: doc-runner-java
+    path: /var/snippets/java
+    maxThreads: 5
+    run:
+      before: timeout 600 bash -c 'until stat /tmp/runner_is_ready; do sleep 1; done'
+      cmd: cp {{ snippet.source }} /var/runners/java/project/src/main/java && cd /var/runners/java/project/ && ./gradlew compileSingle -PmainClass={{ snippet.name }}.java
+
+  php:
+    service: doc-runner-php
+    path: /var/snippets/php
+    maxThreads: 5
+    lint:
+      global: false
+      before: timeout 600 bash -c 'until stat /tmp/runner_ready_to_lint; do sleep 1; done'
+      cmd: php -l {{ snippet.source }}
+    run:
+      before: timeout 600 bash -c 'until stat /tmp/runner_is_ready; do sleep 1; done'
+      cmd: vendor/bin/phpstan analyse -l 9 {{ snippet.source }}
+
+  python:
+    service: doc-runner-python
+    path: /var/snippets/python
+    maxThreads: 5
+    lint:
+      global: false
+      before: timeout 600 ash -c 'until stat /tmp/runner_ready_to_lint; do sleep 1; done'
+      cmd: pip list && pylint {{ snippet.source }}
+    run:
+      before: timeout 600 ash -c 'until stat /tmp/runner_is_ready; do sleep 1; done'
+      cmd: python -m py_compile {{ snippet.source }}

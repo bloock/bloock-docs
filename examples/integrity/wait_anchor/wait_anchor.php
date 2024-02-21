@@ -6,7 +6,7 @@ use Bloock\Bloock;
 use Bloock\Client\IntegrityClient;
 use Bloock\Client\RecordClient;
 
-Bloock::$apiKey = getenv("API_KEY");
+Bloock::$apiKey = getenv("API_KEY") ?: "";
 
 $integrityClient = new IntegrityClient();
 $recordClient = new RecordClient();

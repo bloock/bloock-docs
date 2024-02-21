@@ -1,10 +1,13 @@
+package main
+
 import (
 	"encoding/json"
 	"fmt"
 	"log"
 
 	"github.com/bloock/bloock-sdk-go/v2/client"
-	"github.com/bloock/bloock-sdk-go/v2/entity"
+	"github.com/bloock/bloock-sdk-go/v2/entity/authenticity"
+	"github.com/bloock/bloock-sdk-go/v2/entity/key"
 )
 
 func main() {
@@ -12,15 +15,13 @@ func main() {
 	recordClient := client.NewRecordClient()
 	authenticityClient := client.NewAuthenticityClient()
 
-	key, err := keyClient.NewLocalKey(key.EcP256k)
+	localKey, err := keyClient.NewLocalKey(key.EcP256k)
 	if err != nil {
 		log.Println(err)
 	}
 
 	signedRecord, err := recordClient.FromString("Hello world").
-		WithSigner(entity.NewEcdsaSigner(entity.SignerArgs{
-			LocalKey: &key,
-		})).
+		WithSigner(authenticity.NewSignerWithLocalKey(localKey, nil)).
 		Build()
 	if err != nil {
 		log.Println(err)
@@ -28,16 +29,14 @@ func main() {
 	fmt.Println("Record was signed successfully")
 
 	// we can add another signature with a different key
-	key, err = keyClient.NewLocalKey(key.EcP256k)
+	localKey, err = keyClient.NewLocalKey(key.EcP256k)
 	if err != nil {
 		log.Println(err)
 	}
 
 	fmt.Println("Adding another signature")
 	signedRecord, err = recordClient.FromRecord(signedRecord).
-		WithSigner(entity.NewEcdsaSigner(entity.SignerArgs{
-			LocalKey: &key,
-		})).
+		WithSigner(authenticity.NewSignerWithLocalKey(localKey, nil)).
 		Build()
 	if err != nil {
 		log.Println(err)

@@ -1,20 +1,22 @@
+package main
+
 import (
+	"log"
 	"os"
 
-	"github.com/bloock/bloock-sdk-go/v2"
+	bloock "github.com/bloock/bloock-sdk-go/v2"
 	"github.com/bloock/bloock-sdk-go/v2/client"
-	"github.com/bloock/bloock-sdk-go/v2/entity"
+	"github.com/bloock/bloock-sdk-go/v2/entity/availability"
 )
 
 func main() {
 	bloock.ApiKey = os.Getenv("API_KEY")
 
 	recordClient := client.NewRecordClient()
-	availabilityClient := client.NewAvailabilityClient()
 
 	id := "publish uuid result"
-	record, err = recordClient.FromLoader(entity.NewHostedLoader(id)).Build()
+	_, err := recordClient.FromLoader(availability.NewHostedLoader(id)).Build()
 	if err != nil {
-		log.Prinln(err)
+		log.Println(err)
 	}
 }

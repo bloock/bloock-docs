@@ -1,4 +1,10 @@
-keyClient := NewKeyClient()
+package main
 
-// Load a managed key
-managedKey, err := keyClient.LoadManagedKey("key id")
+import "github.com/bloock/bloock-sdk-go/v2/client"
+
+func main() {
+	keyClient := client.NewKeyClient()
+
+	// Load a managed key
+	_, _ = keyClient.LoadManagedKey("key id")
+}

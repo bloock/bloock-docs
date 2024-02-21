@@ -1,9 +1,13 @@
+package main
+
 import (
+	"fmt"
+	"log"
 	"os"
 
-	"github.com/bloock/bloock-sdk-go/v2"
+	bloock "github.com/bloock/bloock-sdk-go/v2"
 	"github.com/bloock/bloock-sdk-go/v2/client"
-	"github.com/bloock/bloock-sdk-go/v2/entity"
+	"github.com/bloock/bloock-sdk-go/v2/entity/availability"
 )
 
 func main() {
@@ -17,7 +21,7 @@ func main() {
 		log.Fatalln(err)
 	}
 
-	id, err := availabilityClient.Publish(record, entity.NewHostedPublisher())
+	_, err = availabilityClient.Publish(record, availability.NewHostedPublisher())
 	if err != nil {
 		log.Fatalln(err)
 	}

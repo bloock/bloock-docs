@@ -1,4 +1,6 @@
-let keyClient = new KeyClient();
+import { KeyClient } from '@bloock/sdk';
+
+const keyClient = new KeyClient();
 
 // Load a managed key
-let key = await keyClient.loadManagedKey('key id');
+const _key = await keyClient.loadManagedKey('key id');

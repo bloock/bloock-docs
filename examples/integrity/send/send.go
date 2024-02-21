@@ -1,11 +1,12 @@
+package main
+
 import (
 	"log"
 	"os"
 
-	"github.com/bloock/bloock-sdk-go/v2"
-	"github.com/bloock/bloock-sdk-go/v2/builder"
+	bloock "github.com/bloock/bloock-sdk-go/v2"
 	"github.com/bloock/bloock-sdk-go/v2/client"
-	"github.com/bloock/bloock-sdk-go/v2/entity"
+	"github.com/bloock/bloock-sdk-go/v2/entity/record"
 )
 
 func main() {
@@ -16,11 +17,11 @@ func main() {
 
 	// we create an array of strings which will contain
 	// the hashes of the records we want to send
-	record, err := recordClient.FromString("Hello world").Build()
+	r, err := recordClient.FromString("Hello world").Build()
 	if err != nil {
 		log.Println(err)
 	}
-	records := []entity.Record{record}
+	records := []record.Record{r}
 
 	// finally we can send the records
 	receipt, err := integrityClient.SendRecords(records)

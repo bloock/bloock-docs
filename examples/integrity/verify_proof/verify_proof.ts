@@ -1,2 +1,6 @@
+import { IntegrityClient, Proof } from '@bloock/sdk';
+
 const integrityClient = new IntegrityClient();
-const root = await integrityClient.verifyProof(proof);
+
+let proof: Proof;
+const _root = await integrityClient.verifyProof(proof);

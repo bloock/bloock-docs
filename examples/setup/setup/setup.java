@@ -1,3 +1,7 @@
 import com.bloock.sdk.Bloock;
 
-Bloock.apiKey=System.getenv("API_KEY");
+public class Setup {
+    public static void main(String[] args) throws Exception {
+        Bloock.apiKey = System.getenv("API_KEY");
+    }
+}

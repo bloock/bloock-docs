@@ -1,14 +1,8 @@
-const {
-  Bloock,
-  AvailabilityClient,
-  RecordClient,
-  IpfsLoader,
-} = require('@bloock/sdk');
+import { Bloock, IpfsLoader, RecordClient } from '@bloock/sdk';
 
 Bloock.setApiKey(process.env['API_KEY']);
 
 const recordClient = new RecordClient();
-const availabilityClient = new AvailabilityClient();
 
 const id = 'publish uuid result';
-const record = await recordClient.fromLoader(new IpfsLoader(id)).build();
+const _record = await recordClient.fromLoader(new IpfsLoader(id)).build();

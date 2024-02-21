@@ -1,8 +1,9 @@
+package main
+
 import (
 	"log"
 	"os"
 
-	"github.com/bloock/bloock-sdk-go/v2"
 	"github.com/bloock/bloock-sdk-go/v2/client"
 )
 
@@ -21,7 +22,7 @@ func main() {
 	log.Println(hash)
 
 	// build a record from an existing record
-	record2, err := recordClient.FromRecord(record).Build()
+	_, err = recordClient.FromRecord(record).Build()
 	if err != nil {
 		log.Println(err)
 	}
@@ -33,7 +34,7 @@ func main() {
 	}
 
 	// and build a record from it
-	record3, err := recordClient.FromFile(file).Build()
+	_, err = recordClient.FromFile(file).Build()
 	if err != nil {
 		log.Println(err)
 	}

@@ -1,9 +1,4 @@
-const {
-  RecordClient,
-  Network,
-  Bloock,
-  IntegrityClient,
-} = require('@bloock/sdk');
+import { Bloock, IntegrityClient, Network, RecordClient } from '@bloock/sdk';
 
 try {
   // we set the API key and create a client
@@ -11,14 +6,14 @@ try {
   const integrityClient = new IntegrityClient();
   const recordClient = new RecordClient();
 
-  let record = await recordClient.fromString('Hello world').build();
-  let records = [record];
+  const record = await recordClient.fromString('Hello world').build();
+  const records = [record];
 
-  let receipts = await integrityClient.sendRecords(records);
-  let anchor = await integrityClient.waitAnchor(receipts[0].anchor);
+  const receipts = await integrityClient.sendRecords(records);
+  const _anchor = await integrityClient.waitAnchor(receipts[0].anchor);
 
   // we can optionally specify a network (if not set, default is Ethereum Mainnet)
-  let timestamp = await integrityClient.verifyRecords(
+  const timestamp = await integrityClient.verifyRecords(
     records,
     Network.ETHEREUM_MAINNET
   );

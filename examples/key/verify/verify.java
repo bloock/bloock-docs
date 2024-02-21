@@ -1,14 +1,14 @@
 import java.util.List;
 
 import com.bloock.sdk.client.AuthenticityClient;
+import com.bloock.sdk.client.KeyClient;
 import com.bloock.sdk.client.RecordClient;
-import com.bloock.sdk.entity.EcdsaSigner;
-import com.bloock.sdk.entity.EcdsaKeyPair;
-import com.bloock.sdk.entity.Record;
-import com.bloock.sdk.entity.Signature;
-import com.bloock.sdk.entity.SignerArgs;
+import com.bloock.sdk.entity.authenticity.Signer;
+import com.bloock.sdk.entity.key.KeyType;
+import com.bloock.sdk.entity.key.LocalKey;
+import com.bloock.sdk.entity.record.Record;
 
-public class App {
+public class Verify {
     public static void main(String[] args) throws Exception {
         RecordClient recordClient = new RecordClient();
         AuthenticityClient authenticityClient = new AuthenticityClient();
@@ -18,12 +18,12 @@ public class App {
 
         Record signedRecord = recordClient
                 .fromString("Hello world")
-                .withSigner(new EcdsaSigner(new SignerArgs(localKey, "some name")))
+                .withSigner(new Signer(localKey))
                 .build();
 
         boolean valid = authenticityClient.verify(signedRecord);
-        if (valid == true) {
-                System.out.println("Signature was verified successfully");
+        if (valid) {
+            System.out.println("Signature was verified successfully");
         }
     }
 }

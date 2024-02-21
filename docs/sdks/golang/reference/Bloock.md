@@ -3,7 +3,7 @@
 # bloock
 
 ```go
-import "github.com/bloock/bloock-sdk-go/v2"
+import bloock "github.com/bloock/bloock-sdk-go/v2"
 ```
 
 Package bloock provides a centralized configuration for the Bloock SDK library.
@@ -15,7 +15,6 @@ For information about Bloock SDK in Go, see https://bloock.com.
 - [Variables](#variables)
 - [func SetContractAddess\(network integrity.Network, contractAddress string\)](#SetContractAddess)
 - [func SetProvider\(network integrity.Network, provider string\)](#SetProvider)
-
 
 ## Variables
 
@@ -56,6 +55,7 @@ var NetworkConfig map[int32]*proto.NetworkConfig = make(map[int32]*proto.Network
 ```
 
 <a name="SetContractAddess"></a>
+
 ## func SetContractAddess
 
 ```go
@@ -65,6 +65,7 @@ func SetContractAddess(network integrity.Network, contractAddress string)
 SetContractAddess sets the contract address for the specified network in the Bloock SDK configuration.
 
 <a name="SetProvider"></a>
+
 ## func SetProvider
 
 ```go

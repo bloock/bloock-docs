@@ -5,12 +5,12 @@ import (
 	"log"
 
 	"github.com/bloock/bloock-sdk-go/v2/client"
-	"github.com/bloock/bloock-sdk-go/v2/entity"
+	"github.com/bloock/bloock-sdk-go/v2/entity/encryption"
+	"github.com/bloock/bloock-sdk-go/v2/entity/key"
 )
 
 func main() {
 	payload := "This will be encrypted"
-	password := "a STRONG password"
 	encryptionClient := client.NewEncryptionClient()
 	recordClient := client.NewRecordClient()
 	keyClient := client.NewKeyClient()
@@ -24,9 +24,7 @@ func main() {
 
 	// To encrypt a record during the building process
 	encryptedRecord, err := recordClient.FromString(payload).
-		WithEncrypter(entity.NewAesEncrypter(encryption.EncrypterArgs{
-			LocalKey: &key,
-		})).
+		WithEncrypter(encryption.NewEncrypterWithLocalKey(key)).
 		Build()
 	if err != nil {
 		log.Println(err)
@@ -37,9 +35,7 @@ func main() {
 	if err != nil {
 		log.Println(err)
 	}
-	encryptedRecord, err := encryptionClient.Encrypt(record, entity.NewAesEncrypter(encryption.EncrypterArgs{
-		LocalKey: &key,
-	}))
+	encryptedRecord, err = encryptionClient.Encrypt(record, encryption.NewEncrypterWithLocalKey(key))
 	if err != nil {
 		log.Println(err)
 	}

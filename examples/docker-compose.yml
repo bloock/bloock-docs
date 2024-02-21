@@ -1,0 +1,142 @@
+version: '3'
+
+services:
+  doc-tests:
+    container_name: doc-tests
+    image: bloock/snippet-test
+    privileged: true
+    ports:
+      - '9229:9229'
+    depends_on:
+      - doc-runner-typescript
+      - doc-runner-golang
+      - doc-runner-java
+      - doc-runner-php
+      # - doc-runner-python
+    volumes:
+      - .:/mnt
+      - /var/run/docker.sock:/var/run/docker.sock
+      - snippets:/var/snippets
+      - runners:/var/runners
+    environment:
+      - CONFIG_FILE=/mnt/config.yml
+
+  doc-runner-typescript:
+    container_name: doc-runner-typescript
+    image: node:lts-alpine
+    command: >
+      ash -c '
+        mkdir -p /var/snippets/typescript;
+
+        cd /var/runners/typescript
+        yarn add -D typescript typescript-eslint eslint;
+        
+        cd /var/snippets/typescript;
+        yarn add @bloock/sdk;
+        yarn add -D @types/node@20.0.0 eslint typescript typescript-eslint;
+          
+        touch /tmp/runner_ready_to_lint;
+        touch /tmp/runner_is_ready;
+        tail -f /dev/null
+      '
+    volumes:
+      - .:/mnt
+      - snippets:/var/snippets
+      - runners:/var/runners
+
+  doc-runner-golang:
+    container_name: doc-runner-golang
+    image: golang:1.22-alpine
+    command: >
+      ash -c '
+        apk update && apk add git make build-base;
+        mkdir -p /var/snippets/golang;
+        chmod +x /var/runners/golang/formatAllSnippets.sh;
+        go install golang.org/x/tools/cmd/goimports@latest;
+        go install golang.org/x/lint/golint@latest;
+        cp /var/runners/golang/go.mod /var/snippets/golang
+        cd /var/snippets/golang && go get github.com/bloock/bloock-sdk-go/v2
+        touch /tmp/runner_ready_to_lint;
+        touch /tmp/runner_is_ready;
+        tail -f /dev/null
+      '
+    volumes:
+      - .:/mnt
+      - snippets:/var/snippets
+      - runners:/var/runners
+
+  doc-runner-java:
+    container_name: doc-runner-java
+    image: eclipse-temurin:21
+    command: >
+      bash -c '
+        apt-get update && apt-get install -y bash curl git moreutils;
+
+        mkdir -p /var/snippets/java;
+
+        curl -sS "https://repo1.maven.org/maven2/com/bloock/sdk/bloock-sdk/maven-metadata.xml" | grep -oE ".*<latest>(.*)<\/latest>" | sed -E "s/.*<latest>(.*)<\/latest>/\1/" > /tmp/SDK_VERSION;
+        curl "https://repo1.maven.org/maven2/com/bloock/sdk/bloock-sdk/$(cat /tmp/SDK_VERSION)/bloock-sdk-$(cat /tmp/SDK_VERSION)-all.jar" -o /var/runners/java/project/libs/bloock-sdk.jar;
+
+        touch /tmp/runner_ready_to_lint;
+        touch /tmp/runner_is_ready;
+        tail -f /dev/null
+      '
+    volumes:
+      - .:/mnt
+      - snippets:/var/snippets
+      - runners:/var/runners
+
+  doc-runner-php:
+    container_name: doc-runner-php
+    image: php:8
+    command: >
+      bash -c '
+        apt-get update && apt-get install -y git libzip-dev zip libffi-dev \
+          && docker-php-ext-configure ffi --with-ffi \
+          && docker-php-ext-install ffi \
+          && docker-php-ext-install zip;
+        curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer;
+
+        mkdir -p /var/snippets/php;
+        cp /var/runners/php/composer.json /var/snippets/php;
+        cd /var/snippets/php && composer install && composer require bloock/sdk;
+
+        touch /tmp/runner_ready_to_lint;
+        touch /tmp/runner_is_ready;
+        tail -f /dev/null
+      '
+    volumes:
+      - .:/mnt
+      - snippets:/var/snippets
+      - runners:/var/runners
+
+  # doc-runner-python:
+  #   image: python:3
+  #   platform: linux/amd64
+  #   command: >
+  #     bash -c '
+  #       apt-get update && apt-get install -y python3-dev gcc libc-dev libffi-dev;
+
+  #       mkdir -p /var/snippets/python;
+  #       cd /var/snippets/python;
+  #       pip3 install pylint;
+
+  #       pip3 install --force-reinstall bloock==2.7.3;
+
+  #       cp /var/runners/python/.pylintrc /var/snippets/python;
+  #       touch /var/snippets/python/__init__.py;
+
+  #       touch /tmp/runner_ready_to_lint;
+  #       touch /tmp/runner_is_ready;
+  #       tail -f /dev/null
+  #     '
+  #   volumes:
+  #     - .:/mnt
+  #     - snippets:/var/snippets
+  #     - runners:/var/runners
+
+volumes:
+  snippets:
+    name: docs-snippets
+  runners:
+    name: docs-runners

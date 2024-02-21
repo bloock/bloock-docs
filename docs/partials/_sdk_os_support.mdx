@@ -1,0 +1,16 @@
+Given the way our SDKs are implemented, we currently support the following set of OS types:
+
+| OS      | Arch   | Env type | Support |
+| ------- | ------ | -------- | ------- |
+| Linux   | x86_64 | gnu      | ✓       |
+| Linux   | x86_64 | musl     | ✓       |
+| Linux   | arm64  | gnu      | -       |
+| Linux   | arm64  | musl     | -       |
+| Windows | x86_32 | mingw    | -       |
+| Windows | x86_32 | msvc     | -       |
+| Windows | x86_64 | mingw    | ✓       |
+| Windows | x86_64 | msvc     | ✓       |
+| MacOS   | x86_64 | -        | ✓       |
+| MacOS   | arm64  | -        | ✓       |
+
+Our team is constantly working on improving support to more and more OS types, if yours is not currently supported or it doesn't appear in the list, please contact us at [support@bloock.com](mailto:hello@bloock.com).
