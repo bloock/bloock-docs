@@ -1,0 +1,6 @@
+
+  
+  <div class="cover ">
+    
+  </div>
+  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword">static </span><a href="index-">IntegerEnumAttributeDescriptor</a>&nbsp;<a href="from-proto-"><span class="token function">fromProto</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="com.bloock.sdk.bridge.proto/IdentityEntities.IntegerEnumAttributeDefinition///PointingToDeclaration/">IdentityEntities.IntegerEnumAttributeDefinition</span>&nbsp;res</span></span><span class="token punctuation">)</span></div></div></div>

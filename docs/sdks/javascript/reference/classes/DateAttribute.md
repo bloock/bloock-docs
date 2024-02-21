@@ -51,7 +51,7 @@ Constructs a Attribute object with the specified parameters.
 
 #### Defined in
 
-[entity/identity_v2/attribute.ts:13](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/attribute.ts#L13)
+[entity/identity/attribute.ts:13](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/attribute.ts#L13)
 
 ## Properties
 
@@ -65,7 +65,7 @@ Constructs a Attribute object with the specified parameters.
 
 #### Defined in
 
-[entity/identity_v2/attribute.ts:5](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/attribute.ts#L5)
+[entity/identity/attribute.ts:5](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/attribute.ts#L5)
 
 ___
 
@@ -79,21 +79,21 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/attribute.ts:6](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/attribute.ts#L6)
+[entity/identity/attribute.ts:6](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/attribute.ts#L6)
 
 ## Methods
 
 ### toProto
 
-▸ **toProto**(): `DateAttributeV2`
+▸ **toProto**(): `DateAttribute`
 
 #### Returns
 
-`DateAttributeV2`
+`DateAttribute`
 
 #### Defined in
 
-[entity/identity_v2/date_attribute.ts:8](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/date_attribute.ts#L8)
+[entity/identity/date_attribute.ts:8](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/date_attribute.ts#L8)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `r` | `DateAttributeV2` |
+| `r` | `DateAttribute` |
 
 #### Returns
 
@@ -113,4 +113,4 @@ ___
 
 #### Defined in
 
-[entity/identity_v2/date_attribute.ts:15](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/identity_v2/date_attribute.ts#L15)
+[entity/identity/date_attribute.ts:15](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/date_attribute.ts#L15)

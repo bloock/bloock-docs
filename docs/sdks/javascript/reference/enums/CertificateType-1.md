@@ -19,7 +19,7 @@ Represents the type of certificate.
 
 #### Defined in
 
-[entity/key/certificate_type.ts:7](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/key/certificate_type.ts#L7)
+[entity/key/certificate_type.ts:7](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/key/certificate_type.ts#L7)
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 #### Defined in
 
-[entity/key/certificate_type.ts:8](https://github.com/bloock/bloock-sdk/blob/6fda345/languages/js/src/entity/key/certificate_type.ts#L8)
+[entity/key/certificate_type.ts:8](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/key/certificate_type.ts#L8)
