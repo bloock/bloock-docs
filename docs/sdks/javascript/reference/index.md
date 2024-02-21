@@ -6,29 +6,25 @@
 
 ### Namespaces
 
-- [Blockchain](modules/Blockchain.md)
 - [CertificateType](modules/CertificateType.md)
+- [DidMethod](modules/DidMethod.md)
 - [EncryptionAlg](modules/EncryptionAlg.md)
 - [HashAlg](modules/HashAlg.md)
 - [KeyProtectionLevel](modules/KeyProtectionLevel.md)
 - [KeyType](modules/KeyType.md)
-- [Method](modules/Method.md)
 - [Network](modules/Network.md)
-- [NetworkId](modules/NetworkId.md)
 - [PublishIntervalParams](modules/PublishIntervalParams.md)
 - [SignatureAlg](modules/SignatureAlg.md)
 
 ### Enumerations
 
-- [Blockchain](enums/Blockchain-1.md)
 - [CertificateType](enums/CertificateType-1.md)
+- [DidMethod](enums/DidMethod-1.md)
 - [EncryptionAlg](enums/EncryptionAlg-1.md)
 - [HashAlg](enums/HashAlg-1.md)
 - [KeyProtectionLevel](enums/KeyProtectionLevel-1.md)
 - [KeyType](enums/KeyType-1.md)
-- [Method](enums/Method-1.md)
 - [Network](enums/Network-1.md)
-- [NetworkId](enums/NetworkId-1.md)
 - [PublishIntervalParams](enums/PublishIntervalParams-1.md)
 - [SignatureAlg](enums/SignatureAlg-1.md)
 
@@ -62,7 +58,6 @@
 - [DecimalAttributeDescriptor](classes/DecimalAttributeDescriptor.md)
 - [DecimalEnumAttributeDescriptor](classes/DecimalEnumAttributeDescriptor.md)
 - [Did](classes/Did.md)
-- [DidType](classes/DidType.md)
 - [EcdsaKeyPair](classes/EcdsaKeyPair.md)
 - [Encrypter](classes/Encrypter.md)
 - [EncryptionClient](classes/EncryptionClient.md)

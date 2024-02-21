@@ -37,21 +37,6 @@
             </div>
           </div>
         </div>
-<a data-name="1228803988%2FClasslikes%2F769193423" anchor-label="Blockchain" id="1228803988%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
-        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="-blockchain/index-"><span><span>Blockchain</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1228803988%2FClasslikes%2F769193423"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">enum </span><a href="-blockchain/index-">Blockchain</a></div><div class="brief ">Represents an enumeration of blockchains used in the DID.</div></div></div>
-              </div>
-            </div>
-          </div>
-        </div>
 <a data-name="-1337884332%2FClasslikes%2F769193423" anchor-label="BooleanAttribute" id="-1337884332%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
         <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
           <div class="main-subrow keyValue ">
@@ -307,17 +292,17 @@
             </div>
           </div>
         </div>
-<a data-name="-245573087%2FClasslikes%2F769193423" anchor-label="DidType" id="-245573087%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+<a data-name="1236148186%2FClasslikes%2F769193423" anchor-label="DidMethod" id="1236148186%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
         <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
           <div class="main-subrow keyValue ">
             <div class=""><span class="inline-flex">
-                <div><a href="-did-type/index-"><span>Did</span><wbr><span><span>Type</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-245573087%2FClasslikes%2F769193423"></span>
+                <div><a href="-did-method/index-"><span>Did</span><wbr><span><span>Method</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1236148186%2FClasslikes%2F769193423"></span>
                   <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                 </span></span></div>
             <div>
               <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-did-type/index-">DidType</a></div><div class="brief ">Represents parameters used for generating DIDs.</div></div></div>
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">enum </span><a href="-did-method/index-">DidMethod</a></div><div class="brief ">Represents the type of method did.</div></div></div>
               </div>
             </div>
           </div>
@@ -408,36 +393,6 @@
             <div>
               <div class="title">
                 <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="-issuer-state-receipt/index-">IssuerStateReceipt</a></div><div class="brief ">Represents a receipt for the issuer's state.</div></div></div>
-              </div>
-            </div>
-          </div>
-        </div>
-<a data-name="-41558745%2FClasslikes%2F769193423" anchor-label="Method" id="-41558745%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
-        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="-method/index-"><span><span>Method</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-41558745%2FClasslikes%2F769193423"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">enum </span><a href="-method/index-">Method</a></div><div class="brief ">Represents an enumeration of methods used in the DID.</div></div></div>
-              </div>
-            </div>
-          </div>
-        </div>
-<a data-name="-1243416084%2FClasslikes%2F769193423" anchor-label="Network" id="-1243416084%2FClasslikes%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
-        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="-network/index-"><span><span>Network</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1243416084%2FClasslikes%2F769193423"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">enum </span><a href="-network/index-">Network</a></div><div class="brief ">Represents an enumeration of network identifiers.</div></div></div>
               </div>
             </div>
           </div>

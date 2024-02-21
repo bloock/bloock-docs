@@ -41,7 +41,7 @@ Constructs a VerificationReceipt object with the specified parameters.
 
 #### Defined in
 
-[entity/identity/verification_receipt.ts:15](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/verification_receipt.ts#L15)
+[entity/identity/verification_receipt.ts:15](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/identity/verification_receipt.ts#L15)
 
 ## Properties
 
@@ -51,7 +51,7 @@ Constructs a VerificationReceipt object with the specified parameters.
 
 #### Defined in
 
-[entity/identity/verification_receipt.ts:7](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/verification_receipt.ts#L7)
+[entity/identity/verification_receipt.ts:7](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/identity/verification_receipt.ts#L7)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-[entity/identity/verification_receipt.ts:8](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/verification_receipt.ts#L8)
+[entity/identity/verification_receipt.ts:8](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/identity/verification_receipt.ts#L8)
 
 ## Methods
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[entity/identity/verification_receipt.ts:20](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/verification_receipt.ts#L20)
+[entity/identity/verification_receipt.ts:20](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/identity/verification_receipt.ts#L20)
 
 ___
 
@@ -95,4 +95,4 @@ ___
 
 #### Defined in
 
-[entity/identity/verification_receipt.ts:27](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/verification_receipt.ts#L27)
+[entity/identity/verification_receipt.ts:27](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/identity/verification_receipt.ts#L27)

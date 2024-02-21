@@ -13,13 +13,13 @@ Represents parameters used for generating DIDs.
 ### Properties
 
 - [did](Did.md#did)
-- [didType](Did.md#didtype)
+- [didMethod](Did.md#didmethod)
 
 ## Constructors
 
 ### constructor
 
-• **new Did**(`did`, `didType?`): [`Did`](Did.md)
+• **new Did**(`did`, `didMethod`): [`Did`](Did.md)
 
 Constructs a Did object with the specified parameters.
 
@@ -28,7 +28,7 @@ Constructs a Did object with the specified parameters.
 | Name | Type |
 | :------ | :------ |
 | `did` | `string` |
-| `didType?` | [`DidType`](DidType.md) |
+| `didMethod` | [`DidMethod`](../enums/DidMethod-1.md) |
 
 #### Returns
 
@@ -36,7 +36,7 @@ Constructs a Did object with the specified parameters.
 
 #### Defined in
 
-[entity/identity/did.ts:15](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/did.ts#L15)
+[entity/identity/did.ts:15](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/identity/did.ts#L15)
 
 ## Properties
 
@@ -46,14 +46,14 @@ Constructs a Did object with the specified parameters.
 
 #### Defined in
 
-[entity/identity/did.ts:7](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/did.ts#L7)
+[entity/identity/did.ts:7](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/identity/did.ts#L7)
 
 ___
 
-### didType
+### didMethod
 
-• `Optional` **didType**: [`DidType`](DidType.md)
+• **didMethod**: [`DidMethod`](../enums/DidMethod-1.md)
 
 #### Defined in
 
-[entity/identity/did.ts:8](https://github.com/bloock/bloock-sdk/blob/9affaa1/languages/js/src/entity/identity/did.ts#L8)
+[entity/identity/did.ts:8](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/identity/did.ts#L8)

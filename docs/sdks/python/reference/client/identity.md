@@ -23,8 +23,7 @@ Creates a new instance of the IdentityClient with the provided configuration.
 #### create\_holder
 
 ```python
-def create_holder(holder_key: Key,
-                  did_type: Optional[DidType] = None) -> Holder
+def create_holder(holder_key: Key, did_method: DidMethod) -> Holder
 ```
 
 Creates a new holder identity.
@@ -35,7 +34,7 @@ Creates a new holder identity.
 ```python
 def create_issuer(issuer_key: Key,
                   publish_interval: PublishIntervalParams,
-                  did_type: Optional[DidType] = None,
+                  did_method: DidMethod,
                   name: str = None,
                   description: str = None,
                   image: str = None) -> Issuer
@@ -47,11 +46,10 @@ Creates a new issuer on the Bloock Identity service.
 #### import\_issuer
 
 ```python
-def import_issuer(issuer_key: Key,
-                  did_type: Optional[DidType] = None) -> Issuer
+def import_issuer(issuer_key: Key, did_method: DidMethod) -> Issuer
 ```
 
-Retrieves the issuer based on the issuer key and DID type.
+Retrieves the issuer based on the issuer key and DID method.
 
 
 #### build\_schema
@@ -81,6 +79,24 @@ def build_credential(issuer: Issuer, display_name: str, holder_did: str,
 ```
 
 Creates a new credential builder for defining a credential on the Bloock Identity service.
+
+
+#### get\_credential
+
+```python
+def get_credential(credential_id: str) -> Credential
+```
+
+Retrieves the Verifiable Credential entity based on the credential ID (UUID). (ex: 1bf0c79e-55e6-4f14-aa9d-fb55619ba0cf)
+
+
+#### get\_credential\_offer
+
+```python
+def get_credential_offer(issuer: Issuer, credential_id: str) -> str
+```
+
+Retrieves the json raw offer based on the credential ID (UUID). (ex: 1bf0c79e-55e6-4f14-aa9d-fb55619ba0cf)
 
 
 #### force\_publish\_issuer\_state
