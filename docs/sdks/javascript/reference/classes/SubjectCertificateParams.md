@@ -48,7 +48,7 @@ Constructs a SubjectCertificateParams object with the specified parameters.
 
 #### Defined in
 
-[entity/key/subject_certificate_params.ts:41](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/key/subject_certificate_params.ts#L41)
+[entity/key/subject_certificate_params.ts:41](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/key/subject_certificate_params.ts#L41)
 
 ## Properties
 
@@ -60,7 +60,7 @@ Is the common name (CN) for the certificate. Required.
 
 #### Defined in
 
-[entity/key/subject_certificate_params.ts:10](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/key/subject_certificate_params.ts#L10)
+[entity/key/subject_certificate_params.ts:10](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/key/subject_certificate_params.ts#L10)
 
 ___
 
@@ -72,7 +72,7 @@ Is the country (C) for the certificate. (Optional)
 
 #### Defined in
 
-[entity/key/subject_certificate_params.ts:30](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/key/subject_certificate_params.ts#L30)
+[entity/key/subject_certificate_params.ts:30](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/key/subject_certificate_params.ts#L30)
 
 ___
 
@@ -84,7 +84,7 @@ Is the location (L) for the certificate. (Optional)
 
 #### Defined in
 
-[entity/key/subject_certificate_params.ts:22](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/key/subject_certificate_params.ts#L22)
+[entity/key/subject_certificate_params.ts:22](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/key/subject_certificate_params.ts#L22)
 
 ___
 
@@ -96,7 +96,7 @@ Is the organization (O) for the certificate. (Optional)
 
 #### Defined in
 
-[entity/key/subject_certificate_params.ts:14](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/key/subject_certificate_params.ts#L14)
+[entity/key/subject_certificate_params.ts:14](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/key/subject_certificate_params.ts#L14)
 
 ___
 
@@ -108,7 +108,7 @@ Is the organizational unit (OU) for the certificate. (Optional)
 
 #### Defined in
 
-[entity/key/subject_certificate_params.ts:18](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/key/subject_certificate_params.ts#L18)
+[entity/key/subject_certificate_params.ts:18](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/key/subject_certificate_params.ts#L18)
 
 ___
 
@@ -120,7 +120,7 @@ Is the state or province (ST) for the certificate. (Optional)
 
 #### Defined in
 
-[entity/key/subject_certificate_params.ts:26](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/key/subject_certificate_params.ts#L26)
+[entity/key/subject_certificate_params.ts:26](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/key/subject_certificate_params.ts#L26)
 
 ## Methods
 
@@ -134,4 +134,4 @@ Is the state or province (ST) for the certificate. (Optional)
 
 #### Defined in
 
-[entity/key/subject_certificate_params.ts:57](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/key/subject_certificate_params.ts#L57)
+[entity/key/subject_certificate_params.ts:57](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/key/subject_certificate_params.ts#L57)

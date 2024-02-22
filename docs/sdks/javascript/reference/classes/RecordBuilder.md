@@ -49,7 +49,7 @@ Creates a new RecordBuilder with default configuration.
 
 #### Defined in
 
-[client/record.ts:123](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/record.ts#L123)
+[client/record.ts:123](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/client/record.ts#L123)
 
 ## Properties
 
@@ -59,7 +59,7 @@ Creates a new RecordBuilder with default configuration.
 
 #### Defined in
 
-[client/record.ts:115](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/record.ts#L115)
+[client/record.ts:115](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/client/record.ts#L115)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-[client/record.ts:113](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/record.ts#L113)
+[client/record.ts:113](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/client/record.ts#L113)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-[client/record.ts:112](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/record.ts#L112)
+[client/record.ts:112](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/client/record.ts#L112)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[client/record.ts:109](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/record.ts#L109)
+[client/record.ts:109](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/client/record.ts#L109)
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 #### Defined in
 
-[client/record.ts:110](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/record.ts#L110)
+[client/record.ts:110](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/client/record.ts#L110)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 #### Defined in
 
-[client/record.ts:111](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/record.ts#L111)
+[client/record.ts:111](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/client/record.ts#L111)
 
 ## Methods
 
@@ -125,7 +125,7 @@ Constructs a record based on the RecordBuilder's configuration.
 
 #### Defined in
 
-[client/record.ts:163](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/record.ts#L163)
+[client/record.ts:163](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/client/record.ts#L163)
 
 ___
 
@@ -141,7 +141,7 @@ Gets details about other Bloock services (Integrity, Authenticity, Encryption, A
 
 #### Defined in
 
-[client/record.ts:307](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/record.ts#L307)
+[client/record.ts:307](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/client/record.ts#L307)
 
 ___
 
@@ -163,7 +163,7 @@ Sets the decrypter for the RecordBuilder.
 
 #### Defined in
 
-[client/record.ts:154](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/record.ts#L154)
+[client/record.ts:154](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/client/record.ts#L154)
 
 ___
 
@@ -185,7 +185,7 @@ Sets the encrypter for the RecordBuilder.
 
 #### Defined in
 
-[client/record.ts:144](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/record.ts#L144)
+[client/record.ts:144](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/client/record.ts#L144)
 
 ___
 
@@ -207,4 +207,4 @@ Sets the signer for the RecordBuilder.
 
 #### Defined in
 
-[client/record.ts:134](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/record.ts#L134)
+[client/record.ts:134](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/client/record.ts#L134)

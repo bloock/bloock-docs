@@ -22,7 +22,7 @@ Represents a 15-minute publish interval.
 
 #### Defined in
 
-[entity/identity/publish_interval_params.ts:14](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/identity/publish_interval_params.ts#L14)
+[entity/identity/publish_interval_params.ts:14](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/identity/publish_interval_params.ts#L14)
 
 ___
 
@@ -34,7 +34,7 @@ Represents a 5-minute publish interval.
 
 #### Defined in
 
-[entity/identity/publish_interval_params.ts:10](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/identity/publish_interval_params.ts#L10)
+[entity/identity/publish_interval_params.ts:10](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/identity/publish_interval_params.ts#L10)
 
 ___
 
@@ -46,4 +46,4 @@ Represents a 60-minute publish interval.
 
 #### Defined in
 
-[entity/identity/publish_interval_params.ts:18](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/identity/publish_interval_params.ts#L18)
+[entity/identity/publish_interval_params.ts:18](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/identity/publish_interval_params.ts#L18)

@@ -44,7 +44,7 @@ Creates a new RecordClient with default configuration.
 
 #### Defined in
 
-[client/record.ts:33](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/record.ts#L33)
+[client/record.ts:33](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/client/record.ts#L33)
 
 ## Properties
 
@@ -54,7 +54,7 @@ Creates a new RecordClient with default configuration.
 
 #### Defined in
 
-[client/record.ts:27](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/record.ts#L27)
+[client/record.ts:27](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/client/record.ts#L27)
 
 ## Methods
 
@@ -76,7 +76,7 @@ Creates a RecordBuilder from a byte slice payload.
 
 #### Defined in
 
-[client/record.ts:73](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/record.ts#L73)
+[client/record.ts:73](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/client/record.ts#L73)
 
 ___
 
@@ -98,7 +98,7 @@ Creates a RecordBuilder from a byte slice representing a file.
 
 #### Defined in
 
-[client/record.ts:82](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/record.ts#L82)
+[client/record.ts:82](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/client/record.ts#L82)
 
 ___
 
@@ -120,7 +120,7 @@ Creates a RecordBuilder from a hexadecimal string payload.
 
 #### Defined in
 
-[client/record.ts:64](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/record.ts#L64)
+[client/record.ts:64](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/client/record.ts#L64)
 
 ___
 
@@ -142,7 +142,7 @@ Creates a RecordBuilder from a JSON string payload.
 
 #### Defined in
 
-[client/record.ts:51](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/record.ts#L51)
+[client/record.ts:51](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/client/record.ts#L51)
 
 ___
 
@@ -164,7 +164,7 @@ Creates a RecordBuilder from a data loader.
 
 #### Defined in
 
-[client/record.ts:100](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/record.ts#L100)
+[client/record.ts:100](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/client/record.ts#L100)
 
 ___
 
@@ -186,7 +186,7 @@ Creates a RecordBuilder from an existing record.
 
 #### Defined in
 
-[client/record.ts:91](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/record.ts#L91)
+[client/record.ts:91](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/client/record.ts#L91)
 
 ___
 
@@ -208,4 +208,4 @@ Creates a RecordBuilder from a string payload.
 
 #### Defined in
 
-[client/record.ts:42](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/client/record.ts#L42)
+[client/record.ts:42](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/client/record.ts#L42)

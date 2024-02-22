@@ -26,7 +26,7 @@
 
 #### Defined in
 
-[entity/availability/publisher.ts:5](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/availability/publisher.ts#L5)
+[entity/availability/publisher.ts:5](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/availability/publisher.ts#L5)
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 #### Defined in
 
-[entity/availability/publisher.ts:4](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/availability/publisher.ts#L4)
+[entity/availability/publisher.ts:4](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/availability/publisher.ts#L4)
 
 ## Methods
 
@@ -50,4 +50,4 @@ ___
 
 #### Defined in
 
-[entity/availability/publisher.ts:6](https://github.com/bloock/bloock-sdk/blob/34885a1/languages/js/src/entity/availability/publisher.ts#L6)
+[entity/availability/publisher.ts:6](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/availability/publisher.ts#L6)
