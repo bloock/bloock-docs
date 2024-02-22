@@ -36,7 +36,7 @@ Constructs a Did object with the specified parameters.
 
 #### Defined in
 
-[entity/identity/did.ts:15](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/identity/did.ts#L15)
+[entity/identity/did.ts:15](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/identity/did.ts#L15)
 
 ## Properties
 
@@ -46,7 +46,7 @@ Constructs a Did object with the specified parameters.
 
 #### Defined in
 
-[entity/identity/did.ts:7](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/identity/did.ts#L7)
+[entity/identity/did.ts:7](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/identity/did.ts#L7)
 
 ___
 
@@ -56,4 +56,4 @@ ___
 
 #### Defined in
 
-[entity/identity/did.ts:8](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/identity/did.ts#L8)
+[entity/identity/did.ts:8](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/identity/did.ts#L8)

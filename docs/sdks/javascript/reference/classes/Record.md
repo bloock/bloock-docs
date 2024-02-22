@@ -47,7 +47,7 @@ Constructs a Record object with the specified parameters.
 
 #### Defined in
 
-[entity/record/record.ts:25](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/record/record.ts#L25)
+[entity/record/record.ts:25](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/record/record.ts#L25)
 
 ## Properties
 
@@ -57,7 +57,7 @@ Constructs a Record object with the specified parameters.
 
 #### Defined in
 
-[entity/record/record.ts:17](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/record/record.ts#L17)
+[entity/record/record.ts:17](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/record/record.ts#L17)
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 #### Defined in
 
-[entity/record/record.ts:16](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/record/record.ts#L16)
+[entity/record/record.ts:16](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/record/record.ts#L16)
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 #### Defined in
 
-[entity/record/record.ts:15](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/record/record.ts#L15)
+[entity/record/record.ts:15](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/record/record.ts#L15)
 
 ## Methods
 
@@ -93,7 +93,7 @@ Retrieves the hash of the record.
 
 #### Defined in
 
-[entity/record/record.ts:47](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/record/record.ts#L47)
+[entity/record/record.ts:47](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/record/record.ts#L47)
 
 ___
 
@@ -109,7 +109,7 @@ Retrieves the payload of the record.
 
 #### Defined in
 
-[entity/record/record.ts:69](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/record/record.ts#L69)
+[entity/record/record.ts:69](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/record/record.ts#L69)
 
 ___
 
@@ -125,7 +125,7 @@ Returns the payload of the record.
 
 #### Defined in
 
-[entity/record/record.ts:91](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/record/record.ts#L91)
+[entity/record/record.ts:91](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/record/record.ts#L91)
 
 ___
 
@@ -147,7 +147,7 @@ Sets the proof for a record.
 
 #### Defined in
 
-[entity/record/record.ts:100](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/record/record.ts#L100)
+[entity/record/record.ts:100](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/record/record.ts#L100)
 
 ___
 
@@ -161,7 +161,7 @@ ___
 
 #### Defined in
 
-[entity/record/record.ts:35](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/record/record.ts#L35)
+[entity/record/record.ts:35](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/record/record.ts#L35)
 
 ___
 
@@ -182,4 +182,4 @@ ___
 
 #### Defined in
 
-[entity/record/record.ts:31](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/record/record.ts#L31)
+[entity/record/record.ts:31](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/record/record.ts#L31)

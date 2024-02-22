@@ -42,7 +42,7 @@ Creates a new instance of the EncryptionClient with default configuration.
 
 #### Defined in
 
-[client/encryption.ts:26](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/client/encryption.ts#L26)
+[client/encryption.ts:26](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/client/encryption.ts#L26)
 
 ## Properties
 
@@ -52,7 +52,7 @@ Creates a new instance of the EncryptionClient with default configuration.
 
 #### Defined in
 
-[client/encryption.ts:19](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/client/encryption.ts#L19)
+[client/encryption.ts:19](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/client/encryption.ts#L19)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 #### Defined in
 
-[client/encryption.ts:20](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/client/encryption.ts#L20)
+[client/encryption.ts:20](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/client/encryption.ts#L20)
 
 ## Methods
 
@@ -85,7 +85,7 @@ Decrypts a Bloock record using the specified decrypter.
 
 #### Defined in
 
-[client/encryption.ts:83](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/client/encryption.ts#L83)
+[client/encryption.ts:83](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/client/encryption.ts#L83)
 
 ___
 
@@ -108,7 +108,7 @@ Encrypts a Bloock record using the specified encrypter.
 
 #### Defined in
 
-[client/encryption.ts:59](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/client/encryption.ts#L59)
+[client/encryption.ts:59](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/client/encryption.ts#L59)
 
 ___
 
@@ -130,7 +130,7 @@ Will be deleted in future versions. Use KeyClient.newLocalKey function instead.
 
 #### Defined in
 
-[client/encryption.ts:36](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/client/encryption.ts#L36)
+[client/encryption.ts:36](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/client/encryption.ts#L36)
 
 ___
 
@@ -152,4 +152,4 @@ Gets the encryption algorithm used for a Bloock record.
 
 #### Defined in
 
-[client/encryption.ts:106](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/client/encryption.ts#L106)
+[client/encryption.ts:106](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/client/encryption.ts#L106)

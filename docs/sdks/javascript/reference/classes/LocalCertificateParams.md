@@ -44,7 +44,7 @@ Constructs an LocalCertificateParams object with the specified parameters.
 
 #### Defined in
 
-[entity/key/local_certificate_args.ts:21](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/key/local_certificate_args.ts#L21)
+[entity/key/local_certificate_args.ts:21](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/key/local_certificate_args.ts#L21)
 
 ## Properties
 
@@ -54,7 +54,7 @@ Constructs an LocalCertificateParams object with the specified parameters.
 
 #### Defined in
 
-[entity/key/local_certificate_args.ts:12](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/key/local_certificate_args.ts#L12)
+[entity/key/local_certificate_args.ts:12](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/key/local_certificate_args.ts#L12)
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 #### Defined in
 
-[entity/key/local_certificate_args.ts:9](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/key/local_certificate_args.ts#L9)
+[entity/key/local_certificate_args.ts:9](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/key/local_certificate_args.ts#L9)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 #### Defined in
 
-[entity/key/local_certificate_args.ts:11](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/key/local_certificate_args.ts#L11)
+[entity/key/local_certificate_args.ts:11](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/key/local_certificate_args.ts#L11)
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 #### Defined in
 
-[entity/key/local_certificate_args.ts:10](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/key/local_certificate_args.ts#L10)
+[entity/key/local_certificate_args.ts:10](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/key/local_certificate_args.ts#L10)
 
 ## Methods
 
@@ -98,4 +98,4 @@ ___
 
 #### Defined in
 
-[entity/key/local_certificate_args.ts:33](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/key/local_certificate_args.ts#L33)
+[entity/key/local_certificate_args.ts:33](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/key/local_certificate_args.ts#L33)

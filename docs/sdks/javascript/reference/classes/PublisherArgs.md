@@ -36,4 +36,4 @@ Represents the arguments for a data publisher.
 
 #### Defined in
 
-[entity/availability/publisher_args.ts:7](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/availability/publisher_args.ts#L7)
+[entity/availability/publisher_args.ts:7](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/availability/publisher_args.ts#L7)

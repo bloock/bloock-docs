@@ -47,7 +47,7 @@ Constructs a Proof object with the specified parameters.
 
 #### Defined in
 
-[entity/integrity/proof.ts:22](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/integrity/proof.ts#L22)
+[entity/integrity/proof.ts:22](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/integrity/proof.ts#L22)
 
 ## Properties
 
@@ -57,7 +57,7 @@ Constructs a Proof object with the specified parameters.
 
 #### Defined in
 
-[entity/integrity/proof.ts:12](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/integrity/proof.ts#L12)
+[entity/integrity/proof.ts:12](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/integrity/proof.ts#L12)
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/proof.ts:11](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/integrity/proof.ts#L11)
+[entity/integrity/proof.ts:11](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/integrity/proof.ts#L11)
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/proof.ts:10](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/integrity/proof.ts#L10)
+[entity/integrity/proof.ts:10](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/integrity/proof.ts#L10)
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/proof.ts:8](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/integrity/proof.ts#L8)
+[entity/integrity/proof.ts:8](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/integrity/proof.ts#L8)
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/proof.ts:9](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/integrity/proof.ts#L9)
+[entity/integrity/proof.ts:9](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/integrity/proof.ts#L9)
 
 ## Methods
 
@@ -111,7 +111,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/proof.ts:46](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/integrity/proof.ts#L46)
+[entity/integrity/proof.ts:46](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/integrity/proof.ts#L46)
 
 ___
 
@@ -131,4 +131,4 @@ ___
 
 #### Defined in
 
-[entity/integrity/proof.ts:36](https://github.com/bloock/bloock-sdk/blob/82af4b7/languages/js/src/entity/integrity/proof.ts#L36)
+[entity/integrity/proof.ts:36](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/integrity/proof.ts#L36)
