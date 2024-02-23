@@ -55,7 +55,6 @@ const company = [
   { name: 'Blog', href: 'https://www.bloock.com/blog' },
   { name: 'Partners', href: 'https://www.bloock.com/partners' },
   { name: 'Contact Us', href: 'https://www.bloock.com/contact' },
-  { name: 'FAQ', href: '/faq' },
 ];
 
 function Status({ className }) {

@@ -7,13 +7,11 @@ export default function HelpSection({ className = '' }) {
     <section className="px-4 pt-16">
       <div
         className={clsx(
-          'mx-auto max-w-7xl rounded-3xl bg-white p-4 py-10 text-black dark:bg-black dark:text-white lg:p-24 lg:py-20',
+          'mx-auto max-w-7xl rounded-3xl bg-white p-4 py-10 text-black lg:p-24 lg:py-20 dark:bg-black dark:text-white',
           className
         )}
       >
-        <h2 className="mb-12 text-center lg:text-3xl">
-          How can we help you today?
-        </h2>
+        <h2 className="mb-12 text-center lg:text-3xl">How can we help you?</h2>
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-3">
           <div className="rounded-lg bg-zinc-100 p-6 dark:bg-zinc-900">
             <img
@@ -62,13 +60,16 @@ export default function HelpSection({ className = '' }) {
               width="48"
               height="48"
             />
-            <h3 className="my-3">FAQs</h3>
+            <h3 className="my-3">Technical support</h3>
             <p className="text-zinc-600 dark:text-zinc-400">
-              Browse through our FAQs to find answers to commonly asked
-              questions.
+              If you have technical questions, chat live with developers in the
+              official BLOOCK Discord server.
             </p>
-            <Link href="/faq" className="text-primary dark:text-primary-100">
-              View FAQs &rarr;
+            <Link
+              href="https://discord.gg/9zhJmKaRDN"
+              className="text-primary dark:text-primary-100"
+            >
+              Discord &rarr;
             </Link>
           </div>
         </div>
