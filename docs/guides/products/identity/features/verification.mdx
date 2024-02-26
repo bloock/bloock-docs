@@ -1,0 +1,34 @@
+---
+title: 'Verification'
+sidebar_position: 6
+---
+
+BLOOCK's identity product allows you to act as [verification agents](#the-verifier) as well. Once our users or holders have their credentials, they will want to be able to verify themselves.
+
+At this point, you have two options:
+1. Using external verifiers.
+2. Create your own verifier through BLOOCK. 
+
+If you want to use our verification process, here is how it works:
+1. You must create a request, which is nothing more than a QR code to show to the user or Holder you want to verify. In order to create the request you need to create a [Validation Query](#validation-queries). This functionality is available in our dashboard.
+2. Then, you will have to wait for your Holder to scan the request with its wallet or software and generate the proof on your request. 
+>It is important to note that within the request that you will show to your Holder, you can specify what things you want to validate. For example, you can determine that you only want to verify that it holds a credential of the type BloockEmployee or you can verify something more specific, such as that your employee's date of birth is less than 2000.
+3. Once you receive the proof from the Holder, it will be verified, and you will get a result of true or false, verified or not verified. The BLOOCK verification process establishes a customizable logic, adding an expiration time to the requests, by default 60 min. This means that when the request is created it will be invalidated after 60 min. If the user was already verified, after 60 minutes it will have to be verified again.  
+
+## Examples
+
+import SdkCodeBlock from '/docs/partials/_sdk-code-block.mdx';
+
+import VerificationJs from '!!raw-loader!@site/examples/identity/verification/verification.ts';
+import VerificationPy from '!!raw-loader!@site/examples/identity/verification/verification.py';
+import VerificationJava from '!!raw-loader!@site/examples/identity/verification/Verification.java';
+import VerificationPhp from '!!raw-loader!@site/examples/identity/verification/verification.php';
+import VerificationGo from '!!raw-loader!@site/examples/identity/verification/verification.go';
+
+<SdkCodeBlock
+  js={VerificationJs}
+  py={VerificationPy}
+  java={VerificationJava}
+  php={VerificationPhp}
+  go={VerificationGo}
+/>

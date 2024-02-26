@@ -1,0 +1,31 @@
+---
+title: 'Create Schema'
+sidebar_position: 2
+---
+
+Next, we must think about what type of credentials we want to issue. For example, we want to issue a card that identifies BLOOCK employees. In order to create the schema I have to follow these steps.
+1. I must first think about the name of the schema type, in this case for example it would be BloockEmployee.
+2. I must define what attributes my credential will have, for example, I will put an employee number, name and date of birth.
+
+Once this is defined, I will be able to create my schema. Notice that all we are doing is defining the attributes that our credentials will have.
+
+[The schemas](#schemas) are uploaded to IPFS, in order to identify the schemas we use their IPFS identifier.
+`Example: QmadTvnNKvj2fBDgen35uAp1TfP9pSPVCNeDWw4fitqqne`
+
+## Examples
+
+import SdkCodeBlock from '/docs/partials/_sdk-code-block.mdx';
+
+import CreateSchemaJs from '!!raw-loader!@site/examples/identity/create_schema/create_schema.ts';
+import CreateSchemaPy from '!!raw-loader!@site/examples/identity/create_schema/create_schema.py';
+import CreateSchemaJava from '!!raw-loader!@site/examples/identity/create_schema/CreateSchema.java';
+import CreateSchemaPhp from '!!raw-loader!@site/examples/identity/create_schema/create_schema.php';
+import CreateSchemaGo from '!!raw-loader!@site/examples/identity/create_schema/create_schema.go';
+
+<SdkCodeBlock
+  js={CreateSchemaJs}
+  py={CreateSchemaPy}
+  java={CreateSchemaJava}
+  php={CreateSchemaPhp}
+  go={CreateSchemaGo}
+/>

@@ -1,0 +1,18 @@
+---
+title: 'Decentralized Identifiers (DIDs)'
+sidebar_position: 1
+---
+
+# Decentralized Identifiers (DIDs)
+The [Decentralized Identifiers (DIDs)](https://www.w3.org/TR/did-core/#dfn-decentralized-identifiers) are a new type of globally unique identifier. They are designed to enable individuals and organizations to generate their own identifiers using systems they trust. These new identifiers enable entities to prove control over them by authenticating using cryptographic proofs such as digital signatures.
+
+A [DID](https://www.w3.org/TR/did-core/#dfn-decentralized-identifiers) is a simple text string consisting of three parts: 
+1. The `did` URI scheme identifier.
+2. The identifier for the [DID method](https://www.w3.org/TR/did-core/#dfn-did-methods).
+3. The DID method-specific identifier.
+
+![2 - Identity](/static/docs/guides/identity/2-identity.png)
+
+Currently in BLOOCK Identity only supports the method **did:polygonid**, but it's expected to add more in the future.
+- [did:polygonid](https://github.com/0xPolygonID/did-polygonid)
+- Soon they will be extended...
