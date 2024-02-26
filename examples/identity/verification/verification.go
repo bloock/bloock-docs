@@ -6,7 +6,6 @@ import (
 
 	"github.com/bloock/bloock-sdk-go/v2"
 	"github.com/bloock/bloock-sdk-go/v2/client"
-	"github.com/bloock/bloock-sdk-go/v2/entity/identity"
 )
 
 func main() {
