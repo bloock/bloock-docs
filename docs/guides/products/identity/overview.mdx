@@ -3,12 +3,38 @@ title: 'Overview'
 sidebar_position: 1
 ---
 
-Bloock's live video platform, built upon [WebRTC](https://bloock.com/blog/webrtc/), enables you to seamlessly incorporate real-time communication features into your web and mobile applications. Using Bloock's REST APIs and client-side SDKs, you can effortlessly acquire, transmit, and play media while efficiently managing network connections within your applications. All Bloock live video calls come with in-built noise cancellation (powered by Krisp).
+# Overview {#overview}
 
-## Supported platforms
+With BLOOCK Identity, developers can empower users to exchange credentials that are securely verified using advanced cryptography and blockchain technology. Tailored for developers, BLOOCK Identity prioritizes privacy, decentralization, and user data self-sovereignty.
 
-Bloock currently supports the following platforms:
+The protocol used by BLOOCK Identity is standarized under the [Verifiable Credentials Data Model v2.0](https://www.w3.org/TR/vc-data-model-2.0/) and [Decentralized Identifiers (DIDs) v1.0](https://www.w3.org/TR/did-core/) standards, both from developed by the [World Wide Web Consortium (W3C)](https://www.w3.org/).
 
-- **Mobile**: Flutter, Android (Java/Kotlin), iOS (Objective-C/Swift), React Native
-- **Web**: Javascript Core SDK + UI Kit for React JS, Angular, and Web Components for other frameworks
-- **Desktop**: Electron
+## The basics {#the-basics}
+
+### What do we mean by Identity?
+An identity can be a person, a company, an organization, an entity, or a government. Identity can even be a thing: a chair, a room, a bot, and so on. When we talk about identities, we are referring to "identities as accounts".
+
+### What is a claim? {#what-is-a-claim}
+An Identity can provide a claim. You can think of a claim as a statement: something an Identity is saying.
+
+Most of the time, these statements refer to other identities. In other words, **claims usually create relations between identities.**
+
+For example, when a university (identity) says that a student (identity) has a degree, this is a statement (claim) about the student. In this case, this statement creates a relation between the two identities, the student (also referred as Holder) and the university (also referred as Issuer).
+
+### What are the agents in this process? {#what-are-the-agents-in-this-process}
+- **Issuer**: An identity who makes a claim.
+- **Holder**: An identity who receives a claim.
+- **Verifier**: An identity who verifies if the content of a claim is issued by a specific identity and held by another specific identity.
+
+![1 - Identity](/static/docs/guides/identity/1-identity.png)
+
+### And therefore, what is a Verifiable Credential? {#what-is-a-verifiable-credential}
+A **Verifiable Credential (VC)** is the set of data that represents the statement made from an Issuer to a Holder and information needed to make this statement verifiable.  
+It usually contains:
+
+-   Information to identify the Issuer
+-   Information to identify the Holder
+-   The credential type or schema
+-   The attributes or properties being asserted by the Issuer
+-   Evidences that can be used to verify the integrity and/or authenticity of the credential
+-   Other information such as validity period, terms, ...
