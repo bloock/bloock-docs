@@ -43,7 +43,7 @@ Constructs an CredentialReceipt object with the specified parameters.
 
 #### Defined in
 
-[entity/identity/credential_receipt.ts:18](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/identity/credential_receipt.ts#L18)
+[entity/identity/credential_receipt.ts:18](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/identity/credential_receipt.ts#L18)
 
 ## Properties
 
@@ -53,7 +53,7 @@ Constructs an CredentialReceipt object with the specified parameters.
 
 #### Defined in
 
-[entity/identity/credential_receipt.ts:8](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/identity/credential_receipt.ts#L8)
+[entity/identity/credential_receipt.ts:8](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/identity/credential_receipt.ts#L8)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_receipt.ts:9](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/identity/credential_receipt.ts#L9)
+[entity/identity/credential_receipt.ts:9](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/identity/credential_receipt.ts#L9)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_receipt.ts:10](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/identity/credential_receipt.ts#L10)
+[entity/identity/credential_receipt.ts:10](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/identity/credential_receipt.ts#L10)
 
 ## Methods
 
@@ -87,7 +87,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_receipt.ts:28](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/identity/credential_receipt.ts#L28)
+[entity/identity/credential_receipt.ts:28](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/identity/credential_receipt.ts#L28)
 
 ___
 
@@ -107,4 +107,4 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_receipt.ts:36](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/identity/credential_receipt.ts#L36)
+[entity/identity/credential_receipt.ts:36](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/identity/credential_receipt.ts#L36)

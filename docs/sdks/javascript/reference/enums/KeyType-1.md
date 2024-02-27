@@ -26,7 +26,7 @@ Represents the AES key type with a 128-bit key length.
 
 #### Defined in
 
-[entity/key/key_type.ts:26](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/key/key_type.ts#L26)
+[entity/key/key_type.ts:26](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/key/key_type.ts#L26)
 
 ___
 
@@ -38,7 +38,7 @@ Represents the AES key type with a 256-bit key length.
 
 #### Defined in
 
-[entity/key/key_type.ts:30](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/key/key_type.ts#L30)
+[entity/key/key_type.ts:30](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/key/key_type.ts#L30)
 
 ___
 
@@ -50,7 +50,7 @@ Represents the Baby JubJub key type, elliptic curve defined over the large prime
 
 #### Defined in
 
-[entity/key/key_type.ts:34](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/key/key_type.ts#L34)
+[entity/key/key_type.ts:34](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/key/key_type.ts#L34)
 
 ___
 
@@ -62,7 +62,7 @@ Represents the elliptic curve key type P-256k.
 
 #### Defined in
 
-[entity/key/key_type.ts:10](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/key/key_type.ts#L10)
+[entity/key/key_type.ts:10](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/key/key_type.ts#L10)
 
 ___
 
@@ -74,7 +74,7 @@ Represents the RSA key type with a 2048-bit modulus.
 
 #### Defined in
 
-[entity/key/key_type.ts:14](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/key/key_type.ts#L14)
+[entity/key/key_type.ts:14](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/key/key_type.ts#L14)
 
 ___
 
@@ -86,7 +86,7 @@ Represents the RSA key type with a 3072-bit modulus.
 
 #### Defined in
 
-[entity/key/key_type.ts:18](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/key/key_type.ts#L18)
+[entity/key/key_type.ts:18](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/key/key_type.ts#L18)
 
 ___
 
@@ -98,4 +98,4 @@ Represents the RSA key type with a 4096-bit modulus.
 
 #### Defined in
 
-[entity/key/key_type.ts:22](https://github.com/bloock/bloock-sdk/blob/cf2e115/languages/js/src/entity/key/key_type.ts#L22)
+[entity/key/key_type.ts:22](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/key/key_type.ts#L22)
