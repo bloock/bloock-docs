@@ -66,7 +66,6 @@ const docs = [
 /** @type {import('@docusaurus/plugin-content-docs').Options} */
 const defaultSettings = {
   breadcrumbs: true,
-  editUrl: 'https://github.com/bloock/bloock-docs/tree/master/',
   showLastUpdateTime: true,
   sidebarCollapsible: true,
   remarkPlugins: [
