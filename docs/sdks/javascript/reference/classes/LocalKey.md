@@ -43,7 +43,7 @@ Constructs a LocalKey object with the specified parameters.
 
 #### Defined in
 
-[entity/key/local_key.ts:27](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/key/local_key.ts#L27)
+[entity/key/local_key.ts:27](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/key/local_key.ts#L27)
 
 ## Properties
 
@@ -55,7 +55,7 @@ Is the public key.
 
 #### Defined in
 
-[entity/key/local_key.ts:11](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/key/local_key.ts#L11)
+[entity/key/local_key.ts:11](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/key/local_key.ts#L11)
 
 ___
 
@@ -67,7 +67,7 @@ Is the type of the key.
 
 #### Defined in
 
-[entity/key/local_key.ts:19](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/key/local_key.ts#L19)
+[entity/key/local_key.ts:19](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/key/local_key.ts#L19)
 
 ___
 
@@ -79,7 +79,7 @@ Is the private key.
 
 #### Defined in
 
-[entity/key/local_key.ts:15](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/key/local_key.ts#L15)
+[entity/key/local_key.ts:15](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/key/local_key.ts#L15)
 
 ## Methods
 
@@ -93,7 +93,7 @@ Is the private key.
 
 #### Defined in
 
-[entity/key/local_key.ts:33](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/key/local_key.ts#L33)
+[entity/key/local_key.ts:33](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/key/local_key.ts#L33)
 
 ___
 
@@ -113,4 +113,4 @@ ___
 
 #### Defined in
 
-[entity/key/local_key.ts:41](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/key/local_key.ts#L41)
+[entity/key/local_key.ts:41](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/key/local_key.ts#L41)

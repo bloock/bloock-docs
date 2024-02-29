@@ -27,7 +27,7 @@
 
 #### Defined in
 
-[entity/integrity/network.ts:33](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/integrity/network.ts#L33)
+[entity/integrity/network.ts:33](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/integrity/network.ts#L33)
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 #### Defined in
 
-[entity/integrity/network.ts:16](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/integrity/network.ts#L16)
+[entity/integrity/network.ts:16](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/integrity/network.ts#L16)
