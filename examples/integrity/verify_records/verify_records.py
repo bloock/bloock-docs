@@ -1,8 +1,8 @@
 import os
 import bloock
+from bloock import Network
 from bloock.client.integrity import IntegrityClient
 from bloock.client.record import RecordClient
-from bloock.entity.network import Network
 
 # we set the API key and create a client
 bloock.api_key = os.environ["API_KEY"]

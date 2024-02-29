@@ -6,10 +6,11 @@ sidebar_position: 1
 In order to create an identity in BLOOCK Identity I will first need to create or have a Baby JubJub (BJJ) key. This key will be very important to have it saved because it will be used to control our Issuer.
 
 You have two options to get this key.
+
 1. You can create a BJJ key with our managed key product ([BLOOCK Keys product](go_to_keys_documentation)), your key will be identified by a UUID. This identifier will be enough to control your Issuer.
-`Example: 6f36448d-49f3-4b0e-aa72-6e55863302e8`
+   `Example: 6f36448d-49f3-4b0e-aa72-6e55863302e8`
 2. If you have created a BJJ type key locally, i.e. you are aware of its private key, then you can use it to control your Issuer.
-`Example: bf5e13dd8d9f784aee781b4de7836caa3499168514553eaa3d892911ad3c345j`
+   `Example: bf5e13dd8d9f784aee781b4de7836caa3499168514553eaa3d892911ad3c345j`
 
 ## Examples
 
@@ -22,7 +23,7 @@ import CreateIssuerPhp from '!!raw-loader!@site/examples/identity/create_issuer/
 import CreateIssuerGo from '!!raw-loader!@site/examples/identity/create_issuer/create_issuer.go';
 
 <SdkCodeBlock
-  js={CreateIssuerJs}
+  ts={CreateIssuerJs}
   py={CreateIssuerPy}
   java={CreateIssuerJava}
   php={CreateIssuerPhp}

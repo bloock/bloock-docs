@@ -33,6 +33,7 @@ services:
         
         cd /var/snippets/typescript;
         yarn add @bloock/sdk;
+        yarn add express body-parser;
         yarn add -D @types/node@20.0.0 eslint typescript typescript-eslint;
           
         touch /tmp/runner_ready_to_lint;

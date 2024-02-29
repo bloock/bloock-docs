@@ -1,0 +1,12 @@
+---
+title: 'Overview'
+sidebar_position: 1
+---
+
+# Overview
+
+Listen for events on your Bloock integration so you can automatically trigger reactions.
+
+First, we should understand what is a webhook. A webhook is an HTTP request, triggered by an event in the source system and then, sent to the destination system. Webhooks are automatically sent out when their event is fired in the source system.
+
+BLOOCK uses webhooks to notify your application when an event happens in the source system. Webhooks are particularly useful for asynchronous events like when we want to wait for an anchor confirmed. When the users send a record to Bloock, internally, it is processed and included in an anchor. Normally, once the user sends their record to the blockchain, they will go through a long process of polling, or waiting for the anchor confirmation before knowing whether their record was successfully sent. In order to avoid this issue, users can now subscribe to our waiting_anchor webhook and provide us the URL they want to be notified.

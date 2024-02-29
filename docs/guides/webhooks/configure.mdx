@@ -1,0 +1,134 @@
+---
+title: 'Configure Webhooks'
+sidebar_position: 2
+---
+
+# Configure Webhooks
+
+Use incoming webhooks to get real-time updates. To start activating your webhooks events, users can follow these next steps:
+
+## 1. Login to your account
+
+First, log in to [dashboard.bloock.com](https://dashboard.bloock.com). Then, select the webhooks section on the lateral sidebar.
+
+![1 - Configure webhooks](/static/docs/guides/webhooks/configure/1-configure.png)
+
+## 2. Create a Webhook subscription
+
+After that, can click on Add webhook endpoint in order to create a new webhook subscription.
+
+![2 - Configure webhooks](/static/docs/guides/webhooks/configure/2-configure.png)
+
+## 3. Create a webhook endpoint
+
+Creating a webhook endpoint is no different from creating any other page on your website. It's an HTTP or HTTPS endpoint on your server with a URL.
+
+Set up an HTTP endpoint on your local machine that can accept unauthenticated webhook requests with a POST method. For example, this route in Flask is a map to a Python webhook function:
+
+```python
+@app.route('/bloock_ethereum_mainnet', methods=['POST'])
+def webhook():
+    ethereum_mainnet_payload = request.json
+```
+
+In this example, the /bloock_ethereum_mainnet route is configured to accept only POST requests and expects data to be delivered in a JSON payload.
+
+## 4. Associate your webhook endpoint
+
+The following information must be provided:
+
+- **URL**: https://your.apidomain.com/endpoint/bloock_ethereum_mainnet
+- **Event Listening**: You must select the type of network you want to listen to. For example, if I subscribe to core.ethereum_mainnet webhook, every time a new anchor is confirmed on this network, will fire an event. It's important to differentiate between the core and core-test prefix. The first indicates we are listening a production environment event and the second reference to a test environment event.
+
+![3 - Configure webhooks](/static/docs/guides/webhooks/configure/3-configure.png)
+
+Once all the information required is filed in, click on Create button.
+
+**Check webhook structure**
+
+It is important that you know the request's structure that we send to your API endpoint. Each event is structured with a webhoook_id, request_id, type, created_at and related Bloock resource nested under data. Your endpoint must parse the payload of each event.
+
+- **Header**: data (timestamp) and signature (HMAC SHA256).
+
+`t=1672761735,v1=8071c487388bd9eba106fccd42e2842c58000f722f9147b6d27440a4bd9bf5c4`
+
+- **Payload**
+
+```json
+{
+  "webhook_id": "7518043d-4774-4305-b5c9-3868e129123a",
+  "request_id": "fe0c1d29-8b7f-11ed-85ce-0242ac190005",
+  "type": "core.bloock_chain",
+  "created_at": 1672761735,
+  "data": {
+    "created_at": 1672735289,
+    "finalized": true,
+    "id": 102217,
+    "message_count": 1,
+    "network": {
+      "anchor_id": 102217,
+      "created_at": 1672735355,
+      "name": "bloock_chain",
+      "status": "Confirmed",
+      "test": false,
+      "tx_hash": "0x7ca9e361c9a7b4fbf4b3c2ac709d06fa8ae9e0acd648dc3a364bf9d29a39e18a"
+    },
+    "root": "b068d911852f369cd09f4ebb1bb8c037cd9f28852976934fdb4358945759ad7c",
+    "test": false
+  }
+}
+```
+
+**Return a 2xx response**
+
+Your endpoint must quickly return a successful status code (2xx) prior to any complex logic that could cause a timeout.
+
+Use [webhook signatures](/guides/webhooks/verify) to verify that Bloock generated a webhook request and that it didn't come from a server acting like Bloock.
+
+## 5. Watch your webhook list
+
+Once your webhook is created, you should see it in your webhook list. You will see your webhook's details, including: the URL, the event that you're listening, and its status (either Active or Disabled).
+
+:::tip
+It is important to understand how our system manages events failures. When a webhook is created, its default status is Active. However, this status can be changed to Disabled if we detect a persistent system failure. This happens if a series of failed responses are registered when we communicate with the API endpoint provided from your side.
+:::
+
+![4 - Configure webhooks](/static/docs/guides/webhooks/configure/4-configure.png)
+
+## 6. Look for webhook details
+
+To check for your webhook information, click the See details button.
+
+![5 - Configure webhooks](/static/docs/guides/webhooks/configure/5-configure.png)
+
+In this section, you'll see the URL, Status and the Signing Secret. The Signing Secret is what will help you validate the [HMAC SHA256 signature](/guides/webhooks/verify) which is used to verify all the webhook requests provided from [BLOOCK](https://dashboard.bloock.com).
+
+![6 - Configure webhooks](/static/docs/guides/webhooks/configure/6-configure.png)
+
+Every time we send you a new webhook event, Bloock provides you with a webhook attempts logger. With this function, you can check the webhook’s response.
+
+At the top of the logger, you’ll find a Combobox filter where you can check all your webhook responses according to their status: Success or Error.
+
+In detail, for each webhook, you will be provided with:
+
+- **Request ID**
+- **Status**: the status code response from your API endpoint listener.
+- **Time**: the time when we send the request to your API endpoint.
+- **Result**: the method request (GET, POST ...)
+- **Endpoint**: the API endpoint URL provided when the webhook was created.
+- **Request body**: the request body we send.
+- **Response body**: the response from your body.
+
+![7 - Configure webhooks](/static/docs/guides/webhooks/configure/7-configure.png)
+
+## 7. Delete webhook event
+
+To delete or unsubscribe from a webhook event, go back to your webhook list, and choose the Delete button.
+
+![8 - Configure webhooks](/static/docs/guides/webhooks/configure/8-configure.png)
+
+Finally, click the Delete button on the popup and the webhook will be erased.
+
+![9 - Configure webhooks](/static/docs/guides/webhooks/configure/9-configure.png)
+
+![10 - Configure webhooks](/static/docs/guides/webhooks/configure/10-configure.png)

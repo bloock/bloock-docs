@@ -3,29 +3,39 @@ import TabItem from '@theme/TabItem';
 import CodeBlock from '@theme/CodeBlock';
 
 <Tabs groupId="sdk-example">
-  <TabItem value="js" label="JavaScript">
-    <CodeBlock language="js" showLineNumbers>
-      {props.js}
-    </CodeBlock>
-  </TabItem>
-  <TabItem value="py" label="Python">
-    <CodeBlock language="py" showLineNumbers>
-      {props.py}
-    </CodeBlock>
-  </TabItem>
-  <TabItem value="java" label="Java">
-    <CodeBlock language="java" showLineNumbers>
-      {props.java}
-    </CodeBlock>
-  </TabItem>
-  <TabItem value="php" label="PHP">
-    <CodeBlock language="php" showLineNumbers>
-      {props.php}
-    </CodeBlock>
-  </TabItem>
-  <TabItem value="go" label="Golang">
-    <CodeBlock language="go" showLineNumbers>
-      {props.go}
-    </CodeBlock>
-  </TabItem>
+  {props.ts && (
+    <TabItem value="ts" label="Typescript">
+      <CodeBlock language="ts" showLineNumbers>
+        {props.ts}
+      </CodeBlock>
+    </TabItem>
+  )}
+  {props.py && (
+    <TabItem value="py" label="Python">
+      <CodeBlock language="py" showLineNumbers>
+        {props.py}
+      </CodeBlock>
+    </TabItem>
+  )}
+  {props.java && (
+    <TabItem value="java" label="Java">
+      <CodeBlock language="java" showLineNumbers>
+        {props.java}
+      </CodeBlock>
+    </TabItem>
+  )}
+  {props.php && (
+    <TabItem value="php" label="PHP">
+      <CodeBlock language="php" showLineNumbers>
+        {props.php}
+      </CodeBlock>
+    </TabItem>
+  )}
+  {props.go && (
+    <TabItem value="go" label="Golang">
+      <CodeBlock language="go" showLineNumbers>
+        {props.go}
+      </CodeBlock>
+    </TabItem>
+  )}
 </Tabs>

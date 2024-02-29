@@ -17,7 +17,7 @@ This allows to get notified via Webhook every time an anchor is transacted to an
 A webhook is an HTTP request, triggered by an event in the source system and then, sent to the destination system. Webhooks are automatically sent out when their event is fired in the source system.
 :::
 
-To start using this method, you will need to [Configure a Webhook](../../webhooks/overview/configure-webhooks.md) on our managment website and selecting one or more networks to wait for.
+To start using this method, you will need to [Configure a Webhook](/guides/webhooks/configure) on our managment website and selecting one or more networks to wait for.
 
 Once a webhook is configured and a new anchor is processed for one of the selected networks, you will receive a POST request to the URL you configured with the following payload:
 
@@ -59,7 +59,7 @@ import WaitAnchorPhp from '!!raw-loader!@site/examples/integrity/wait_anchor/wai
 import WaitAnchorGo from '!!raw-loader!@site/examples/integrity/wait_anchor/wait_anchor.go';
 
 <SdkCodeBlock
-  js={WaitAnchorJs}
+  ts={WaitAnchorJs}
   py={WaitAnchorPy}
   java={WaitAnchorJava}
   php={WaitAnchorPhp}

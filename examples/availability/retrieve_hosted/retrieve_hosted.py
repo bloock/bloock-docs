@@ -1,13 +1,13 @@
 import os
 from bloock import bloock
 from bloock.client.record import RecordClient
-from bloock.client.availability import AvailabilityClient
-from bloock.client.entity.publisher import HostedPublisher
+from bloock.entity.availability.hosted_loader import HostedLoader
 
-bloock.api_key = os.environ["API_KEY"]
+if __name__ == "__main__":
+    bloock.api_key = os.environ["API_KEY"]
 
-record_client = RecordClient()
-availability_client = AvailabilityClient()
+    record_client = RecordClient()
 
-id = "publish uuid result"
-record = record_client.from_loader(HostedLoader(id=id)).build()
+    pid = "publish uuid result"
+    record = record_client.from_loader(HostedLoader(pid)).build()
+
