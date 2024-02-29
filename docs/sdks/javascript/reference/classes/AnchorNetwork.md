@@ -45,7 +45,7 @@ Constructs an AnchorNetwork object with the specified parameters.
 
 #### Defined in
 
-[entity/integrity/anchor_network.ts:19](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/integrity/anchor_network.ts#L19)
+[entity/integrity/anchor_network.ts:19](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/integrity/anchor_network.ts#L19)
 
 ## Properties
 
@@ -55,7 +55,7 @@ Constructs an AnchorNetwork object with the specified parameters.
 
 #### Defined in
 
-[entity/integrity/anchor_network.ts:7](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/integrity/anchor_network.ts#L7)
+[entity/integrity/anchor_network.ts:7](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/integrity/anchor_network.ts#L7)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/anchor_network.ts:10](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/integrity/anchor_network.ts#L10)
+[entity/integrity/anchor_network.ts:10](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/integrity/anchor_network.ts#L10)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/anchor_network.ts:8](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/integrity/anchor_network.ts#L8)
+[entity/integrity/anchor_network.ts:8](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/integrity/anchor_network.ts#L8)
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/anchor_network.ts:9](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/integrity/anchor_network.ts#L9)
+[entity/integrity/anchor_network.ts:9](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/integrity/anchor_network.ts#L9)
 
 ## Methods
 
@@ -99,7 +99,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/anchor_network.ts:30](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/integrity/anchor_network.ts#L30)
+[entity/integrity/anchor_network.ts:30](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/integrity/anchor_network.ts#L30)
 
 ___
 
@@ -119,4 +119,4 @@ ___
 
 #### Defined in
 
-[entity/integrity/anchor_network.ts:26](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/integrity/anchor_network.ts#L26)
+[entity/integrity/anchor_network.ts:26](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/integrity/anchor_network.ts#L26)

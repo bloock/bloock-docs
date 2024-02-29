@@ -23,7 +23,7 @@ Represents the BJJ signature algorithm with the "BJJ" name.
 
 #### Defined in
 
-[entity/authenticity/signature_alg.ts:20](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/authenticity/signature_alg.ts#L20)
+[entity/authenticity/signature_alg.ts:20](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/authenticity/signature_alg.ts#L20)
 
 ___
 
@@ -35,7 +35,7 @@ Represents the ECDSA signature algorithm with the "ES256K" name.
 
 #### Defined in
 
-[entity/authenticity/signature_alg.ts:12](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/authenticity/signature_alg.ts#L12)
+[entity/authenticity/signature_alg.ts:12](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/authenticity/signature_alg.ts#L12)
 
 ___
 
@@ -47,7 +47,7 @@ Represents the ENS (Ethereum Name Service) signature algorithm.
 
 #### Defined in
 
-[entity/authenticity/signature_alg.ts:16](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/authenticity/signature_alg.ts#L16)
+[entity/authenticity/signature_alg.ts:16](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/authenticity/signature_alg.ts#L16)
 
 ___
 
@@ -59,4 +59,4 @@ Represents an unrecognized signature algorithm.
 
 #### Defined in
 
-[entity/authenticity/signature_alg.ts:8](https://github.com/bloock/bloock-sdk/blob/dcd4dc7/languages/js/src/entity/authenticity/signature_alg.ts#L8)
+[entity/authenticity/signature_alg.ts:8](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/authenticity/signature_alg.ts#L8)
