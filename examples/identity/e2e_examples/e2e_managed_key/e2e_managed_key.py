@@ -1,74 +1,44 @@
-import datetime
 import os
+import datetime
 import bloock
 from bloock.client.identity import IdentityClient
 from bloock.client.key import KeyClient
-from bloock.entity.identity.publish_interval_params import PublishIntervalParams
-from bloock.entity.key.key_protection_level import KeyProtectionLevel
-from bloock.entity.key.key_type import KeyType
 from bloock.entity.key.key import Key
-from bloock.entity.key.managed_key_params import ManagedKeyParams
 from bloock.entity.identity.did_method import DidMethod
 
-
+# we set the API key and create a client
 bloock.api_key = os.environ["API_KEY"]
+# we set de identity managed API host you have deployed
 bloock.identity_api_host = os.environ["IDENTITY_MANAGED_API_HOST"]
 
+# initialize the Key Client
 key_client = KeyClient()
+# initialize the IdentityClient
 identity_client = IdentityClient()
 
-protection = KeyProtectionLevel.SOFTWARE
-key_type = KeyType.Bjj
-params = ManagedKeyParams(protection, key_type)
-managed_key = key_client.new_managed_key(params)
+# we must have our Issuer Baby JubJub key identifier. Ex: 6f36448d-49f3-4b0e-aa72-6e55863302e8
+saved_issuer_key = "6f36448d-49f3-4b0e-aa72-6e55863302e8"
+loaded_managed_key = key_client.load_managed_key(saved_issuer_key)
 
-managed_key = key_client.new_managed_key(params)
+# if we don't have our Issuer entity, here you can import you Issuer from the key
+imported_issuer_key = Key(loaded_managed_key)
+issuer_method_did = DidMethod.PolygonID
 
-# we just passed the Baby JubJub key created before. REQUIRED.
-issuer_key = Key(managed_key)
-# check Issuer intervals documentation to define the best for you model. REQUIRED.
-issuer_interval = PublishIntervalParams.Interval60
-# check DID methods documentation. By default we recommend the PolygonID. REQUIRED.
-method_did = DidMethod.PolygonID
-# Issuer name. OPTIONAL.
-name = "BLOOCK Issuer"
-# Issuer desccription. OPTIONAL.
-description = "this is the BLOOCK Issuer"
-# here you can pass an encoded base 64 url image string. OPTIONAL.
-encoded_base64_url_image = ""
+issuer = identity_client.import_issuer(
+    imported_issuer_key, issuer_method_did)
 
-issuer = identity_client.create_issuer(
-    issuer_key, issuer_interval, method_did, name, description)
+# we create the credential, passing credential information
 
-# name Schema. REQUIRED
-schema_name = "Bloock Employee"
-# we defined the Schema type, basically you could use the name but in CamelCase. REQUIRED.
-schema_type = "BloockEmployee"
-# Schema version. REQUIRED. By default you can set "1.0".
-schema_version = "1.0"
-#  Schema description. REQUIRED.
-schema_description = "BLOOCK Employee would be the new credential for BLOOCK employees"
-
-schema = identity_client.build_schema(schema_name, schema_type, schema_version, schema_description) \
-    .add_integer_attribute("Number", "number", "indicates the employee number associated", true) \
-    .add_decimal_attribute("Salary", "salary", "indicates the employee salary", true) \
-    .add_string_attribute("NIF", "nif", "indicates the employee nif", true) \
-    .add_boolean_attribute("Previous Formation", "previous_formation", "indicates if the employee has or not previous formation", true) \
-    .add_date_attribute("Birth Date", "birth_date", "the employee birth date", true) \
-    .add_datetime_attribute("Time Registered", "time_registered", "indicates the date and time the employee was registered", true) \
-    .add_string_enum_attribute("Country", "country", "to know if the employee is from one of the following", true, ["spain", "portugal", "france"]) \
-    .add_integer_enum_attribute("Brother", "brother", "the employee number of brothers", true, [1, 2, 3]) \
-    .add_decimal_enum_attribute("Heigt", "height", "the employee aprox height", true, [1.50, 1.70, 1.90]) \
-    .build()
-
+# schema identifier created before. Ex: QmadTvnNKvj2fBDgen35uAp1TfP9pSPVCNeDWw4fitqqne. REQUIRED.
+schema_cid = "QmadTvnNKvj2fBDgen35uAp1TfP9pSPVCNeDWw4fitqqne"
 # the DID of the Holder to whom the credential will be associated. REQUIRED.
 holder_did = "did:polygonid:polygon:main:2q544HUegzeRpwr3V2qu9eMwgrAmF5x4E1NCPzbQc4"
 # unix timestamp when the credential will expire. REQUIRED.
 expiration = 4089852142
-# credential version. By default it's set to 0. REQUIRED.
-credential_version = 0
+# credential version. By default, it's set to 0. REQUIRED.
+version = 0
 
-receipt = identity_client.build_credential(issuer, schema.cid, holder_did, expiration, credential_version) \
+receipt = identity_client.build_credential(issuer, schema_cid, holder_did, expiration, version) \
     .with_integer_attribute("number", 1) \
     .with_decimal_attribute("salary", 3000.70) \
     .with_string_attribute("nif", "54688188M") \
@@ -80,12 +50,14 @@ receipt = identity_client.build_credential(issuer, schema.cid, holder_did, expir
     .with_decimal_attribute("height", 1.70) \
     .build()
 
-json_offer = identity_client.get_credential_offer(
-    issuer, receipt.credential_id)
+# once the credential created, we need to get the credential itself
+credential = receipt.credential
 
-# it's the json result that we would convert to a QR code
-print(json_offer)
-
-ok = identity_client.revoke_credential(receipt.credential, issuer)
-if ok == False:
+# with the issuer and the credential we then could call the revocation function
+ok = identity_client.revoke_credential(credential, issuer)
+if not ok:
     raise Exception("Unexpected result")
+
+# right now the credential it's revoked, but we need to wait our interval
+# issuer state transition to be executed
+

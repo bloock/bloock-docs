@@ -19,7 +19,7 @@ key_client = KeyClient()
 # initialize the IdentityClient
 identity_client = IdentityClient()
 
-#create the Baby JubJub managed key using the BLOOCK Keys product
+# create the Baby JubJub managed key using the BLOOCK Keys product
 protection = KeyProtectionLevel.SOFTWARE
 key_type = KeyType.Bjj
 params = ManagedKeyParams(protection, key_type)
@@ -47,9 +47,11 @@ issuer = identity_client.create_issuer(
 
 # returns an Issuer entity
 
-# will print the Issuer DID public identifier. Ex: did:polygonid:polygon:main:2qCU58EJgrELSJT6EzT27Rw9DhvwamAdbMLpePztYq
+# will print the Issuer DID public identifier.
+# Ex: did:polygonid:polygon:main:2qCU58EJgrELSJT6EzT27Rw9DhvwamAdbMLpePztYq
 print(issuer.did)
 # will return the DID method we chosed. Ex: identity.PolygonID
 print(issuer.did_method)
 # will return the Key BJJ object associated to the Issuer.
 print(issuer.key)
+

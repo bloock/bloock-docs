@@ -1,6 +1,5 @@
 from bloock.entity.encryption.encrypter import Encrypter
 from bloock.entity.key.key_type import KeyType
-from bloock.entity.record.record import Record
 from bloock.client.encryption import EncryptionClient
 from bloock.client.record import RecordClient
 from bloock.client.key import KeyClient
@@ -12,7 +11,7 @@ if __name__ == "__main__":
     key_client = KeyClient()
 
     # encryption ...
-    encrypted_record = Record()
+    encrypted_record = record_client.from_string("Hello world").build()
 
     print("Trying to decrypt with the valid password")
 
@@ -20,7 +19,7 @@ if __name__ == "__main__":
 
     # To decrypt a record during the building process
     # we build a record from the encrypted record and add a decrypter
-    record_client = (
+    decrypted_record = (
         record_client.from_record(encrypted_record)
         .with_decrypter(Encrypter(key))
         .build()

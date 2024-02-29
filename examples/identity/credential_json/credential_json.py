@@ -1,7 +1,7 @@
 import os
 import bloock
 from bloock.client.identity import IdentityClient
-from bloock.entity.identity.credential import Credential
+# from bloock.entity.identity.credential import Credential
 
 # we set the API key and create a client
 bloock.api_key = os.environ["API_KEY"]
@@ -23,6 +23,7 @@ credential_raw_json = credential_entity.to_json()
 print(credential_raw_json)
 
 # and we can do the opposite step, convert a JSON credential into a Credential entity
-credential_entity = Credential.from_json(credential_raw_json)
+# credential_entity = Credential.from_json(credential_raw_json)
 
 print(credential_entity)
+

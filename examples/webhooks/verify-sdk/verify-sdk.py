@@ -1,6 +1,5 @@
 from flask import Flask
 from flask import request
-import bloock
 from bloock.client.webhook import WebhookClient
 
 app = Flask(__name__)
@@ -19,7 +18,7 @@ def index():
     ok = webhook_client.verify_webhook_signature(
         body, bloock_signature, SECRET_KEY, enforce_tolerance)
 
-    if ok == False:
+    if not ok:
         raise ValueError('Invalid Signature!')
     else:
         print('Valid Signature!')
@@ -28,3 +27,4 @@ def index():
 
 
 app.run(host='0.0.0.0', port=81)
+

@@ -11,3 +11,4 @@ if __name__ == "__main__":
         file_bytes = file.read()
 
     local_certificate = key_client.load_local_certificate(file_bytes, "password")
+

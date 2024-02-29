@@ -38,7 +38,13 @@ expiration = 4089852142
 # credential version. By default it's set to 0. REQUIRED.
 credential_version = 0
 
-receipt = identity_client.build_credential(imported_issuer, schema_cid, holder_did, expiration, credential_version) \
+receipt = identity_client.build_credential(
+    imported_issuer,
+    schema_cid,
+    holder_did,
+    expiration,
+    credential_version
+) \
     .with_integer_attribute("number", 1) \
     .with_decimal_attribute("salary", 3000.70) \
     .with_string_attribute("nif", "54688188M") \
@@ -58,3 +64,4 @@ print(receipt.credential_id)
 print(receipt.credential)
 # the credential schema type associated.
 print(receipt.credential_type)
+

@@ -17,3 +17,4 @@ saved_credential_id = "fdd4bf52-bac7-4f41-a743-5b0580168eb3"
 credential_entity = identity_client.get_credential(saved_credential_id)
 
 print(credential_entity)
+

@@ -24,3 +24,4 @@ print(schema_entity.cid_json_ld)
 print(schema_entity.json)
 # the Schema type defined above.
 print(schema_entity.schema_type)
+

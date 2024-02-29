@@ -34,4 +34,5 @@ json_offer = identity_client.get_credential_offer(
     imported_issuer, credential_id)
 
 # it's the json result that we would convert to a QR code
-print(json_offer) 
+print(json_offer)
+

@@ -12,7 +12,7 @@ services:
       - doc-runner-golang
       - doc-runner-java
       - doc-runner-php
-      # - doc-runner-python
+      - doc-runner-python
     volumes:
       - .:/mnt
       - /var/run/docker.sock:/var/run/docker.sock
@@ -111,30 +111,31 @@ services:
       - snippets:/var/snippets
       - runners:/var/runners
 
-  # doc-runner-python:
-  #   image: python:3
-  #   platform: linux/amd64
-  #   command: >
-  #     bash -c '
-  #       apt-get update && apt-get install -y python3-dev gcc libc-dev libffi-dev;
+  doc-runner-python:
+    container_name: doc-runner-python
+    image: python:3.10
+    platform: linux/amd64
+    command: >
+      bash -c '
+        apt-get update && apt-get install -y python3-dev gcc libc-dev libffi-dev;
 
-  #       mkdir -p /var/snippets/python;
-  #       cd /var/snippets/python;
-  #       pip3 install pylint;
+        mkdir -p /var/snippets/python;
+        cd /var/snippets/python;
+        pip3 install pylama mypy flask;
 
-  #       pip3 install --force-reinstall bloock==2.7.3;
+        pip3 install --force-reinstall bloock;
 
-  #       cp /var/runners/python/.pylintrc /var/snippets/python;
-  #       touch /var/snippets/python/__init__.py;
+        cp /var/runners/python/.pylintrc /var/snippets/python;
+        touch /var/snippets/python/__init__.py;
 
-  #       touch /tmp/runner_ready_to_lint;
-  #       touch /tmp/runner_is_ready;
-  #       tail -f /dev/null
-  #     '
-  #   volumes:
-  #     - .:/mnt
-  #     - snippets:/var/snippets
-  #     - runners:/var/runners
+        touch /tmp/runner_ready_to_lint;
+        touch /tmp/runner_is_ready;
+        tail -f /dev/null
+      '
+    volumes:
+      - .:/mnt
+      - snippets:/var/snippets
+      - runners:/var/runners
 
 volumes:
   snippets:

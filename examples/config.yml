@@ -1,7 +1,7 @@
 ---
 snippets:
   mount: /mnt
-  path: ./**/*.{ts,go,java,php}
+  path: ./**/*.{ts,go,java,php,py}
 
 runners:
   default: typescript
@@ -56,8 +56,8 @@ runners:
     maxThreads: 5
     lint:
       global: false
-      before: timeout 600 ash -c 'until stat /tmp/runner_ready_to_lint; do sleep 1; done'
-      cmd: pip list && pylint {{ snippet.source }}
+      before: timeout 600 bash -c 'until stat /tmp/runner_ready_to_lint; do sleep 1; done'
+      cmd: pylama {{ snippet.source }} && mypy {{ snippet.source }} --install-types --non-interactive
     run:
-      before: timeout 600 ash -c 'until stat /tmp/runner_is_ready; do sleep 1; done'
+      before: timeout 600 bash -c 'until stat /tmp/runner_is_ready; do sleep 1; done'
       cmd: python -m py_compile {{ snippet.source }}
