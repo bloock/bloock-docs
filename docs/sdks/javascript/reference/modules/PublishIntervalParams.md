@@ -27,7 +27,7 @@
 
 #### Defined in
 
-[entity/identity/publish_interval_params.ts:35](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/identity/publish_interval_params.ts#L35)
+[entity/identity/publish_interval_params.ts:35](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/publish_interval_params.ts#L35)
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 #### Defined in
 
-[entity/identity/publish_interval_params.ts:22](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/identity/publish_interval_params.ts#L22)
+[entity/identity/publish_interval_params.ts:22](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/publish_interval_params.ts#L22)

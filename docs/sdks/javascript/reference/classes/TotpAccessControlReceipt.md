@@ -38,7 +38,7 @@ Creates a new TotpAccessControlReceipt with the provided secret, secret QR code,
 
 #### Defined in
 
-[entity/key/totp_access_control_receipt.ts:15](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/key/totp_access_control_receipt.ts#L15)
+[entity/key/totp_access_control_receipt.ts:15](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/key/totp_access_control_receipt.ts#L15)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Creates a new TotpAccessControlReceipt with the provided secret, secret QR code,
 
 #### Defined in
 
-[entity/key/totp_access_control_receipt.ts:7](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/key/totp_access_control_receipt.ts#L7)
+[entity/key/totp_access_control_receipt.ts:7](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/key/totp_access_control_receipt.ts#L7)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-[entity/key/totp_access_control_receipt.ts:5](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/key/totp_access_control_receipt.ts#L5)
+[entity/key/totp_access_control_receipt.ts:5](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/key/totp_access_control_receipt.ts#L5)
 
 ___
 
@@ -68,4 +68,4 @@ ___
 
 #### Defined in
 
-[entity/key/totp_access_control_receipt.ts:6](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/key/totp_access_control_receipt.ts#L6)
+[entity/key/totp_access_control_receipt.ts:6](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/key/totp_access_control_receipt.ts#L6)

@@ -43,7 +43,7 @@ Constructs an CredentialStatus object with the specified parameters.
 
 #### Defined in
 
-[entity/identity/credential_status.ts:17](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/identity/credential_status.ts#L17)
+[entity/identity/credential_status.ts:17](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/credential_status.ts#L17)
 
 ## Properties
 
@@ -53,7 +53,7 @@ Constructs an CredentialStatus object with the specified parameters.
 
 #### Defined in
 
-[entity/identity/credential_status.ts:7](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/identity/credential_status.ts#L7)
+[entity/identity/credential_status.ts:7](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/credential_status.ts#L7)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_status.ts:8](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/identity/credential_status.ts#L8)
+[entity/identity/credential_status.ts:8](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/credential_status.ts#L8)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_status.ts:9](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/identity/credential_status.ts#L9)
+[entity/identity/credential_status.ts:9](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/credential_status.ts#L9)
 
 ## Methods
 
@@ -87,7 +87,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_status.ts:23](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/identity/credential_status.ts#L23)
+[entity/identity/credential_status.ts:23](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/credential_status.ts#L23)
 
 ___
 
@@ -107,4 +107,4 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_status.ts:31](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/identity/credential_status.ts#L31)
+[entity/identity/credential_status.ts:31](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/credential_status.ts#L31)

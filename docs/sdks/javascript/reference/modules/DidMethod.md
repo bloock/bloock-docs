@@ -27,7 +27,7 @@
 
 #### Defined in
 
-[entity/identity/did_method.ts:27](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/identity/did_method.ts#L27)
+[entity/identity/did_method.ts:27](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/did_method.ts#L27)
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 #### Defined in
 
-[entity/identity/did_method.ts:18](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/identity/did_method.ts#L18)
+[entity/identity/did_method.ts:18](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/did_method.ts#L18)

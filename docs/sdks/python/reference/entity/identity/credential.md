@@ -28,7 +28,7 @@ Creates a new Credential instance with the provided details.
 
 ```python
 @staticmethod
-def from_json(json: str) -> proto.Credential
+def from_json(json: str) -> Credential
 ```
 
 Creates a Credential instance from a JSON string representation.

@@ -21,9 +21,13 @@ Represents a network.
 
 • **BLOOCK\_CHAIN** = ``3``
 
+**`Deprecated`**
+
+Test networks will be deleted in future versions. If you have been integrating with an existent test API key and you want to start a free trial period please contact support@bloock.com.
+
 #### Defined in
 
-[entity/integrity/network.ts:11](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/integrity/network.ts#L11)
+[entity/integrity/network.ts:17](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/integrity/network.ts#L17)
 
 ___
 
@@ -31,9 +35,13 @@ ___
 
 • **ETHEREUM\_GOERLI** = ``1``
 
+**`Deprecated`**
+
+Test networks will be deleted in future versions. If you have been integrating with an existent test API key and you want to start a free trial period please contact support@bloock.com.
+
 #### Defined in
 
-[entity/integrity/network.ts:9](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/integrity/network.ts#L9)
+[entity/integrity/network.ts:12](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/integrity/network.ts#L12)
 
 ___
 
@@ -43,7 +51,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/network.ts:8](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/integrity/network.ts#L8)
+[entity/integrity/network.ts:8](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/integrity/network.ts#L8)
 
 ___
 
@@ -53,7 +61,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/network.ts:10](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/integrity/network.ts#L10)
+[entity/integrity/network.ts:13](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/integrity/network.ts#L13)
 
 ___
 
@@ -63,7 +71,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/network.ts:12](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/integrity/network.ts#L12)
+[entity/integrity/network.ts:18](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/integrity/network.ts#L18)
 
 ___
 
@@ -73,4 +81,4 @@ ___
 
 #### Defined in
 
-[entity/integrity/network.ts:7](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/integrity/network.ts#L7)
+[entity/integrity/network.ts:7](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/integrity/network.ts#L7)

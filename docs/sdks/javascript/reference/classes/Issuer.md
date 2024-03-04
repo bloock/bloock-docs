@@ -37,7 +37,7 @@ Constructs a Issuer object with the specified parameters.
 
 #### Defined in
 
-[entity/identity/issuer.ts:17](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/identity/issuer.ts#L17)
+[entity/identity/issuer.ts:17](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/issuer.ts#L17)
 
 ## Properties
 
@@ -47,7 +47,7 @@ Constructs a Issuer object with the specified parameters.
 
 #### Defined in
 
-[entity/identity/issuer.ts:9](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/identity/issuer.ts#L9)
+[entity/identity/issuer.ts:9](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/issuer.ts#L9)
 
 ___
 
@@ -57,4 +57,4 @@ ___
 
 #### Defined in
 
-[entity/identity/issuer.ts:10](https://github.com/bloock/bloock-sdk/blob/b0d86bb/languages/js/src/entity/identity/issuer.ts#L10)
+[entity/identity/issuer.ts:10](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/issuer.ts#L10)
