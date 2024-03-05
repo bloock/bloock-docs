@@ -61,7 +61,7 @@ Creates a new CredentialCoreBuilder instance with the specified parameters.
 
 #### Defined in
 
-[entity/identity/credential_core_builder.ts:50](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/credential_core_builder.ts#L50)
+[entity/identity/credential_core_builder.ts:50](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/credential_core_builder.ts#L50)
 
 ## Properties
 
@@ -71,7 +71,7 @@ Creates a new CredentialCoreBuilder instance with the specified parameters.
 
 #### Defined in
 
-[entity/identity/credential_core_builder.ts:37](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/credential_core_builder.ts#L37)
+[entity/identity/credential_core_builder.ts:37](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/credential_core_builder.ts#L37)
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_core_builder.ts:32](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/credential_core_builder.ts#L32)
+[entity/identity/credential_core_builder.ts:32](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/credential_core_builder.ts#L32)
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_core_builder.ts:38](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/credential_core_builder.ts#L38)
+[entity/identity/credential_core_builder.ts:38](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/credential_core_builder.ts#L38)
 
 ___
 
@@ -101,7 +101,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_core_builder.ts:39](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/credential_core_builder.ts#L39)
+[entity/identity/credential_core_builder.ts:39](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/credential_core_builder.ts#L39)
 
 ___
 
@@ -111,7 +111,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_core_builder.ts:36](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/credential_core_builder.ts#L36)
+[entity/identity/credential_core_builder.ts:36](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/credential_core_builder.ts#L36)
 
 ___
 
@@ -121,7 +121,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_core_builder.ts:29](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/credential_core_builder.ts#L29)
+[entity/identity/credential_core_builder.ts:29](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/credential_core_builder.ts#L29)
 
 ___
 
@@ -131,7 +131,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_core_builder.ts:28](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/credential_core_builder.ts#L28)
+[entity/identity/credential_core_builder.ts:28](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/credential_core_builder.ts#L28)
 
 ___
 
@@ -141,7 +141,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_core_builder.ts:35](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/credential_core_builder.ts#L35)
+[entity/identity/credential_core_builder.ts:35](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/credential_core_builder.ts#L35)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_core_builder.ts:27](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/credential_core_builder.ts#L27)
+[entity/identity/credential_core_builder.ts:27](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/credential_core_builder.ts#L27)
 
 ___
 
@@ -161,7 +161,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_core_builder.ts:31](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/credential_core_builder.ts#L31)
+[entity/identity/credential_core_builder.ts:31](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/credential_core_builder.ts#L31)
 
 ___
 
@@ -171,7 +171,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_core_builder.ts:26](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/credential_core_builder.ts#L26)
+[entity/identity/credential_core_builder.ts:26](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/credential_core_builder.ts#L26)
 
 ___
 
@@ -181,7 +181,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_core_builder.ts:34](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/credential_core_builder.ts#L34)
+[entity/identity/credential_core_builder.ts:34](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/credential_core_builder.ts#L34)
 
 ___
 
@@ -191,7 +191,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_core_builder.ts:30](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/credential_core_builder.ts#L30)
+[entity/identity/credential_core_builder.ts:30](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/credential_core_builder.ts#L30)
 
 ## Methods
 
@@ -207,7 +207,7 @@ Creates and returns a Credential using the specified attributes.
 
 #### Defined in
 
-[entity/identity/credential_core_builder.ts:159](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/credential_core_builder.ts#L159)
+[entity/identity/credential_core_builder.ts:159](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/credential_core_builder.ts#L159)
 
 ___
 
@@ -230,7 +230,7 @@ Adds a boolean attribute to the CredentialCoreBuilder.
 
 #### Defined in
 
-[entity/identity/credential_core_builder.ts:122](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/credential_core_builder.ts#L122)
+[entity/identity/credential_core_builder.ts:122](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/credential_core_builder.ts#L122)
 
 ___
 
@@ -253,7 +253,7 @@ Adds a date attribute to the CredentialCoreBuilder.
 
 #### Defined in
 
-[entity/identity/credential_core_builder.ts:136](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/credential_core_builder.ts#L136)
+[entity/identity/credential_core_builder.ts:136](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/credential_core_builder.ts#L136)
 
 ___
 
@@ -276,7 +276,7 @@ Adds a datetime attribute to the CredentialCoreBuilder.
 
 #### Defined in
 
-[entity/identity/credential_core_builder.ts:147](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/credential_core_builder.ts#L147)
+[entity/identity/credential_core_builder.ts:147](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/credential_core_builder.ts#L147)
 
 ___
 
@@ -299,7 +299,7 @@ Adds a decimal attribute to the CredentialCoreBuilder.
 
 #### Defined in
 
-[entity/identity/credential_core_builder.ts:108](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/credential_core_builder.ts#L108)
+[entity/identity/credential_core_builder.ts:108](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/credential_core_builder.ts#L108)
 
 ___
 
@@ -322,7 +322,7 @@ Adds an integer attribute to the CredentialCoreBuilder.
 
 #### Defined in
 
-[entity/identity/credential_core_builder.ts:94](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/credential_core_builder.ts#L94)
+[entity/identity/credential_core_builder.ts:94](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/credential_core_builder.ts#L94)
 
 ___
 
@@ -345,4 +345,4 @@ Adds a string attribute to the CredentialCoreBuilder.
 
 #### Defined in
 
-[entity/identity/credential_core_builder.ts:80](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/credential_core_builder.ts#L80)
+[entity/identity/credential_core_builder.ts:80](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/credential_core_builder.ts#L80)

@@ -46,7 +46,7 @@ Constructs an Anchor object with the specified parameters.
 
 #### Defined in
 
-[entity/integrity/anchor.ts:22](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/integrity/anchor.ts#L22)
+[entity/integrity/anchor.ts:22](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/integrity/anchor.ts#L22)
 
 ## Properties
 
@@ -56,7 +56,7 @@ Constructs an Anchor object with the specified parameters.
 
 #### Defined in
 
-[entity/integrity/anchor.ts:9](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/integrity/anchor.ts#L9)
+[entity/integrity/anchor.ts:9](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/integrity/anchor.ts#L9)
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/anchor.ts:8](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/integrity/anchor.ts#L8)
+[entity/integrity/anchor.ts:8](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/integrity/anchor.ts#L8)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/anchor.ts:10](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/integrity/anchor.ts#L10)
+[entity/integrity/anchor.ts:10](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/integrity/anchor.ts#L10)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/anchor.ts:11](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/integrity/anchor.ts#L11)
+[entity/integrity/anchor.ts:11](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/integrity/anchor.ts#L11)
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/anchor.ts:12](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/integrity/anchor.ts#L12)
+[entity/integrity/anchor.ts:12](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/integrity/anchor.ts#L12)
 
 ## Methods
 
@@ -116,4 +116,4 @@ ___
 
 #### Defined in
 
-[entity/integrity/anchor.ts:36](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/integrity/anchor.ts#L36)
+[entity/integrity/anchor.ts:36](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/integrity/anchor.ts#L36)

@@ -48,7 +48,7 @@ Constructs a Signature object with the specified parameters.
 
 #### Defined in
 
-[entity/authenticity/signature.ts:37](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/authenticity/signature.ts#L37)
+[entity/authenticity/signature.ts:37](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/authenticity/signature.ts#L37)
 
 ## Properties
 
@@ -60,7 +60,7 @@ Is the algorithm used for the signature.
 
 #### Defined in
 
-[entity/authenticity/signature.ts:15](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/authenticity/signature.ts#L15)
+[entity/authenticity/signature.ts:15](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/authenticity/signature.ts#L15)
 
 ___
 
@@ -72,7 +72,7 @@ Is the key identifier associated with the signature. (public key or key ID).
 
 #### Defined in
 
-[entity/authenticity/signature.ts:19](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/authenticity/signature.ts#L19)
+[entity/authenticity/signature.ts:19](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/authenticity/signature.ts#L19)
 
 ___
 
@@ -84,7 +84,7 @@ Is the hash of the message that was signed.
 
 #### Defined in
 
-[entity/authenticity/signature.ts:23](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/authenticity/signature.ts#L23)
+[entity/authenticity/signature.ts:23](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/authenticity/signature.ts#L23)
 
 ___
 
@@ -96,7 +96,7 @@ Is the cryptographic signature.
 
 #### Defined in
 
-[entity/authenticity/signature.ts:11](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/authenticity/signature.ts#L11)
+[entity/authenticity/signature.ts:11](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/authenticity/signature.ts#L11)
 
 ___
 
@@ -108,7 +108,7 @@ Is an optional field representing the subject of the signature.
 
 #### Defined in
 
-[entity/authenticity/signature.ts:27](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/authenticity/signature.ts#L27)
+[entity/authenticity/signature.ts:27](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/authenticity/signature.ts#L27)
 
 ## Methods
 
@@ -124,7 +124,7 @@ Returns the SignatureAlg based on the algorithm specified in the Alg field.
 
 #### Defined in
 
-[entity/authenticity/signature.ts:69](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/authenticity/signature.ts#L69)
+[entity/authenticity/signature.ts:69](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/authenticity/signature.ts#L69)
 
 ___
 
@@ -138,7 +138,7 @@ ___
 
 #### Defined in
 
-[entity/authenticity/signature.ts:55](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/authenticity/signature.ts#L55)
+[entity/authenticity/signature.ts:55](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/authenticity/signature.ts#L55)
 
 ___
 
@@ -158,4 +158,4 @@ ___
 
 #### Defined in
 
-[entity/authenticity/signature.ts:51](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/authenticity/signature.ts#L51)
+[entity/authenticity/signature.ts:51](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/authenticity/signature.ts#L51)

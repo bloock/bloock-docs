@@ -38,7 +38,7 @@ Creates a new instance of the IdentityCoreClient with default configuration.
 
 #### Defined in
 
-[client/identity_core.ts:15](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/client/identity_core.ts#L15)
+[client/identity_core.ts:15](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/client/identity_core.ts#L15)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Creates a new instance of the IdentityCoreClient with default configuration.
 
 #### Defined in
 
-[client/identity_core.ts:9](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/client/identity_core.ts#L9)
+[client/identity_core.ts:9](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/client/identity_core.ts#L9)
 
 ## Methods
 
@@ -74,4 +74,4 @@ Creates a new credential builder for defining a credential on the Bloock Identit
 
 #### Defined in
 
-[client/identity_core.ts:28](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/client/identity_core.ts#L28)
+[client/identity_core.ts:28](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/client/identity_core.ts#L28)

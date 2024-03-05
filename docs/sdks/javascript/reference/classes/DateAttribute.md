@@ -51,7 +51,7 @@ Constructs a Attribute object with the specified parameters.
 
 #### Defined in
 
-[entity/identity/attribute.ts:13](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/attribute.ts#L13)
+[entity/identity/attribute.ts:13](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/attribute.ts#L13)
 
 ## Properties
 
@@ -65,7 +65,7 @@ Constructs a Attribute object with the specified parameters.
 
 #### Defined in
 
-[entity/identity/attribute.ts:5](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/attribute.ts#L5)
+[entity/identity/attribute.ts:5](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/attribute.ts#L5)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-[entity/identity/attribute.ts:6](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/attribute.ts#L6)
+[entity/identity/attribute.ts:6](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/attribute.ts#L6)
 
 ## Methods
 
@@ -93,7 +93,7 @@ ___
 
 #### Defined in
 
-[entity/identity/date_attribute.ts:8](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/date_attribute.ts#L8)
+[entity/identity/date_attribute.ts:8](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/date_attribute.ts#L8)
 
 ___
 
@@ -113,4 +113,4 @@ ___
 
 #### Defined in
 
-[entity/identity/date_attribute.ts:15](https://github.com/bloock/bloock-sdk/blob/cf3411f/languages/js/src/entity/identity/date_attribute.ts#L15)
+[entity/identity/date_attribute.ts:15](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/date_attribute.ts#L15)
