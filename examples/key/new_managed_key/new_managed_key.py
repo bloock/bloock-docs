@@ -31,3 +31,7 @@ if __name__ == "__main__":
     key_type = KeyType.Aes256
     managed_key = key_client.new_managed_key(ManagedKeyParams(protection, key_type))
 
+    # Generate a Bjj key
+    key_type = KeyType.Bjj
+    managed_key = key_client.new_managed_key(ManagedKeyParams(protection, key_type))
+

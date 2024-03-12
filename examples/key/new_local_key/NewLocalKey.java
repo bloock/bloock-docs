@@ -23,5 +23,8 @@ public class NewLocalKey {
 
         // Generate a Aes256 key
         localKey = keyClient.newLocalKey(KeyType.Aes256);
+
+        // Generate a BJJ key
+        localKey = keyClient.newLocalKey(KeyType.Bjj);
     }
 }

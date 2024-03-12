@@ -25,4 +25,7 @@ func main() {
 
 	// Generate a Aes256 key
 	_, _ = keyClient.NewLocalKey(key.Aes256)
+
+	// Generate a BJJ key
+	_, _ = keyClient.NewLocalKey(key.Bjj)
 }

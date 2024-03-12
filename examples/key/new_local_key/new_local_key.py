@@ -22,3 +22,6 @@ if __name__ == "__main__":
     # Generate a Aes256 key
     local_key = key_client.new_local_key(KeyType.Aes256)
 
+    # Generate a BJJ key
+    local_key = key_client.new_local_key(KeyType.Bjj)
+

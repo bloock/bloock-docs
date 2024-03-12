@@ -23,5 +23,8 @@ public class LoadLocalKey {
 
         // Load a Aes256 key
         localKey = keyClient.loadLocalKey(KeyType.Aes256, "password");
+
+        // Load a BJJ key
+        localKey = keyClient.loadLocalKey(KeyType.Bjj, "private key");
     }
 }

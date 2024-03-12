@@ -49,4 +49,11 @@ func main() {
 		Protection: protection,
 		KeyType:    keyType,
 	})
+
+	// Generate a BJJ key
+	keyType = key.Bjj
+	_, _ = keyClient.NewManagedKey(key.ManagedKeyParams{
+		Protection: protection,
+		KeyType:    keyType,
+	})
 }

@@ -38,5 +38,10 @@ public class NewManagedKey {
                 keyType = KeyType.Aes256;
                 managedKey = keyClient.newManagedKey(
                                 new ManagedKeyParams(keyProtectionLevel, keyType));
+
+                // Generate a BJJ key
+                keyType = KeyType.Bjj;
+                managedKey = keyClient.newManagedKey(
+                                new ManagedKeyParams(keyProtectionLevel, keyType));
         }
 }

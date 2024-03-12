@@ -1,0 +1,19 @@
+---
+title: 'Management mode'
+sidebar_position: 2
+---
+
+# Management modes {#management-modes}
+
+In BLOOCK you can create any object using different management modes:
+
+- **Local mode**: The local mode consists of creating an [object](./objects.mdx#object-types) where the user stores his private information. For example, in the case of the keys object, the user keeps the private key and in no case will connect to BLOOCK services.
+- **Management mode**: The local mode consists of creating an [object](./objects.mdx#object-types) guarded by the BLOOCK service, a FIPS 140-2 Level 1 certified software-protected vault. For example, in the case of a key object, the user does not have to worry about the private key.
+
+|                | Local Mode                               | Managed Mode                                             |
+| -------------- | ---------------------------------------- | -------------------------------------------------------- |
+| Key Generation | Users generate and store their own keys  | Keys are generated and managed by BLOOCK                 |
+| Storage        | Keys stored locally on the device        | Keys stored centrally by BLOOCK                          |
+| Scalability    | Limited scalability due to local storage | Greater scalability due to centralized storage by BLOOCK |
+| Security       | Depends on user's security practices     | Enhanced security as managed by BLOOCK                   |
+| Management     | Users are responsible for key management | BLOOCK handles key management                            |

@@ -25,4 +25,7 @@ func main() {
 
 	// Load a Aes256 key
 	_, _ = keyClient.LoadLocalKey(key.Aes256, "password")
+
+	// Load a BJJ key
+	_, _ = keyClient.LoadLocalKey(key.Bjj, "private key")
 }

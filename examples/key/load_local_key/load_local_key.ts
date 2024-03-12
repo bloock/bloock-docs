@@ -19,3 +19,6 @@ _key = await keyClient.loadLocalKey(KeyType.Aes128, 'password');
 
 // Load a Aes256 key
 _key = await keyClient.loadLocalKey(KeyType.Aes256, 'password');
+
+// Load a BJJ key
+_key = await keyClient.loadLocalKey(KeyType.Bjj, 'private key');

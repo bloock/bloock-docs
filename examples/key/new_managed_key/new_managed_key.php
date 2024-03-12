@@ -1,3 +1,12 @@
+<?php
+
+require "./vendor/autoload.php";
+
+use Bloock\Client\KeyClient;
+use Bloock\Entity\Key\KeyType;
+use Bloock\Entity\Key\ManagedKeyParams;
+use Bloock\Entity\Key\KeyProtectionLevel;
+
 $keyClient = new KeyClient();
 $keyProtection = KeyProtectionLevel::SOFTWARE;
 
@@ -23,4 +32,8 @@ $key = $keyClient->newManagedKey(new ManagedKeyParams($keyProtection, $keyType))
 
 // Generate a Aes256 key
 $keyType = KeyType::Aes256;
+$key = $keyClient->newManagedKey(new ManagedKeyParams($keyProtection, $keyType));
+
+// Generate a Bjj key
+$keyType = KeyType::Bjj;
 $key = $keyClient->newManagedKey(new ManagedKeyParams($keyProtection, $keyType));

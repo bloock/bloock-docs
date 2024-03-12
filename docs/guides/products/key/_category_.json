@@ -2,5 +2,5 @@
   "position": 3,
   "label": "Key management",
   "collapsible": true,
-  "className": "authenticity_sidebar_header"
+  "className": "key_sidebar_header"
 }

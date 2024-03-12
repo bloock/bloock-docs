@@ -19,3 +19,6 @@ _key = await keyClient.newLocalKey(KeyType.Aes128);
 
 // Generate a Aes256 key
 _key = await keyClient.newLocalKey(KeyType.Aes256);
+
+// Generate a BJJ key
+_key = await keyClient.newLocalKey(KeyType.Bjj);

@@ -22,3 +22,6 @@ if __name__ == "__main__":
     # Load a Aes256 key
     local_key = key_client.load_local_key(KeyType.Aes256, "password")
 
+    # Load a BJJ key
+    local_key = key_client.load_local_key(KeyType.Bjj, "private key")
+

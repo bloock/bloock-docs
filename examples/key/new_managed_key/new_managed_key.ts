@@ -43,3 +43,9 @@ keyType = KeyType.Aes256;
 _key = await keyClient.newManagedKey(
   new ManagedKeyParams(keyProtection, keyType)
 );
+
+// Generate a Bjj key
+keyType = KeyType.Bjj;
+_key = await keyClient.newManagedKey(
+  new ManagedKeyParams(keyProtection, keyType)
+);

@@ -16,7 +16,7 @@ export const PRODUCTS = [
   },
   {
     title: 'Key management',
-    link: '/guides/products/authenticity/overview',
+    link: '/guides/products/key/overview',
     icon: Key,
     lightImage: '/static/landing-page/hero/banner_authenticity.png',
     darkImage: '/static/landing-page/hero/banner_authenticity_dark.png',

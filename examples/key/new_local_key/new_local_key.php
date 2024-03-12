@@ -1,3 +1,10 @@
+<?php
+
+require "./vendor/autoload.php";
+
+use Bloock\Client\KeyClient;
+use Bloock\Entity\Key\KeyType;
+
 $keyClient = new KeyClient();
 
 // Generate a EcP256k key
@@ -17,3 +24,6 @@ $key = $keyClient->newLocalKey(KeyType::Aes128);
 
 // Generate a Aes256 key
 $key = $keyClient->newLocalKey(KeyType::Aes256);
+
+// Generate a BJJ key
+$key = $keyClient->newLocalKey(KeyType::Bjj);

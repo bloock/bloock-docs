@@ -1,0 +1,44 @@
+---
+title: 'Operations'
+sidebar_position: 3
+---
+
+# Object operations {#object-operations}
+
+These are the operations you can do with any BLOOCK object:
+
+- **Sing**: consists on singning and verifying.
+- **Encrypt**: consists on encrypting and descrypting. (depending of the object used, would operate a symmetric or asymmetric encryption)
+
+## Operation Sign and Verify
+
+### Signing
+
+- **Hashing**: The data to be signed is first hashed using a cryptographic hash function, such as SHA-256. This produces a fixed-length hash value unique to the input data.
+- **Signing**: The hash value is then encrypted using the private key of the signer. This process creates a digital signature that binds the hash value to the signer's identity.
+
+### Verifying
+
+- **Hashing**: The data to be signed is first hashed using a cryptographic hash function, such as SHA-256. This produces a fixed-length hash value unique to the input data.
+- **Decryption**: The digital signature is decrypted using the public key of the signer, resulting in the recovered hash value.
+- **Comparison**: The recovered hash value is compared with the hash value computed from the received data. If they match, it confirms the integrity of the data and the authenticity of the signer.
+
+## Operation Asymmetric Encryption and Decryption
+
+### Encrypting
+
+- **Encryption**: The data to be transmitted is encrypted using the recipient's public key. Asymmetric encryption algorithms, such as RSA (Rivest-Shamir-Adleman), are commonly used for this purpose.
+
+### Decrypting
+
+- **Decryption**: The encrypted data is decrypted using the recipient's private key, revealing the original plaintext. Only the recipient, possessing the corresponding private key, can decrypt the data.
+
+## Operation Symmetric Encryption and Decryption
+
+### Encrypting
+
+- **Encryption**:The data to be transmitted is encrypted using the shared secret key. Symmetric encryption algorithms, such as AES (Advanced Encryption Standard), are commonly used for this purpose.
+
+### Decrypting
+
+- **Decryption**: The encrypted data is decrypted using the shared secret key. The recipient applies the same symmetric encryption algorithm and the shared key to recover the original plaintext.
