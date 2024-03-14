@@ -50,7 +50,7 @@ Creates a new KeyClient with default configuration.
 
 #### Defined in
 
-[client/key.ts:41](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/client/key.ts#L41)
+[client/key.ts:41](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/client/key.ts#L41)
 
 ## Properties
 
@@ -60,7 +60,7 @@ Creates a new KeyClient with default configuration.
 
 #### Defined in
 
-[client/key.ts:34](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/client/key.ts#L34)
+[client/key.ts:34](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/client/key.ts#L34)
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 #### Defined in
 
-[client/key.ts:35](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/client/key.ts#L35)
+[client/key.ts:35](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/client/key.ts#L35)
 
 ## Methods
 
@@ -94,7 +94,7 @@ Imports a managed certificate with the specified parameters, supported types: .p
 
 #### Defined in
 
-[client/key.ts:238](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/client/key.ts#L238)
+[client/key.ts:238](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/client/key.ts#L238)
 
 ___
 
@@ -117,7 +117,7 @@ Loads a local certificate from a PKCS12 file.
 
 #### Defined in
 
-[client/key.ts:164](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/client/key.ts#L164)
+[client/key.ts:164](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/client/key.ts#L164)
 
 ___
 
@@ -140,7 +140,7 @@ Loads a local key of the specified type from a public key string.
 
 #### Defined in
 
-[client/key.ts:73](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/client/key.ts#L73)
+[client/key.ts:73](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/client/key.ts#L73)
 
 ___
 
@@ -162,7 +162,7 @@ Loads a managed certificate by its ID (ex: ceef5b02-af17-43d8-ae7b-31d9bdf8027f)
 
 #### Defined in
 
-[client/key.ts:214](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/client/key.ts#L214)
+[client/key.ts:214](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/client/key.ts#L214)
 
 ___
 
@@ -184,7 +184,7 @@ Loads a managed key by its ID (ex: 51d22546-68f1-4340-b94b-2a80e60b8933).
 
 #### Defined in
 
-[client/key.ts:117](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/client/key.ts#L117)
+[client/key.ts:117](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/client/key.ts#L117)
 
 ___
 
@@ -206,7 +206,7 @@ Generates a new local certificate with the specified parameters.
 
 #### Defined in
 
-[client/key.ts:139](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/client/key.ts#L139)
+[client/key.ts:139](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/client/key.ts#L139)
 
 ___
 
@@ -228,7 +228,7 @@ Generates a new local key of the specified type.
 
 #### Defined in
 
-[client/key.ts:51](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/client/key.ts#L51)
+[client/key.ts:51](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/client/key.ts#L51)
 
 ___
 
@@ -250,7 +250,7 @@ Generates a new managed certificate with the specified parameters.
 
 #### Defined in
 
-[client/key.ts:190](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/client/key.ts#L190)
+[client/key.ts:190](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/client/key.ts#L190)
 
 ___
 
@@ -272,7 +272,7 @@ Generates a new managed key with the specified parameters.
 
 #### Defined in
 
-[client/key.ts:95](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/client/key.ts#L95)
+[client/key.ts:95](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/client/key.ts#L95)
 
 ___
 
@@ -295,7 +295,7 @@ Recovers TOTP-based access control for the given managed key or managed certific
 
 #### Defined in
 
-[client/key.ts:294](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/client/key.ts#L294)
+[client/key.ts:294](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/client/key.ts#L294)
 
 ___
 
@@ -319,7 +319,7 @@ Sets up secret-based access control for the given managed key or managed certifi
 
 #### Defined in
 
-[client/key.ts:327](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/client/key.ts#L327)
+[client/key.ts:327](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/client/key.ts#L327)
 
 ___
 
@@ -341,4 +341,4 @@ Sets up TOTP-based access control for the given managed key or managed certifica
 
 #### Defined in
 
-[client/key.ts:266](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/client/key.ts#L266)
+[client/key.ts:266](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/client/key.ts#L266)

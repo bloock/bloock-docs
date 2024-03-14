@@ -38,7 +38,7 @@ Constructs a LoaderArgs object with the specified parameters.
 
 #### Defined in
 
-[entity/availability/loader_args.ts:16](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/availability/loader_args.ts#L16)
+[entity/availability/loader_args.ts:16](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/entity/availability/loader_args.ts#L16)
 
 ## Properties
 
@@ -50,7 +50,7 @@ Is a unique identifier associated with the loader.
 
 #### Defined in
 
-[entity/availability/loader_args.ts:10](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/availability/loader_args.ts#L10)
+[entity/availability/loader_args.ts:10](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/entity/availability/loader_args.ts#L10)
 
 ## Methods
 
@@ -64,4 +64,4 @@ Is a unique identifier associated with the loader.
 
 #### Defined in
 
-[entity/availability/loader_args.ts:20](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/availability/loader_args.ts#L20)
+[entity/availability/loader_args.ts:20](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/entity/availability/loader_args.ts#L20)

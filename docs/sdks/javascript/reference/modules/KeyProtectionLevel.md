@@ -27,7 +27,7 @@
 
 #### Defined in
 
-[entity/key/key_protection_level.ts:29](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/key/key_protection_level.ts#L29)
+[entity/key/key_protection_level.ts:29](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/entity/key/key_protection_level.ts#L29)
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 #### Defined in
 
-[entity/key/key_protection_level.ts:18](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/key/key_protection_level.ts#L18)
+[entity/key/key_protection_level.ts:18](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/entity/key/key_protection_level.ts#L18)

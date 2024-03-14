@@ -21,7 +21,7 @@ Represents the polygon id method did.
 
 #### Defined in
 
-[entity/identity/did_method.ts:10](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/did_method.ts#L10)
+[entity/identity/did_method.ts:10](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/entity/identity/did_method.ts#L10)
 
 ___
 
@@ -33,4 +33,4 @@ Represents the polygon id test method did.
 
 #### Defined in
 
-[entity/identity/did_method.ts:14](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/did_method.ts#L14)
+[entity/identity/did_method.ts:14](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/entity/identity/did_method.ts#L14)

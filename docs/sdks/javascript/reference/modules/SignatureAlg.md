@@ -28,4 +28,4 @@ Converts a string representation of an algorithm to the corresponding SignatureA
 
 #### Defined in
 
-[entity/authenticity/signature_alg.ts:27](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/authenticity/signature_alg.ts#L27)
+[entity/authenticity/signature_alg.ts:27](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/entity/authenticity/signature_alg.ts#L27)

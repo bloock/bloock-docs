@@ -27,7 +27,7 @@ Represents a client for interacting with the Bloock SDK.
 
 ### constructor
 
-• **new BloockClient**(`apiKey`, `identityApiHost?`, `forceEnv?`): [`BloockClient`](BloockClient.md)
+• **new BloockClient**(`apiKey`, `identityApiHost?`): [`BloockClient`](BloockClient.md)
 
 Creates a new instance of the Bloock SDK client with the specified configuration.
 
@@ -37,7 +37,6 @@ Creates a new instance of the Bloock SDK client with the specified configuration
 | :------ | :------ |
 | `apiKey` | `string` |
 | `identityApiHost?` | `string` |
-| `forceEnv?` | `string` |
 
 #### Returns
 
@@ -45,7 +44,7 @@ Creates a new instance of the Bloock SDK client with the specified configuration
 
 #### Defined in
 
-[client/bloock.ts:35](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/client/bloock.ts#L35)
+[client/bloock.ts:34](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/client/bloock.ts#L34)
 
 ## Properties
 
@@ -55,7 +54,7 @@ Creates a new instance of the Bloock SDK client with the specified configuration
 
 #### Defined in
 
-[client/bloock.ts:19](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/client/bloock.ts#L19)
+[client/bloock.ts:19](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/client/bloock.ts#L19)
 
 ___
 
@@ -65,7 +64,7 @@ ___
 
 #### Defined in
 
-[client/bloock.ts:20](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/client/bloock.ts#L20)
+[client/bloock.ts:20](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/client/bloock.ts#L20)
 
 ___
 
@@ -75,7 +74,7 @@ ___
 
 #### Defined in
 
-[client/bloock.ts:21](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/client/bloock.ts#L21)
+[client/bloock.ts:21](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/client/bloock.ts#L21)
 
 ___
 
@@ -85,7 +84,7 @@ ___
 
 #### Defined in
 
-[client/bloock.ts:23](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/client/bloock.ts#L23)
+[client/bloock.ts:23](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/client/bloock.ts#L23)
 
 ___
 
@@ -95,7 +94,7 @@ ___
 
 #### Defined in
 
-[client/bloock.ts:22](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/client/bloock.ts#L22)
+[client/bloock.ts:22](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/client/bloock.ts#L22)
 
 ___
 
@@ -105,7 +104,7 @@ ___
 
 #### Defined in
 
-[client/bloock.ts:24](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/client/bloock.ts#L24)
+[client/bloock.ts:24](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/client/bloock.ts#L24)
 
 ___
 
@@ -115,7 +114,7 @@ ___
 
 #### Defined in
 
-[client/bloock.ts:25](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/client/bloock.ts#L25)
+[client/bloock.ts:25](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/client/bloock.ts#L25)
 
 ___
 
@@ -125,7 +124,7 @@ ___
 
 #### Defined in
 
-[client/bloock.ts:26](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/client/bloock.ts#L26)
+[client/bloock.ts:26](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/client/bloock.ts#L26)
 
 ___
 
@@ -135,7 +134,7 @@ ___
 
 #### Defined in
 
-[client/bloock.ts:27](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/client/bloock.ts#L27)
+[client/bloock.ts:27](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/client/bloock.ts#L27)
 
 ___
 
@@ -145,4 +144,4 @@ ___
 
 #### Defined in
 
-[client/bloock.ts:17](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/client/bloock.ts#L17)
+[client/bloock.ts:17](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/client/bloock.ts#L17)

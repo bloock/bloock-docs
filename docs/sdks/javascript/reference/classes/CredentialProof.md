@@ -41,7 +41,7 @@ Constructs an CredentialProof object with the specified parameters.
 
 #### Defined in
 
-[entity/identity/credential_proof.ts:15](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/credential_proof.ts#L15)
+[entity/identity/credential_proof.ts:15](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/entity/identity/credential_proof.ts#L15)
 
 ## Properties
 
@@ -51,7 +51,7 @@ Constructs an CredentialProof object with the specified parameters.
 
 #### Defined in
 
-[entity/identity/credential_proof.ts:7](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/credential_proof.ts#L7)
+[entity/identity/credential_proof.ts:7](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/entity/identity/credential_proof.ts#L7)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_proof.ts:8](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/credential_proof.ts#L8)
+[entity/identity/credential_proof.ts:8](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/entity/identity/credential_proof.ts#L8)
 
 ## Methods
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_proof.ts:20](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/credential_proof.ts#L20)
+[entity/identity/credential_proof.ts:20](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/entity/identity/credential_proof.ts#L20)
 
 ___
 
@@ -95,4 +95,4 @@ ___
 
 #### Defined in
 
-[entity/identity/credential_proof.ts:27](https://github.com/bloock/bloock-sdk/blob/bcb68de/languages/js/src/entity/identity/credential_proof.ts#L27)
+[entity/identity/credential_proof.ts:27](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/entity/identity/credential_proof.ts#L27)

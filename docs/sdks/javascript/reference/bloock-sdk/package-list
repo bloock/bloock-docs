@@ -14,7 +14,7 @@ $dokka.location:com.bloock.sdk.client/AvailabilityClient/AvailabilityClient/#com
 $dokka.location:com.bloock.sdk.client/AvailabilityClient/publish/#com.bloock.sdk.entity.record.Record#com.bloock.sdk.entity.availability.Publisher/PointingToDeclaration/bloock-sdk/com.bloock.sdk.client/-availability-client/publish.html
 $dokka.location:com.bloock.sdk.client/AvailabilityClient/retrieve/#com.bloock.sdk.entity.availability.Loader/PointingToDeclaration/bloock-sdk/com.bloock.sdk.client/-availability-client/retrieve.html
 $dokka.location:com.bloock.sdk.client/BloockClient///PointingToDeclaration/bloock-sdk/com.bloock.sdk.client/-bloock-client/index.html
-$dokka.location:com.bloock.sdk.client/BloockClient/BloockClient/#java.lang.String#java.lang.String#java.lang.String/PointingToDeclaration/bloock-sdk/com.bloock.sdk.client/-bloock-client/-bloock-client.html
+$dokka.location:com.bloock.sdk.client/BloockClient/BloockClient/#java.lang.String#java.lang.String/PointingToDeclaration/bloock-sdk/com.bloock.sdk.client/-bloock-client/-bloock-client.html
 $dokka.location:com.bloock.sdk.client/BloockClient/getAuthenticityClient/#/PointingToDeclaration/bloock-sdk/com.bloock.sdk.client/-bloock-client/get-authenticity-client.html
 $dokka.location:com.bloock.sdk.client/BloockClient/getEncryptionClient/#/PointingToDeclaration/bloock-sdk/com.bloock.sdk.client/-bloock-client/get-encryption-client.html
 $dokka.location:com.bloock.sdk.client/BloockClient/getIdentityClient/#/PointingToDeclaration/bloock-sdk/com.bloock.sdk.client/-bloock-client/get-identity-client.html
