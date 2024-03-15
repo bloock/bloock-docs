@@ -1,0 +1,30 @@
+---
+title: 'Access Control'
+sidebar_position: 5
+---
+
+# Access Control {#access-control}
+
+Access control roles applied to cryptographic keys and certificates encompass the systematic management of permissions and privileges assigned to individuals or entities interacting with these critical cryptographic assets. In essence, access control roles serve as a complementary layer of security, dictating who can access, modify, or utilize cryptographic keys and certificates within an organization's infrastructure.
+
+Right now we offer two types of access control:
+
+### Time-Based One-Time Password (TOTP)
+
+Time-Based One-Time Password (TOTP) is a cryptographic protocol used for multi-factor authentication. It generates a unique one-time password (OTP) based on a shared secret key and the current time.
+
+Benefits:
+
+- Enhanced Security: TOTP provides an additional layer of security beyond traditional password-based authentication by requiring the possession of a physical device (e.g., smartphone) and a time-sensitive OTP.
+- Ease of Use: TOTP is user-friendly and widely supported by authentication apps and devices, making it convenient for users to enable multi-factor authentication.
+
+Example of compatible software applications are: [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US&pli=1) or [Microsoft Authenticator](https://play.google.com/store/apps/details?id=com.azure.authenticator&hl=en_US)
+
+### Secret-Based Authentication
+
+Secret-based authentication, also known as shared secret authentication, is a form of access control that relies on the possession and verification of a shared secret, such as a password or passphrase. In this method, the user presents the secret to authenticate themselves and gain access to a system or resource.
+
+Benefits:
+
+- Simplicity: Secret-based authentication is straightforward to implement and understand, requiring only the input and verification of a shared secret.
+- Familiarity: Password-based authentication, a common form of secret-based authentication, is familiar to most users and widely used across various systems and platforms.
