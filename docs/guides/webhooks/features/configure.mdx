@@ -1,6 +1,6 @@
 ---
 title: 'Configure Webhooks'
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # Configure Webhooks
@@ -38,52 +38,17 @@ In this example, the /bloock_ethereum_mainnet route is configured to accept only
 The following information must be provided:
 
 - **URL**: https://your.apidomain.com/endpoint/bloock_ethereum_mainnet
-- **Event Listening**: You must select the type of network you want to listen to. For example, if I subscribe to core.ethereum_mainnet webhook, every time a new anchor is confirmed on this network, will fire an event. It's important to differentiate between the core and core-test prefix. The first indicates we are listening a production environment event and the second reference to a test environment event.
+- **Event Listening**: You must select the type of event you want to listen
 
 ![3 - Configure webhooks](/static/docs/guides/webhooks/configure/3-configure.png)
 
 Once all the information required is filed in, click on Create button.
 
-**Check webhook structure**
-
-It is important that you know the request's structure that we send to your API endpoint. Each event is structured with a webhoook_id, request_id, type, created_at and related Bloock resource nested under data. Your endpoint must parse the payload of each event.
-
-- **Header**: data (timestamp) and signature (HMAC SHA256).
-
-`t=1672761735,v1=8071c487388bd9eba106fccd42e2842c58000f722f9147b6d27440a4bd9bf5c4`
-
-- **Payload**
-
-```json
-{
-  "webhook_id": "7518043d-4774-4305-b5c9-3868e129123a",
-  "request_id": "fe0c1d29-8b7f-11ed-85ce-0242ac190005",
-  "type": "core.bloock_chain",
-  "created_at": 1672761735,
-  "data": {
-    "created_at": 1672735289,
-    "finalized": true,
-    "id": 102217,
-    "message_count": 1,
-    "network": {
-      "anchor_id": 102217,
-      "created_at": 1672735355,
-      "name": "bloock_chain",
-      "status": "Confirmed",
-      "test": false,
-      "tx_hash": "0x7ca9e361c9a7b4fbf4b3c2ac709d06fa8ae9e0acd648dc3a364bf9d29a39e18a"
-    },
-    "root": "b068d911852f369cd09f4ebb1bb8c037cd9f28852976934fdb4358945759ad7c",
-    "test": false
-  }
-}
-```
-
 **Return a 2xx response**
 
 Your endpoint must quickly return a successful status code (2xx) prior to any complex logic that could cause a timeout.
 
-Use [webhook signatures](/guides/webhooks/verify) to verify that Bloock generated a webhook request and that it didn't come from a server acting like Bloock.
+Use [webhook signatures](./verify.mdx#webhook-signatures) to verify that Bloock generated a webhook request and that it didn't come from a server acting like Bloock.
 
 ## 5. Watch your webhook list
 
@@ -101,13 +66,13 @@ To check for your webhook information, click the See details button.
 
 ![5 - Configure webhooks](/static/docs/guides/webhooks/configure/5-configure.png)
 
-In this section, you'll see the URL, Status and the Signing Secret. The Signing Secret is what will help you validate the [HMAC SHA256 signature](/guides/webhooks/verify) which is used to verify all the webhook requests provided from [BLOOCK](https://dashboard.bloock.com).
+In this section, you'll see the URL, Status and the Signing Secret. The Signing Secret is what will help you validate the HMAC SHA256 signature which is used to verify all the webhook requests provided from BLOOCK.
 
 ![6 - Configure webhooks](/static/docs/guides/webhooks/configure/6-configure.png)
 
-Every time we send you a new webhook event, Bloock provides you with a webhook attempts logger. With this function, you can check the webhook’s response.
+Every time we send you a new webhook event, Bloock provides you with a webhook attempts logger. With this function, you can check the webhook's response.
 
-At the top of the logger, you’ll find a Combobox filter where you can check all your webhook responses according to their status: Success or Error.
+At the top of the logger, you'll find a Combobox filter where you can check all your webhook responses according to their status: Success or Error.
 
 In detail, for each webhook, you will be provided with:
 

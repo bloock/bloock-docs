@@ -1,0 +1,98 @@
+---
+title: 'Event types'
+sidebar_position: 1
+---
+
+# Event types {#event-types}
+
+:::tip
+It is important to note that you can configure as many events as you wish in the same webhook endpoint.
+:::
+
+### Digital notaritzation
+
+#### Record entity
+
+1. **Ethereum Mainnet**: you will receive every time your record it's transacted and confirmed on Ethereum.
+2. **Gnosis Chain**: you will receive every time your record it's transacted and confirmed on Gnosis Chain.
+3. **Polygon PoS**: you will receive every time your record it's transacted and confirmed on Polygon PoS.
+
+**Body**:
+
+```json
+{
+  "anchor_id": 910150,
+  "client_id": "5aa90030-f3b2-4122-b8e9-f7f6cf91ec53",
+  "created_at": 1710418514,
+  "event_type": "integrity.record.gnosis_chain.confirmed",
+  "networks": [
+    {
+      "anchor_id": 910150,
+      "created_at": 1710418583,
+      "name": "gnosis_chain",
+      "status": "Confirmed",
+      "test": false,
+      "tx_hash": "0x87a27e5d618bec4024d55ddf43927158f0666cf3df8ff87bfe63d89744867f15"
+    }
+  ],
+  "record": "001886f291d6c68bef7803d0a1c96d081376f852543967e06da2c4cb5c3cf63d",
+  "test": false
+}
+```
+
+#### Anchor entity
+
+1. **Ethereum Mainnet**: you will receive every time an anchor it's transacted and confirmed on Ethereum.
+2. **Gnosis Chain**: you will receive every time an anchor it's transacted and confirmed on Gnosis Chain.
+3. **Polygon PoS**: you will receive every time an anchor it's transacted and confirmed on Polygon PoS.
+
+**Body**:
+
+```json
+{
+  "webhook_id": "7518043d-4774-4305-b5c9-3868e129123a",
+  "request_id": "fe0c1d29-8b7f-11ed-85ce-0242ac190005",
+  "type": "core.bloock_chain",
+  "created_at": 1672761735,
+  "data": {
+    "created_at": 1672735289,
+    "finalized": true,
+    "id": 102217,
+    "message_count": 1,
+    "network": {
+      "anchor_id": 102217,
+      "created_at": 1672735355,
+      "name": "bloock_chain",
+      "status": "Confirmed",
+      "test": false,
+      "tx_hash": "0x7ca9e361c9a7b4fbf4b3c2ac709d06fa8ae9e0acd648dc3a364bf9d29a39e18a"
+    },
+    "root": "b068d911852f369cd09f4ebb1bb8c037cd9f28852976934fdb4358945759ad7c",
+    "test": false
+  }
+}
+```
+
+Here you have some differences between the record and anchor events:
+
+| Aspect                    | Anchor Webhook Event                                                                | Record Webhook Event                                                                 |
+| ------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| Event Triggered           | Triggered when an anchor is transacted on the selected network.                     | Triggered when a record is transacted and confirmed on the network.                  |
+| Frequency of Events       | Occurs with every anchor transacted on the selected network.                        | Occurs with your records transacted and confirmed.                                   |
+| Information Received      | Provides information about the anchor and networks.                                 | Provides information about the record transaction and networks.                      |
+| Use Case                  | Useful for tracking the status of anchor transactions.                              | Useful for tracking the status of record transactions.                               |
+| Verification Process      | Requires comparison between sent and received anchors to verify transaction status. | No additional comparison needed, as it directly indicates record transaction status. |
+| Implementation Complexity | May require additional logic for comparing anchors.                                 | Straightforward, as it directly indicates record transaction status.                 |
+
+### Identity
+
+1. **SMTP proof**: you will receive every time your issuer state is transacted on Polygon PoS.
+
+**Body**:
+
+```json
+{
+  "credential_id": "9032be8d-4df6-4869-a232-c609d9635f62",
+  "proof": "eyJ0eXBlIjoiSWRlbjNTcGFyc2VNZXJrbGVUcmVlUHJvb2YiLCJpc3N1ZXJEYXRhIjp7ImlkIjoiZGlkOnBvbHlnb25pZDpwb2x5Z29uOm1haW46MnE5YTZCWVg1MUNMU2REamZxNkJzQlVEZmFHN1Nva2ltZ3lEWnVQTjdHIiwic3RhdGUiOnsidHhJZCI6IjB4NDZlODdmNWFmMWQ3NTNkMDA4YjVmYjQ4ZmVmMTA1NTcyMDNhYzUzODViYzAwOTZmNjBkNGExMDA3NmM2YWYxNCIsImJsb2NrVGltZXN0YW1wIjoxNzEwMTQ2MDU5LCJibG9ja051bWJlciI6NTQ1MjM4NjksInJvb3RPZlJvb3RzIjoiOTdjNGM3YmNlZWU3Njg3NjU0MGY0MDEwYTVlZDBjZThhYWJhM2VkNmE5OTg5NDY5OWRhZTliZmIzN2ZkMDMxMSIsImNsYWltc1RyZWVSb290IjoiYTY1NTA3NmRjZDU1NzBjMzE2YzAxODc2OTBhZmMzYTM0NWExNWVhYTNlYmMyNzE5N2EwNzU4YTQ5MjY1ZTMxMSIsInJldm9jYXRpb25UcmVlUm9vdCI6IjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAiLCJ2YWx1ZSI6ImIzYjY0MGMyZDFlNzYxMzgwOTljM2Y0ODg2NTI4ZGRlNTY2ZGM1MGE4ZjNlZWYwZjU1MDcwYTI1YzdmYjU5MWQifX0sImNvcmVDbGFpbSI6Ijg3NmFjMmZhMzQwMjE0OTkyNmFjM2QyM2Y1Zjk0ZWQ5MmEwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMjExYmJjZmJkYmNiMDhlMWZkNmNhMTNhYTNjOWVjMjQxM2M5ZTBmYWQ3YjNhODI2ZDkzNmEyMjA4MGUwZDAwNjdlMjBiN2M4NTBkYWRmMDc3YjFjZGQ0NzUyMDdhOGU3ZWE5ODY1Y2M3NDk4YWVjMGVjMjEyNzhkNzY5ZmIxMTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA5YjdjMGU1ZDAwMDAwMDAwZTZjYzZiNjcwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIiwibXRwIjp7ImV4aXN0ZW5jZSI6dHJ1ZSwic2libGluZ3MiOlsiMTExNDQ0MjE5NTIzMjkwNzQ1MTMxNzgwNjczNTQ4Mjk5MTU5MjExNjAxNzkzNzIyMzY4MjgwMTgwMTM2MjIyNTE5MjE0OTA4NzU5MzUiLCIxOTgyNDI4OTk3NjY3Mjk0OTM4NDMxNDIzMjY5MDg2MTcyNzU3MDc4ODkzNjc2NzM2MTc5NDk2MTY2OTgxOTAzNjgzNDI5NjI2NTkzNiIsIjE0MDAzNTE1Mjg3MDY3NTA3NzYxNTgyODA0NTM3MTk1NzU3MjQ2MTEyNTEzNTY3NjA5MDc0MzAxMzMxNDIzODg0NjQ5MDU5MDk5MjUyIiwiOTQxNzE4NjEwNTYwODcwNjc3NjU1NzczMjI1MzU0MzY4MDkxNzA1NDIxMDczNjgxNjMwMjMxNDg5NjY1MDc4MjUwNDQzOTI1MjY2MSIsIjE5NzYzOTg5NjgxNjUxNTMwNjcxMTczODUzNTU4MzM3NjIyMzAwMzI3OTkxNTQ2MDM2MjYyNTQ3NTczNDY1MTc4ODcxMDU1MDcwMTM3Il19fQ=="
+}
+```

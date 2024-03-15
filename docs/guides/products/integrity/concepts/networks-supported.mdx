@@ -1,9 +1,9 @@
 ---
 title: 'Networks supported'
-sidebar_position: 3
+sidebar_position: 2
 ---
 
-# Networks supported
+# Networks supported {#networks-supported}
 
 BLOOCK's protocol allows for interoperability between different blockchain networks, meaning that anchors processed by our system gets transacted in multiple chains so you are able to verify your data in any of them.
 
@@ -16,7 +16,7 @@ This allows for different benefits for our customers such as:
 
 We transact to each network in different intervals. This is because of two reasons: the chain's block interval and the transaction cost.
 
-## Live environment
+## Networks
 
 Here is a list of blockchain we integrate with and the the approximate transaction intervals:
 
@@ -46,13 +46,3 @@ Here is a list of blockchain we integrate with and the the approximate transacti
     </tr>
   </tbody>
 </table>
-
-## Test environment
-
-Our test environment is designed for development-only purposes, providing low transaction intervals to facilitate the development and integration with our SDKs.
-
-To do so, anchors processed in that environment are only transacted into a private EVM-compatible blockchain managed by BLOOCK called BloockChain:
-
-| Network     | Contract address                         | Interval   |
-| ----------- | ---------------------------------------- | ---------- |
-| BloockChain | d2d1BBcbee7741f8C846826F55b7c17fc5cf969a | \~1 minute |

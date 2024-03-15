@@ -1,15 +1,17 @@
 ---
 title: 'Protocol'
-sidebar_position: 2
+sidebar_position: 1
 ---
 
-# Overview
+# Overview {#protocol-overview}
 
-This is an overview of the BLOOCK's Protocol and its technological stack. It’s objective is to provide an introduction for developers to BLOOCK's technical stack. It also offers the approach to achieve high scalability. The explanation assumes you are familiar with the Ethereum ecosystem, the basic concepts of cryptography, and structures such as hashing and Merkle trees.
+This is an overview of the BLOOCK's Protocol and its technological stack. It's objective is to provide an introduction for developers to BLOOCK's technical stack. It also offers the approach to achieve high scalability. The explanation assumes you are familiar with the Ethereum ecosystem, the basic concepts of cryptography, and structures such as hashing and Merkle trees.
 
 ## First approach
 
 BLOOCK is a rollup solution that allows scaling data-tamper proofing on top of permissionless blockchain technologies. It uses blockchains for state storage but not for the computation of the aggregations, which is made internally with a specific frequency that depends on the network it is anchored to. The basic architecture of BLOOCK is simplified to ease understanding:
+
+![3 - Integrity](/static/docs/guides/integrity/3-integrity.png)
 
 ## Protocol
 
@@ -20,3 +22,5 @@ BLOOCK manages an internal protocol that aggregates and consolidates messages to
 - _**Right to be forgotten:**_ Any client in need to remove all certifications from BLOOCK State will be allowed to do so. BLOOCK will just keep the root of each of its blocks in the Rollup, which indeed has 0 links to the certifications sent thanks to the first block genesis hash.
 
 Once all client messages have been included in their respective state chains, the root of each new block created is appended to the BLOOCK Rollup stored by an only-append binary sparse Merkle tree. Once this action is finalized, we can conclude that all pending messages have been incorporated into the state of BLOOCK. Since we have a single shared state tree, BLOOCK can provide proofs that concatenate multiple certificates efficiently.
+
+![4 - Integrity](/static/docs/guides/integrity/4-integrity.png)

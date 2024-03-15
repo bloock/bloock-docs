@@ -1,0 +1,63 @@
+---
+title: 'Record entity'
+sidebar_position: 3
+---
+
+# The Record entity
+
+The principal element of the BLOOCK SDKs is the Record as it's used on most of the functionalities. It's responsible for different interactions such as:
+
+- Encapsulate your data
+- Hashing
+- Add [digital signatures](./../../key/overview.mdx#what-digital-signature)
+- Add [encryption](./../../key/concepts/operations.mdx#operations)
+- Add self-contained metadata
+
+### Record builders
+
+In order to generate a Record, our SDKs provide different builders to do so. Those builders enable to set as input different data types, formats or encodings based on your needs.
+
+#### Available builders
+
+Currently, the following builders are available:
+
+<table>
+  <thead>
+    <tr>
+      <th width="256">Name</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>fromString</td>
+      <td>It takes a UTF-8 string as input</td>
+    </tr>
+    <tr>
+      <td>fromBytes</td>
+      <td>It takes an array of bytes as input</td>
+    </tr>
+    <tr>
+      <td>fromHex</td>
+      <td>
+        It takes a hash string (hex encoded 64-chars long string) as input
+      </td>
+    </tr>
+    <tr>
+      <td>fromJson</td>
+      <td>It takes a JSON as input</td>
+    </tr>
+    <tr>
+      <td>fromRecord</td>
+      <td>It takes a record as input</td>
+    </tr>
+    <tr>
+      <td>fromFile</td>
+      <td>It takes a file (as a byte array) as input</td>
+    </tr>
+    <tr>
+      <td>fromLoader</td>
+      <td>It takes a Loader as input</td>
+    </tr>
+  </tbody>
+</table>
