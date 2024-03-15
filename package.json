@@ -18,7 +18,7 @@
     "format": "prettier -w src docs",
     "format:docs": "prettier -w docs",
     "typecheck": "tsc",
-    "spell-check": "npx cspell docs/**/*.mdx"
+    "spell-check": "npx cspell docs/**/*.{md,mdx}"
   },
   "dependencies": {
     "@docusaurus/core": "^2.4.3",
