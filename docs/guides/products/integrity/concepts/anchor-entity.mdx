@@ -1,0 +1,27 @@
+---
+title: 'Anchor entity'
+sidebar_position: 4
+---
+
+# The anchor entity
+
+As described in the [Protocol Overview](./protocol.mdx#protocol-overview), we use a set of sparse Merkle trees that forms our Rollup. Once you send some data, it gets enqueued until we trigger the anchor mechanism.
+
+This process consists in getting all the pending data and adding them to the state tree. This will produce a state transition and the resulting root will be transacted into several blockchain networks following the time intervals described in the [Networks supported](./networks-supported.mdx#networks-supported) section.
+
+:::tip
+As a more formal definition: An anchor is a snapshot of the state tree which is registered to the blockchain protocol. It is formed by the resulting state of the state transition.
+:::
+
+### Anchor identifier
+
+We identify anchors with sequential numbers starting from 1. When you send a new data for certification, you will receive the anchor identifier in which your data will be processed, usually this is the next available one.
+
+### Relation of anchors with blockchain networks
+
+It's important to note that not all the anchors processed are transacted into all the blockchain networks supported by BLOOCK. This means that if you directly query some root of a random anchor into a network, it's possible (and common) that the result is not found.
+This is because we have different transaction intervals for the different networks supported. However, we do guarantee that every anchor gets transacted to at least one network.
+The integrity proof retrieval process manages this so you don't get an integrity proof that results in a root not transacted to the selected network.
+For a better understanding of this topic, here's a diagram of how anchors and transactions work together:
+
+![5 - Integrity](/static/docs/guides/integrity/5-integrity.png)

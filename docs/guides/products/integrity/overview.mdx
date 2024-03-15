@@ -3,22 +3,34 @@ title: 'Overview'
 sidebar_position: 1
 ---
 
-This section provides all the information needed to understand and integrate with BLOOCK's data certification service based on permissionless blockchains.
+BLOOCK's digital notarization service provides users with a secure and efficient means to notarize their information by sealing it to decentralized ledgers. Through this process, BLOOCK ensures the integrity, irrefutable timestamping, and verifiability of data across platforms.
 
-# Certification flow
+#### Key Features:
 
-In order to certify some data with BLOOCK, there are some steps that are happening, some of them need to be implemented by you (using our SDKs) and others are done by BLOOCK itself.
+1. **Seal to Decentralized Ledgers**: Notarize your information by securely sealing it to decentralized ledgers, guaranteeing its authenticity and immutability.
+2. **Scalability**: Scale up on-demand without the hassle of distributed ledger throughput constraints, allowing users to notarize large volumes of data seamlessly.
+3. **Accuracy**: Ensure the accuracy of your information without any limitations, with BLOOCK's system automatically normalizing and standardizing data to meet universal standards.
+4. **Cost-Efficiency**: Significantly diminish decentralized network costs, volatility, and uncertainties while remaining aligned with core principles, enabling cost-effective notarization solutions.
+5. **Universal Notarization**: Digitally notarize any type of information, regardless of its nature, with BLOOCK's system accommodating diverse data formats and ensuring compliance with universal standards.
 
-As a summary, you will need to implement only two parts:
+## The basics
 
-1. Prepare data
+### Certification flow
+
+To certify data with BLOOCK, the process involves several steps, some of which require implementation on your end using our SDKs, while others are handled by BLOOCK itself. Below is a summary of the certification flow:
+
+1. Prepare data:
 2. Send data
 3. Synchronization
 
-If you want more detail about the process, here's a diagram of all the certification process:
+Here's a diagram of the certification process:
 
-# Validation flow
+![1 - Integrity](/static/docs/guides/integrity/1-integrity.png)
 
-For the verification flow, there are also some steps that need to be followed to implement it. It's all described with examples in the verification section and if you want some ready-to-use tools, see the Validators section for some options.
+### Validation flow
 
-If you want more detail about the process, here's a diagram of all the verification process:
+For the validation flow, verifying the authenticity and integrity of certified data involves a series of steps. These steps are detailed in the verification section of our documentation and can be implemented using examples provided. Additionally, we offer ready-to-use tools in the Validators section for those who prefer a more streamlined approach.
+
+Here's a diagram of the verification process:
+
+![2 - Integrity](/static/docs/guides/integrity/2-integrity.png)

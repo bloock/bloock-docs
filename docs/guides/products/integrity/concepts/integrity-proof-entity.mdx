@@ -1,0 +1,28 @@
+---
+title: 'Integrity proof entity'
+sidebar_position: 5
+---
+
+# The integrity proof entity {#integrity-proof-entity}
+
+Once a data submitted to BLOOCK for certification gets included in an anchor, you are able to retrieve an integrity proof for it.
+This proof is computed as an optimized Merkle proof by BLOOCK representing the minimal necessary data to mathematically prove that a record was included at a certain point in time to the blockchain. The computed proof has the following properties:
+Timeless, meaning that, once retrieved, those can be verified at any time in the future.
+
+- Proofs can be retrieved for multiple records which enables to verify the existence of a set of records at once.
+- Proofs are auto verifiable by the user without the intervention of BLOOCK.
+
+:::tip
+It's important to note that BLOOCK is not able to emit fraudulent proofs because of the cryptographic properties of the Merkle trees.
+:::
+
+When you retrieve an integrity proof for one or more data to be able to further verify them, you will receive a set of data consisting of:
+
+| Field  | Description                                                                                            |
+| ------ | ------------------------------------------------------------------------------------------------------ |
+| Leaves | An array of hashes that contains exactly the input data to get the integrity proof from.               |
+| Nodes  | An array of hashes that will be combined with the leaves to run the Merkle proof verification process. |
+| Bitmap | Hexadecimal value used to combine the leaves and nodes in order to correctly compute the proof.        |
+| Depth  | Additional information needed to run the verification process.                                         |
+| Root   | The anchor root that the integrity proof should resolve to when verified.                              |
+| Anchor | Contains information related to the anchor from which the integrity proof was computed from.           |
