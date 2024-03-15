@@ -10,9 +10,9 @@ import CodeBlock from '@theme/CodeBlock';
 
 Verify the events that Bloock sends to your webhook endpoints.
 
-Bloock signs the webhook events it sends to your endpoints by including a signature in each event’s Bloock-Signature header. This allows you to verify that the events were sent by Bloock, not by a third party.
+Bloock signs the webhook events it sends to your endpoints by including a signature in each event's Bloock-Signature header. This allows you to verify that the events were sent by Bloock, not by a third party.
 
-Before you can verify signatures, you need to retrieve your endpoint’s signing secret from your Dashboard’s Webhook's settings. Select an endpoint that you want to obtain the secret for, then click the Click to reveal button.
+Before you can verify signatures, you need to retrieve your endpoint's signing secret from your Dashboard's Webhook's settings. Select an endpoint that you want to obtain the secret for, then click the Click to reveal button.
 
 ![1 - Verify webhooks](/static/docs/guides/webhooks/verify/1-verify.png)
 
@@ -20,16 +20,16 @@ Bloock generates a unique secret key for each endpoint. If you use multiple endp
 
 **Preventing replay attacks**
 
-A replay attack is when an attacker intercepts a valid payload and its signature, then re-transmits them. To mitigate such attacks, Bloock includes a timestamp in the Bloock-Signature header. Because this timestamp is part of the signed payload, it is also verified by the signature, so an attacker can’t change the timestamp without invalidating the signature. If the signature is valid but the timestamp is too old, you can have your application reject the payload.
+A replay attack is when an attacker intercepts a valid payload and its signature, then re-transmits them. To mitigate such attacks, Bloock includes a timestamp in the Bloock-Signature header. Because this timestamp is part of the signed payload, it is also verified by the signature, so an attacker can't change the timestamp without invalidating the signature. If the signature is valid but the timestamp is too old, you can have your application reject the payload.
 
 Bloock defines a default tolerance of ten minutes between the timestamp and the current time. You can enable and disable the tolerance control and change this tolerance by changing the number of minutes when verifying signatures.
 
 ## Verifying signatures using our SDK library
 
-Use our SDK to verify signatures. You perform the verification by providing the event payload, the Bloock-Signature header, and the endpoint’s secret. If verification fails, Bloock returns an error and a false boolean. Remember to import our SDK first.
+Use our SDK to verify signatures. You perform the verification by providing the event payload, the Bloock-Signature header, and the endpoint's secret. If verification fails, Bloock returns an error and a false boolean. Remember to import our SDK first.
 
 :::warning
-Bloock requires the raw body of the request to perform signature verification. If you’re using a framework, make sure it doesn’t manipulate the raw body. Any manipulation to the raw body of the request causes the verification to fail.
+Bloock requires the raw body of the request to perform signature verification. If you're using a framework, make sure it doesn't manipulate the raw body. Any manipulation to the raw body of the request causes the verification to fail.
 :::
 
 import VerifyWebhookJs from '!!raw-loader!@site/examples/webhooks/verify-sdk/verify-sdk.ts';
@@ -66,7 +66,7 @@ The value for the prefix t corresponds to the timestamp, and v1 corresponds to t
 
 **Step 2: Determine the expected signature**
 
-Compute an HMAC with the SHA256 hash function. Use the endpoint’s signing secret as the key, and use the concatenation of the timestamp with the payload.
+Compute an HMAC with the SHA256 hash function. Use the endpoint's signing secret as the key, and use the concatenation of the timestamp with the payload.
 
 **Step 3: Compare the signatures**
 
