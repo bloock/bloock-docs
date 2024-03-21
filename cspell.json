@@ -5,6 +5,8 @@
     "bloock",
     "quickstart",
     "msvc",
+    "permissionless",
+    "notaritzation",
     "timestamping",
     "proto",
     "totp",
@@ -12,6 +14,7 @@
     "pkcs",
     "encrypter",
     "decrypter",
+    "ciphertext",
     "struct",
     "merkle",
     "protobuf",
@@ -19,6 +22,20 @@
     "gomarkdoc",
     "keypair",
     "staticmethod",
-    "Qma1t4uzbnB93E4rasNdu5UWMDh5qg3wMkPm68cnEyfnoM"
+    "dokka",
+    "packagist",
+    "graphglue",
+    "validproof",
+    "polygonid",
+    "iden3",
+    "didcomm",
+    "SEPA",
+    "IBAN",
+    "CCPA",
+    "PPRO",
+    "Qma1t4uzbnB93E4rasNdu5UWMDh5qg3wMkPm68cnEyfnoM",
+    "QmadTvnNKvj2fBDgen35uAp1TfP9pSPVCNeDWw4fitqqne",
+    "2q544HUegzeRpwr3V2qu9eMwgrAmF5x4E1NCPzbQc4",
+    "2qCU58EJgrELSJT6EzT27Rw9DhvwamAdbMLpePztYq"
   ]
 }
