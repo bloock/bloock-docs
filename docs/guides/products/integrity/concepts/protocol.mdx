@@ -24,3 +24,23 @@ BLOOCK manages an internal protocol that aggregates and consolidates messages to
 Once all client messages have been included in their respective state chains, the root of each new block created is appended to the BLOOCK Rollup stored by an only-append binary sparse Merkle tree. Once this action is finalized, we can conclude that all pending messages have been incorporated into the state of BLOOCK. Since we have a single shared state tree, BLOOCK can provide proofs that concatenate multiple certificates efficiently.
 
 ![4 - Integrity](/static/docs/guides/integrity/4-integrity.png)
+
+### Certification flow
+
+To certify data with BLOOCK, the process involves several steps, some of which require implementation on your end using our SDKs, while others are handled by BLOOCK itself. Below is a summary of the certification flow:
+
+1. Prepare data:
+2. Send data
+3. Synchronization
+
+Here's a diagram of the certification process:
+
+![1 - Integrity](/static/docs/guides/integrity/1-integrity.png)
+
+### Validation flow
+
+For the validation flow, verifying the authenticity and integrity of certified data involves a series of steps. These steps are detailed in the verification section of our documentation and can be implemented using examples provided. Additionally, we offer ready-to-use tools in the Validators section for those who prefer a more streamlined approach.
+
+Here's a diagram of the verification process:
+
+![2 - Integrity](/static/docs/guides/integrity/2-integrity.png)

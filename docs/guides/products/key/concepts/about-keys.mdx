@@ -1,0 +1,33 @@
+---
+title: 'About keys'
+sidebar_position: 1
+---
+
+# About keys
+
+BLOOCK supports two types of keys:
+
+- **[Cryptographic keys](#what-cryptographic-key)**: software-protected keys that supports multiple types and algorithms.
+- **[Certificates](#what-certificate)**: which are built on top of keys. It contains the key and identifiable extra information. when a certificate is created, an addressable key is also created.
+
+## What's a cryptographic key? {#what-cryptographic-key}
+
+A cryptographic key is a unique piece of data that is used to control cryptographic operations, such as encryption, decryption, authentication, and digital signatures. It serves as the essential element in ensuring the security and confidentiality of digital communications and data. Cryptographic keys are generated through complex algorithms and come in various forms, including [symmetric keys](#symmetric-key), [asymmetric keys](#asymmetric-key) (public and private keys), and key pairs.
+
+Symmetric keys are shared between parties involved in communication and are used for both encryption and decryption processes. Asymmetric keys consist of a public key, which can be freely distributed, and a private key, which is kept secret. These keys work together in asymmetric encryption schemes to provide secure communication channels and digital signatures.
+
+## What's a certificate? {#what-certificate}
+
+In the context of digital signatures and cryptography, a certificate is a digital document that serves to validate the authenticity of a public key holder. This document can be issued either by a trusted third party, known as a Certificate Authority (CA), or it can be self-issued by the key holder themselves. When issued by a CA, the certificate acts as a testament to the binding of a public key to an individual, organization, or device, affirming the ownership and identity of the key holder. Conversely, in the case of a self-issued certificate, the key holder generates and signs the certificate themselves, attesting to their own identity and the validity of the associated public key.
+
+Certificates, regardless of whether they are CA-issued or self-issued, typically contain information such as the holder's name, the public key itself, the expiration date of the certificate, and digital signatures to verify its authenticity. These certificates play a crucial role in establishing trust and facilitating secure communication and data exchange over untrusted networks, such as the internet.
+
+## Key types
+
+### Symmetric key
+
+A symmetric key in cryptography refers to a single key that is shared between two or more parties involved in a communication process. This key is utilized for both encryption and decryption operations. Symmetric key algorithms employ the same key for both encryption of plaintext into ciphertext and decryption of ciphertext back into plaintext.
+
+### Asymmetric key
+
+In contrast, asymmetric key cryptography employs a pair of distinct keys, known as a public key and a private key. These keys are mathematically related but are asymmetric in nature, meaning that data encrypted with one key can only be decrypted with the corresponding key from the pair. The public key is freely distributed and used for encryption and verification purposes, while the private key is kept confidential and utilized for decryption and signing operations.

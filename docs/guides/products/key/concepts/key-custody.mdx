@@ -1,0 +1,23 @@
+---
+title: 'Key custody'
+sidebar_position: 2
+---
+
+# Key custody
+
+In BLOOCK, you can create any key using different custody modes:
+
+- **Local mode**: The local mode consists of creating a [key](../about-keys#key-types) where the user stores it's private information.
+- **Management mode**: The managed mode consists of creating a [key](../about-keys#key-types) secured by the BLOOCK service using a FIPS 140-2 Level 1 certified software-protected infrastructure.
+
+:::tip
+In any case we do not have the private key, your key will be stored in a software-protected service that complies with the security level of FIPS 140-2 Level 1 certified.
+:::
+
+|                | Local Mode                               | Managed Mode                                             |
+| -------------- | ---------------------------------------- | -------------------------------------------------------- |
+| Key Generation | Users generate and store their own keys  | Keys are generated and managed by BLOOCK                 |
+| Storage        | Keys stored locally on the device        | Keys stored centrally by BLOOCK                          |
+| Scalability    | Limited scalability due to local storage | Greater scalability due to centralized storage by BLOOCK |
+| Security       | Depends on user's security practices     | Enhanced security as managed by BLOOCK                   |
+| Management     | Users are responsible for key management | BLOOCK handles key management                            |

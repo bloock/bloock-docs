@@ -3,38 +3,33 @@ title: 'Overview'
 sidebar_position: 1
 ---
 
-# Overview {#overview}
+# Overview
 
-BLOOCK's key product is predicated on a variety of distinct objects, ranging from [cryptographic keys](./overview.mdx#what-cryptographic-key) to [certificates](./overview.mdx#what-certificate). In the realm of information management, a pivotal attribute emerges: Authenticity. Authenticity denotes the assurance that a given message, transaction, or any form of information exchange originates from the purported source. This facet is of paramount significance as it serves to safeguard against potential forgery or corruption during the transmission process. The preservation of authenticity not only upholds the integrity of the exchanged records but also instills trust and confidence in the integrity of the overall communication framework.
+Welcome to our comprehensive Key Management & Digital Signature solution, where protecting your information from forgery and ensuring seamless usability are our top priorities. Here's an overview of the features and benefits offered by our service:
 
-## The basics {#the-basics}
+#### Secure Digital Signing:
 
-### What's a digital signature? {#what-digital-signature}
+- Eliminate information forgery with our robust and seamless digital signature engine, providing irrefutable evidence of data authenticity.
+- Keep your key material protected while signing data securely and smoothly.
 
-A digital signature, classified as a subset of electronic signatures, represents a mathematical algorithm systematically employed to authenticate the genuineness and unaltered state of a message or data entity, such as an email correspondence, a financial transaction involving credit cards, or a digitalized document. In essence, digital signatures engender a virtual imprint that is uniquely attributable to an individual or an entity, serving as a robust mechanism for user identification and information safeguarding within the domain of digital communication and documentation. Notably, in the context of email communications, the substantive content of the email itself contributes to the composition of the digital signature, further enhancing its reliability and integrity. It is imperative to recognize that digital signatures stand as a pinnacle of security within the realm of electronic authentication, surpassing other conventional methods, owing to their inherent cryptographic robustness and their ability to withstand malicious tampering or fraudulent alterations.
+#### Private Key and Certificate Safeguarding:
 
-### What's a cryptographic key? {#what-cryptographic-key}
+- Generate and store private keys or certificates using your hardware secure module or our managed FIPS 140-2 Level 1 certified software-protected vault.
+- Shield your keys and certificates with varying levels of security, ranging from FIPS140-2 Level 1 to Level 4.
 
-A cryptographic key is a unique piece of data that is used to control cryptographic operations, such as encryption, decryption, authentication, and digital signatures. It serves as the essential element in ensuring the security and confidentiality of digital communications and data. Cryptographic keys are generated through complex algorithms and come in various forms, including [symmetric keys](./overview.mdx#symmetric-key), [asymmetric keys](./overview.mdx#asymmetric-key) (public and private keys), and key pairs.
+#### Anytime, Anywhere Secure Signing:
 
-Symmetric keys are shared between parties involved in communication and are used for both encryption and decryption processes. Asymmetric keys consist of a public key, which can be freely distributed, and a private key, which is kept secret. These keys work together in asymmetric encryption schemes to provide secure communication channels and digital signatures.
+- Sign securely from any application, enforcing secure authentications to prevent unauthorized access and fortifying digital signature integrity.
+- Utilize our key management capabilities to digitally sign from multiple applications and services securely, preventing unauthorized signing.
 
-### What's a certificate? {#what-certificate}
+#### Transparency and Accountability:
 
-In the context of digital signatures and cryptography, a certificate is a digital document that serves to validate the authenticity of a public key holder. This document can be issued either by a trusted third party, known as a Certificate Authority (CA), or it can be self-issued by the key holder themselves. When issued by a CA, the certificate acts as a testament to the binding of a public key to an individual, organization, or device, affirming the ownership and identity of the key holder. Conversely, in the case of a self-issued certificate, the key holder generates and signs the certificate themselves, attesting to their own identity and the validity of the associated public key.
+- Gain transparent traceability of all signing operations, ensuring auditability over the usage and access to your private keys and certificates.
+- Obtain visibility into all actions performed with managed keys and certificates, facilitating streamlined audit procedures.
 
-Certificates, regardless of whether they are CA-issued or self-issued, typically contain information such as the holder's name, the public key itself, the expiration date of the certificate, and digital signatures to verify its authenticity. These certificates play a crucial role in establishing trust and facilitating secure communication and data exchange over untrusted networks, such as the internet.
+#### Information Privacy Preservation:
 
-### Symmetric key {#symmetric-key}
-
-A symmetric key in cryptography refers to a single key that is shared between two or more parties involved in a communication process. This key is utilized for both encryption and decryption operations. Symmetric key algorithms employ the same key for both encryption of plaintext into ciphertext and decryption of ciphertext back into plaintext. The primary operations associated with symmetric key cryptography are encryption and decryption.
-
-Encryption involves using the symmetric key to convert plaintext data into ciphertext, rendering it unreadable to unauthorized entities. Decryption, conversely, utilizes the same symmetric key to reverse the encryption process, thereby recovering the original plaintext data from the ciphertext. Effective key management practices are crucial in symmetric key cryptography to ensure the secure distribution and storage of keys among communicating parties.
-
-### Asymmetric key {#asymmetric-key}
-
-In contrast, asymmetric key cryptography employs a pair of distinct keys, known as a public key and a private key. These keys are mathematically related but are asymmetric in nature, meaning that data encrypted with one key can only be decrypted with the corresponding key from the pair. The public key is freely distributed and used for encryption and verification purposes, while the private key is kept confidential and utilized for decryption and signing operations.
-
-The primary operations associated with asymmetric key cryptography include encryption, decryption, digital signatures, and key exchange. Encryption entails utilizing the recipient's public key to encrypt plaintext data, ensuring that only the corresponding private key holder can decrypt the ciphertext to recover the original plaintext. Decryption, on the other hand, involves utilizing the private key to decrypt ciphertext received from an encrypted message.
-
-Digital signatures are another crucial aspect of asymmetric key cryptography, enabling the authentication and integrity verification of digital documents and messages. They involve utilizing the sender's private key to generate a unique digital signature for a piece of data, which can be verified by anyone with access to the sender's public key, thus confirming the authenticity of the sender and the integrity of the data.
+- Prevent confidential information from being shared across the internet by handling all data-related operations client-side, ensuring non-disclosure of data.
+- Maintain information confidentiality by only sharing the unique digital fingerprint of your data with our services.
+- Leverage our libraries to inject signature metadata at the client-side, complying with e-signature baseline profiles.
+  With our Key Management & Digital Signature solution, you can trust that your information remains protected, authentic, and accountable. Join us in preserving the integrity and privacy of your data while streamlining your digital signing operations with ease and security.

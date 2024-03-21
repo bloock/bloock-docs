@@ -1,0 +1,38 @@
+---
+title: 'The basics'
+sidebar_position: 1
+---
+
+# The basics {#the-basics}
+
+### What do we mean by Identity?
+
+An identity can be a person, a company, an organization, an entity, or a government. Identity can even be a thing: a chair, a room, a bot, and so on. When we talk about identities, we are referring to "identities as accounts".
+
+### What is a claim? {#what-is-a-claim}
+
+An Identity can provide a claim. You can think of a claim as a statement: something an Identity is saying.
+
+Most of the time, these statements refer to other identities. In other words, **claims usually create relations between identities.**
+
+For example, when a university (identity) says that a student (identity) has a degree, this is a statement (claim) about the student. In this case, this statement creates a relation between the two identities, the student (also referred as Holder) and the university (also referred as Issuer).
+
+### What are the agents in this process? {#what-are-the-agents-in-this-process}
+
+- **Issuer**: An identity who makes a claim.
+- **Holder**: An identity who receives a claim.
+- **Verifier**: An identity who verifies if the content of a claim is issued by a specific identity and held by another specific identity.
+
+![1 - Identity](/static/docs/guides/identity/1-identity.png)
+
+### And therefore, what is a Verifiable Credential? {#what-is-a-verifiable-credential}
+
+A **Verifiable Credential (VC)** is the set of data that represents the statement made from an Issuer to a Holder and information needed to make this statement verifiable.  
+It usually contains:
+
+- Information to identify the Issuer
+- Information to identify the Holder
+- The credential type or schema
+- The attributes or properties being asserted by the Issuer
+- Evidences that can be used to verify the integrity and/or authenticity of the credential
+- Other information such as validity period, terms, ...

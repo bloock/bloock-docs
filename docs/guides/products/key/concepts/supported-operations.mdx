@@ -1,0 +1,44 @@
+---
+title: 'Supported operations'
+sidebar_position: 3
+---
+
+# Operations {#operations}
+
+These are the operations you can do with any BLOOCK key:
+
+- **Digital signature** to verify the authenticity and integrity of digital documents or messages.
+- **Encryption** to securely encode data to prevent unauthorized access.
+
+### Digital signature
+
+A digital signature is a cryptographic technique used to verify the authenticity and integrity of digital documents or messages. It involves applying a mathematical algorithm to the content of a document or message, along with a private key known only to the signer, to generate a unique digital fingerprint or signature.
+
+This digital signature is appended to the document or message and can be verified by anyone possessing the corresponding public key, ensuring that the document has not been altered since it was signed and that it was indeed signed by the claimed signer.
+
+Digital signatures provide a means of securely signing different types of data offering assurances of authenticity, non-repudiation, and data integrity in the digital realm.
+
+#### Signing
+
+- **Hashing**: The data to be signed is first hashed using a cryptographic hash function, such as SHA-256. This produces a fixed-length hash value unique to the input data.
+- **Signing**: The hash value is then encrypted using the private key of the signer. This process creates a digital signature that binds the hash value to the signer's identity.
+
+#### Verifying
+
+- **Hashing**: The data to be signed is first hashed using a cryptographic hash function, such as SHA-256. This produces a fixed-length hash value unique to the input data.
+- **Recovering**: The digital signature is recovered using the public key of the signer, resulting in the recovered hash value.
+- **Comparison**: The recovered hash value is compared with the hash value computed from the received data. If they match, it confirms the integrity of the data and the authenticity of the signer.
+
+### Encryption
+
+Encryption is the process of encoding some information, known as plaintext, by converting it into an unreadable message, known as ciphertext. Only authorized entities will be able to decrypt the ciphertext back to the plaintext.
+
+Most of the encryption algorithms use a secret key or a pseudo-random key. An authorized decrypter can easily decrypt the information with the key received by the encrypter. For other entities not possessing the key, it's computationally infeasible.
+
+#### Encrypting
+
+- **Encryption**: The data to be transmitted is encrypted using the recipient's public key (asymmetric key) or the shared secret key (symmetric key).
+
+#### Decrypting
+
+- **Decryption**: The encrypted data is decrypted using the recipient's private key (asymmetric key) or the shared secret key (symmetric key), revealing the original plaintext.
