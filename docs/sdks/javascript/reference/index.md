@@ -6,6 +6,7 @@
 
 ### Namespaces
 
+- [AccessControlType](modules/AccessControlType.md)
 - [CertificateType](modules/CertificateType.md)
 - [DidMethod](modules/DidMethod.md)
 - [EncryptionAlg](modules/EncryptionAlg.md)
@@ -18,6 +19,7 @@
 
 ### Enumerations
 
+- [AccessControlType](enums/AccessControlType-1.md)
 - [CertificateType](enums/CertificateType-1.md)
 - [DidMethod](enums/DidMethod-1.md)
 - [EncryptionAlg](enums/EncryptionAlg-1.md)

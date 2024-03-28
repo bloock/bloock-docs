@@ -35,7 +35,7 @@ Constructs a Managed object for a given managed key or certificate object.
 
 #### Defined in
 
-[entity/key/managed.ts:14](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/entity/key/managed.ts#L14)
+[entity/key/managed.ts:14](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/key/managed.ts#L14)
 
 ## Properties
 
@@ -45,7 +45,7 @@ Constructs a Managed object for a given managed key or certificate object.
 
 #### Defined in
 
-[entity/key/managed.ts:8](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/entity/key/managed.ts#L8)
+[entity/key/managed.ts:8](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/key/managed.ts#L8)
 
 ___
 
@@ -55,4 +55,4 @@ ___
 
 #### Defined in
 
-[entity/key/managed.ts:7](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/entity/key/managed.ts#L7)
+[entity/key/managed.ts:7](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/key/managed.ts#L7)

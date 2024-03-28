@@ -27,7 +27,7 @@
 
 #### Defined in
 
-[entity/key/certificate_type.ts:23](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/entity/key/certificate_type.ts#L23)
+[entity/key/certificate_type.ts:23](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/key/certificate_type.ts#L23)
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 #### Defined in
 
-[entity/key/certificate_type.ts:12](https://github.com/bloock/bloock-sdk/blob/46978bc/languages/js/src/entity/key/certificate_type.ts#L12)
+[entity/key/certificate_type.ts:12](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/key/certificate_type.ts#L12)

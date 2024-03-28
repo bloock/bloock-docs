@@ -15,7 +15,8 @@ Represents a managed certificate with its details.
 
 ```python
 def __init__(id: str, protection: KeyProtectionLevel, key_type: KeyType,
-             expiration: int, key: str) -> None
+             expiration: int, key: str,
+             access_control_type: AccessControlType) -> None
 ```
 
 Constructs a ManagedCertificate object with the specified parameters.

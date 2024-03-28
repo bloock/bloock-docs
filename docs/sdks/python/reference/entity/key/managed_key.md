@@ -15,7 +15,8 @@ Represents a managed key.
 
 ```python
 def __init__(id: str, name: str, protection: KeyProtectionLevel,
-             key_type: KeyType, expiration: int, key: str) -> None
+             key_type: KeyType, expiration: int, key: str,
+             access_control_type: AccessControlType) -> None
 ```
 
 Constructs a ManagedKey object with the specified parameters.
