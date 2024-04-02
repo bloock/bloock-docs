@@ -45,7 +45,7 @@ Creates a new IntegrityClient with default configuration.
 
 #### Defined in
 
-[client/integrity.ts:29](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/client/integrity.ts#L29)
+[client/integrity.ts:29](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/client/integrity.ts#L29)
 
 ## Properties
 
@@ -55,7 +55,7 @@ Creates a new IntegrityClient with default configuration.
 
 #### Defined in
 
-[client/integrity.ts:22](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/client/integrity.ts#L22)
+[client/integrity.ts:22](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/client/integrity.ts#L22)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[client/integrity.ts:23](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/client/integrity.ts#L23)
+[client/integrity.ts:23](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/client/integrity.ts#L23)
 
 ## Methods
 
@@ -87,7 +87,7 @@ Gets an anchor by its ID from the Bloock Integrity service.
 
 #### Defined in
 
-[client/integrity.ts:61](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/client/integrity.ts#L61)
+[client/integrity.ts:61](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/client/integrity.ts#L61)
 
 ___
 
@@ -109,7 +109,7 @@ Gets a proof for a set of records from the Bloock Integrity service.
 
 #### Defined in
 
-[client/integrity.ts:107](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/client/integrity.ts#L107)
+[client/integrity.ts:107](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/client/integrity.ts#L107)
 
 ___
 
@@ -131,7 +131,7 @@ Sends records to the Bloock Integrity service for certification.
 
 #### Defined in
 
-[client/integrity.ts:39](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/client/integrity.ts#L39)
+[client/integrity.ts:39](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/client/integrity.ts#L39)
 
 ___
 
@@ -154,7 +154,7 @@ Validates the integrity of a merkle root proof on blockchain.
 
 #### Defined in
 
-[client/integrity.ts:130](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/client/integrity.ts#L130)
+[client/integrity.ts:130](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/client/integrity.ts#L130)
 
 ___
 
@@ -176,7 +176,7 @@ Verifies the integrity of a proof.
 
 #### Defined in
 
-[client/integrity.ts:153](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/client/integrity.ts#L153)
+[client/integrity.ts:153](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/client/integrity.ts#L153)
 
 ___
 
@@ -199,7 +199,7 @@ Verifies the integrity of a set of records.
 
 #### Defined in
 
-[client/integrity.ts:176](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/client/integrity.ts#L176)
+[client/integrity.ts:176](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/client/integrity.ts#L176)
 
 ___
 
@@ -222,4 +222,4 @@ Waits for the completion of an anchor on the Bloock Integrity service.
 
 #### Defined in
 
-[client/integrity.ts:84](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/client/integrity.ts#L84)
+[client/integrity.ts:84](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/client/integrity.ts#L84)

@@ -45,7 +45,7 @@ Constructs a RecordReceipt object with the specified parameters.
 
 #### Defined in
 
-[entity/integrity/record_receipt.ts:19](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/integrity/record_receipt.ts#L19)
+[entity/integrity/record_receipt.ts:19](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/integrity/record_receipt.ts#L19)
 
 ## Properties
 
@@ -55,7 +55,7 @@ Constructs a RecordReceipt object with the specified parameters.
 
 #### Defined in
 
-[entity/integrity/record_receipt.ts:7](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/integrity/record_receipt.ts#L7)
+[entity/integrity/record_receipt.ts:7](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/integrity/record_receipt.ts#L7)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/record_receipt.ts:8](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/integrity/record_receipt.ts#L8)
+[entity/integrity/record_receipt.ts:8](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/integrity/record_receipt.ts#L8)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/record_receipt.ts:9](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/integrity/record_receipt.ts#L9)
+[entity/integrity/record_receipt.ts:9](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/integrity/record_receipt.ts#L9)
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/record_receipt.ts:10](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/integrity/record_receipt.ts#L10)
+[entity/integrity/record_receipt.ts:10](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/integrity/record_receipt.ts#L10)
 
 ## Methods
 
@@ -99,7 +99,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/record_receipt.ts:30](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/integrity/record_receipt.ts#L30)
+[entity/integrity/record_receipt.ts:30](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/integrity/record_receipt.ts#L30)
 
 ___
 
@@ -119,4 +119,4 @@ ___
 
 #### Defined in
 
-[entity/integrity/record_receipt.ts:26](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/integrity/record_receipt.ts#L26)
+[entity/integrity/record_receipt.ts:26](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/integrity/record_receipt.ts#L26)

@@ -37,7 +37,7 @@ Constructs a Holder object with the specified parameters.
 
 #### Defined in
 
-[entity/identity/holder.ts:17](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/identity/holder.ts#L17)
+[entity/identity/holder.ts:17](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/holder.ts#L17)
 
 ## Properties
 
@@ -47,7 +47,7 @@ Constructs a Holder object with the specified parameters.
 
 #### Defined in
 
-[entity/identity/holder.ts:9](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/identity/holder.ts#L9)
+[entity/identity/holder.ts:9](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/holder.ts#L9)
 
 ___
 
@@ -57,4 +57,4 @@ ___
 
 #### Defined in
 
-[entity/identity/holder.ts:10](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/identity/holder.ts#L10)
+[entity/identity/holder.ts:10](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/holder.ts#L10)

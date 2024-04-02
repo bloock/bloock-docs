@@ -39,7 +39,7 @@ Constructs a Key object for a given managed or local key object.
 
 #### Defined in
 
-[entity/key/key.ts:16](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/key/key.ts#L16)
+[entity/key/key.ts:16](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/key/key.ts#L16)
 
 ## Properties
 
@@ -49,7 +49,7 @@ Constructs a Key object for a given managed or local key object.
 
 #### Defined in
 
-[entity/key/key.ts:9](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/key/key.ts#L9)
+[entity/key/key.ts:9](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/key/key.ts#L9)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 #### Defined in
 
-[entity/key/key.ts:10](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/key/key.ts#L10)
+[entity/key/key.ts:10](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/key/key.ts#L10)
 
 ## Methods
 
@@ -73,4 +73,4 @@ ___
 
 #### Defined in
 
-[entity/key/key.ts:26](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/key/key.ts#L26)
+[entity/key/key.ts:26](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/key/key.ts#L26)

@@ -27,7 +27,7 @@
 
 #### Defined in
 
-[entity/authenticity/hash_alg.ts:30](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/authenticity/hash_alg.ts#L30)
+[entity/authenticity/hash_alg.ts:30](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/authenticity/hash_alg.ts#L30)
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 #### Defined in
 
-[entity/authenticity/hash_alg.ts:45](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/authenticity/hash_alg.ts#L45)
+[entity/authenticity/hash_alg.ts:45](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/authenticity/hash_alg.ts#L45)

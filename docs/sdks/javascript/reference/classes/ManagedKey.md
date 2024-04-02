@@ -51,7 +51,7 @@ Constructs a ManagedKey object with the specified parameters.
 
 #### Defined in
 
-[entity/key/managed_key.ts:49](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/key/managed_key.ts#L49)
+[entity/key/managed_key.ts:49](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/key/managed_key.ts#L49)
 
 ## Properties
 
@@ -63,7 +63,7 @@ Is the access control type for the key.
 
 #### Defined in
 
-[entity/key/managed_key.ts:37](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/key/managed_key.ts#L37)
+[entity/key/managed_key.ts:37](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/key/managed_key.ts#L37)
 
 ___
 
@@ -75,7 +75,7 @@ Is the timestamp indicating when the key expires.
 
 #### Defined in
 
-[entity/key/managed_key.ts:29](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/key/managed_key.ts#L29)
+[entity/key/managed_key.ts:29](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/key/managed_key.ts#L29)
 
 ___
 
@@ -87,7 +87,7 @@ Is the unique identifier of the managed key (ex: 46c49ee7-ef44-472c-a873-ce81a2d
 
 #### Defined in
 
-[entity/key/managed_key.ts:13](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/key/managed_key.ts#L13)
+[entity/key/managed_key.ts:13](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/key/managed_key.ts#L13)
 
 ___
 
@@ -99,7 +99,7 @@ Is the actual public key.
 
 #### Defined in
 
-[entity/key/managed_key.ts:33](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/key/managed_key.ts#L33)
+[entity/key/managed_key.ts:33](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/key/managed_key.ts#L33)
 
 ___
 
@@ -111,7 +111,7 @@ Is the type of the key.
 
 #### Defined in
 
-[entity/key/managed_key.ts:25](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/key/managed_key.ts#L25)
+[entity/key/managed_key.ts:25](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/key/managed_key.ts#L25)
 
 ___
 
@@ -123,7 +123,7 @@ Is the name of the managed key.
 
 #### Defined in
 
-[entity/key/managed_key.ts:17](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/key/managed_key.ts#L17)
+[entity/key/managed_key.ts:17](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/key/managed_key.ts#L17)
 
 ___
 
@@ -135,7 +135,7 @@ Is the protection level for the key.
 
 #### Defined in
 
-[entity/key/managed_key.ts:21](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/key/managed_key.ts#L21)
+[entity/key/managed_key.ts:21](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/key/managed_key.ts#L21)
 
 ## Methods
 
@@ -149,7 +149,7 @@ Is the protection level for the key.
 
 #### Defined in
 
-[entity/key/managed_key.ts:67](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/key/managed_key.ts#L67)
+[entity/key/managed_key.ts:67](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/key/managed_key.ts#L67)
 
 ___
 
@@ -169,4 +169,4 @@ ___
 
 #### Defined in
 
-[entity/key/managed_key.ts:79](https://github.com/bloock/bloock-sdk/blob/cd5373f/languages/js/src/entity/key/managed_key.ts#L79)
+[entity/key/managed_key.ts:79](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/key/managed_key.ts#L79)
