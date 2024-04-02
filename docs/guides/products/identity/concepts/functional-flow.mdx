@@ -50,10 +50,10 @@ To create a credential, we will need four very important things.
 Once the credential is created we will obtain a UUID identifier.
 `Example: 0e3199ac-8147-4c7a-938b-d33f9107dace`
 
-The most important thing is that this credential is already a [Verifiable Credential (VC)](./protocol.mdx#the-verifiable-credential) because it already includes a signature proof, and therefore, this credential would already be valid to be verified.
+The most important thing is that this credential is already a [Verifiable Credential (VC)](./protocol.mdx#the-verifiable-credential-vc) because it already includes a signature proof, and therefore, this credential would already be valid to be verified.
 
 But BLOOCK Identity's product offers a second proof, related to integrity in blockchain.
-The [Sparse Merkle Tree proof](./protocol.mdx#sparse-merkle-tree-proof) is a proof that will be available depending on the [interval time](./protocol.mdx#issuer-intervals) you have chosen and is related to the Issuer's state.
+The [Sparse Merkle Tree proof](./protocol.mdx#sparse-merkle-tree-proof-smtp) is a proof that will be available depending on the [interval time](./protocol.mdx#issuer-intervals) you have chosen and is related to the Issuer's state.
 As I have previously chosen a 60 minutes interval, it means that I will have my SMTP proof available after ~60 minutes.
 
 ## 5. Credential offering
@@ -89,4 +89,4 @@ If you want to use our verification process, here is how it works:
 
 Finally, Issuer may decide to revoke or invalidate any credential. Therefore, you will have to execute the [revocation](./protocol.mdx#revocation) process.
 Having a credential revoked what it means is that the Holder will not be able to generate any [proof](./protocol.mdx#proofs).
-When you revoke a credential what we are doing is generate a new [Sparse Merkle Tree Proof](./protocol.mdx#sparse-merkle-tree-proof) of revocation. Therefore, we need the [Issuer's state](./protocol.mdx#state-transition) to be processed once the revocation action is executed. And obviously this state transition will be marked by the [interval](./protocol.mdx#issuer-intervals) we have set. **It is important to note that the effect of the revocation will not be visible until this Issuer state transition is executed**.
+When you revoke a credential what we are doing is generate a new [Sparse Merkle Tree Proof](./protocol.mdx#sparse-merkle-tree-proof-smtp) of revocation. Therefore, we need the [Issuer's state](./protocol.mdx#state-transition) to be processed once the revocation action is executed. And obviously this state transition will be marked by the [interval](./protocol.mdx#issuer-intervals) we have set. **It is important to note that the effect of the revocation will not be visible until this Issuer state transition is executed**.

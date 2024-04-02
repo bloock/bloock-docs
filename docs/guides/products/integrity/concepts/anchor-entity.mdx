@@ -5,9 +5,9 @@ sidebar_position: 4
 
 # The anchor entity
 
-As described in the [Protocol Overview](./protocol.mdx#protocol-overview), we use a set of sparse Merkle trees that forms our Rollup. Once you send some data, it gets enqueued until we trigger the anchor mechanism.
+As described in the [Protocol Overview](./protocol.mdx), we use a set of sparse Merkle trees that forms our Rollup. Once you send some data, it gets enqueued until we trigger the anchor mechanism.
 
-This process consists in getting all the pending data and adding them to the state tree. This will produce a state transition and the resulting root will be transacted into several blockchain networks following the time intervals described in the [Networks supported](./networks-supported.mdx#networks-supported) section.
+This process consists in getting all the pending data and adding them to the state tree. This will produce a state transition and the resulting root will be transacted into several blockchain networks following the time intervals described in the [Networks supported](./networks-supported.mdx) section.
 
 :::tip
 As a more formal definition: An anchor is a snapshot of the state tree which is registered to the blockchain protocol. It is formed by the resulting state of the state transition.

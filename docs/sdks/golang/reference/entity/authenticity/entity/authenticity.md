@@ -32,7 +32,7 @@ import "github.com/bloock/bloock-sdk-go/v2/entity/authenticity"
 
 ## Variables
 
-<a name="HashAlgFromProto"></a>
+###### HashAlgFromProto {#HashAlgFromProto}
 
 ```go
 var (
@@ -52,7 +52,7 @@ var (
 )
 ```
 
-<a name="SignatureAlgFromProto"></a>
+###### SignatureAlgFromProto {#SignatureAlgFromProto}
 
 ```go
 var (
@@ -64,8 +64,8 @@ var (
 )
 ```
 
-<a name="HashAlg"></a>
-## type HashAlg
+###### HashAlg {#HashAlg}
+## type [HashAlg](https://github.com/bloock/bloock-sdk-go/blob/master/entity/authenticity/hash_alg.go#L6)
 
 HashAlg represents different hash algorithms.
 
@@ -73,7 +73,7 @@ HashAlg represents different hash algorithms.
 type HashAlg int32
 ```
 
-<a name="Sha256"></a>Constants representing specific hash algorithms.
+###### Sha256 {#Sha256}Constants representing specific hash algorithms.
 
 ```go
 const (
@@ -90,8 +90,8 @@ const (
 )
 ```
 
-<a name="Signature"></a>
-## type Signature
+###### Signature {#Signature}
+## type [Signature](https://github.com/bloock/bloock-sdk-go/blob/master/entity/authenticity/signature.go#L8-L19)
 
 Signature represents a cryptographic signature along with additional metadata.
 
@@ -110,8 +110,8 @@ type Signature struct {
 }
 ```
 
-<a name="NewSignatureFromProto"></a>
-### func NewSignatureFromProto
+###### NewSignatureFromProto {#NewSignatureFromProto}
+### func [NewSignatureFromProto](https://github.com/bloock/bloock-sdk-go/blob/master/entity/authenticity/signature.go#L21)
 
 ```go
 func NewSignatureFromProto(s *proto.Signature) Signature
@@ -119,8 +119,8 @@ func NewSignatureFromProto(s *proto.Signature) Signature
 
 
 
-<a name="Signature.GetAlg"></a>
-### func \(\*Signature\) GetAlg
+###### Signature.GetAlg {#Signature.GetAlg}
+### func \(\*Signature\) [GetAlg](https://github.com/bloock/bloock-sdk-go/blob/master/entity/authenticity/signature.go#L35)
 
 ```go
 func (s *Signature) GetAlg() SignatureAlg
@@ -128,8 +128,8 @@ func (s *Signature) GetAlg() SignatureAlg
 
 GetAlg returns the SignatureAlg based on the algorithm specified in the Alg field.
 
-<a name="Signature.ToProto"></a>
-### func \(Signature\) ToProto
+###### Signature.ToProto {#Signature.ToProto}
+### func \(Signature\) [ToProto](https://github.com/bloock/bloock-sdk-go/blob/master/entity/authenticity/signature.go#L42)
 
 ```go
 func (s Signature) ToProto() *proto.Signature
@@ -137,8 +137,8 @@ func (s Signature) ToProto() *proto.Signature
 
 
 
-<a name="SignatureAlg"></a>
-## type SignatureAlg
+###### SignatureAlg {#SignatureAlg}
+## type [SignatureAlg](https://github.com/bloock/bloock-sdk-go/blob/master/entity/authenticity/signature_alg.go#L4)
 
 SignatureAlg represents different signature algorithms.
 
@@ -146,7 +146,7 @@ SignatureAlg represents different signature algorithms.
 type SignatureAlg int32
 ```
 
-<a name="ECDSA"></a>Constants representing specific signature algorithms.
+###### ECDSA {#ECDSA}Constants representing specific signature algorithms.
 
 ```go
 const (
@@ -161,8 +161,8 @@ const (
 )
 ```
 
-<a name="SignatureHeaderJws"></a>
-## type SignatureHeaderJws
+###### SignatureHeaderJws {#SignatureHeaderJws}
+## type [SignatureHeaderJws](https://github.com/bloock/bloock-sdk-go/blob/master/entity/authenticity/signature_header_jws.go#L8-L11)
 
 SignatureHeaderJws represents the header of a JSON Web Signature \(JWS\). [RFC 7515](https://datatracker.ietf.org/doc/html/rfc7515).
 
@@ -173,8 +173,8 @@ type SignatureHeaderJws struct {
 }
 ```
 
-<a name="NewSignatureHeaderJwsFromProto"></a>
-### func NewSignatureHeaderJwsFromProto
+###### NewSignatureHeaderJwsFromProto {#NewSignatureHeaderJwsFromProto}
+### func [NewSignatureHeaderJwsFromProto](https://github.com/bloock/bloock-sdk-go/blob/master/entity/authenticity/signature_header_jws.go#L13)
 
 ```go
 func NewSignatureHeaderJwsFromProto(s *proto.SignatureHeaderJWS) SignatureHeaderJws
@@ -182,8 +182,8 @@ func NewSignatureHeaderJwsFromProto(s *proto.SignatureHeaderJWS) SignatureHeader
 
 
 
-<a name="SignatureHeaderJws.ToProto"></a>
-### func \(SignatureHeaderJws\) ToProto
+###### SignatureHeaderJws.ToProto {#SignatureHeaderJws.ToProto}
+### func \(SignatureHeaderJws\) [ToProto](https://github.com/bloock/bloock-sdk-go/blob/master/entity/authenticity/signature_header_jws.go#L23)
 
 ```go
 func (s SignatureHeaderJws) ToProto() *proto.SignatureHeaderJWS
@@ -191,8 +191,8 @@ func (s SignatureHeaderJws) ToProto() *proto.SignatureHeaderJWS
 
 
 
-<a name="SignatureJws"></a>
-## type SignatureJws
+###### SignatureJws {#SignatureJws}
+## type [SignatureJws](https://github.com/bloock/bloock-sdk-go/blob/master/entity/authenticity/signature_jws.go#L10-L15)
 
 SignatureJws represents a JSON Web Signature \(JWS\). [RFC 7515](https://datatracker.ietf.org/doc/html/rfc7515).
 
@@ -205,8 +205,8 @@ type SignatureJws struct {
 }
 ```
 
-<a name="NewSignatureJwsFromProto"></a>
-### func NewSignatureJwsFromProto
+###### NewSignatureJwsFromProto {#NewSignatureJwsFromProto}
+### func [NewSignatureJwsFromProto](https://github.com/bloock/bloock-sdk-go/blob/master/entity/authenticity/signature_jws.go#L17)
 
 ```go
 func NewSignatureJwsFromProto(s *proto.SignatureJWS) SignatureJws
@@ -214,8 +214,8 @@ func NewSignatureJwsFromProto(s *proto.SignatureJWS) SignatureJws
 
 
 
-<a name="SignatureJws.GetAlg"></a>
-### func \(\*SignatureJws\) GetAlg
+###### SignatureJws.GetAlg {#SignatureJws.GetAlg}
+### func \(\*SignatureJws\) [GetAlg](https://github.com/bloock/bloock-sdk-go/blob/master/entity/authenticity/signature_jws.go#L30)
 
 ```go
 func (s *SignatureJws) GetAlg() SignatureAlg
@@ -223,8 +223,8 @@ func (s *SignatureJws) GetAlg() SignatureAlg
 
 GetAlg returns the SignatureAlg based on the algorithm specified in the header.
 
-<a name="SignatureJws.ToProto"></a>
-### func \(SignatureJws\) ToProto
+###### SignatureJws.ToProto {#SignatureJws.ToProto}
+### func \(SignatureJws\) [ToProto](https://github.com/bloock/bloock-sdk-go/blob/master/entity/authenticity/signature_jws.go#L37)
 
 ```go
 func (s SignatureJws) ToProto() *proto.SignatureJWS
@@ -232,8 +232,8 @@ func (s SignatureJws) ToProto() *proto.SignatureJWS
 
 
 
-<a name="Signer"></a>
-## type Signer
+###### Signer {#Signer}
+## type [Signer](https://github.com/bloock/bloock-sdk-go/blob/master/entity/authenticity/signer.go#L9-L16)
 
 Signer represents a signer with various key types and additional configurations.
 
@@ -248,8 +248,8 @@ type Signer struct {
 }
 ```
 
-<a name="NewSignerWithLocalCertificate"></a>
-### func NewSignerWithLocalCertificate
+###### NewSignerWithLocalCertificate {#NewSignerWithLocalCertificate}
+### func [NewSignerWithLocalCertificate](https://github.com/bloock/bloock-sdk-go/blob/master/entity/authenticity/signer.go#L37)
 
 ```go
 func NewSignerWithLocalCertificate(key key.LocalCertificate, hashAlg *HashAlg) Signer
@@ -257,8 +257,8 @@ func NewSignerWithLocalCertificate(key key.LocalCertificate, hashAlg *HashAlg) S
 
 NewSignerWithLocalCertificate creates a Signer instance with a local certificate and specified hash algorithm.
 
-<a name="NewSignerWithLocalKey"></a>
-### func NewSignerWithLocalKey
+###### NewSignerWithLocalKey {#NewSignerWithLocalKey}
+### func [NewSignerWithLocalKey](https://github.com/bloock/bloock-sdk-go/blob/master/entity/authenticity/signer.go#L19)
 
 ```go
 func NewSignerWithLocalKey(key key.LocalKey, hashAlg *HashAlg) Signer
@@ -266,8 +266,8 @@ func NewSignerWithLocalKey(key key.LocalKey, hashAlg *HashAlg) Signer
 
 NewSignerWithLocalKey creates a Signer instance with a local key and specified hash algorithm.
 
-<a name="NewSignerWithManagedCertificate"></a>
-### func NewSignerWithManagedCertificate
+###### NewSignerWithManagedCertificate {#NewSignerWithManagedCertificate}
+### func [NewSignerWithManagedCertificate](https://github.com/bloock/bloock-sdk-go/blob/master/entity/authenticity/signer.go#L46)
 
 ```go
 func NewSignerWithManagedCertificate(key key.ManagedCertificate, hashAlg *HashAlg, accessControl *key.AccessControl) Signer
@@ -275,8 +275,8 @@ func NewSignerWithManagedCertificate(key key.ManagedCertificate, hashAlg *HashAl
 
 NewSignerWithManagedCertificate creates a Signer instance with a managed certificate, specified hash algorithm, and access control configuration.
 
-<a name="NewSignerWithManagedKey"></a>
-### func NewSignerWithManagedKey
+###### NewSignerWithManagedKey {#NewSignerWithManagedKey}
+### func [NewSignerWithManagedKey](https://github.com/bloock/bloock-sdk-go/blob/master/entity/authenticity/signer.go#L28)
 
 ```go
 func NewSignerWithManagedKey(key key.ManagedKey, hashAlg *HashAlg, accessControl *key.AccessControl) Signer
@@ -284,8 +284,8 @@ func NewSignerWithManagedKey(key key.ManagedKey, hashAlg *HashAlg, accessControl
 
 NewSignerWithManagedKey creates a Signer instance with a managed key, specified hash algorithm, and access control configuration.
 
-<a name="Signer.ToProto"></a>
-### func \(Signer\) ToProto
+###### Signer.ToProto {#Signer.ToProto}
+### func \(Signer\) [ToProto](https://github.com/bloock/bloock-sdk-go/blob/master/entity/authenticity/signer.go#L54)
 
 ```go
 func (s Signer) ToProto() *proto.Signer

@@ -99,8 +99,8 @@ Package client provides a client for interacting with the Bloock SDK.
   - [func \(c \*WebhookClient\) VerifyWebhookSignature\(payload \[\]byte, header string, secretKey string, enforceTolerance bool\) \(bool, error\)](#WebhookClient.VerifyWebhookSignature)
 
 
-<a name="AuthenticityClient"></a>
-## type AuthenticityClient
+###### AuthenticityClient {#AuthenticityClient}
+## type [AuthenticityClient](https://github.com/bloock/bloock-sdk-go/blob/master/client/authenticity.go#L18-L21)
 
 AuthenticityClient represents a client for interacting with the [Bloock Authenticity service](https://bloock.com).
 
@@ -110,8 +110,8 @@ type AuthenticityClient struct {
 }
 ```
 
-<a name="NewAuthenticityClient"></a>
-### func NewAuthenticityClient
+###### NewAuthenticityClient {#NewAuthenticityClient}
+### func [NewAuthenticityClient](https://github.com/bloock/bloock-sdk-go/blob/master/client/authenticity.go#L24)
 
 ```go
 func NewAuthenticityClient() AuthenticityClient
@@ -119,8 +119,8 @@ func NewAuthenticityClient() AuthenticityClient
 
 NewAuthenticityClient creates a new instance of the AuthenticityClient with default configuration.
 
-<a name="NewAuthenticityClientWithConfig"></a>
-### func NewAuthenticityClientWithConfig
+###### NewAuthenticityClientWithConfig {#NewAuthenticityClientWithConfig}
+### func [NewAuthenticityClientWithConfig](https://github.com/bloock/bloock-sdk-go/blob/master/client/authenticity.go#L32)
 
 ```go
 func NewAuthenticityClientWithConfig(configData *proto.ConfigData) AuthenticityClient
@@ -128,8 +128,8 @@ func NewAuthenticityClientWithConfig(configData *proto.ConfigData) AuthenticityC
 
 NewAuthenticityClientWithConfig creates a new instance of the AuthenticityClient with the provided configuration.
 
-<a name="AuthenticityClient.GenerateEcdsaKeys"></a>
-### func \(\*AuthenticityClient\) GenerateEcdsaKeys
+###### AuthenticityClient.GenerateEcdsaKeys {#AuthenticityClient.GenerateEcdsaKeys}
+### func \(\*AuthenticityClient\) [GenerateEcdsaKeys](https://github.com/bloock/bloock-sdk-go/blob/master/client/authenticity.go#L41)
 
 ```go
 func (c *AuthenticityClient) GenerateEcdsaKeys() (key.KeyPair, error)
@@ -137,8 +137,8 @@ func (c *AuthenticityClient) GenerateEcdsaKeys() (key.KeyPair, error)
 
 GenerateEcdsaKeys generates ECDSA key pair for signing records. Deprecated: Will be deleted in future versions. Use KeyClient.newLocalKey function instead.
 
-<a name="AuthenticityClient.GetSignatures"></a>
-### func \(\*AuthenticityClient\) GetSignatures
+###### AuthenticityClient.GetSignatures {#AuthenticityClient.GetSignatures}
+### func \(\*AuthenticityClient\) [GetSignatures](https://github.com/bloock/bloock-sdk-go/blob/master/client/authenticity.go#L96)
 
 ```go
 func (c *AuthenticityClient) GetSignatures(r record.Record) ([]authenticity.Signature, error)
@@ -146,8 +146,8 @@ func (c *AuthenticityClient) GetSignatures(r record.Record) ([]authenticity.Sign
 
 GetSignatures retrieves the signatures associated with a Bloock record.
 
-<a name="AuthenticityClient.Sign"></a>
-### func \(\*AuthenticityClient\) Sign
+###### AuthenticityClient.Sign {#AuthenticityClient.Sign}
+### func \(\*AuthenticityClient\) [Sign](https://github.com/bloock/bloock-sdk-go/blob/master/client/authenticity.go#L59)
 
 ```go
 func (c *AuthenticityClient) Sign(r record.Record, s authenticity.Signer) (authenticity.Signature, error)
@@ -155,8 +155,8 @@ func (c *AuthenticityClient) Sign(r record.Record, s authenticity.Signer) (authe
 
 Sign signs a Bloock record using the specified signer.
 
-<a name="AuthenticityClient.Verify"></a>
-### func \(\*AuthenticityClient\) Verify
+###### AuthenticityClient.Verify {#AuthenticityClient.Verify}
+### func \(\*AuthenticityClient\) [Verify](https://github.com/bloock/bloock-sdk-go/blob/master/client/authenticity.go#L78)
 
 ```go
 func (c *AuthenticityClient) Verify(r record.Record) (bool, error)
@@ -164,8 +164,8 @@ func (c *AuthenticityClient) Verify(r record.Record) (bool, error)
 
 Verify verifies the authenticity of a Bloock record.
 
-<a name="AvailabilityClient"></a>
-## type AvailabilityClient
+###### AvailabilityClient {#AvailabilityClient}
+## type [AvailabilityClient](https://github.com/bloock/bloock-sdk-go/blob/master/client/availability.go#L17-L20)
 
 AvailabilityClient represents a client for interacting with the [Bloock Availability service](https://bloock.com).
 
@@ -175,8 +175,8 @@ type AvailabilityClient struct {
 }
 ```
 
-<a name="NewAvailabilityClient"></a>
-### func NewAvailabilityClient
+###### NewAvailabilityClient {#NewAvailabilityClient}
+### func [NewAvailabilityClient](https://github.com/bloock/bloock-sdk-go/blob/master/client/availability.go#L23)
 
 ```go
 func NewAvailabilityClient() AvailabilityClient
@@ -184,8 +184,8 @@ func NewAvailabilityClient() AvailabilityClient
 
 NewAvailabilityClient creates a new instance of the AvailabilityClient with default configuration.
 
-<a name="NewAvailabilityClientWithConfig"></a>
-### func NewAvailabilityClientWithConfig
+###### NewAvailabilityClientWithConfig {#NewAvailabilityClientWithConfig}
+### func [NewAvailabilityClientWithConfig](https://github.com/bloock/bloock-sdk-go/blob/master/client/availability.go#L31)
 
 ```go
 func NewAvailabilityClientWithConfig(configData *proto.ConfigData) AvailabilityClient
@@ -193,8 +193,8 @@ func NewAvailabilityClientWithConfig(configData *proto.ConfigData) AvailabilityC
 
 NewAvailabilityClientWithConfig creates a new instance of the AvailabilityClient with the provided configuration.
 
-<a name="AvailabilityClient.Publish"></a>
-### func \(\*AvailabilityClient\) Publish
+###### AvailabilityClient.Publish {#AvailabilityClient.Publish}
+### func \(\*AvailabilityClient\) [Publish](https://github.com/bloock/bloock-sdk-go/blob/master/client/availability.go#L39)
 
 ```go
 func (c *AvailabilityClient) Publish(r record.Record, publisher availability.Publisher) (string, error)
@@ -202,8 +202,8 @@ func (c *AvailabilityClient) Publish(r record.Record, publisher availability.Pub
 
 Publish publishes a Bloock record to the Availability service using the specified publisher.
 
-<a name="AvailabilityClient.Retrieve"></a>
-### func \(\*AvailabilityClient\) Retrieve
+###### AvailabilityClient.Retrieve {#AvailabilityClient.Retrieve}
+### func \(\*AvailabilityClient\) [Retrieve](https://github.com/bloock/bloock-sdk-go/blob/master/client/availability.go#L58)
 
 ```go
 func (c *AvailabilityClient) Retrieve(loader availability.Loader) (record.Record, error)
@@ -211,8 +211,8 @@ func (c *AvailabilityClient) Retrieve(loader availability.Loader) (record.Record
 
 Retrieve retrieves a Bloock record from the Availability service using the specified loader.
 
-<a name="BloockClient"></a>
-## type BloockClient
+###### BloockClient {#BloockClient}
+## type [BloockClient](https://github.com/bloock/bloock-sdk-go/blob/master/client/bloock.go#L10-L22)
 
 BloockClient represents a client for interacting with the Bloock SDK.
 
@@ -231,8 +231,8 @@ type BloockClient struct {
 }
 ```
 
-<a name="NewBloockClient"></a>
-### func NewBloockClient
+###### NewBloockClient {#NewBloockClient}
+### func [NewBloockClient](https://github.com/bloock/bloock-sdk-go/blob/master/client/bloock.go#L25)
 
 ```go
 func NewBloockClient(apiKey string, identityApiHost *string) BloockClient
@@ -240,8 +240,8 @@ func NewBloockClient(apiKey string, identityApiHost *string) BloockClient
 
 NewBloockClient creates a new instance of the Bloock SDK client with the specified configuration.
 
-<a name="EncryptionClient"></a>
-## type EncryptionClient
+###### EncryptionClient {#EncryptionClient}
+## type [EncryptionClient](https://github.com/bloock/bloock-sdk-go/blob/master/client/encryption.go#L18-L21)
 
 EncryptionClient represents a client for interacting with the [Bloock Encryption service](https://bloock.com).
 
@@ -251,8 +251,8 @@ type EncryptionClient struct {
 }
 ```
 
-<a name="NewEncryptionClient"></a>
-### func NewEncryptionClient
+###### NewEncryptionClient {#NewEncryptionClient}
+### func [NewEncryptionClient](https://github.com/bloock/bloock-sdk-go/blob/master/client/encryption.go#L24)
 
 ```go
 func NewEncryptionClient() EncryptionClient
@@ -260,8 +260,8 @@ func NewEncryptionClient() EncryptionClient
 
 NewEncryptionClient creates a new instance of the EncryptionClient with default configuration.
 
-<a name="NewEncryptionClientWithConfig"></a>
-### func NewEncryptionClientWithConfig
+###### NewEncryptionClientWithConfig {#NewEncryptionClientWithConfig}
+### func [NewEncryptionClientWithConfig](https://github.com/bloock/bloock-sdk-go/blob/master/client/encryption.go#L32)
 
 ```go
 func NewEncryptionClientWithConfig(configData *proto.ConfigData) EncryptionClient
@@ -269,8 +269,8 @@ func NewEncryptionClientWithConfig(configData *proto.ConfigData) EncryptionClien
 
 NewEncryptionClientWithConfig creates a new instance of the EncryptionClient with the provided configuration.
 
-<a name="EncryptionClient.Decrypt"></a>
-### func \(\*EncryptionClient\) Decrypt
+###### EncryptionClient.Decrypt {#EncryptionClient.Decrypt}
+### func \(\*EncryptionClient\) [Decrypt](https://github.com/bloock/bloock-sdk-go/blob/master/client/encryption.go#L78)
 
 ```go
 func (c *EncryptionClient) Decrypt(r record.Record, decrypter encryption.Encrypter) (record.Record, error)
@@ -278,8 +278,8 @@ func (c *EncryptionClient) Decrypt(r record.Record, decrypter encryption.Encrypt
 
 Decrypt decrypts a Bloock record using the specified decrypter.
 
-<a name="EncryptionClient.Encrypt"></a>
-### func \(\*EncryptionClient\) Encrypt
+###### EncryptionClient.Encrypt {#EncryptionClient.Encrypt}
+### func \(\*EncryptionClient\) [Encrypt](https://github.com/bloock/bloock-sdk-go/blob/master/client/encryption.go#L59)
 
 ```go
 func (c *EncryptionClient) Encrypt(r record.Record, encrypter encryption.Encrypter) (record.Record, error)
@@ -287,8 +287,8 @@ func (c *EncryptionClient) Encrypt(r record.Record, encrypter encryption.Encrypt
 
 Encrypt encrypts a Bloock record using the specified encrypter.
 
-<a name="EncryptionClient.GenerateRsaKeyPair"></a>
-### func \(\*EncryptionClient\) GenerateRsaKeyPair
+###### EncryptionClient.GenerateRsaKeyPair {#EncryptionClient.GenerateRsaKeyPair}
+### func \(\*EncryptionClient\) [GenerateRsaKeyPair](https://github.com/bloock/bloock-sdk-go/blob/master/client/encryption.go#L41)
 
 ```go
 func (c *EncryptionClient) GenerateRsaKeyPair() (key.KeyPair, error)
@@ -296,8 +296,8 @@ func (c *EncryptionClient) GenerateRsaKeyPair() (key.KeyPair, error)
 
 GenerateRsaKeyPair generates an RSA key pair for encryption. Deprecated: Will be deleted in future versions. Use KeyClient.newLocalKey function instead.
 
-<a name="EncryptionClient.GetEncryptionAlg"></a>
-### func \(\*EncryptionClient\) GetEncryptionAlg
+###### EncryptionClient.GetEncryptionAlg {#EncryptionClient.GetEncryptionAlg}
+### func \(\*EncryptionClient\) [GetEncryptionAlg](https://github.com/bloock/bloock-sdk-go/blob/master/client/encryption.go#L97)
 
 ```go
 func (c *EncryptionClient) GetEncryptionAlg(r record.Record) (encryption.EncryptionAlg, error)
@@ -305,8 +305,8 @@ func (c *EncryptionClient) GetEncryptionAlg(r record.Record) (encryption.Encrypt
 
 GetEncryptionAlg retrieves the encryption algorithm used for a Bloock record.
 
-<a name="IdentityClient"></a>
-## type IdentityClient
+###### IdentityClient {#IdentityClient}
+## type [IdentityClient](https://github.com/bloock/bloock-sdk-go/blob/master/client/identity.go#L17-L20)
 
 IdentityClient represents a client for interacting with the [Bloock Identity service](https://bloock.com).
 
@@ -316,8 +316,8 @@ type IdentityClient struct {
 }
 ```
 
-<a name="NewIdentityClient"></a>
-### func NewIdentityClient
+###### NewIdentityClient {#NewIdentityClient}
+### func [NewIdentityClient](https://github.com/bloock/bloock-sdk-go/blob/master/client/identity.go#L23)
 
 ```go
 func NewIdentityClient() IdentityClient
@@ -325,8 +325,8 @@ func NewIdentityClient() IdentityClient
 
 NewIdentityClient creates a new instance of the IdentityClient with default configuration.
 
-<a name="NewIdentityClientWithConfig"></a>
-### func NewIdentityClientWithConfig
+###### NewIdentityClientWithConfig {#NewIdentityClientWithConfig}
+### func [NewIdentityClientWithConfig](https://github.com/bloock/bloock-sdk-go/blob/master/client/identity.go#L31)
 
 ```go
 func NewIdentityClientWithConfig(configData *proto.ConfigData) IdentityClient
@@ -334,8 +334,8 @@ func NewIdentityClientWithConfig(configData *proto.ConfigData) IdentityClient
 
 NewIdentityClientWithConfig creates a new instance of the IdentityClient with the provided configuration.
 
-<a name="IdentityClient.BuildCredential"></a>
-### func \(\*IdentityClient\) BuildCredential
+###### IdentityClient.BuildCredential {#IdentityClient.BuildCredential}
+### func \(\*IdentityClient\) [BuildCredential](https://github.com/bloock/bloock-sdk-go/blob/master/client/identity.go#L133)
 
 ```go
 func (c *IdentityClient) BuildCredential(issuer identity.Issuer, schemaId, holderDid string, expiration int64, version int32) identity.CredentialBuilder
@@ -343,8 +343,8 @@ func (c *IdentityClient) BuildCredential(issuer identity.Issuer, schemaId, holde
 
 BuildCredential creates a new credential builder for defining a credential on the Bloock Identity service.
 
-<a name="IdentityClient.BuildSchema"></a>
-### func \(\*IdentityClient\) BuildSchema
+###### IdentityClient.BuildSchema {#IdentityClient.BuildSchema}
+### func \(\*IdentityClient\) [BuildSchema](https://github.com/bloock/bloock-sdk-go/blob/master/client/identity.go#L110)
 
 ```go
 func (c *IdentityClient) BuildSchema(displayName string, schemaType, version, description string) identity.SchemaBuilder
@@ -352,8 +352,8 @@ func (c *IdentityClient) BuildSchema(displayName string, schemaType, version, de
 
 BuildSchema creates a new schema builder for defining a schema on the Bloock Identity service.
 
-<a name="IdentityClient.CreateHolder"></a>
-### func \(\*IdentityClient\) CreateHolder
+###### IdentityClient.CreateHolder {#IdentityClient.CreateHolder}
+### func \(\*IdentityClient\) [CreateHolder](https://github.com/bloock/bloock-sdk-go/blob/master/client/identity.go#L39)
 
 ```go
 func (c *IdentityClient) CreateHolder(holderKey key.Key, didMethod identity.DidMethod) (identity.Holder, error)
@@ -361,8 +361,8 @@ func (c *IdentityClient) CreateHolder(holderKey key.Key, didMethod identity.DidM
 
 CreateHolder creates a new holder identity.
 
-<a name="IdentityClient.CreateIssuer"></a>
-### func \(\*IdentityClient\) CreateIssuer
+###### IdentityClient.CreateIssuer {#IdentityClient.CreateIssuer}
+### func \(\*IdentityClient\) [CreateIssuer](https://github.com/bloock/bloock-sdk-go/blob/master/client/identity.go#L58)
 
 ```go
 func (c *IdentityClient) CreateIssuer(issuerKey key.Key, publishInterval identity.PublishIntervalParams, didMethod identity.DidMethod, name, description, image string) (identity.Issuer, error)
@@ -370,8 +370,8 @@ func (c *IdentityClient) CreateIssuer(issuerKey key.Key, publishInterval identit
 
 CreateIssuer creates a new issuer identity on the Bloock Identity service.
 
-<a name="IdentityClient.CreateVerification"></a>
-### func \(\*IdentityClient\) CreateVerification
+###### IdentityClient.CreateVerification {#IdentityClient.CreateVerification}
+### func \(\*IdentityClient\) [CreateVerification](https://github.com/bloock/bloock-sdk-go/blob/master/client/identity.go#L232)
 
 ```go
 func (c *IdentityClient) CreateVerification(proofRequest string) (identity.VerificationReceipt, error)
@@ -379,8 +379,8 @@ func (c *IdentityClient) CreateVerification(proofRequest string) (identity.Verif
 
 CreateVerification creates a new verification session on the identity managed API provided.
 
-<a name="IdentityClient.ForcePublishIssuerState"></a>
-### func \(\*IdentityClient\) ForcePublishIssuerState
+###### IdentityClient.ForcePublishIssuerState {#IdentityClient.ForcePublishIssuerState}
+### func \(\*IdentityClient\) [ForcePublishIssuerState](https://github.com/bloock/bloock-sdk-go/blob/master/client/identity.go#L175)
 
 ```go
 func (c *IdentityClient) ForcePublishIssuerState(issuer identity.Issuer) (identity.IssuerStateReceipt, error)
@@ -388,8 +388,8 @@ func (c *IdentityClient) ForcePublishIssuerState(issuer identity.Issuer) (identi
 
 ForcePublishIssuerState publishes the state of an issuer on the Bloock Identity service.
 
-<a name="IdentityClient.GetCredential"></a>
-### func \(\*IdentityClient\) GetCredential
+###### IdentityClient.GetCredential {#IdentityClient.GetCredential}
+### func \(\*IdentityClient\) [GetCredential](https://github.com/bloock/bloock-sdk-go/blob/master/client/identity.go#L138)
 
 ```go
 func (c *IdentityClient) GetCredential(credentialId string) (identity.Credential, error)
@@ -397,8 +397,8 @@ func (c *IdentityClient) GetCredential(credentialId string) (identity.Credential
 
 GetCredential retrieves the Verifiable Credential entity based on the credential ID \(UUID\). \(ex: 1bf0c79e\-55e6\-4f14\-aa9d\-fb55619ba0cf\)
 
-<a name="IdentityClient.GetCredentialOffer"></a>
-### func \(\*IdentityClient\) GetCredentialOffer
+###### IdentityClient.GetCredentialOffer {#IdentityClient.GetCredentialOffer}
+### func \(\*IdentityClient\) [GetCredentialOffer](https://github.com/bloock/bloock-sdk-go/blob/master/client/identity.go#L156)
 
 ```go
 func (c *IdentityClient) GetCredentialOffer(issuer identity.Issuer, credentialId string) (string, error)
@@ -406,8 +406,8 @@ func (c *IdentityClient) GetCredentialOffer(issuer identity.Issuer, credentialId
 
 GetCredentialOffer retrieves the json raw offer based on the credential ID \(UUID\). \(ex: 1bf0c79e\-55e6\-4f14\-aa9d\-fb55619ba0cf\)
 
-<a name="IdentityClient.GetCredentialProof"></a>
-### func \(\*IdentityClient\) GetCredentialProof
+###### IdentityClient.GetCredentialProof {#IdentityClient.GetCredentialProof}
+### func \(\*IdentityClient\) [GetCredentialProof](https://github.com/bloock/bloock-sdk-go/blob/master/client/identity.go#L194)
 
 ```go
 func (c *IdentityClient) GetCredentialProof(issuerDid string, credentialId string) (identity.CredentialProof, error)
@@ -415,8 +415,8 @@ func (c *IdentityClient) GetCredentialProof(issuerDid string, credentialId strin
 
 GetCredentialProof retrieves the proof of a credential on the Bloock Identity service.
 
-<a name="IdentityClient.GetSchema"></a>
-### func \(\*IdentityClient\) GetSchema
+###### IdentityClient.GetSchema {#IdentityClient.GetSchema}
+### func \(\*IdentityClient\) [GetSchema](https://github.com/bloock/bloock-sdk-go/blob/master/client/identity.go#L115)
 
 ```go
 func (c *IdentityClient) GetSchema(id string) (identity.Schema, error)
@@ -424,8 +424,8 @@ func (c *IdentityClient) GetSchema(id string) (identity.Schema, error)
 
 GetSchema retrieves a schema from the Bloock Identity service based on the schema ID \(ex: Qma1t4uzbnB93E4rasNdu5UWMDh5qg3wMkPm68cnEyfnoM\).
 
-<a name="IdentityClient.GetVerificationStatus"></a>
-### func \(\*IdentityClient\) GetVerificationStatus
+###### IdentityClient.GetVerificationStatus {#IdentityClient.GetVerificationStatus}
+### func \(\*IdentityClient\) [GetVerificationStatus](https://github.com/bloock/bloock-sdk-go/blob/master/client/identity.go#L273)
 
 ```go
 func (c *IdentityClient) GetVerificationStatus(sessionID int64) (bool, error)
@@ -433,8 +433,8 @@ func (c *IdentityClient) GetVerificationStatus(sessionID int64) (bool, error)
 
 GetVerificationStatus retrieves the status of a verification session on the identity managed API provided.
 
-<a name="IdentityClient.ImportIssuer"></a>
-### func \(\*IdentityClient\) ImportIssuer
+###### IdentityClient.ImportIssuer {#IdentityClient.ImportIssuer}
+### func \(\*IdentityClient\) [ImportIssuer](https://github.com/bloock/bloock-sdk-go/blob/master/client/identity.go#L92)
 
 ```go
 func (c *IdentityClient) ImportIssuer(issuerKey key.Key, didMethod identity.DidMethod) (identity.Issuer, error)
@@ -442,8 +442,8 @@ func (c *IdentityClient) ImportIssuer(issuerKey key.Key, didMethod identity.DidM
 
 ImportIssuer retrieves the issuer based on the issuer key and DID method.
 
-<a name="IdentityClient.RevokeCredential"></a>
-### func \(\*IdentityClient\) RevokeCredential
+###### IdentityClient.RevokeCredential {#IdentityClient.RevokeCredential}
+### func \(\*IdentityClient\) [RevokeCredential](https://github.com/bloock/bloock-sdk-go/blob/master/client/identity.go#L213)
 
 ```go
 func (c *IdentityClient) RevokeCredential(credential identity.Credential, issuer identity.Issuer) (bool, error)
@@ -451,8 +451,8 @@ func (c *IdentityClient) RevokeCredential(credential identity.Credential, issuer
 
 RevokeCredential revokes a credential on the Bloock Identity service.
 
-<a name="IdentityClient.WaitVerification"></a>
-### func \(\*IdentityClient\) WaitVerification
+###### IdentityClient.WaitVerification {#IdentityClient.WaitVerification}
+### func \(\*IdentityClient\) [WaitVerification](https://github.com/bloock/bloock-sdk-go/blob/master/client/identity.go#L250)
 
 ```go
 func (c *IdentityClient) WaitVerification(sessionID int64, params identity.VerificationParams) (bool, error)
@@ -460,8 +460,8 @@ func (c *IdentityClient) WaitVerification(sessionID int64, params identity.Verif
 
 WaitVerification waits for the completion of a verification session on the identity managed API provided.
 
-<a name="IdentityCoreClient"></a>
-## type IdentityCoreClient
+###### IdentityCoreClient {#IdentityCoreClient}
+## type [IdentityCoreClient](https://github.com/bloock/bloock-sdk-go/blob/master/client/identity_core.go#L13-L16)
 
 IdentityCoreClient represents a client for interacting with the [Bloock Identity service](https://bloock.com).
 
@@ -471,8 +471,8 @@ type IdentityCoreClient struct {
 }
 ```
 
-<a name="NewIdentityCoreClient"></a>
-### func NewIdentityCoreClient
+###### NewIdentityCoreClient {#NewIdentityCoreClient}
+### func [NewIdentityCoreClient](https://github.com/bloock/bloock-sdk-go/blob/master/client/identity_core.go#L19)
 
 ```go
 func NewIdentityCoreClient() IdentityCoreClient
@@ -480,8 +480,8 @@ func NewIdentityCoreClient() IdentityCoreClient
 
 NewIdentityCoreClient creates a new instance of the IdentityCoreClient with default configuration.
 
-<a name="NewIdentityCoreClientWithConfig"></a>
-### func NewIdentityCoreClientWithConfig
+###### NewIdentityCoreClientWithConfig {#NewIdentityCoreClientWithConfig}
+### func [NewIdentityCoreClientWithConfig](https://github.com/bloock/bloock-sdk-go/blob/master/client/identity_core.go#L27)
 
 ```go
 func NewIdentityCoreClientWithConfig(configData *proto.ConfigData) IdentityCoreClient
@@ -489,8 +489,8 @@ func NewIdentityCoreClientWithConfig(configData *proto.ConfigData) IdentityCoreC
 
 NewIdentityCoreClientWithConfig creates a new instance of the IdentityCoreClient with the provided configuration.
 
-<a name="IdentityCoreClient.BuildCredential"></a>
-### func \(\*IdentityCoreClient\) BuildCredential
+###### IdentityCoreClient.BuildCredential {#IdentityCoreClient.BuildCredential}
+### func \(\*IdentityCoreClient\) [BuildCredential](https://github.com/bloock/bloock-sdk-go/blob/master/client/identity_core.go#L35)
 
 ```go
 func (c *IdentityCoreClient) BuildCredential(issuer identity.Issuer, schemaId, holderDid string, expiration int64, version int32) identity.CredentialCoreBuilder
@@ -498,8 +498,8 @@ func (c *IdentityCoreClient) BuildCredential(issuer identity.Issuer, schemaId, h
 
 BuildCredential creates a new credential builder for defining a credential on the Bloock Identity service.
 
-<a name="IntegrityClient"></a>
-## type IntegrityClient
+###### IntegrityClient {#IntegrityClient}
+## type [IntegrityClient](https://github.com/bloock/bloock-sdk-go/blob/master/client/integrity.go#L17-L20)
 
 IntegrityClient provides functionality to interact with the [Bloock Integrity service](https://bloock.com).
 
@@ -509,8 +509,8 @@ type IntegrityClient struct {
 }
 ```
 
-<a name="NewIntegrityClient"></a>
-### func NewIntegrityClient
+###### NewIntegrityClient {#NewIntegrityClient}
+### func [NewIntegrityClient](https://github.com/bloock/bloock-sdk-go/blob/master/client/integrity.go#L23)
 
 ```go
 func NewIntegrityClient() IntegrityClient
@@ -518,8 +518,8 @@ func NewIntegrityClient() IntegrityClient
 
 NewIntegrityClient creates a new IntegrityClient with default configuration.
 
-<a name="NewIntegrityClientWithConfig"></a>
-### func NewIntegrityClientWithConfig
+###### NewIntegrityClientWithConfig {#NewIntegrityClientWithConfig}
+### func [NewIntegrityClientWithConfig](https://github.com/bloock/bloock-sdk-go/blob/master/client/integrity.go#L31)
 
 ```go
 func NewIntegrityClientWithConfig(configData *proto.ConfigData) IntegrityClient
@@ -527,8 +527,8 @@ func NewIntegrityClientWithConfig(configData *proto.ConfigData) IntegrityClient
 
 NewIntegrityClientWithConfig creates a new IntegrityClient with the given configuration.
 
-<a name="IntegrityClient.GetAnchor"></a>
-### func \(\*IntegrityClient\) GetAnchor
+###### IntegrityClient.GetAnchor {#IntegrityClient.GetAnchor}
+### func \(\*IntegrityClient\) [GetAnchor](https://github.com/bloock/bloock-sdk-go/blob/master/client/integrity.go#L62)
 
 ```go
 func (c *IntegrityClient) GetAnchor(anchorID int64) (integrity.Anchor, error)
@@ -536,8 +536,8 @@ func (c *IntegrityClient) GetAnchor(anchorID int64) (integrity.Anchor, error)
 
 GetAnchor retrieves an anchor by its ID from the Bloock Integrity service.
 
-<a name="IntegrityClient.GetProof"></a>
-### func \(\*IntegrityClient\) GetProof
+###### IntegrityClient.GetProof {#IntegrityClient.GetProof}
+### func \(\*IntegrityClient\) [GetProof](https://github.com/bloock/bloock-sdk-go/blob/master/client/integrity.go#L103)
 
 ```go
 func (c *IntegrityClient) GetProof(records []record.Record) (integrity.Proof, error)
@@ -545,8 +545,8 @@ func (c *IntegrityClient) GetProof(records []record.Record) (integrity.Proof, er
 
 GetProof retrieves a proof for a set of records from the Bloock Integrity service.
 
-<a name="IntegrityClient.SendRecords"></a>
-### func \(\*IntegrityClient\) SendRecords
+###### IntegrityClient.SendRecords {#IntegrityClient.SendRecords}
+### func \(\*IntegrityClient\) [SendRecords](https://github.com/bloock/bloock-sdk-go/blob/master/client/integrity.go#L39)
 
 ```go
 func (c *IntegrityClient) SendRecords(records []record.Record) ([]integrity.RecordReceipt, error)
@@ -554,8 +554,8 @@ func (c *IntegrityClient) SendRecords(records []record.Record) ([]integrity.Reco
 
 SendRecords sends records to the Bloock Integrity service for certification.
 
-<a name="IntegrityClient.ValidateRoot"></a>
-### func \(\*IntegrityClient\) ValidateRoot
+###### IntegrityClient.ValidateRoot {#IntegrityClient.ValidateRoot}
+### func \(\*IntegrityClient\) [ValidateRoot](https://github.com/bloock/bloock-sdk-go/blob/master/client/integrity.go#L158)
 
 ```go
 func (c *IntegrityClient) ValidateRoot(root string, params integrity.NetworkParams) (uint64, error)
@@ -563,8 +563,8 @@ func (c *IntegrityClient) ValidateRoot(root string, params integrity.NetworkPara
 
 ValidateRoot validates the integrity of a merkle root proof on blockchain.
 
-<a name="IntegrityClient.VerifyProof"></a>
-### func \(\*IntegrityClient\) VerifyProof
+###### IntegrityClient.VerifyProof {#IntegrityClient.VerifyProof}
+### func \(\*IntegrityClient\) [VerifyProof](https://github.com/bloock/bloock-sdk-go/blob/master/client/integrity.go#L121)
 
 ```go
 func (c *IntegrityClient) VerifyProof(proof integrity.Proof) (string, error)
@@ -572,8 +572,8 @@ func (c *IntegrityClient) VerifyProof(proof integrity.Proof) (string, error)
 
 VerifyProof verifies the integrity of a proof.
 
-<a name="IntegrityClient.VerifyRecords"></a>
-### func \(\*IntegrityClient\) VerifyRecords
+###### IntegrityClient.VerifyRecords {#IntegrityClient.VerifyRecords}
+### func \(\*IntegrityClient\) [VerifyRecords](https://github.com/bloock/bloock-sdk-go/blob/master/client/integrity.go#L139)
 
 ```go
 func (c *IntegrityClient) VerifyRecords(records []record.Record, params integrity.NetworkParams) (uint64, error)
@@ -581,8 +581,8 @@ func (c *IntegrityClient) VerifyRecords(records []record.Record, params integrit
 
 VerifyRecords verifies the integrity of a set of records.
 
-<a name="IntegrityClient.WaitAnchor"></a>
-### func \(\*IntegrityClient\) WaitAnchor
+###### IntegrityClient.WaitAnchor {#IntegrityClient.WaitAnchor}
+### func \(\*IntegrityClient\) [WaitAnchor](https://github.com/bloock/bloock-sdk-go/blob/master/client/integrity.go#L80)
 
 ```go
 func (c *IntegrityClient) WaitAnchor(anchorID int64, params integrity.AnchorParams) (integrity.Anchor, error)
@@ -590,8 +590,8 @@ func (c *IntegrityClient) WaitAnchor(anchorID int64, params integrity.AnchorPara
 
 WaitAnchor waits for the completion of an anchor on the Bloock Integrity service.
 
-<a name="KeyClient"></a>
-## type KeyClient
+###### KeyClient {#KeyClient}
+## type [KeyClient](https://github.com/bloock/bloock-sdk-go/blob/master/client/key.go#L16-L19)
 
 KeyClient provides functionality to interact with the [Bloock Key service](https://bloock.com).
 
@@ -601,8 +601,8 @@ type KeyClient struct {
 }
 ```
 
-<a name="NewKeyClient"></a>
-### func NewKeyClient
+###### NewKeyClient {#NewKeyClient}
+### func [NewKeyClient](https://github.com/bloock/bloock-sdk-go/blob/master/client/key.go#L22)
 
 ```go
 func NewKeyClient() KeyClient
@@ -610,8 +610,8 @@ func NewKeyClient() KeyClient
 
 NewKeyClient creates a new KeyClient with default configuration.
 
-<a name="NewKeyClientWithConfig"></a>
-### func NewKeyClientWithConfig
+###### NewKeyClientWithConfig {#NewKeyClientWithConfig}
+### func [NewKeyClientWithConfig](https://github.com/bloock/bloock-sdk-go/blob/master/client/key.go#L30)
 
 ```go
 func NewKeyClientWithConfig(configData *proto.ConfigData) KeyClient
@@ -619,8 +619,8 @@ func NewKeyClientWithConfig(configData *proto.ConfigData) KeyClient
 
 NewKeyClientWithConfig creates a new KeyClient with the given configuration.
 
-<a name="KeyClient.ImportManagedCertificate"></a>
-### func \(\*KeyClient\) ImportManagedCertificate
+###### KeyClient.ImportManagedCertificate {#KeyClient.ImportManagedCertificate}
+### func \(\*KeyClient\) [ImportManagedCertificate](https://github.com/bloock/bloock-sdk-go/blob/master/client/key.go#L186)
 
 ```go
 func (c *KeyClient) ImportManagedCertificate(_type keyEntity.CertificateType, certificate []byte, params keyEntity.ImportCertificateParams) (keyEntity.ManagedCertificate, error)
@@ -630,8 +630,8 @@ ImportManagedCertificate imports a managed certificate with the specified parame
 
 Supported types: .pem, .pfx.
 
-<a name="KeyClient.LoadLocalCertificate"></a>
-### func \(\*KeyClient\) LoadLocalCertificate
+###### KeyClient.LoadLocalCertificate {#KeyClient.LoadLocalCertificate}
+### func \(\*KeyClient\) [LoadLocalCertificate](https://github.com/bloock/bloock-sdk-go/blob/master/client/key.go#L129)
 
 ```go
 func (c *KeyClient) LoadLocalCertificate(pkcs12 []byte, password string) (keyEntity.LocalCertificate, error)
@@ -639,8 +639,8 @@ func (c *KeyClient) LoadLocalCertificate(pkcs12 []byte, password string) (keyEnt
 
 LoadLocalCertificate loads a local certificate from a PKCS12 file.
 
-<a name="KeyClient.LoadLocalKey"></a>
-### func \(\*KeyClient\) LoadLocalKey
+###### KeyClient.LoadLocalKey {#KeyClient.LoadLocalKey}
+### func \(\*KeyClient\) [LoadLocalKey](https://github.com/bloock/bloock-sdk-go/blob/master/client/key.go#L56)
 
 ```go
 func (c *KeyClient) LoadLocalKey(keyType keyEntity.KeyType, key string) (keyEntity.LocalKey, error)
@@ -648,8 +648,8 @@ func (c *KeyClient) LoadLocalKey(keyType keyEntity.KeyType, key string) (keyEnti
 
 LoadLocalKey loads a local key of the specified type from a public key string.
 
-<a name="KeyClient.LoadManagedCertificate"></a>
-### func \(\*KeyClient\) LoadManagedCertificate
+###### KeyClient.LoadManagedCertificate {#KeyClient.LoadManagedCertificate}
+### func \(\*KeyClient\) [LoadManagedCertificate](https://github.com/bloock/bloock-sdk-go/blob/master/client/key.go#L166)
 
 ```go
 func (c *KeyClient) LoadManagedCertificate(id string) (keyEntity.ManagedCertificate, error)
@@ -657,8 +657,8 @@ func (c *KeyClient) LoadManagedCertificate(id string) (keyEntity.ManagedCertific
 
 LoadManagedCertificate loads a managed certificate by its ID \(ex: ceef5b02\-af17\-43d8\-ae7b\-31d9bdf8027f\).
 
-<a name="KeyClient.LoadManagedKey"></a>
-### func \(\*KeyClient\) LoadManagedKey
+###### KeyClient.LoadManagedKey {#KeyClient.LoadManagedKey}
+### func \(\*KeyClient\) [LoadManagedKey](https://github.com/bloock/bloock-sdk-go/blob/master/client/key.go#L93)
 
 ```go
 func (c *KeyClient) LoadManagedKey(id string) (keyEntity.ManagedKey, error)
@@ -666,8 +666,8 @@ func (c *KeyClient) LoadManagedKey(id string) (keyEntity.ManagedKey, error)
 
 LoadManagedKey loads a managed key by its ID \(ex: 51d22546\-68f1\-4340\-b94b\-2a80e60b8933\).
 
-<a name="KeyClient.NewLocalCertificate"></a>
-### func \(\*KeyClient\) NewLocalCertificate
+###### KeyClient.NewLocalCertificate {#KeyClient.NewLocalCertificate}
+### func \(\*KeyClient\) [NewLocalCertificate](https://github.com/bloock/bloock-sdk-go/blob/master/client/key.go#L111)
 
 ```go
 func (c *KeyClient) NewLocalCertificate(params keyEntity.LocalCertificateParams) (keyEntity.LocalCertificate, error)
@@ -675,8 +675,8 @@ func (c *KeyClient) NewLocalCertificate(params keyEntity.LocalCertificateParams)
 
 NewLocalCertificate generates a new local certificate with the specified parameters.
 
-<a name="KeyClient.NewLocalKey"></a>
-### func \(\*KeyClient\) NewLocalKey
+###### KeyClient.NewLocalKey {#KeyClient.NewLocalKey}
+### func \(\*KeyClient\) [NewLocalKey](https://github.com/bloock/bloock-sdk-go/blob/master/client/key.go#L38)
 
 ```go
 func (c *KeyClient) NewLocalKey(keyType keyEntity.KeyType) (keyEntity.LocalKey, error)
@@ -684,8 +684,8 @@ func (c *KeyClient) NewLocalKey(keyType keyEntity.KeyType) (keyEntity.LocalKey, 
 
 NewLocalKey generates a new local key of the specified type.
 
-<a name="KeyClient.NewManagedCertificate"></a>
-### func \(\*KeyClient\) NewManagedCertificate
+###### KeyClient.NewManagedCertificate {#KeyClient.NewManagedCertificate}
+### func \(\*KeyClient\) [NewManagedCertificate](https://github.com/bloock/bloock-sdk-go/blob/master/client/key.go#L148)
 
 ```go
 func (c *KeyClient) NewManagedCertificate(params keyEntity.ManagedCertificateParams) (keyEntity.ManagedCertificate, error)
@@ -693,8 +693,8 @@ func (c *KeyClient) NewManagedCertificate(params keyEntity.ManagedCertificatePar
 
 NewManagedCertificate generates a new managed certificate with the specified parameters.
 
-<a name="KeyClient.NewManagedKey"></a>
-### func \(\*KeyClient\) NewManagedKey
+###### KeyClient.NewManagedKey {#KeyClient.NewManagedKey}
+### func \(\*KeyClient\) [NewManagedKey](https://github.com/bloock/bloock-sdk-go/blob/master/client/key.go#L75)
 
 ```go
 func (c *KeyClient) NewManagedKey(params keyEntity.ManagedKeyParams) (keyEntity.ManagedKey, error)
@@ -702,8 +702,8 @@ func (c *KeyClient) NewManagedKey(params keyEntity.ManagedKeyParams) (keyEntity.
 
 NewManagedKey generates a new managed key with the specified parameters.
 
-<a name="KeyClient.RecoverTotpAccessControl"></a>
-### func \(\*KeyClient\) RecoverTotpAccessControl
+###### KeyClient.RecoverTotpAccessControl {#KeyClient.RecoverTotpAccessControl}
+### func \(\*KeyClient\) [RecoverTotpAccessControl](https://github.com/bloock/bloock-sdk-go/blob/master/client/key.go#L240)
 
 ```go
 func (c *KeyClient) RecoverTotpAccessControl(key keyEntity.Managed, code string) (keyEntity.TotpAccessControlReceipt, error)
@@ -711,8 +711,8 @@ func (c *KeyClient) RecoverTotpAccessControl(key keyEntity.Managed, code string)
 
 RecoverTotpAccessControl recovers TOTP\-based access control for the given managed key or managed certificate using a recovery code.
 
-<a name="KeyClient.SetupSecretAccessControl"></a>
-### func \(\*KeyClient\) SetupSecretAccessControl
+###### KeyClient.SetupSecretAccessControl {#KeyClient.SetupSecretAccessControl}
+### func \(\*KeyClient\) [SetupSecretAccessControl](https://github.com/bloock/bloock-sdk-go/blob/master/client/key.go#L270)
 
 ```go
 func (c *KeyClient) SetupSecretAccessControl(key keyEntity.Managed, secret string, email string) error
@@ -720,8 +720,8 @@ func (c *KeyClient) SetupSecretAccessControl(key keyEntity.Managed, secret strin
 
 SetupSecretAccessControl sets up secret\-based access control for the given managed key or managed certificate.
 
-<a name="KeyClient.SetupTotpAccessControl"></a>
-### func \(\*KeyClient\) SetupTotpAccessControl
+###### KeyClient.SetupTotpAccessControl {#KeyClient.SetupTotpAccessControl}
+### func \(\*KeyClient\) [SetupTotpAccessControl](https://github.com/bloock/bloock-sdk-go/blob/master/client/key.go#L211)
 
 ```go
 func (c *KeyClient) SetupTotpAccessControl(key keyEntity.Managed) (keyEntity.TotpAccessControlReceipt, error)
@@ -729,8 +729,8 @@ func (c *KeyClient) SetupTotpAccessControl(key keyEntity.Managed) (keyEntity.Tot
 
 SetupTotpAccessControl sets up TOTP\-based access control for the given managed key or managed certificate.
 
-<a name="RecordBuilder"></a>
-## type RecordBuilder
+###### RecordBuilder {#RecordBuilder}
+## type [RecordBuilder](https://github.com/bloock/bloock-sdk-go/blob/master/client/record.go#L76-L83)
 
 RecordBuilder assists in constructing records with various configurations.
 
@@ -740,8 +740,8 @@ type RecordBuilder struct {
 }
 ```
 
-<a name="RecordBuilder.Build"></a>
-### func \(RecordBuilder\) Build
+###### RecordBuilder.Build {#RecordBuilder.Build}
+### func \(RecordBuilder\) [Build](https://github.com/bloock/bloock-sdk-go/blob/master/client/record.go#L112)
 
 ```go
 func (b RecordBuilder) Build() (record.Record, error)
@@ -749,8 +749,8 @@ func (b RecordBuilder) Build() (record.Record, error)
 
 Build constructs a record based on the RecordBuilder's configuration.
 
-<a name="RecordBuilder.GetDetails"></a>
-### func \(RecordBuilder\) GetDetails
+###### RecordBuilder.GetDetails {#RecordBuilder.GetDetails}
+### func \(RecordBuilder\) [GetDetails](https://github.com/bloock/bloock-sdk-go/blob/master/client/record.go#L191)
 
 ```go
 func (b RecordBuilder) GetDetails() (record.RecordDetails, error)
@@ -758,8 +758,8 @@ func (b RecordBuilder) GetDetails() (record.RecordDetails, error)
 
 GetDetails retrieves details about other Bloock services \(Integrity, Authenticity, Encryption, Availability\) configured in the RecordBuilder.
 
-<a name="RecordBuilder.WithDecrypter"></a>
-### func \(RecordBuilder\) WithDecrypter
+###### RecordBuilder.WithDecrypter {#RecordBuilder.WithDecrypter}
+### func \(RecordBuilder\) [WithDecrypter](https://github.com/bloock/bloock-sdk-go/blob/master/client/record.go#L106)
 
 ```go
 func (b RecordBuilder) WithDecrypter(decrypter encryption.Encrypter) RecordBuilder
@@ -767,8 +767,8 @@ func (b RecordBuilder) WithDecrypter(decrypter encryption.Encrypter) RecordBuild
 
 WithDecrypter sets the decrypter for the RecordBuilder.
 
-<a name="RecordBuilder.WithEncrypter"></a>
-### func \(RecordBuilder\) WithEncrypter
+###### RecordBuilder.WithEncrypter {#RecordBuilder.WithEncrypter}
+### func \(RecordBuilder\) [WithEncrypter](https://github.com/bloock/bloock-sdk-go/blob/master/client/record.go#L100)
 
 ```go
 func (b RecordBuilder) WithEncrypter(encrypter encryption.Encrypter) RecordBuilder
@@ -776,8 +776,8 @@ func (b RecordBuilder) WithEncrypter(encrypter encryption.Encrypter) RecordBuild
 
 WithEncrypter sets the encrypter for the RecordBuilder.
 
-<a name="RecordBuilder.WithSigner"></a>
-### func \(RecordBuilder\) WithSigner
+###### RecordBuilder.WithSigner {#RecordBuilder.WithSigner}
+### func \(RecordBuilder\) [WithSigner](https://github.com/bloock/bloock-sdk-go/blob/master/client/record.go#L94)
 
 ```go
 func (b RecordBuilder) WithSigner(signer authenticity.Signer) RecordBuilder
@@ -785,8 +785,8 @@ func (b RecordBuilder) WithSigner(signer authenticity.Signer) RecordBuilder
 
 WithSigner sets the signer for the RecordBuilder.
 
-<a name="RecordClient"></a>
-## type RecordClient
+###### RecordClient {#RecordClient}
+## type [RecordClient](https://github.com/bloock/bloock-sdk-go/blob/master/client/record.go#L19-L22)
 
 RecordClient provides functionality for creating records using various data sources and to interact with the [Bloock Record service](https://bloock.com).
 
@@ -796,8 +796,8 @@ type RecordClient struct {
 }
 ```
 
-<a name="NewRecordClient"></a>
-### func NewRecordClient
+###### NewRecordClient {#NewRecordClient}
+### func [NewRecordClient](https://github.com/bloock/bloock-sdk-go/blob/master/client/record.go#L25)
 
 ```go
 func NewRecordClient() RecordClient
@@ -805,8 +805,8 @@ func NewRecordClient() RecordClient
 
 NewRecordClient creates a new RecordClient with default configuration.
 
-<a name="NewRecordClientWithConfig"></a>
-### func NewRecordClientWithConfig
+###### NewRecordClientWithConfig {#NewRecordClientWithConfig}
+### func [NewRecordClientWithConfig](https://github.com/bloock/bloock-sdk-go/blob/master/client/record.go#L33)
 
 ```go
 func NewRecordClientWithConfig(configData *proto.ConfigData) RecordClient
@@ -814,8 +814,8 @@ func NewRecordClientWithConfig(configData *proto.ConfigData) RecordClient
 
 NewRecordClientWithConfig creates a new RecordClient with the provided configuration.
 
-<a name="RecordClient.FromBytes"></a>
-### func \(RecordClient\) FromBytes
+###### RecordClient.FromBytes {#RecordClient.FromBytes}
+### func \(RecordClient\) [FromBytes](https://github.com/bloock/bloock-sdk-go/blob/master/client/record.go#L71)
 
 ```go
 func (c RecordClient) FromBytes(bytes []byte) RecordBuilder
@@ -823,8 +823,8 @@ func (c RecordClient) FromBytes(bytes []byte) RecordBuilder
 
 FromBytes creates a RecordBuilder from a byte slice payload.
 
-<a name="RecordClient.FromFile"></a>
-### func \(RecordClient\) FromFile
+###### RecordClient.FromFile {#RecordClient.FromFile}
+### func \(RecordClient\) [FromFile](https://github.com/bloock/bloock-sdk-go/blob/master/client/record.go#L66)
 
 ```go
 func (c RecordClient) FromFile(file_bytes []byte) RecordBuilder
@@ -832,8 +832,8 @@ func (c RecordClient) FromFile(file_bytes []byte) RecordBuilder
 
 FromFile creates a RecordBuilder from a byte slice representing a file.
 
-<a name="RecordClient.FromHex"></a>
-### func \(RecordClient\) FromHex
+###### RecordClient.FromHex {#RecordClient.FromHex}
+### func \(RecordClient\) [FromHex](https://github.com/bloock/bloock-sdk-go/blob/master/client/record.go#L56)
 
 ```go
 func (c RecordClient) FromHex(hex string) RecordBuilder
@@ -841,8 +841,8 @@ func (c RecordClient) FromHex(hex string) RecordBuilder
 
 FromHex creates a RecordBuilder from a hexadecimal string payload.
 
-<a name="RecordClient.FromJSON"></a>
-### func \(RecordClient\) FromJSON
+###### RecordClient.FromJSON {#RecordClient.FromJSON}
+### func \(RecordClient\) [FromJSON](https://github.com/bloock/bloock-sdk-go/blob/master/client/record.go#L61)
 
 ```go
 func (c RecordClient) FromJSON(json string) RecordBuilder
@@ -850,8 +850,8 @@ func (c RecordClient) FromJSON(json string) RecordBuilder
 
 FromJSON creates a RecordBuilder from a JSON string payload.
 
-<a name="RecordClient.FromLoader"></a>
-### func \(RecordClient\) FromLoader
+###### RecordClient.FromLoader {#RecordClient.FromLoader}
+### func \(RecordClient\) [FromLoader](https://github.com/bloock/bloock-sdk-go/blob/master/client/record.go#L46)
 
 ```go
 func (c RecordClient) FromLoader(loader availability.Loader) RecordBuilder
@@ -859,8 +859,8 @@ func (c RecordClient) FromLoader(loader availability.Loader) RecordBuilder
 
 FromLoader creates a RecordBuilder from a data loader.
 
-<a name="RecordClient.FromRecord"></a>
-### func \(RecordClient\) FromRecord
+###### RecordClient.FromRecord {#RecordClient.FromRecord}
+### func \(RecordClient\) [FromRecord](https://github.com/bloock/bloock-sdk-go/blob/master/client/record.go#L41)
 
 ```go
 func (c RecordClient) FromRecord(record record.Record) RecordBuilder
@@ -868,8 +868,8 @@ func (c RecordClient) FromRecord(record record.Record) RecordBuilder
 
 FromRecord creates a RecordBuilder from an existing record.
 
-<a name="RecordClient.FromString"></a>
-### func \(RecordClient\) FromString
+###### RecordClient.FromString {#RecordClient.FromString}
+### func \(RecordClient\) [FromString](https://github.com/bloock/bloock-sdk-go/blob/master/client/record.go#L51)
 
 ```go
 func (c RecordClient) FromString(str string) RecordBuilder
@@ -877,8 +877,8 @@ func (c RecordClient) FromString(str string) RecordBuilder
 
 FromString creates a RecordBuilder from a string payload.
 
-<a name="WebhookClient"></a>
-## type WebhookClient
+###### WebhookClient {#WebhookClient}
+## type [WebhookClient](https://github.com/bloock/bloock-sdk-go/blob/master/client/webhook.go#L15-L18)
 
 WebhookClient provides functionality for interacting with [Bloock webhooks](https://bloock.com).
 
@@ -888,8 +888,8 @@ type WebhookClient struct {
 }
 ```
 
-<a name="NewWebhookClient"></a>
-### func NewWebhookClient
+###### NewWebhookClient {#NewWebhookClient}
+### func [NewWebhookClient](https://github.com/bloock/bloock-sdk-go/blob/master/client/webhook.go#L21)
 
 ```go
 func NewWebhookClient() WebhookClient
@@ -897,8 +897,8 @@ func NewWebhookClient() WebhookClient
 
 NewWebhookClient creates a new WebhookClient with default configuration.
 
-<a name="NewWebhookClientWithConfig"></a>
-### func NewWebhookClientWithConfig
+###### NewWebhookClientWithConfig {#NewWebhookClientWithConfig}
+### func [NewWebhookClientWithConfig](https://github.com/bloock/bloock-sdk-go/blob/master/client/webhook.go#L29)
 
 ```go
 func NewWebhookClientWithConfig(configData *proto.ConfigData) WebhookClient
@@ -906,8 +906,8 @@ func NewWebhookClientWithConfig(configData *proto.ConfigData) WebhookClient
 
 NewWebhookClientWithConfig creates a new WebhookClient with the provided configuration.
 
-<a name="WebhookClient.VerifyWebhookSignature"></a>
-### func \(\*WebhookClient\) VerifyWebhookSignature
+###### WebhookClient.VerifyWebhookSignature {#WebhookClient.VerifyWebhookSignature}
+### func \(\*WebhookClient\) [VerifyWebhookSignature](https://github.com/bloock/bloock-sdk-go/blob/master/client/webhook.go#L37)
 
 ```go
 func (c *WebhookClient) VerifyWebhookSignature(payload []byte, header string, secretKey string, enforceTolerance bool) (bool, error)

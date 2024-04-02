@@ -22,9 +22,9 @@ The role of an Issuer on BLOOCK Identity is to issue digital credentials to user
 
 ### Issuer intervals
 
-To understand this section, you must first understand what a [Sparse Merkle Tree Proof](#sparse-merkle-tree-proof) is and how important it is to your business.
+To understand this section, you must first understand what a [Sparse Merkle Tree Proof](#sparse-merkle-tree-proof-smtp) is and how important it is to your business.
 
-When an Issuer creates a credential, it will be instantly available synchronously. However, when you create an Issuer you will have to choose the transaction interval you want to apply (the cost of use will vary depending on the interval). When we talk about transaction, we talk about transacting your credentials to blockchain and get a proof of integrity of them that is transformed into a verifiable proof called [Sparse Merkle Tree Proof (SMTP)](#sparse-merkle-tree-proof).
+When an Issuer creates a credential, it will be instantly available synchronously. However, when you create an Issuer you will have to choose the transaction interval you want to apply (the cost of use will vary depending on the interval). When we talk about transaction, we talk about transacting your credentials to blockchain and get a proof of integrity of them that is transformed into a verifiable proof called [Sparse Merkle Tree Proof (SMTP)](#sparse-merkle-tree-proof-smtp).
 
 We currently offer these intervals.
 
@@ -37,7 +37,7 @@ We currently offer these intervals.
 
 ## The Verifiable Credential (VC)
 
-The first thing is to be clear what a [claim](./../overview.mdx#what-is-a-claim) is. A credential is a set of one or more claims made by an Issuer.
+The first thing is to be clear what a [claim](./../concepts/basics.mdx#what-is-a-claim) is. A credential is a set of one or more claims made by an Issuer.
 [Credentials](https://www.w3.org/TR/vc-data-model-2.0/#dfn-credential) might also include an identifier and metadata to describe properties of the credential, such as the validity date and time period, verification material, the revocation mechanism, and so on.
 The metadata might be signed by the Issuer.
 A [Verifiable Credential (VC)](https://www.w3.org/TR/vc-data-model-2.0/#dfn-vc) is a set of tamper-evident claims and metadata that cryptographically prove who issued it.
@@ -49,7 +49,7 @@ A [Verifiable Credential (VC)](https://www.w3.org/TR/vc-data-model-2.0/#dfn-vc) 
 - In BLOOCK Identity each credential is identified by a UUID. `For example: 6f36448d-49f3-4b0e-aa72-6e55863302e8`.
 - All credentials include a [proof of signature](#signature-proof), i.e. every credential is signed by its Issuer.
 - Every credential must reference a schema. [Learn more about schemas](#schemas).
-- All credentials include a blockchain integrity proof or [Sparse Merkle Tree Proof (SMTP)](#sparse-merkle-tree-proof) (this proof will be available depending on the [Issuer's configuration](#issuer-intervals)).
+- All credentials include a blockchain integrity proof or [Sparse Merkle Tree Proof (SMTP)](#sparse-merkle-tree-proof-smtp) (this proof will be available depending on the [Issuer's configuration](#issuer-intervals)).
 
 ## Schemas
 
@@ -93,8 +93,8 @@ Therefore, the action of adding the revocation to the revocation tree modifies t
 
 ## The Holder
 
-The Holder or the user receiving credentials. It is an identity and therefore has its own public [DID](#decentralized-identifiers). It is important that the Holder is of the same topology as the Issuer that will issue the credential.
-Currently we only accept [did:polygonid](./did_methods/polygonid.mdx#did:polygonid) issuers and holders.
+The Holder or the user receiving credentials. It is an identity and therefore has its own public [DID](./did_methods/about-dids.mdx). It is important that the Holder is of the same topology as the Issuer that will issue the credential.
+Currently we only accept [did:polygonid](./did_methods/polygonid.mdx) issuers and holders.
 
 For example.
 
@@ -137,7 +137,7 @@ At BLOOCK Identity we offer you a verification model, but it is important that d
 The Verifier must choose which type of proof to verify (you can only verify one type of proof).
 
 - [Atomic Query Signature V2](#signature-proof): cryptographically verify the proof of signature of the credential.
-- [Atomic Query Sparse Merkle Tree V2](#sparse-merkle-tree-proof): cryptographically verify the sparse merkle tree proof of the credential.
+- [Atomic Query Sparse Merkle Tree V2](#sparse-merkle-tree-proof-smtp): cryptographically verify the sparse merkle tree proof of the credential.
 
 ## Verification queries
 

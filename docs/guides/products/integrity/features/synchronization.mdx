@@ -43,10 +43,10 @@ Once a webhook is configured and a new anchor is processed for one of the select
 ## Synchronous
 
 :::tip
-It's recommended to only use this method for networks with low internal times (<3 minutes)
+It's recommended to only use this method for networks with low internal times (&lt;3 minutes)
 :::
 
-It's also possible to wait for the interval in a synchronous manner by using our SDKs directly. This allows to keep a single code snippet that handles all the certification flow.&#x20;
+It's also possible to wait for the interval in a synchronous manner by using our SDKs directly. This allows to keep a single code snippet that handles all the certification flow.
 
 To do so, we provide a specific method that polls our APIs every second until the next anchor is processed. Here are some code examples to implement it:
 

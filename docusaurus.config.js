@@ -1,6 +1,7 @@
+const prismThemes = require('prism-react-renderer');
 const code_themes = {
-  light: require('prism-react-renderer/themes/github'),
-  dark: require('prism-react-renderer/themes/vsDark'),
+  light: prismThemes.themes.github,
+  dark: prismThemes.themes.vsDark,
 };
 
 /** @type {import('@docusaurus/types').Config} */
@@ -126,6 +127,9 @@ const config = {
   ...meta,
   plugins,
   trailingSlash: true,
+  onBrokenLinks: 'throw',
+  onBrokenAnchors: 'throw',
+  onBrokenMarkdownLinks: 'throw',
   themes: ['@docusaurus/theme-live-codeblock'],
   scripts: [{ src: 'https://cdn.statuspage.io/se-v2.js' }],
 

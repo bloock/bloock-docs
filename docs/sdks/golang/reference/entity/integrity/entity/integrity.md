@@ -33,7 +33,7 @@ import "github.com/bloock/bloock-sdk-go/v2/entity/integrity"
 
 ## Constants
 
-<a name="InvalidRecordError"></a>
+###### InvalidRecordError {#InvalidRecordError}
 
 ```go
 const (
@@ -44,8 +44,8 @@ const (
 )
 ```
 
-<a name="NetworkToProto"></a>
-## func NetworkToProto
+###### NetworkToProto {#NetworkToProto}
+## func [NetworkToProto](https://github.com/bloock/bloock-sdk-go/blob/master/entity/integrity/network.go#L8)
 
 ```go
 func NetworkToProto(network Network) *proto.Network
@@ -53,8 +53,8 @@ func NetworkToProto(network Network) *proto.Network
 
 
 
-<a name="Anchor"></a>
-## type Anchor
+###### Anchor {#Anchor}
+## type [Anchor](https://github.com/bloock/bloock-sdk-go/blob/master/entity/integrity/anchor.go#L6-L12)
 
 Anchor represents information about an anchor.
 
@@ -68,8 +68,8 @@ type Anchor struct {
 }
 ```
 
-<a name="NewAnchorFromProto"></a>
-### func NewAnchorFromProto
+###### NewAnchorFromProto {#NewAnchorFromProto}
+### func [NewAnchorFromProto](https://github.com/bloock/bloock-sdk-go/blob/master/entity/integrity/anchor.go#L14)
 
 ```go
 func NewAnchorFromProto(a *proto.Anchor) Anchor
@@ -77,8 +77,8 @@ func NewAnchorFromProto(a *proto.Anchor) Anchor
 
 
 
-<a name="AnchorNetwork"></a>
-## type AnchorNetwork
+###### AnchorNetwork {#AnchorNetwork}
+## type [AnchorNetwork](https://github.com/bloock/bloock-sdk-go/blob/master/entity/integrity/anchor_network.go#L6-L11)
 
 AnchorNetwork represents information about an anchor network.
 
@@ -91,8 +91,8 @@ type AnchorNetwork struct {
 }
 ```
 
-<a name="MapAnchorNetworksFromProto"></a>
-### func MapAnchorNetworksFromProto
+###### MapAnchorNetworksFromProto {#MapAnchorNetworksFromProto}
+### func [MapAnchorNetworksFromProto](https://github.com/bloock/bloock-sdk-go/blob/master/entity/integrity/anchor_network.go#L25)
 
 ```go
 func MapAnchorNetworksFromProto(n []*proto.AnchorNetwork) []AnchorNetwork
@@ -100,8 +100,8 @@ func MapAnchorNetworksFromProto(n []*proto.AnchorNetwork) []AnchorNetwork
 
 
 
-<a name="NewAnchorNetworkFromProto"></a>
-### func NewAnchorNetworkFromProto
+###### NewAnchorNetworkFromProto {#NewAnchorNetworkFromProto}
+### func [NewAnchorNetworkFromProto](https://github.com/bloock/bloock-sdk-go/blob/master/entity/integrity/anchor_network.go#L13)
 
 ```go
 func NewAnchorNetworkFromProto(a *proto.AnchorNetwork) AnchorNetwork
@@ -109,8 +109,8 @@ func NewAnchorNetworkFromProto(a *proto.AnchorNetwork) AnchorNetwork
 
 
 
-<a name="AnchorNetwork.ToProto"></a>
-### func \(AnchorNetwork\) ToProto
+###### AnchorNetwork.ToProto {#AnchorNetwork.ToProto}
+### func \(AnchorNetwork\) [ToProto](https://github.com/bloock/bloock-sdk-go/blob/master/entity/integrity/anchor_network.go#L33)
 
 ```go
 func (a AnchorNetwork) ToProto() *proto.AnchorNetwork
@@ -118,8 +118,8 @@ func (a AnchorNetwork) ToProto() *proto.AnchorNetwork
 
 
 
-<a name="AnchorParams"></a>
-## type AnchorParams
+###### AnchorParams {#AnchorParams}
+## type [AnchorParams](https://github.com/bloock/bloock-sdk-go/blob/master/entity/integrity/network.go#L38-L40)
 
 AnchorParams represents parameters for anchor\-related operations.
 
@@ -129,8 +129,8 @@ type AnchorParams struct {
 }
 ```
 
-<a name="NewAnchorParams"></a>
-### func NewAnchorParams
+###### NewAnchorParams {#NewAnchorParams}
+### func [NewAnchorParams](https://github.com/bloock/bloock-sdk-go/blob/master/entity/integrity/network.go#L43)
 
 ```go
 func NewAnchorParams() AnchorParams
@@ -138,8 +138,8 @@ func NewAnchorParams() AnchorParams
 
 NewAnchorParams creates a new AnchorParams instance with default values.
 
-<a name="Network"></a>
-## type Network
+###### Network {#Network}
+## type [Network](https://github.com/bloock/bloock-sdk-go/blob/master/entity/integrity/network.go#L6)
 
 Network represents a network.
 
@@ -147,8 +147,8 @@ Network represents a network.
 type Network = proto.Network
 ```
 
-<a name="NetworkParams"></a>
-## type NetworkParams
+###### NetworkParams {#NetworkParams}
+## type [NetworkParams](https://github.com/bloock/bloock-sdk-go/blob/master/entity/integrity/network.go#L48-L50)
 
 NetworkParams represents parameters for network\-related operations.
 
@@ -158,8 +158,8 @@ type NetworkParams struct {
 }
 ```
 
-<a name="NewNetworkParams"></a>
-### func NewNetworkParams
+###### NewNetworkParams {#NewNetworkParams}
+### func [NewNetworkParams](https://github.com/bloock/bloock-sdk-go/blob/master/entity/integrity/network.go#L53)
 
 ```go
 func NewNetworkParams() NetworkParams
@@ -167,8 +167,8 @@ func NewNetworkParams() NetworkParams
 
 NewNetworkParams creates a new NetworkParams instance with default values.
 
-<a name="Proof"></a>
-## type Proof
+###### Proof {#Proof}
+## type [Proof](https://github.com/bloock/bloock-sdk-go/blob/master/entity/integrity/proof.go#L6-L12)
 
 Proof represents a proof, including leaves, nodes, depth, bitmap, and anchor information.
 
@@ -182,8 +182,8 @@ type Proof struct {
 }
 ```
 
-<a name="NewProofFromProto"></a>
-### func NewProofFromProto
+###### NewProofFromProto {#NewProofFromProto}
+### func [NewProofFromProto](https://github.com/bloock/bloock-sdk-go/blob/master/entity/integrity/proof.go#L14)
 
 ```go
 func NewProofFromProto(p *proto.Proof) Proof
@@ -191,8 +191,8 @@ func NewProofFromProto(p *proto.Proof) Proof
 
 
 
-<a name="Proof.ToProto"></a>
-### func \(Proof\) ToProto
+###### Proof.ToProto {#Proof.ToProto}
+### func \(Proof\) [ToProto](https://github.com/bloock/bloock-sdk-go/blob/master/entity/integrity/proof.go#L27)
 
 ```go
 func (p Proof) ToProto() *proto.Proof
@@ -200,8 +200,8 @@ func (p Proof) ToProto() *proto.Proof
 
 
 
-<a name="ProofAnchor"></a>
-## type ProofAnchor
+###### ProofAnchor {#ProofAnchor}
+## type [ProofAnchor](https://github.com/bloock/bloock-sdk-go/blob/master/entity/integrity/proof_anchor.go#L6-L11)
 
 ProofAnchor represents a proof anchor.
 
@@ -214,8 +214,8 @@ type ProofAnchor struct {
 }
 ```
 
-<a name="NewProofAnchorFromProto"></a>
-### func NewProofAnchorFromProto
+###### NewProofAnchorFromProto {#NewProofAnchorFromProto}
+### func [NewProofAnchorFromProto](https://github.com/bloock/bloock-sdk-go/blob/master/entity/integrity/proof_anchor.go#L13)
 
 ```go
 func NewProofAnchorFromProto(p *proto.ProofAnchor) ProofAnchor
@@ -223,8 +223,8 @@ func NewProofAnchorFromProto(p *proto.ProofAnchor) ProofAnchor
 
 
 
-<a name="ProofAnchor.ToProto"></a>
-### func \(ProofAnchor\) ToProto
+###### ProofAnchor.ToProto {#ProofAnchor.ToProto}
+### func \(ProofAnchor\) [ToProto](https://github.com/bloock/bloock-sdk-go/blob/master/entity/integrity/proof_anchor.go#L25)
 
 ```go
 func (p ProofAnchor) ToProto() *proto.ProofAnchor
@@ -232,8 +232,8 @@ func (p ProofAnchor) ToProto() *proto.ProofAnchor
 
 
 
-<a name="RecordReceipt"></a>
-## type RecordReceipt
+###### RecordReceipt {#RecordReceipt}
+## type [RecordReceipt](https://github.com/bloock/bloock-sdk-go/blob/master/entity/integrity/record_receipt.go#L6-L11)
 
 RecordReceipt represents a receipt for a record, including anchor ID, client, record, and status information.
 
@@ -246,8 +246,8 @@ type RecordReceipt struct {
 }
 ```
 
-<a name="NewRecordReceiptFromProto"></a>
-### func NewRecordReceiptFromProto
+###### NewRecordReceiptFromProto {#NewRecordReceiptFromProto}
+### func [NewRecordReceiptFromProto](https://github.com/bloock/bloock-sdk-go/blob/master/entity/integrity/record_receipt.go#L13)
 
 ```go
 func NewRecordReceiptFromProto(r *proto.RecordReceipt) RecordReceipt
