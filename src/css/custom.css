@@ -268,6 +268,13 @@ pre.prism-code {
   background: none;
 }
 
+.menu__link--sublist-caret::after {
+  --ifm-menu-link-sublist-icon: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12px" height="12px" viewBox="0 0 24 24"><path fill="rgba(28, 30, 33, 0.7)" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path></svg>');
+  min-width: 1rem;
+  height: 1rem;
+  width: 1rem;
+}
+
 ul.menu__list > li > a.menu__link--active {
   border-right: 1px solid var(--ifm-color-primary);
 }
@@ -627,6 +634,7 @@ ul.emoji-list span {
 .menu__link {
   /* Background tint only for menu links in sidebar */
   --ifm-menu-color-background-active: var(--docs-color-primary-tint);
+  --ifm-menu-color: var(--ifm-font-color-base);
 }
 
 table {
