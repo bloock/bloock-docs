@@ -41,7 +41,7 @@ Constructs a SignatureHeaderJws object with the specified algorithm and key iden
 
 #### Defined in
 
-[entity/authenticity/signature_header_jws.ts:15](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/authenticity/signature_header_jws.ts#L15)
+[entity/authenticity/signature_header_jws.ts:15](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/authenticity/signature_header_jws.ts#L15)
 
 ## Properties
 
@@ -51,7 +51,7 @@ Constructs a SignatureHeaderJws object with the specified algorithm and key iden
 
 #### Defined in
 
-[entity/authenticity/signature_header_jws.ts:7](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/authenticity/signature_header_jws.ts#L7)
+[entity/authenticity/signature_header_jws.ts:7](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/authenticity/signature_header_jws.ts#L7)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-[entity/authenticity/signature_header_jws.ts:8](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/authenticity/signature_header_jws.ts#L8)
+[entity/authenticity/signature_header_jws.ts:8](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/authenticity/signature_header_jws.ts#L8)
 
 ## Methods
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[entity/authenticity/signature_header_jws.ts:24](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/authenticity/signature_header_jws.ts#L24)
+[entity/authenticity/signature_header_jws.ts:24](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/authenticity/signature_header_jws.ts#L24)
 
 ___
 
@@ -95,4 +95,4 @@ ___
 
 #### Defined in
 
-[entity/authenticity/signature_header_jws.ts:20](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/authenticity/signature_header_jws.ts#L20)
+[entity/authenticity/signature_header_jws.ts:20](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/authenticity/signature_header_jws.ts#L20)

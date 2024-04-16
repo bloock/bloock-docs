@@ -57,7 +57,7 @@ Constructs an IntegerEnumAttributeDescriptor object with the specified parameter
 
 #### Defined in
 
-[entity/identity/integer_enum_attribute_descriptor.ts:18](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/integer_enum_attribute_descriptor.ts#L18)
+[entity/identity/integer_enum_attribute_descriptor.ts:18](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/integer_enum_attribute_descriptor.ts#L18)
 
 ## Properties
 
@@ -73,7 +73,7 @@ Is a description providing additional information about the attribute.
 
 #### Defined in
 
-[entity/identity/attribute_descriptor.ts:16](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/attribute_descriptor.ts#L16)
+[entity/identity/attribute_descriptor.ts:16](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/attribute_descriptor.ts#L16)
 
 ___
 
@@ -89,7 +89,7 @@ Is the human-readable display name of the attribute.
 
 #### Defined in
 
-[entity/identity/attribute_descriptor.ts:8](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/attribute_descriptor.ts#L8)
+[entity/identity/attribute_descriptor.ts:8](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/attribute_descriptor.ts#L8)
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 #### Defined in
 
-[entity/identity/integer_enum_attribute_descriptor.ts:8](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/integer_enum_attribute_descriptor.ts#L8)
+[entity/identity/integer_enum_attribute_descriptor.ts:8](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/integer_enum_attribute_descriptor.ts#L8)
 
 ___
 
@@ -115,7 +115,7 @@ Specifies whether the attribute is required.
 
 #### Defined in
 
-[entity/identity/attribute_descriptor.ts:20](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/attribute_descriptor.ts#L20)
+[entity/identity/attribute_descriptor.ts:20](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/attribute_descriptor.ts#L20)
 
 ___
 
@@ -131,7 +131,7 @@ Is the identifier for the attribute.
 
 #### Defined in
 
-[entity/identity/attribute_descriptor.ts:12](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/attribute_descriptor.ts#L12)
+[entity/identity/attribute_descriptor.ts:12](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/attribute_descriptor.ts#L12)
 
 ## Methods
 
@@ -145,7 +145,7 @@ Is the identifier for the attribute.
 
 #### Defined in
 
-[entity/identity/integer_enum_attribute_descriptor.ts:29](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/integer_enum_attribute_descriptor.ts#L29)
+[entity/identity/integer_enum_attribute_descriptor.ts:29](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/integer_enum_attribute_descriptor.ts#L29)
 
 ___
 
@@ -165,4 +165,4 @@ ___
 
 #### Defined in
 
-[entity/identity/integer_enum_attribute_descriptor.ts:39](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/integer_enum_attribute_descriptor.ts#L39)
+[entity/identity/integer_enum_attribute_descriptor.ts:39](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/integer_enum_attribute_descriptor.ts#L39)

@@ -64,7 +64,7 @@ Creates a new instance of SchemaBuilder with initial values.
 
 #### Defined in
 
-[entity/identity/schema_builder.ts:43](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/schema_builder.ts#L43)
+[entity/identity/schema_builder.ts:43](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/schema_builder.ts#L43)
 
 ## Properties
 
@@ -74,7 +74,7 @@ Creates a new instance of SchemaBuilder with initial values.
 
 #### Defined in
 
-[entity/identity/schema_builder.ts:28](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/schema_builder.ts#L28)
+[entity/identity/schema_builder.ts:28](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/schema_builder.ts#L28)
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 #### Defined in
 
-[entity/identity/schema_builder.ts:23](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/schema_builder.ts#L23)
+[entity/identity/schema_builder.ts:23](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/schema_builder.ts#L23)
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 #### Defined in
 
-[entity/identity/schema_builder.ts:29](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/schema_builder.ts#L29)
+[entity/identity/schema_builder.ts:29](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/schema_builder.ts#L29)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 #### Defined in
 
-[entity/identity/schema_builder.ts:30](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/schema_builder.ts#L30)
+[entity/identity/schema_builder.ts:30](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/schema_builder.ts#L30)
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 #### Defined in
 
-[entity/identity/schema_builder.ts:27](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/schema_builder.ts#L27)
+[entity/identity/schema_builder.ts:27](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/schema_builder.ts#L27)
 
 ___
 
@@ -124,7 +124,7 @@ ___
 
 #### Defined in
 
-[entity/identity/schema_builder.ts:33](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/schema_builder.ts#L33)
+[entity/identity/schema_builder.ts:33](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/schema_builder.ts#L33)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-[entity/identity/schema_builder.ts:22](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/schema_builder.ts#L22)
+[entity/identity/schema_builder.ts:22](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/schema_builder.ts#L22)
 
 ___
 
@@ -144,7 +144,7 @@ ___
 
 #### Defined in
 
-[entity/identity/schema_builder.ts:19](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/schema_builder.ts#L19)
+[entity/identity/schema_builder.ts:19](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/schema_builder.ts#L19)
 
 ___
 
@@ -154,7 +154,7 @@ ___
 
 #### Defined in
 
-[entity/identity/schema_builder.ts:26](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/schema_builder.ts#L26)
+[entity/identity/schema_builder.ts:26](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/schema_builder.ts#L26)
 
 ___
 
@@ -164,7 +164,7 @@ ___
 
 #### Defined in
 
-[entity/identity/schema_builder.ts:32](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/schema_builder.ts#L32)
+[entity/identity/schema_builder.ts:32](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/schema_builder.ts#L32)
 
 ___
 
@@ -174,7 +174,7 @@ ___
 
 #### Defined in
 
-[entity/identity/schema_builder.ts:20](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/schema_builder.ts#L20)
+[entity/identity/schema_builder.ts:20](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/schema_builder.ts#L20)
 
 ___
 
@@ -184,7 +184,7 @@ ___
 
 #### Defined in
 
-[entity/identity/schema_builder.ts:25](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/schema_builder.ts#L25)
+[entity/identity/schema_builder.ts:25](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/schema_builder.ts#L25)
 
 ___
 
@@ -194,7 +194,7 @@ ___
 
 #### Defined in
 
-[entity/identity/schema_builder.ts:31](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/schema_builder.ts#L31)
+[entity/identity/schema_builder.ts:31](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/schema_builder.ts#L31)
 
 ___
 
@@ -204,7 +204,7 @@ ___
 
 #### Defined in
 
-[entity/identity/schema_builder.ts:21](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/schema_builder.ts#L21)
+[entity/identity/schema_builder.ts:21](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/schema_builder.ts#L21)
 
 ## Methods
 
@@ -229,7 +229,7 @@ Adds a boolean attribute descriptor to the schema builder.
 
 #### Defined in
 
-[entity/identity/schema_builder.ts:134](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/schema_builder.ts#L134)
+[entity/identity/schema_builder.ts:134](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/schema_builder.ts#L134)
 
 ___
 
@@ -254,7 +254,7 @@ Adds a date attribute descriptor to the schema builder.
 
 #### Defined in
 
-[entity/identity/schema_builder.ts:154](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/schema_builder.ts#L154)
+[entity/identity/schema_builder.ts:154](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/schema_builder.ts#L154)
 
 ___
 
@@ -279,7 +279,7 @@ Adds a datetime attribute descriptor to the schema builder.
 
 #### Defined in
 
-[entity/identity/schema_builder.ts:174](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/schema_builder.ts#L174)
+[entity/identity/schema_builder.ts:174](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/schema_builder.ts#L174)
 
 ___
 
@@ -304,7 +304,7 @@ Adds a decimal attribute descriptor to the schema builder.
 
 #### Defined in
 
-[entity/identity/schema_builder.ts:114](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/schema_builder.ts#L114)
+[entity/identity/schema_builder.ts:114](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/schema_builder.ts#L114)
 
 ___
 
@@ -330,7 +330,7 @@ Adds a decimal enum attribute descriptor to the schema builder.
 
 #### Defined in
 
-[entity/identity/schema_builder.ts:256](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/schema_builder.ts#L256)
+[entity/identity/schema_builder.ts:256](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/schema_builder.ts#L256)
 
 ___
 
@@ -355,7 +355,7 @@ Adds an integer attribute descriptor to the schema builder.
 
 #### Defined in
 
-[entity/identity/schema_builder.ts:94](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/schema_builder.ts#L94)
+[entity/identity/schema_builder.ts:94](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/schema_builder.ts#L94)
 
 ___
 
@@ -381,7 +381,7 @@ Adds an integer enum attribute descriptor to the schema builder.
 
 #### Defined in
 
-[entity/identity/schema_builder.ts:228](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/schema_builder.ts#L228)
+[entity/identity/schema_builder.ts:228](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/schema_builder.ts#L228)
 
 ___
 
@@ -406,7 +406,7 @@ Adds a string attribute descriptor to the schema builder.
 
 #### Defined in
 
-[entity/identity/schema_builder.ts:74](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/schema_builder.ts#L74)
+[entity/identity/schema_builder.ts:74](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/schema_builder.ts#L74)
 
 ___
 
@@ -432,7 +432,7 @@ Adds a string enum attribute descriptor to the schema builder.
 
 #### Defined in
 
-[entity/identity/schema_builder.ts:200](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/schema_builder.ts#L200)
+[entity/identity/schema_builder.ts:200](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/schema_builder.ts#L200)
 
 ___
 
@@ -448,4 +448,4 @@ Creates a schema using the configured attributes.
 
 #### Defined in
 
-[entity/identity/schema_builder.ts:279](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/identity/schema_builder.ts#L279)
+[entity/identity/schema_builder.ts:279](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/schema_builder.ts#L279)

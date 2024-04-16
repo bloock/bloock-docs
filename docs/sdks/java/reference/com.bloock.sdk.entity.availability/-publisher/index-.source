@@ -25,23 +25,23 @@
         </div>
       </div>
       <h2 class="">Inheritors</h2>
-      <div class="table" data-togglable="Inheritors"><a data-name="-1883916491%2FInheritors%2F769193423" anchor-label="IpfsPublisher" id="-1883916491%2FInheritors%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
-        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="../-ipfs-publisher/index-">IpfsPublisher</a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1883916491%2FInheritors%2F769193423"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div></div>
-          </div>
-        </div>
-<a data-name="53830536%2FInheritors%2F769193423" anchor-label="HostedPublisher" id="53830536%2FInheritors%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+      <div class="table" data-togglable="Inheritors"><a data-name="53830536%2FInheritors%2F769193423" anchor-label="HostedPublisher" id="53830536%2FInheritors%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
         <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
           <div class="main-subrow keyValue ">
             <div class=""><span class="inline-flex">
                 <div><a href="../-hosted-publisher/index-">HostedPublisher</a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="53830536%2FInheritors%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="-1883916491%2FInheritors%2F769193423" anchor-label="IpfsPublisher" id="-1883916491%2FInheritors%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-ipfs-publisher/index-">IpfsPublisher</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1883916491%2FInheritors%2F769193423"></span>
                   <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                 </span></span></div>
             <div></div>

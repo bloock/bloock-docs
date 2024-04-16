@@ -37,7 +37,7 @@ Constructs a IpfsPublisher object with the specified parameters.
 
 #### Defined in
 
-[entity/availability/ipfs_publisher.ts:15](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/availability/ipfs_publisher.ts#L15)
+[entity/availability/ipfs_publisher.ts:15](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/availability/ipfs_publisher.ts#L15)
 
 ## Properties
 
@@ -51,7 +51,7 @@ Constructs a IpfsPublisher object with the specified parameters.
 
 #### Defined in
 
-[entity/availability/ipfs_publisher.ts:10](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/availability/ipfs_publisher.ts#L10)
+[entity/availability/ipfs_publisher.ts:10](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/availability/ipfs_publisher.ts#L10)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[entity/availability/ipfs_publisher.ts:9](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/availability/ipfs_publisher.ts#L9)
+[entity/availability/ipfs_publisher.ts:9](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/availability/ipfs_publisher.ts#L9)
 
 ## Methods
 
@@ -83,4 +83,4 @@ ___
 
 #### Defined in
 
-[entity/availability/ipfs_publisher.ts:20](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/availability/ipfs_publisher.ts#L20)
+[entity/availability/ipfs_publisher.ts:20](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/availability/ipfs_publisher.ts#L20)

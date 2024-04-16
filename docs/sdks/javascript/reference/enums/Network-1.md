@@ -27,7 +27,7 @@ Test networks will be deleted in future versions. If you have been integrating w
 
 #### Defined in
 
-[entity/integrity/network.ts:17](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/integrity/network.ts#L17)
+[entity/integrity/network.ts:17](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/integrity/network.ts#L17)
 
 ___
 
@@ -41,7 +41,7 @@ Test networks will be deleted in future versions. If you have been integrating w
 
 #### Defined in
 
-[entity/integrity/network.ts:12](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/integrity/network.ts#L12)
+[entity/integrity/network.ts:12](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/integrity/network.ts#L12)
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/network.ts:8](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/integrity/network.ts#L8)
+[entity/integrity/network.ts:8](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/integrity/network.ts#L8)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/network.ts:13](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/integrity/network.ts#L13)
+[entity/integrity/network.ts:13](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/integrity/network.ts#L13)
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/network.ts:18](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/integrity/network.ts#L18)
+[entity/integrity/network.ts:18](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/integrity/network.ts#L18)
 
 ___
 
@@ -81,4 +81,4 @@ ___
 
 #### Defined in
 
-[entity/integrity/network.ts:7](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/integrity/network.ts#L7)
+[entity/integrity/network.ts:7](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/integrity/network.ts#L7)

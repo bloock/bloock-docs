@@ -44,7 +44,7 @@ var NetworkConfig map[int32]*proto.NetworkConfig = make(map[int32]*proto.Network
 ```
 
 ###### SetContractAddress {#SetContractAddress}
-## func [SetContractAddress](https://github.com/bloock/bloock-sdk-go/blob/master/bloock.go#L39)
+## func SetContractAddress
 
 ```go
 func SetContractAddress(network integrity.Network, contractAddress string)
@@ -53,7 +53,7 @@ func SetContractAddress(network integrity.Network, contractAddress string)
 SetContractAddress sets the contract address for the specified network in the Bloock SDK configuration.
 
 ###### SetProvider {#SetProvider}
-## func [SetProvider](https://github.com/bloock/bloock-sdk-go/blob/master/bloock.go#L28)
+## func SetProvider
 
 ```go
 func SetProvider(network integrity.Network, provider string)
