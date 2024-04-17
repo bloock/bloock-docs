@@ -64,7 +64,7 @@ Constructs a Attribute object with the specified parameters.
 
 #### Defined in
 
-[entity/identity/attribute.ts:13](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/attribute.ts#L13)
+[entity/identity/attribute.ts:13](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/entity/identity/attribute.ts#L13)
 
 ## Properties
 
@@ -74,7 +74,7 @@ Constructs a Attribute object with the specified parameters.
 
 #### Defined in
 
-[entity/identity/attribute.ts:5](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/attribute.ts#L5)
+[entity/identity/attribute.ts:5](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/entity/identity/attribute.ts#L5)
 
 ___
 
@@ -84,4 +84,4 @@ ___
 
 #### Defined in
 
-[entity/identity/attribute.ts:6](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/identity/attribute.ts#L6)
+[entity/identity/attribute.ts:6](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/entity/identity/attribute.ts#L6)

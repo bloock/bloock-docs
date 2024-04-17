@@ -40,7 +40,7 @@ Creates a new instance of the AvailabilityClient with default configuration.
 
 #### Defined in
 
-[client/availability.ts:19](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/client/availability.ts#L19)
+[client/availability.ts:19](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/client/availability.ts#L19)
 
 ## Properties
 
@@ -50,7 +50,7 @@ Creates a new instance of the AvailabilityClient with default configuration.
 
 #### Defined in
 
-[client/availability.ts:12](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/client/availability.ts#L12)
+[client/availability.ts:12](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/client/availability.ts#L12)
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 #### Defined in
 
-[client/availability.ts:13](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/client/availability.ts#L13)
+[client/availability.ts:13](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/client/availability.ts#L13)
 
 ## Methods
 
@@ -83,7 +83,7 @@ Publishes a Bloock record to the Availability service using the specified publis
 
 #### Defined in
 
-[client/availability.ts:30](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/client/availability.ts#L30)
+[client/availability.ts:30](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/client/availability.ts#L30)
 
 ___
 
@@ -105,4 +105,4 @@ Gets a Bloock record from the Availability service using the specified loader.
 
 #### Defined in
 
-[client/availability.ts:52](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/client/availability.ts#L52)
+[client/availability.ts:52](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/client/availability.ts#L52)

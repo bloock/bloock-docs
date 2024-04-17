@@ -27,7 +27,7 @@
 
 #### Defined in
 
-[entity/key/key_type.ts:57](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/key/key_type.ts#L57)
+[entity/key/key_type.ts:57](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/entity/key/key_type.ts#L57)
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 #### Defined in
 
-[entity/key/key_type.ts:38](https://github.com/bloock/bloock-sdk/blob/4afdb4b/languages/js/src/entity/key/key_type.ts#L38)
+[entity/key/key_type.ts:38](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/entity/key/key_type.ts#L38)
