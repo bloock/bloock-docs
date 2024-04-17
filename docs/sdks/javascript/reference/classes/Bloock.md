@@ -44,7 +44,7 @@ Creates a new instance of Bloock instance.
 
 #### Defined in
 
-[bloock.ts:21](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/bloock.ts#L21)
+[bloock.ts:21](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/bloock.ts#L21)
 
 ## Properties
 
@@ -54,7 +54,7 @@ Creates a new instance of Bloock instance.
 
 #### Defined in
 
-[bloock.ts:13](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/bloock.ts#L13)
+[bloock.ts:13](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/bloock.ts#L13)
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 #### Defined in
 
-[bloock.ts:11](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/bloock.ts#L11)
+[bloock.ts:11](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/bloock.ts#L11)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 #### Defined in
 
-[bloock.ts:12](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/bloock.ts#L12)
+[bloock.ts:12](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/bloock.ts#L12)
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 #### Defined in
 
-[bloock.ts:14](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/bloock.ts#L14)
+[bloock.ts:14](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/bloock.ts#L14)
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 #### Defined in
 
-[bloock.ts:10](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/bloock.ts#L10)
+[bloock.ts:10](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/bloock.ts#L10)
 
 ## Methods
 
@@ -114,7 +114,7 @@ Is a string variable representing the host URL used for API communication with t
 
 #### Defined in
 
-[bloock.ts:75](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/bloock.ts#L75)
+[bloock.ts:75](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/bloock.ts#L75)
 
 ___
 
@@ -130,7 +130,7 @@ Is a string variable representing the API key used for authentication with the B
 
 #### Defined in
 
-[bloock.ts:31](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/bloock.ts#L31)
+[bloock.ts:31](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/bloock.ts#L31)
 
 ___
 
@@ -146,7 +146,7 @@ Is a string variable representing the host URL used for Identity Managed API, re
 
 #### Defined in
 
-[bloock.ts:53](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/bloock.ts#L53)
+[bloock.ts:53](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/bloock.ts#L53)
 
 ___
 
@@ -162,7 +162,7 @@ Is a variable that holds network configurations associated with specific network
 
 #### Defined in
 
-[bloock.ts:97](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/bloock.ts#L97)
+[bloock.ts:97](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/bloock.ts#L97)
 
 ___
 
@@ -184,7 +184,7 @@ Sets the host used for API communication with the Bloock SDK.
 
 #### Defined in
 
-[bloock.ts:86](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/bloock.ts#L86)
+[bloock.ts:86](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/bloock.ts#L86)
 
 ___
 
@@ -206,7 +206,7 @@ Sets the API key used for authentication with the Bloock SDK.
 
 #### Defined in
 
-[bloock.ts:42](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/bloock.ts#L42)
+[bloock.ts:42](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/bloock.ts#L42)
 
 ___
 
@@ -229,7 +229,7 @@ Sets the contract address for the specified network in the Bloock SDK configurat
 
 #### Defined in
 
-[bloock.ts:134](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/bloock.ts#L134)
+[bloock.ts:134](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/bloock.ts#L134)
 
 ___
 
@@ -251,7 +251,7 @@ Sets the host URL used for Identity Managed API.
 
 #### Defined in
 
-[bloock.ts:64](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/bloock.ts#L64)
+[bloock.ts:64](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/bloock.ts#L64)
 
 ___
 
@@ -274,4 +274,4 @@ Sets the HTTP provider for the specified network in the Bloock SDK configuration
 
 #### Defined in
 
-[bloock.ts:111](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/bloock.ts#L111)
+[bloock.ts:111](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/bloock.ts#L111)

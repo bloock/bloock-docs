@@ -27,7 +27,7 @@
 
 #### Defined in
 
-[entity/key/access_control_type.ts:37](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/entity/key/access_control_type.ts#L37)
+[entity/key/access_control_type.ts:37](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/key/access_control_type.ts#L37)
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 #### Defined in
 
-[entity/key/access_control_type.ts:22](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/entity/key/access_control_type.ts#L22)
+[entity/key/access_control_type.ts:22](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/key/access_control_type.ts#L22)

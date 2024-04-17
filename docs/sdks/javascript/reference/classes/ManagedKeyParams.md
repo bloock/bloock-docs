@@ -44,7 +44,7 @@ Constructs a ManagedKeyParams object with the specified parameters.
 
 #### Defined in
 
-[entity/key/managed_key_params.ts:33](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/entity/key/managed_key_params.ts#L33)
+[entity/key/managed_key_params.ts:33](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/key/managed_key_params.ts#L33)
 
 ## Properties
 
@@ -56,7 +56,7 @@ Is the timestamp indicating when the key expires.
 
 #### Defined in
 
-[entity/key/managed_key_params.ts:24](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/entity/key/managed_key_params.ts#L24)
+[entity/key/managed_key_params.ts:24](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/key/managed_key_params.ts#L24)
 
 ___
 
@@ -68,7 +68,7 @@ Is the type of the key.
 
 #### Defined in
 
-[entity/key/managed_key_params.ts:20](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/entity/key/managed_key_params.ts#L20)
+[entity/key/managed_key_params.ts:20](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/key/managed_key_params.ts#L20)
 
 ___
 
@@ -80,7 +80,7 @@ Is the name of the managed key.
 
 #### Defined in
 
-[entity/key/managed_key_params.ts:12](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/entity/key/managed_key_params.ts#L12)
+[entity/key/managed_key_params.ts:12](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/key/managed_key_params.ts#L12)
 
 ___
 
@@ -92,7 +92,7 @@ Is the protection level for the key.
 
 #### Defined in
 
-[entity/key/managed_key_params.ts:16](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/entity/key/managed_key_params.ts#L16)
+[entity/key/managed_key_params.ts:16](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/key/managed_key_params.ts#L16)
 
 ## Methods
 
@@ -106,4 +106,4 @@ Is the protection level for the key.
 
 #### Defined in
 
-[entity/key/managed_key_params.ts:45](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/entity/key/managed_key_params.ts#L45)
+[entity/key/managed_key_params.ts:45](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/key/managed_key_params.ts#L45)

@@ -49,7 +49,7 @@ Constructs a ManagedCertificate object with the specified parameters.
 
 #### Defined in
 
-[entity/key/managed_certificate.ts:44](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/entity/key/managed_certificate.ts#L44)
+[entity/key/managed_certificate.ts:44](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/key/managed_certificate.ts#L44)
 
 ## Properties
 
@@ -61,7 +61,7 @@ Is the access control type for the certificate.
 
 #### Defined in
 
-[entity/key/managed_certificate.ts:33](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/entity/key/managed_certificate.ts#L33)
+[entity/key/managed_certificate.ts:33](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/key/managed_certificate.ts#L33)
 
 ___
 
@@ -73,7 +73,7 @@ Is the timestamp indicating when the certificate expires.
 
 #### Defined in
 
-[entity/key/managed_certificate.ts:25](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/entity/key/managed_certificate.ts#L25)
+[entity/key/managed_certificate.ts:25](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/key/managed_certificate.ts#L25)
 
 ___
 
@@ -85,7 +85,7 @@ Is the identifier of the managed certificate (ex: 2abae00b-f3d9-410c-abdf-1ea391
 
 #### Defined in
 
-[entity/key/managed_certificate.ts:13](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/entity/key/managed_certificate.ts#L13)
+[entity/key/managed_certificate.ts:13](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/key/managed_certificate.ts#L13)
 
 ___
 
@@ -97,7 +97,7 @@ Is the certificate public key.
 
 #### Defined in
 
-[entity/key/managed_certificate.ts:29](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/entity/key/managed_certificate.ts#L29)
+[entity/key/managed_certificate.ts:29](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/key/managed_certificate.ts#L29)
 
 ___
 
@@ -109,7 +109,7 @@ Is the type of the key.
 
 #### Defined in
 
-[entity/key/managed_certificate.ts:21](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/entity/key/managed_certificate.ts#L21)
+[entity/key/managed_certificate.ts:21](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/key/managed_certificate.ts#L21)
 
 ___
 
@@ -121,7 +121,7 @@ Is the protection level for the key.
 
 #### Defined in
 
-[entity/key/managed_certificate.ts:17](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/entity/key/managed_certificate.ts#L17)
+[entity/key/managed_certificate.ts:17](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/key/managed_certificate.ts#L17)
 
 ## Methods
 
@@ -135,7 +135,7 @@ Is the protection level for the key.
 
 #### Defined in
 
-[entity/key/managed_certificate.ts:60](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/entity/key/managed_certificate.ts#L60)
+[entity/key/managed_certificate.ts:60](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/key/managed_certificate.ts#L60)
 
 ___
 
@@ -155,4 +155,4 @@ ___
 
 #### Defined in
 
-[entity/key/managed_certificate.ts:71](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/entity/key/managed_certificate.ts#L71)
+[entity/key/managed_certificate.ts:71](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/key/managed_certificate.ts#L71)

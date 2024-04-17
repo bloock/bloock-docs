@@ -21,7 +21,7 @@ Indicates that the key is protected by a Hardware Security Module (HSM).
 
 #### Defined in
 
-[entity/key/key_protection_level.ts:14](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/entity/key/key_protection_level.ts#L14)
+[entity/key/key_protection_level.ts:14](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/key/key_protection_level.ts#L14)
 
 ___
 
@@ -33,4 +33,4 @@ Indicates that the key is protected by software.
 
 #### Defined in
 
-[entity/key/key_protection_level.ts:10](https://github.com/bloock/bloock-sdk/blob/8d532d6/languages/js/src/entity/key/key_protection_level.ts#L10)
+[entity/key/key_protection_level.ts:10](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/key/key_protection_level.ts#L10)
