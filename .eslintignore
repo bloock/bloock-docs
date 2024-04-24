@@ -4,3 +4,5 @@ node_modules
 
 sidebars-*.js
 docusaurus.config.js
+docs/sdks/javascript/reference/**/*.js
+scripts/*.js
