@@ -103,7 +103,7 @@ The next tab displays files uploaded to BLOOCK's centralized hosting, where user
 
 ![Decentralized Storage Hosted](https://cdn.bloock.com/hosting/v1/hosted/2aa5ca35-0c81-43cd-88ad-b0ef27d1e06e)
 
-## Managed Keys
+## Managed Keys[​](https://docs.bloock.com/guides/platform/products/#managed-keys 'Direct link to Managed Keys')
 
 The Key Management Product ensures the security of private keys and certificates, safeguarding authentication credential safety. It enables precise access control and maintains a comprehensive audit trail for enhanced security. For a deeper understanding of this product, you can explore the Key Management section.
 
@@ -134,6 +134,92 @@ In the next tab, users can see the generated certificates and their general info
 On the certificate details screen, users can view generic information about the certificates, such as the ID, expiration date, type, creation date, and the certificate's subject (Common Name, Organization, Organization Unit, City, State, and Country). At the bottom, all operations performed with this certificate, such as Signing, Encryption, and Decryption, can be viewed.
 
 ![enter image description here](https://cdn.bloock.com/hosting/v1/hosted/db5d9229-057a-49e8-aeba-004ad284144f)
+
+**Access Control**
+
+BLOOCK allows adding access controls to manage keys and certificates. To learn more about how access controls work, [please refer to this section](https://docs.bloock.com/guides/products/key/concepts/access-control/#secret-based-authentication).
+
+**_Add Access Control_**
+
+You can add an access control both at the time of key and certificate creation and through the "Key Details" section.
+
+**Key and certificate creation form:**
+
+At the bottom of the creation form, there are different access control options. Currently, options include Time-Based One-Time Password (TOTP) or Secret-based Authentication:
+
+![enter image description here](https://cdn.bloock.com/hosting/v1/hosted/056b9616-beb8-40e0-93dd-68ce5a67f6d2)
+
+- **Using TOTP:**
+
+When selecting the TOTP option and confirming the creation process, a window will appear providing information for adding access control:
+
+![enter image description here](https://cdn.bloock.com/hosting/v1/hosted/161a88c2-08c2-490a-b316-69260e509b03)
+
+To utilize this functionality, you can use apps and browser extensions like 1Password, Google Authenticator, and Microsoft Authenticator, which generate one-time passwords used as a second factor to verify your access to this key.
+
+Scan the generated QR code using any of the mentioned applications or manually enter the code provided at the bottom. Additionally, there are recovery codes in case the user loses access to the key.
+
+![enter image description here](https://cdn.bloock.com/hosting/v1/hosted/c0919a85-55a0-493f-83c7-516739f1a48e)
+
+> Note: It's important to save these recovery codes as BLOOCK does not store this information.
+
+- **Secret-based Authentication:**
+
+When selecting the Secret-based option, a form will appear with a secret field, which should be the code used for any operation with the access key and a field for a recovery email to retrieve the key if the user loses access to it.
+
+![enter image description here](https://cdn.bloock.com/hosting/v1/hosted/b591ad73-4ce2-493d-b4ad-7dd4717d7c91)
+
+**Key and certificate details section:**
+
+In the top right corner of the key and certificate details page, you can find a dropdown menu to perform different actions, to add access control to this key, select the "+ Add access control" button.
+
+![enter image description here](https://cdn.bloock.com/hosting/v1/hosted/75210c58-1d8e-4e9b-b944-246e984f8a89)
+
+Once this functionality is selected, a dropdown will appear on the right side of the screen where you can choose the type of access control, either Secret or TOTP.
+
+- **Secret-based Authentication:**
+
+When selecting the Secret-based option, a form will appear with a secret field. This secret will work as the code used for any operation with the access key and a field for a recovery email to recover the key if you lose access to it.
+
+![enter image description here](https://ipfs.io/ipfs/QmeARm3eqEvuaiD6zXBTP5WxLdAejSzGefWaPEh2v5baFa/Captures%20Docu/Screenshot%202024-04-05%20at%2012.58.33.png)
+
+- **Using TOTP:**
+
+When selecting the TOTP option and confirming by clicking the "Next" button, information for operating with the key via access control will appear:
+
+To utilize this functionality, you can use apps and browser extensions like 1Password, Google Authenticator, and Microsoft Authenticator, which generate one-time passwords that are used as a second factor to verify your access to this key.
+
+Scan the generated QR code using any of the mentioned applications or manually enter the code provided at the bottom. Additionally, there are recovery codes in case the user loses access to the key.
+
+![enter image description here](https://cdn.bloock.com/hosting/v1/hosted/140828c4-a291-4022-bc29-e5b49eb12b58)
+
+**_Edit Access Control_**
+
+If you wish to edit the access control of the key, select the "Edit Access Control" option from the dropdown menu on the key or certificate details screen. To proceed with the process, you will need to enter the "Secret" of the key if it is of the secret-based type.
+![enter image description here](https://cdn.bloock.com/hosting/v1/hosted/e9b7c873-09f9-4b51-b0dd-9d365061600e)
+
+In the case of access control via TOTP, add the temporary code provided by the selected application.
+![enter image description here](https://cdn.bloock.com/hosting/v1/hosted/aeba50bc-2ee7-4b8c-a06c-053f22b51cc3)
+
+Next, you will select the new access control method, either secret or TOTP.
+
+![enter image description here](https://cdn.bloock.com/hosting/v1/hosted/82df036f-a4fc-432a-a85b-6dfc09aec609)
+
+![enter image description here](https://cdn.bloock.com/hosting/v1/hosted/7941f310-8c80-4ff6-bbe5-3b3e7fd587b4)
+
+**Reset Secret Password**
+
+If you want to change the secret of your key, you can select the "Reset Secret Password" option from the dropdown menu. Once you select this option, a window will appear for the change process, where you'll need to confirm that you want to proceed with this operation.
+
+![enter image description here](https://cdn.bloock.com/hosting/v1/hosted/a224ff98-93c6-407d-837d-611d8a76870f)
+
+You will then receive a 6-digit code in your email to complete this operation.
+
+![enter image description here](https://cdn.bloock.com/hosting/v1/hosted/84967395-65b6-4dd6-b759-e82f0fa35bb7)
+
+In the window's form, you'll find a field to input the new password and the received 6-digit code.
+
+![enter image description here](https://cdn.bloock.com/hosting/v1/hosted/3f32fc6d-20a5-4c20-b77e-4b0827b294ff)
 
 **Operations**
 
