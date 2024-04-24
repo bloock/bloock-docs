@@ -22,7 +22,7 @@ Indicates that the key is not protected by access control.
 
 #### Defined in
 
-[entity/key/access_control_type.ts:10](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/key/access_control_type.ts#L10)
+[entity/key/access_control_type.ts:10](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/key/access_control_type.ts#L10)
 
 ___
 
@@ -34,7 +34,7 @@ Indicates that the key is protected by a Secret-based access control.
 
 #### Defined in
 
-[entity/key/access_control_type.ts:18](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/key/access_control_type.ts#L18)
+[entity/key/access_control_type.ts:18](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/key/access_control_type.ts#L18)
 
 ___
 
@@ -46,4 +46,4 @@ Indicates that the key is protected by a TOTP-based access control.
 
 #### Defined in
 
-[entity/key/access_control_type.ts:14](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/key/access_control_type.ts#L14)
+[entity/key/access_control_type.ts:14](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/key/access_control_type.ts#L14)

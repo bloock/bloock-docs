@@ -29,7 +29,7 @@ import "github.com/bloock/bloock-sdk-go/v2/entity/availability"
 
 
 ###### HostedLoader {#HostedLoader}
-## type [HostedLoader](https://github.com/bloock/bloock-sdk-go/blob/master/entity/availability/hosted_loader.go#L6-L9)
+## type HostedLoader
 
 HostedLoader represents a loader for hosted data availability.
 
@@ -41,7 +41,7 @@ type HostedLoader struct {
 ```
 
 ###### NewHostedLoader {#NewHostedLoader}
-### func [NewHostedLoader](https://github.com/bloock/bloock-sdk-go/blob/master/entity/availability/hosted_loader.go#L12)
+### func NewHostedLoader
 
 ```go
 func NewHostedLoader(id string) HostedLoader
@@ -50,7 +50,7 @@ func NewHostedLoader(id string) HostedLoader
 NewHostedLoader creates a HostedLoader instance with the provided identifier \(ex: c137fded\-cb04\-4c6e\-9415\-1e7baf48b659\).
 
 ###### HostedLoader.ToProto {#HostedLoader.ToProto}
-### func \(HostedLoader\) [ToProto](https://github.com/bloock/bloock-sdk-go/blob/master/entity/availability/hosted_loader.go#L21)
+### func \(HostedLoader\) ToProto
 
 ```go
 func (e HostedLoader) ToProto() *proto.Loader
@@ -59,7 +59,7 @@ func (e HostedLoader) ToProto() *proto.Loader
 
 
 ###### HostedPublisher {#HostedPublisher}
-## type [HostedPublisher](https://github.com/bloock/bloock-sdk-go/blob/master/entity/availability/hosted_publisher.go#L6-L9)
+## type HostedPublisher
 
 HostedPublisher represents a publisher for hosted data availability.
 
@@ -71,7 +71,7 @@ type HostedPublisher struct {
 ```
 
 ###### NewHostedPublisher {#NewHostedPublisher}
-### func [NewHostedPublisher](https://github.com/bloock/bloock-sdk-go/blob/master/entity/availability/hosted_publisher.go#L12)
+### func NewHostedPublisher
 
 ```go
 func NewHostedPublisher() HostedPublisher
@@ -80,7 +80,7 @@ func NewHostedPublisher() HostedPublisher
 NewHostedPublisher creates a HostedPublisher instance with default publisher arguments.
 
 ###### HostedPublisher.ToProto {#HostedPublisher.ToProto}
-### func \(HostedPublisher\) [ToProto](https://github.com/bloock/bloock-sdk-go/blob/master/entity/availability/hosted_publisher.go#L19)
+### func \(HostedPublisher\) ToProto
 
 ```go
 func (e HostedPublisher) ToProto() *proto.Publisher
@@ -89,7 +89,7 @@ func (e HostedPublisher) ToProto() *proto.Publisher
 
 
 ###### IpfsLoader {#IpfsLoader}
-## type [IpfsLoader](https://github.com/bloock/bloock-sdk-go/blob/master/entity/availability/ipfs_loader.go#L6-L9)
+## type IpfsLoader
 
 IpfsLoader represents a loader for IPFS data availability.
 
@@ -101,7 +101,7 @@ type IpfsLoader struct {
 ```
 
 ###### NewIpfsLoader {#NewIpfsLoader}
-### func [NewIpfsLoader](https://github.com/bloock/bloock-sdk-go/blob/master/entity/availability/ipfs_loader.go#L12)
+### func NewIpfsLoader
 
 ```go
 func NewIpfsLoader(hash string) IpfsLoader
@@ -110,7 +110,7 @@ func NewIpfsLoader(hash string) IpfsLoader
 NewIpfsLoader creates an IpfsLoader instance with the provided IPFS hash.
 
 ###### IpfsLoader.ToProto {#IpfsLoader.ToProto}
-### func \(IpfsLoader\) [ToProto](https://github.com/bloock/bloock-sdk-go/blob/master/entity/availability/ipfs_loader.go#L21)
+### func \(IpfsLoader\) ToProto
 
 ```go
 func (e IpfsLoader) ToProto() *proto.Loader
@@ -119,7 +119,7 @@ func (e IpfsLoader) ToProto() *proto.Loader
 
 
 ###### IpfsPublisher {#IpfsPublisher}
-## type [IpfsPublisher](https://github.com/bloock/bloock-sdk-go/blob/master/entity/availability/ipfs_publisher.go#L6-L9)
+## type IpfsPublisher
 
 IpfsPublisher represents a publisher for IPFS data availability.
 
@@ -131,7 +131,7 @@ type IpfsPublisher struct {
 ```
 
 ###### NewIpfsPublisher {#NewIpfsPublisher}
-### func [NewIpfsPublisher](https://github.com/bloock/bloock-sdk-go/blob/master/entity/availability/ipfs_publisher.go#L12)
+### func NewIpfsPublisher
 
 ```go
 func NewIpfsPublisher() IpfsPublisher
@@ -140,7 +140,7 @@ func NewIpfsPublisher() IpfsPublisher
 IpfsPublisher represents a publisher for IPFS data availability.
 
 ###### IpfsPublisher.ToProto {#IpfsPublisher.ToProto}
-### func \(IpfsPublisher\) [ToProto](https://github.com/bloock/bloock-sdk-go/blob/master/entity/availability/ipfs_publisher.go#L19)
+### func \(IpfsPublisher\) ToProto
 
 ```go
 func (e IpfsPublisher) ToProto() *proto.Publisher
@@ -149,7 +149,7 @@ func (e IpfsPublisher) ToProto() *proto.Publisher
 
 
 ###### Loader {#Loader}
-## type [Loader](https://github.com/bloock/bloock-sdk-go/blob/master/entity/availability/loader.go#L5-L7)
+## type Loader
 
 
 
@@ -160,7 +160,7 @@ type Loader interface {
 ```
 
 ###### LoaderArgs {#LoaderArgs}
-## type [LoaderArgs](https://github.com/bloock/bloock-sdk-go/blob/master/entity/availability/loader_args.go#L6-L9)
+## type LoaderArgs
 
 LoaderArgs represents the arguments for a data loader.
 
@@ -172,7 +172,7 @@ type LoaderArgs struct {
 ```
 
 ###### LoaderArgs.ToProto {#LoaderArgs.ToProto}
-### func \(LoaderArgs\) [ToProto](https://github.com/bloock/bloock-sdk-go/blob/master/entity/availability/loader_args.go#L11)
+### func \(LoaderArgs\) ToProto
 
 ```go
 func (e LoaderArgs) ToProto() *proto.LoaderArgs
@@ -181,7 +181,7 @@ func (e LoaderArgs) ToProto() *proto.LoaderArgs
 
 
 ###### Publisher {#Publisher}
-## type [Publisher](https://github.com/bloock/bloock-sdk-go/blob/master/entity/availability/publisher.go#L5-L7)
+## type Publisher
 
 
 
@@ -192,7 +192,7 @@ type Publisher interface {
 ```
 
 ###### PublisherArgs {#PublisherArgs}
-## type [PublisherArgs](https://github.com/bloock/bloock-sdk-go/blob/master/entity/availability/publisher_args.go#L6-L7)
+## type PublisherArgs
 
 PublisherArgs represents the arguments for a data publisher.
 
@@ -202,7 +202,7 @@ type PublisherArgs struct {
 ```
 
 ###### PublisherArgs.ToProto {#PublisherArgs.ToProto}
-### func \(PublisherArgs\) [ToProto](https://github.com/bloock/bloock-sdk-go/blob/master/entity/availability/publisher_args.go#L9)
+### func \(PublisherArgs\) ToProto
 
 ```go
 func (e PublisherArgs) ToProto() *proto.PublisherArgs

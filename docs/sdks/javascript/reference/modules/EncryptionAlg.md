@@ -27,7 +27,7 @@
 
 #### Defined in
 
-[entity/encryption/encryption_alg.ts:45](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/encryption/encryption_alg.ts#L45)
+[entity/encryption/encryption_alg.ts:45](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/encryption/encryption_alg.ts#L45)
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 #### Defined in
 
-[entity/encryption/encryption_alg.ts:30](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/encryption/encryption_alg.ts#L30)
+[entity/encryption/encryption_alg.ts:30](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/encryption/encryption_alg.ts#L30)

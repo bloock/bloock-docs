@@ -50,7 +50,7 @@ Constructs a KeyPair object with the specified parameters.
 
 #### Defined in
 
-[entity/key/key_pair.ts:13](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/key/key_pair.ts#L13)
+[entity/key/key_pair.ts:13](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/key/key_pair.ts#L13)
 
 ## Properties
 
@@ -64,7 +64,7 @@ Constructs a KeyPair object with the specified parameters.
 
 #### Defined in
 
-[entity/key/key_pair.ts:6](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/key/key_pair.ts#L6)
+[entity/key/key_pair.ts:6](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/key/key_pair.ts#L6)
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 #### Defined in
 
-[entity/key/key_pair.ts:5](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/key/key_pair.ts#L5)
+[entity/key/key_pair.ts:5](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/key/key_pair.ts#L5)
 
 ## Methods
 
@@ -98,4 +98,4 @@ ___
 
 #### Defined in
 
-[entity/key/ecdsa_key_pair.ts:8](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/key/ecdsa_key_pair.ts#L8)
+[entity/key/ecdsa_key_pair.ts:8](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/key/ecdsa_key_pair.ts#L8)

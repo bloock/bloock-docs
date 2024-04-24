@@ -43,7 +43,7 @@ Constructs a HostedLoader object with the specified parameters.
 
 #### Defined in
 
-[entity/availability/hosted_loader.ts:16](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/availability/hosted_loader.ts#L16)
+[entity/availability/hosted_loader.ts:16](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/availability/hosted_loader.ts#L16)
 
 ## Properties
 
@@ -57,7 +57,7 @@ Constructs a HostedLoader object with the specified parameters.
 
 #### Defined in
 
-[entity/availability/hosted_loader.ts:10](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/availability/hosted_loader.ts#L10)
+[entity/availability/hosted_loader.ts:10](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/availability/hosted_loader.ts#L10)
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 #### Defined in
 
-[entity/availability/hosted_loader.ts:9](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/availability/hosted_loader.ts#L9)
+[entity/availability/hosted_loader.ts:9](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/availability/hosted_loader.ts#L9)
 
 ## Methods
 
@@ -89,4 +89,4 @@ ___
 
 #### Defined in
 
-[entity/availability/hosted_loader.ts:21](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/availability/hosted_loader.ts#L21)
+[entity/availability/hosted_loader.ts:21](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/availability/hosted_loader.ts#L21)

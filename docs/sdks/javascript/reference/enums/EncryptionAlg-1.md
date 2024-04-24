@@ -24,7 +24,7 @@ Represents the AES-256-GCM encryption algorithm.
 
 #### Defined in
 
-[entity/encryption/encryption_alg.ts:10](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/encryption/encryption_alg.ts#L10)
+[entity/encryption/encryption_alg.ts:10](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/encryption/encryption_alg.ts#L10)
 
 ___
 
@@ -36,7 +36,7 @@ Represents the AES-256-GCM with managed key encryption algorithm.
 
 #### Defined in
 
-[entity/encryption/encryption_alg.ts:14](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/encryption/encryption_alg.ts#L14)
+[entity/encryption/encryption_alg.ts:14](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/encryption/encryption_alg.ts#L14)
 
 ___
 
@@ -48,7 +48,7 @@ Represents the RSA encryption algorithm.
 
 #### Defined in
 
-[entity/encryption/encryption_alg.ts:18](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/encryption/encryption_alg.ts#L18)
+[entity/encryption/encryption_alg.ts:18](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/encryption/encryption_alg.ts#L18)
 
 ___
 
@@ -60,7 +60,7 @@ Represents the RSA with managed key encryption algorithm.
 
 #### Defined in
 
-[entity/encryption/encryption_alg.ts:22](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/encryption/encryption_alg.ts#L22)
+[entity/encryption/encryption_alg.ts:22](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/encryption/encryption_alg.ts#L22)
 
 ___
 
@@ -72,4 +72,4 @@ Represents an unrecognized encryption algorithm.
 
 #### Defined in
 
-[entity/encryption/encryption_alg.ts:26](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/encryption/encryption_alg.ts#L26)
+[entity/encryption/encryption_alg.ts:26](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/encryption/encryption_alg.ts#L26)

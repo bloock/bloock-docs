@@ -45,7 +45,7 @@ Constructs a ProofAnchor object with the specified parameters.
 
 #### Defined in
 
-[entity/integrity/proof_anchor.ts:20](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/integrity/proof_anchor.ts#L20)
+[entity/integrity/proof_anchor.ts:20](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/integrity/proof_anchor.ts#L20)
 
 ## Properties
 
@@ -55,7 +55,7 @@ Constructs a ProofAnchor object with the specified parameters.
 
 #### Defined in
 
-[entity/integrity/proof_anchor.ts:8](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/integrity/proof_anchor.ts#L8)
+[entity/integrity/proof_anchor.ts:8](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/integrity/proof_anchor.ts#L8)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/proof_anchor.ts:9](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/integrity/proof_anchor.ts#L9)
+[entity/integrity/proof_anchor.ts:9](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/integrity/proof_anchor.ts#L9)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/proof_anchor.ts:10](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/integrity/proof_anchor.ts#L10)
+[entity/integrity/proof_anchor.ts:10](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/integrity/proof_anchor.ts#L10)
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/proof_anchor.ts:11](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/integrity/proof_anchor.ts#L11)
+[entity/integrity/proof_anchor.ts:11](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/integrity/proof_anchor.ts#L11)
 
 ## Methods
 
@@ -99,7 +99,7 @@ ___
 
 #### Defined in
 
-[entity/integrity/proof_anchor.ts:41](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/integrity/proof_anchor.ts#L41)
+[entity/integrity/proof_anchor.ts:41](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/integrity/proof_anchor.ts#L41)
 
 ___
 
@@ -119,4 +119,4 @@ ___
 
 #### Defined in
 
-[entity/integrity/proof_anchor.ts:32](https://github.com/bloock/bloock-sdk/blob/61770ea/languages/js/src/entity/integrity/proof_anchor.ts#L32)
+[entity/integrity/proof_anchor.ts:32](https://github.com/bloock/bloock-sdk/blob/10b1e90/languages/js/src/entity/integrity/proof_anchor.ts#L32)
