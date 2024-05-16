@@ -83,14 +83,14 @@ function Status({ className }) {
       href="https://bloock.statuspage.io/"
       className={clsx(
         'flex items-center gap-2 rounded-lg border border-transparent p-1 px-2 font-jakarta font-semibold text-zinc-600 transition-colors hover:border-gray-400 hover:bg-white hover:no-underline dark:text-zinc-400',
-        className
+        className,
       )}
       target="_blank"
     >
       <div
         className={clsx(
           'h-4 w-4 rounded-full bg-[#2DB002]',
-          status.indicator === 'none' ? 'bg-[#2DB002]' : 'bg-yellow-500'
+          status.indicator === 'none' ? 'bg-[#2DB002]' : 'bg-yellow-500',
         )}
       ></div>
       <div>{status.description}</div>
@@ -142,6 +142,17 @@ export default function Footer() {
           <Links name="Developers" links={developers} />
           <Links name="Solutions" links={solutions} />
           <Links name="Company" links={company} />
+        </div>
+
+        <div className="flex items-center justify-center pt-12">
+          <ThemedImage
+            sources={{
+              light: '/logo/logos-redes.png',
+              dark: '/logo/logos-redes.png',
+            }}
+            alt={'RED.ES'}
+            className="w-2/3"
+          />
         </div>
 
         <hr className="my-12 !bg-gray-300" />
