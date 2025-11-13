@@ -13,7 +13,7 @@ runners:
     lint:
       global: true
       before: timeout 600 ash -c 'until stat /tmp/runner_ready_to_lint; do sleep 1; done'
-      cmd: yarn eslint -c /var/runners/typescript/.eslintrc {{ snippet.dir }}/**/*.{ts,tsx}
+      cmd: yarn eslint -c /var/runners/typescript/eslint.config.js
     run:
       before: timeout 600 ash -c 'until stat /tmp/runner_is_ready; do sleep 1; done'
       cmd: yarn tsc {{ snippet.dir }}/{{ snippet.source }} --noEmit --module es2022 --target es2022 --moduleResolution Node --esModuleInterop
