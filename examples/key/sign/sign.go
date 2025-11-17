@@ -47,7 +47,7 @@ func main() {
 	if err != nil {
 		log.Println(err)
 	}
-	fmt.Printf("Hash: %+v" + hash)
+	fmt.Printf("Hash: %+v", hash)
 
 	signatures, err := authenticityClient.GetSignatures(signedRecord)
 	if err != nil {
