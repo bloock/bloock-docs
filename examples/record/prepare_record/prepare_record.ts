@@ -14,7 +14,9 @@ try {
 
   // we can read a file as an array of bytes
   const file = fs.readFileSync('sample.pdf');
-  const _record3 = await recordClient.fromFile(file).build();
+  const uint8 = new Uint8Array(file);
+
+  const _record3 = await recordClient.fromFile(uint8).build();
 } catch (e) {
   console.log(e);
 }
