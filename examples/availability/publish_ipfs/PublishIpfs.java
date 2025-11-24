@@ -2,6 +2,7 @@ import com.bloock.sdk.Bloock;
 import com.bloock.sdk.client.AvailabilityClient;
 import com.bloock.sdk.client.RecordClient;
 import com.bloock.sdk.entity.availability.IpfsPublisher;
+import com.bloock.sdk.entity.availability.PublishResponse;
 import com.bloock.sdk.entity.record.Record;
 
 public class PublishIpfs {
@@ -14,8 +15,9 @@ public class PublishIpfs {
     Record record = recordClient
         .fromString("Hello world")
         .build();
-
-    String id = availabilityClient.publish(record, new IpfsPublisher());
+    
+    PublishResponse response = availabilityClient.publish(record, new IpfsPublisher());
+    String id = response.getID(); 
 
     System.out.println("Record was published successfully");
   }

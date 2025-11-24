@@ -8,4 +8,6 @@ const keyClient = new KeyClient();
 const dirPath = path.join(__dirname, '/certificate.p12');
 const buffer = fs.readFileSync(dirPath);
 
-const _certificate = await keyClient.loadLocalCertificate(buffer, 'password');
+const uint8 = new Uint8Array(buffer);
+
+const _certificate = await keyClient.loadLocalCertificate(uint8, 'password');

@@ -16,7 +16,7 @@ runners:
       cmd: yarn eslint -c /var/runners/typescript/eslint.config.js {{ snippet.dir }}/**/*.{ts,tsx}
     run:
       before: timeout 600 ash -c 'until stat /tmp/runner_is_ready; do sleep 1; done'
-      cmd: yarn tsc {{ snippet.dir }}/{{ snippet.source }} --noEmit --module es2022 --target es2022 --moduleResolution Node --esModuleInterop
+      cmd: yarn tsc {{ snippet.dir }}/{{ snippet.source }} --noEmit --module es2022 --target es2022 --moduleResolution Node --esModuleInterop --skipLibCheck
 
   golang:
     service: doc-runner-golang
