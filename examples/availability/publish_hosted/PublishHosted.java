@@ -2,6 +2,7 @@ import com.bloock.sdk.Bloock;
 import com.bloock.sdk.client.AvailabilityClient;
 import com.bloock.sdk.client.RecordClient;
 import com.bloock.sdk.entity.availability.HostedPublisher;
+import com.bloock.sdk.entity.availability.PublishResponse;
 import com.bloock.sdk.entity.record.Record;
 
 public class PublishHosted {
@@ -14,7 +15,9 @@ public class PublishHosted {
 
       Record record = recordClient.fromString("Hello world").build();
 
-      String id = availabilityClient.publish(record, new HostedPublisher()); // it returns the hash
+      PublishResponse response = availabilityClient.publish(record, new HostedPublisher());
+      String id = response.getID(); 
+
     } catch (Exception e) {
       System.out.println(e);
     }
